@@ -2,10 +2,10 @@
 title: Ny fil
 description: Beskrivning
 keywords: ny fil, lägga till fil, fil
-source-git-commit: 8f4242b02f2cd135bf4adc3a69db08fe1f812e4e
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 5%
 
 <!-- Workflow + Workflow activities-->
 
-
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="Egenskaper för arbetsflöde"
->abstract="På den här skärmen väljer du den mall som ska användas för att skapa arbetsflödet och anger en etikett. Expandera sektionen Ytterligare OPTIONS om du vill konfigurera fler inställningar, till exempel arbetsflödets interna namn, dess mapp, tidszon och övervakningsgrupp. Vi rekommenderar starkt att du väljer en grupp för ansvariga så att de får ett meddelande om ett fel inträffar."
 
 
 >[!CONTEXTUALHELP]
