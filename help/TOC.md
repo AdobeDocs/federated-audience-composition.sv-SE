@@ -2,7 +2,7 @@
 user-guide-title: Sammansatt målgrupp
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Sammansatt målgrupp
-source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
+source-git-commit: 4ba1a869f6519929133af566f1471a640f58f0b6
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 13%
@@ -23,8 +23,8 @@ ht-degree: 13%
    + [Arbeta med målgrupper](customer/audiences.md)
 + Kompositioner {#compositions}
    + [Kom igång med kompositioner](compositions/gs-compositions.md)
-   + [Skapa en komposition](compositions/gs-compositions.md)
-   + [Få åtkomst till och hantera kompositioner](compositions/gs-compositions.md)
+   + [Skapa en komposition](compositions/create-compositions.md)
+   + [Få åtkomst till och hantera kompositioner](compositions/manage-compositions.md)
    + Arbeta med aktiviteter {#activities}
       + [Förteckning över verksamheter](compositions/activities/about-activities.md)
       + [And-Join](compositions/activities/and-join.md)
