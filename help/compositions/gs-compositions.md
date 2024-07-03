@@ -2,7 +2,7 @@
 audience: end-user
 title: Kom igång med kompositioner
 description: Lär dig hur du börjar med kompositioner
-source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Med Adobe Data Composition kan du skapa kompositioner där du kan använda olika
 ## Åtkomst till kompositioner {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="Kompositioner"
 >abstract="På den här skärmen kan du komma åt den fullständiga listan med kompositioner, kontrollera deras aktuella status, senaste/nästa körningsdatum och skapa en ny komposition."
 
