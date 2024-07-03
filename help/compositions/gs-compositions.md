@@ -2,9 +2,9 @@
 audience: end-user
 title: Kom igång med kompositioner
 description: Lär dig hur du börjar med kompositioner
-source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
+source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Från den här skärmen kan du skapa nya kompositioner och komma åt befintliga.
 
 Om du vill förfina listan och enkelt hitta den komposition du söker efter kan du söka i listan och filtrera kompositioner efter deras status eller senaste bearbetningsdatum.
 
-Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Det gör du genom att klicka på knappen Konfigurera kolumner och hantera
+Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Klicka på **Konfigurera kolumn** s och lägg till eller ta bort önskade utdatakolumner.
 
 ![](assets/compositions-columns.png)
 
