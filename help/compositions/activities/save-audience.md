@@ -1,13 +1,14 @@
 ---
 audience: end-user
 title: Använda aktiviteten Spara målgrupp
-description: Lär dig hur du använder gaffelaktiviteten
-source-git-commit: 05a023a7f7aab719f3771030a7ac8bba57e5bee3
+description: Lär dig hur du använder aktiviteten Spara målgrupper
+source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '358'
+ht-degree: 0%
 
 ---
+
 
 # Spara målgrupp {#save-audience}
 
@@ -27,14 +28,11 @@ ht-degree: 1%
 >abstract="Välj den primära identitet som ska användas för profiler."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i dokumentationen för Experience Platform"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Namnutrymme för identitet"
 >abstract="Välj det namnutrymme som ska användas för profiler."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Läs mer i dokumentationen för Experience Platform"
-
-
 
 The **Spara målgrupper** Med -aktivitet kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp från populationen som beräknas uppströms i en komposition. De målgrupper som skapas läggs till i listan över programmålgrupper och blir tillgängliga via **Målgrupper** -menyn.
 
@@ -46,21 +44,23 @@ Följ de här stegen för att konfigurera **Spara målgrupper** aktivitet:
 
 1. Lägg till en **Spara målgrupper** till din komposition.
 
-1. I **Läge** väljer du den åtgärd du vill utföra:
+   ![](../assets/save-audience.png)
 
-   * **Skapa eller uppdatera en befintlig målgrupp**: definiera en **Målgruppsetikett**. Om målgruppen redan finns uppdateras den, annars skapas en ny målgrupp.
+1. Ange etiketten för målgruppen som ska skapas.
 
-   * **Uppdatera en befintlig målgrupp**: välj **Målgrupp** som du vill uppdatera bland de befintliga målgrupperna.
+1. Klicka **Lägg till målgruppsmappning** välj sedan käll- och målgruppsfälten:
 
-1. Välj **Uppdateringsläge** som ska gälla för befintliga målgrupper:
+   * **Source Audience Field**:
+   * **Målgruppsfält**:
 
-   * **Ersätt målgruppsinnehåll med nya data**: allt målgruppsinnehåll ersätts. Gammal data går förlorad.  Endast data från den inkommande övergången av målgruppsaktiviteten för att spara sparas. Med det här alternativet raderas målgruppstypen och målgruppsdimensionen för den uppdaterade målgruppen.
+   Upprepa åtgärden för att lägga till så många målgruppsmappningar som behövs.
 
-   * **Komplett målgrupp med nya data**: det gamla målgruppsinnehållet behålls och data från den sparade målgruppsaktivitetens inkommande övergång läggs till i det.
+1. Välj den primära identitet och det namnutrymme som ska användas för att identifiera målprofilerna i databasen:
 
-1. Kontrollera **Generera en utgående övergång** om du vill lägga till en övergång efter **Spara målgrupper** aktivitet.
+   * **Primärt identitetsfält**: Markera det fält som ska användas för att identifiera profilerna. Till exempel dess e-postadress eller telefonnummer.
+   * **Namnutrymme för identitet**: Välj det namnutrymme som ska användas för att identifiera profilerna, dvs. vilken typ av data som ska användas som identifieringsnyckel. Om e-postadressen till exempel har valts som primärt identitetsfält anger identitetsnamnutrymmet **E-post** ska vara markerat. Om den unika identifieraren är telefonnumret är identitetsnamnutrymmet **Telefon** ska vara markerat.
 
-Innehållet i den sparade målgruppen är sedan tillgängligt i detaljvyn för målgruppen, som du kommer åt via **Målgrupper** -menyn. Kolumnerna som är tillgängliga från den här vyn motsvarar kolumnerna för den inkommande övergången i **Spara målgrupper** aktivitet.
+När kompositionen är klar sparas målgruppen i Adobe Experience Platform och görs tillgänglig i **Målgrupper** -menyn.
 
 <!--
 
