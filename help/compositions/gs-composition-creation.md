@@ -2,9 +2,9 @@
 audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >title="Kompositionsegenskaper"
 >abstract="På den här skärmen väljer du den mall som ska användas för att skapa kompositionen och anger en etikett. Expandera sektionen Ytterligare OPTIONS om du vill konfigurera fler inställningar, till exempel kompositionens interna namn, dess mapp, tidszon och övervakningsgrupp. Vi rekommenderar starkt att du väljer en grupp för ansvariga så att de får ett meddelande om ett fel inträffar."
 
-Med Federated Data Composition får du en visuell arbetsyta som gör att du kan skapa målgrupper genom att utnyttja olika aktiviteter (dela, berika osv.).
-
 ## Vad finns i en komposition? {#gs-composition-inside}
+
+Med Federated Data Composition får du en visuell arbetsyta som gör att du kan skapa målgrupper genom att utnyttja olika aktiviteter (dela, berika osv.).
 
 Kompositionsdiagrammet är en representation av vad som ska hända. Det beskriver de olika åtgärder som ska utföras och hur de är sammankopplade.
 
@@ -29,8 +29,6 @@ Varje komposition innehåller:
 
 * **Verksamhet**: En aktivitet är en uppgift som ska utföras. De olika aktiviteterna visas i diagrammet med ikoner. Varje aktivitet har specifika egenskaper och andra egenskaper som är gemensamma för alla aktiviteter.
 
-  I ett kompositionsdiagram kan en viss aktivitet producera flera uppgifter, särskilt när det finns en slinga eller återkommande åtgärder.
-
 * **Övergångar**: Övergångar länkar en källaktivitet till en målaktivitet och definierar deras sekvens.
 
 * **Worktables**: Arbetstabellen innehåller all information som övergången innehåller. Varje komposition använder flera arbetstabeller. De data som förmedlas i dessa tabeller kan användas under hela kompositionens livscykel.
@@ -39,7 +37,6 @@ Varje komposition innehåller:
 
 De viktigaste stegen för att skapa en komposition är följande:
 
-1. [Skapa kompositionen](#create)
-1. [Konfigurera kompositionens inställningar](#starting-audience)
-1. [Lägga till och konfigurera aktiviteter](#action-activities)
-1. [Utför kompositionen och övervaka dess körning](#save)
+1. [Skapa och konfigurera kompositionen](../compositions/create-composition.md)
+1. [Organisera aktiviteter](../compositions/orchestrate-activities.md)
+1. [Utför kompositionen och övervaka dess körning](../compositions/start-monitor-composition.md)
