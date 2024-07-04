@@ -2,9 +2,9 @@
 user-guide-title: Sammansatt målgrupp
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Sammansatt målgrupp
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 11%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 11%
       + [Deduplicering](compositions/activities/deduplication.md)
       + [Berikning](compositions/activities/enrichment.md)
       + [Förgrening](compositions/activities/fork.md)
-      + [Inkrementell fråga](compositions/activities/incremental-query.md)
       + [Avstämning](compositions/activities/reconciliation.md)
       + [Spara målgrupp](compositions/activities/save-audience.md)
+      + [Schemaläggare](compositions/activities/scheduler.md)
       + [Dela](compositions/activities/split.md)
       + [Vänta](compositions/activities/wait.md)
 + Fråga databasen {#query-database}
