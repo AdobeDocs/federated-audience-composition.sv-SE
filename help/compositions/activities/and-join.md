@@ -2,9 +2,9 @@
 audience: end-user
 title: Använda aktiviteten OCH-join
 description: Lär dig hur du använder AND-join-aktiviteten
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >title="AND-join activity"
 >abstract="The **Och-join** kan du synkronisera flera körningsgrenar av en komposition. Den aktiveras när alla föregående aktiviteter har slutförts. På så sätt kan du se till att vissa aktiviteter är slutförda innan du fortsätter att köra kompositionen."
 
-The **Och-join** kan du synkronisera flera körningsgrenar av en komposition.
+The **AND-join** kan du synkronisera flera körningsgrenar av en komposition.
 
 Den här aktiviteten utlöser endast den utgående övergången när alla inkommande övergångar har aktiverats, det vill säga när alla föregående aktiviteter har slutförts. På så sätt kan du se till att vissa aktiviteter har slutförts innan du fortsätter att köra kompositionen.
 
@@ -29,8 +29,10 @@ Den här aktiviteten utlöser endast den utgående övergången när alla inkomm
 
 Följ de här stegen för att konfigurera **AND-join** aktivitet:
 
-1. Lägg till flera aktiviteter, till exempel kanalaktiviteter, för att bilda minst två olika utförandegrenar.
+1. Lägg till flera aktiviteter för att bilda minst två olika körningsgrenar.
 1. Lägg till en **AND-join** till någon av grenarna.
-1. I **Sammanfogningsalternativ** markerar du alla tidigare aktiviteter du vill delta i.
-1. I **Primär uppsättning** väljer du vilken inkommande övergångspopulation som du vill behålla. Den utgående övergången kan bara innehålla en av de ingående övergångspopulationerna.
 
+   ![](../assets/and-join.png)
+
+1. I **Sammanfogningsalternativ** markerar du alla tidigare aktiviteter som du vill synkronisera.
+1. I **Primär uppsättning** väljer du vilken inkommande övergångspopulation som du vill behålla. Den utgående övergången kan bara innehålla en av de ingående övergångspopulationerna. Om aktiviteten inte är konfigurerad kommer den utgående övergången att slumpmässigt välja en av de inkommande populationerna.
