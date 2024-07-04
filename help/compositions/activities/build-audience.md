@@ -2,12 +2,13 @@
 audience: end-user
 title: Använd aktiviteten Skapa målgrupp
 description: Lär dig använda aktiviteten Skapa målgrupp
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
 
 ---
+
 
 # Bygg målgrupper {#build-audience}
 
@@ -24,10 +25,7 @@ Om du vill definiera målgruppspopulationen kan du:
 * Välj en Adobe Experience Platform-målgrupp.
 * Bygg en ny målgrupp med frågemodelleraren genom att definiera och kombinera filtervillkor.
 
-
-
 The **Bygg målgrupper** kan placeras i början av kompositionen eller efter annan aktivitet. Alla aktiviteter kan placeras efter **Bygg målgrupper**.
-
 
 ## Konfigurera aktiviteten Skapa målgrupp {#build-audience-configuration}
 

@@ -2,12 +2,13 @@
 audience: end-user
 title: Använda aktiviteten Kombinera
 description: Lär dig använda aktiviteten Kombinera
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 11%
 
 ---
+
 
 # Kombinera {#combine}
 
@@ -22,9 +23,7 @@ The **Kombinera** kan du segmentera den inkommande populationen. Du kan alltså 
 * The **Skärningspunkt** gör att du bara kan behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten.
 * The **Uteslutning** gör att du kan utesluta element från en population enligt vissa kriterier.
 
-
 The **Kombinera** kan placeras efter andra aktiviteter, men inte i början av kompositionen. Alla aktiviteter kan placeras efter **Kombinera**.
-
 
 ## Konfigurera Kombinera-aktiviteten {#combine-configuration}
 

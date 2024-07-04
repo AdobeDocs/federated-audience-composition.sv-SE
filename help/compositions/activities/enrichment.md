@@ -2,12 +2,13 @@
 audience: end-user
 title: Använd anrikningsaktiviteten
 description: Lär dig använda anrikningsaktiviteten
-source-git-commit: ed642303540f5c2395e25dddfed20f2cb4970982
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
 
 ---
+
 
 # Berikning {#enrichment}
 

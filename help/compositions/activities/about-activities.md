@@ -2,9 +2,9 @@
 audience: end-user
 title: Arbeta med aktiviteter
 description: Lär dig arbeta med aktiviteter
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -12,12 +12,14 @@ ht-degree: 0%
 
 # Arbeta med aktiviteter {#activities}
 
-## Förteckning över verksamheter {#activity-list}
+I Federated Audience Composition kan du skapa kompositioner med två typer av aktiviteter:
 
-I Federated Audience Composition är aktiviteter specifika för målgruppsanpassning. Med dem kan du skapa ett eller flera mål genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av skärnings-, union- eller uteslutningsåtgärder.
+* **Verksamheter som riktar sig till** kan ni skapa ett eller flera mål genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av skärnings-, union- eller uteslutningsåtgärder.
+* **Flödeskontroll** -aktiviteter är specifika för att organisera och köra kompositioner. Deras huvuduppgift är att samordna de andra aktiviteterna.
 
-<!--to update -->
+## Verksamheter som riktar sig till
 
+* [Bygg målgruppsaktivitet](build-audience.md): Definiera målpopulationen. Du kan antingen välja en befintlig målgrupp eller använda frågemodelleraren för att definiera en egen fråga.
 * [Ändra dimension](change-dimension.md): Ändra målinriktningsdimensionen när du skapar din komposition.
 * [Kombinera](combine.md): Utför segmentering på den inkommande populationen. Du kan använda en union, en skärning eller ett undantag.
 * [Deduplicering](deduplication.md): Ta bort dubbletter i resultatet/resultaten av inkommande aktiviteter.
@@ -26,3 +28,10 @@ I Federated Audience Composition är aktiviteter specifika för målgruppsanpass
 * [Spara målgrupper](save-audience.md): Uppdatera en befintlig målgrupp eller skapa en ny målgrupp från populationen som beräknas uppströms i en komposition.
 * [Dela](split.md): Segmentera inkommande population i flera deluppsättningar.
 
+## Flödeskontroll
+
+* [AND-join](and-join.md): Synkronisera flera körningsgrenar i ett arbetsflöde.
+* **End** : Markera slutet av ett arbetsflöde grafiskt. Denna aktivitet har ingen funktionell inverkan och är därför frivillig.
+* [Gaffel](fork.md): Skapa utgående övergångar om du vill starta flera aktiviteter samtidigt.
+* [Schemaläggare](scheduler.md): Schemalägg när arbetsflödet startas.
+* [Vänta](wait.md): Pausa körningen av en del av ett arbetsflöde tillfälligt.

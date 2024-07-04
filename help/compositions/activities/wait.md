@@ -2,7 +2,7 @@
 audience: end-user
 title: Använd aktiviteten Vänta
 description: Lär dig använda aktiviteten Vänta
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 31%
@@ -27,4 +27,5 @@ Följ de här stegen för att konfigurera **Vänta** aktivitet:
 1. Ange **Varaktighet** av väntetiden mellan inkommande och utgående övergångar.
 
 1. Välj tidsenhet i dialogrutan **Perioder** fält: sekunder, minuter, timmar, dagar.
+
 

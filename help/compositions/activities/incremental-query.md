@@ -2,7 +2,9 @@
 audience: end-user
 title: Använd inkrementell frågeaktivitet
 description: Lär dig hur du använder aktiviteten Inkrementell fråga
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+hide: true
+hidefromtoc: true
+source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 18%

@@ -2,7 +2,7 @@
 audience: end-user
 title: Använda aktiviteten Grupp
 description: Lär dig hur du använder gaffelaktiviteten
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -32,4 +32,5 @@ Följ de här stegen för att konfigurera **Gaffel** aktivitet:
 1. Lägg till en **Gaffel** till din komposition.
 1. Klicka **Lägg till övergång** för att lägga till en ny utgående övergång. Som standard definieras två övergångar.
 1. Lägg till en etikett till varje övergång.
+
 
