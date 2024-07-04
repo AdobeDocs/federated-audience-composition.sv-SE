@@ -2,7 +2,7 @@
 audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -28,9 +28,7 @@ Kompositionsdiagrammet är en representation av vad som ska hända. Det beskrive
 Varje komposition innehåller:
 
 * **Verksamhet**: En aktivitet är en uppgift som ska utföras. De olika aktiviteterna visas i diagrammet med ikoner. Varje aktivitet har specifika egenskaper och andra egenskaper som är gemensamma för alla aktiviteter.
-
 * **Övergångar**: Övergångar länkar en källaktivitet till en målaktivitet och definierar deras sekvens.
-
 * **Worktables**: Arbetstabellen innehåller all information som övergången innehåller. Varje komposition använder flera arbetstabeller. De data som förmedlas i dessa tabeller kan användas under hela kompositionens livscykel.
 
 ## Viktiga steg för att skapa en komposition {#gs-composition-steps}
