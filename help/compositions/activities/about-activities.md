@@ -2,9 +2,9 @@
 audience: end-user
 title: Arbeta med aktiviteter
 description: Lär dig arbeta med aktiviteter
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ I Federated Audience Composition kan du skapa kompositioner med två typer av ak
 ## Verksamheter som riktar sig till
 
 * [Bygg målgruppsaktivitet](build-audience.md): Definiera målpopulationen. Du kan antingen välja en befintlig målgrupp eller använda frågemodelleraren för att definiera en egen fråga.
-* [Ändra dimension](change-dimension.md): Ändra målinriktningsdimensionen när du skapar din komposition.
+* [Ändra dimension](change-dimension.md): Ändra schemat, även kallat måldimension, när du skapar din komposition.
 * [Kombinera](combine.md): Utför segmentering på den inkommande populationen. Du kan använda en union, en skärning eller ett undantag.
 * [Deduplicering](deduplication.md): Ta bort dubbletter i resultatet/resultaten av inkommande aktiviteter.
 * [Berikning](enrichment.md): Definiera ytterligare data som ska bearbetas i kompositionen. Med den här aktiviteten kan du utnyttja den inkommande övergången och konfigurera aktiviteten för att slutföra utdataövergången med ytterligare data.

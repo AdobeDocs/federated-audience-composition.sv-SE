@@ -2,9 +2,9 @@
 audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i frågemodelleraren.
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2092'
 ht-degree: 52%
 
 ---
@@ -28,7 +28,7 @@ Uttrycksredigeraren är tillgänglig från frågemodelleraren **[!UICONTROL Edit
 Uttrycksredigeraren innehåller:
 
 * An **inmatningsfält (1)** som uttrycket är definierat i.
-* Listan med tillgängliga **fält (2)** som kan användas i uttrycket och som motsvarar måldimensionen för frågan.
+* Listan med tillgängliga **fält (2)** som kan användas i uttrycket och som motsvarar schemat, även kallat måldimension, för frågan.
 * **Hjälpfunktioner (3)**, sorterat efter kategori.
 
 Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och klickar på plusknappen.
