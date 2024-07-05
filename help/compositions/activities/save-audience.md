@@ -2,7 +2,7 @@
 audience: end-user
 title: Använda aktiviteten Spara målgrupp
 description: Lär dig hur du använder aktiviteten Spara målgrupper
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Följ de här stegen för att konfigurera **Spara målgrupper** aktivitet:
    * **Primärt identitetsfält**: Markera det fält som ska användas för att identifiera profilerna. Till exempel dess e-postadress eller telefonnummer.
    * **Namnutrymme för identitet**: Välj det namnutrymme som ska användas för att identifiera profilerna, dvs. vilken typ av data som ska användas som identifieringsnyckel. Om e-postadressen till exempel har valts som primärt identitetsfält anger identitetsnamnutrymmet **E-post** ska vara markerat. Om den unika identifieraren är telefonnumret är identitetsnamnutrymmet **Telefon** ska vara markerat.
 
-När kompositionen är klar sparas målgruppen i Adobe Experience Platform och görs tillgänglig i **Målgrupper** -menyn.
+När kompositionen är klar sparas målgruppen i Adobe Experience Platform <!-- to check-->och som är tillgängliga i **Målgrupper** -menyn.
 
 <!--
 
