@@ -2,10 +2,10 @@
 audience: end-user
 title: Använd aktiviteten Deduplicering
 description: Lär dig hur du använder aktiviteten Deduplicering
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 20%
+source-wordcount: '561'
+ht-degree: 19%
 
 ---
 
@@ -40,7 +40,11 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 1. Lägg till en **Deduplicering** till din komposition.
 
+1. Om aktiviteten har flera inkommande övergångar väljer du den övergång som ska användas för att utföra borttagning av dubbletter från **[!UICONTROL Primary set]** listruta
+
 1. I **Fält som identifierar dubbletter** klickar du på **Lägg till attribut** för att ange de fält där identiska värden gör det möjligt att identifiera dubbletter, t.ex. e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
+
+   ![](../assets/deduplication.png)
 
 1. I **Inställningar för borttagning av dubbletter** väljer du antalet unika **Dubbletter att behålla**. Standardvärdet för det här fältet är 1. Med värdet 0 kan du behålla alla dubbletter.
 
@@ -52,9 +56,10 @@ Följ de här stegen för att konfigurera **Deduplicering** aktivitet:
 
 1. Välj **Dedupliceringsmetod** att använda:
 
-   * **Slumpmässig markering**: markerar slumpmässigt den post som ska tas bort från dubbletterna.
-   * **Använda ett uttryck**: det gör att du kan behålla de poster där det angivna uttryckets värde är det minsta eller det största.
-   * **Följ en lista med värden**: låter dig definiera en värdeprioritet för ett eller flera fält. Definiera värdena genom att klicka **Attribut** om du vill markera ett fält eller skapa ett uttryck och sedan lägga till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på knappen Lägg till ovanför listan med värden.
+   * **Slumpmässig markering**: Markerar slumpmässigt den post som ska tas bort från dubbletterna.
+   * **Använda ett uttryck**: Behåll de poster där det angivna uttryckets värde är det minsta eller det största.
+   * **Värden som inte är tomma**: Behåll de poster som uttrycket inte är tomt för.
+   * **Följ en lista med värden**: Definiera en värdeprioritet för ett eller flera fält. Definiera värdena genom att klicka **Attribut** om du vill markera ett fält eller skapa ett uttryck och sedan lägga till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på **Knappen Lägg till** som finns ovanför listan med värden.
 
 1. Kontrollera **Generera komplement** om du vill utnyttja den återstående populationen. Komplementet består av alla dubbletter. Därefter läggs ytterligare en övergång till aktiviteten.
 
