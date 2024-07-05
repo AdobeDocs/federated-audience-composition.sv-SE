@@ -2,10 +2,10 @@
 user-guide-title: Sammansatt målgrupp
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Sammansatt målgrupp
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 11%
+source-wordcount: '121'
+ht-degree: 10%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 11%
 + Konfigurationssteg {#config}
    + [Connect AEP med Federated Audience Composition](connections/destinations.md)
    + [Konfigurera dina federerade databaser](connections/federated-db.md)
+   + [Skapa och hantera anslutningar](connections/connections.md)
    + Datamodeller och diagram{#datamodel}
       + [Konfigurera dina datamodeller](data-management/gs-models.md)
       + [Skapa och konfigurera scheman](customer/schemas.md)
