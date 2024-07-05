@@ -2,10 +2,10 @@
 audience: end-user
 title: Använd avstämningsaktiviteten
 description: Lär dig använda avstämningsaktiviteten
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 6%
+source-wordcount: '515'
+ht-degree: 0%
 
 ---
 
@@ -36,19 +36,14 @@ The **Avstämning** Med -aktivitet kan du definiera länken mellan data i databa
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-## Bästa praxis {#reconciliation-best-practices}
-
-Med **Berikning** kan du definiera ytterligare data som ska bearbetas i kompositionen (du kan använda en **Berikning** aktivitet för att kombinera data från flera uppsättningar eller för att skapa länkar till en tillfällig resurs), **Avstämning** kan du länka oidentifierade data till befintliga resurser.
-
->[!NOTE]
->Avstämningsåtgärden innebär att data för de länkade dimensionerna redan finns i databasen.  Om du till exempel importerar en inköpsfil som visar vilken produkt som köptes vid en viss tidpunkt, av en viss klient och så vidare, så måste produkten och klienten redan finnas i databasen.
+The **Avstämning** kan du länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att de data som du ansluter redan finns i databasen. Om du t.ex. vill avstämma inköpsinformation som visar vilken produkt som köptes, vid vilken tidpunkt, av vilken klient, osv., måste produkten och klienten redan finnas i databasen.
 
 ## Konfigurera avstämningsaktiviteten {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
->title="Måldimension"
->abstract="Välj den nya måldimensionen. Med en dimension kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv. Som standard är den aktuella måldimensionen markerad."
+>title="Schema"
+>abstract="Välj det nya schemat som ska användas på data. Med ett schema, som också kallas&quot;måldimension&quot;, kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv. Som standard är dispositionen för den aktuella måldimensionen vald."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -72,21 +67,26 @@ Med **Berikning** kan du definiera ytterligare data som ska bearbetas i komposit
 
 Följ de här stegen för att konfigurera **Avstämning** aktivitet:
 
-1. Lägg till en **Avstämning** till din komposition. <!--This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. -->
+1. Lägg till en **Avstämning** till din komposition.
 
-1. Välj den nya måldimensionen. Med en dimension kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).-->
+1. Välj **Nytt schema**. Med ett schema, som också kallas&quot;måldimension&quot;, kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv.
 
 1. Välj de fält som ska användas för avstämningen. Du kan använda ett eller flera avstämningskriterier.
 
-   1. Om du vill använda attribut för att stämma av data väljer du **Enkla attribut** alternativ. The **Source** -fält visar de fält som är tillgängliga i indataövergången och som ska förenas. The **Mål** fältet motsvarar fälten i den valda måldimensionen. Data avstäms när källan och målet är lika. Välj till exempel **E-post** fält för att deduplicera profiler baserat på deras e-postadress.
+   1. Om du vill använda attribut för att stämma av data väljer du **Enkla attribut** sedan klickar du på **Lägg till regel** -knappen.
+   1. Välj **Source** och **Mål** fält för avstämningen. The **Source** fält. The **Mål** fältet motsvarar fälten i det valda schemat.
+
+      Data avstäms när källan och målet är lika. Välj till exempel **E-post** fält för att deduplicera profiler baserat på deras e-postadress.
 
       Om du vill lägga till ytterligare avstämningsvillkor klickar du på **Lägg till regel** -knappen. Om flera kopplingsvillkor anges måste ALLA verifieras så att data kan länkas ihop.
 
-   <!--     ![](../assets/workflow-reconciliation-criteria.png)-->
+      ![](../assets/reconciliation-rules.png)
 
-   1. Om du vill använda andra attribut för att stämma av data väljer du **Avancerade avstämningsvillkor** alternativ. Du kan sedan skapa ett eget avstämningsvillkor med frågemodelleraren. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md).-->
+   1. Om du vill använda andra attribut för att stämma av data väljer du **Avancerade avstämningsvillkor** sedan klickar du på **Skapa villkor** -knappen. Du kan sedan skapa ett eget avstämningsvillkor med frågemodelleraren.
 
-1. Du kan använda **Skapa filter** -knappen. Detta gör att du kan skapa ett anpassat villkor med hjälp av frågemodelleraren. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+      ![](../assets/reconciliation-advanced.png)
+
+1. Du kan använda **Skapa filter** -knappen. Detta gör att du kan skapa ett anpassat villkor med hjälp av frågemodelleraren.
 
 Som standard lagras ej avstämda data i den utgående övergången och är tillgängliga i arbetsboken för framtida bruk. Om du vill ta bort ej avstämda data inaktiverar du **Behåll ej avstämda data** alternativ.
 
