@@ -2,9 +2,9 @@
 audience: end-user
 title: Använda aktiviteten Kombinera
 description: Lär dig använda aktiviteten Kombinera
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '758'
 ht-degree: 12%
 
 ---
@@ -41,12 +41,13 @@ The **Kombinera** kan placeras efter andra aktiviteter, men inte i början av ko
 Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet:
 
 1. Lägg till flera aktiviteter för att bilda minst två olika körningsgrenar.
+
 1. Lägg till en **Kombinera** verksamhet till någon av de tidigare filialerna.
-1. Välj segmenteringstyp: [Union](#union), [Skärningspunkt](#intersection) eller [Uteslutning](#exclusion).
+
+1. Välj segmenteringstyp: [Union](#union), [Skärningspunkt](#intersection) eller [Uteslutning](#exclusion)och klicka **Fortsätt**.
 
    ![](../assets/combine.png)
 
-1. Klicka **Fortsätt**.
 1. I **Uppsättningar att förena** markerar du alla tidigare aktiviteter som du vill ansluta till.
 
 ## Sammanslutning {#combine-union}
@@ -61,21 +62,25 @@ Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet
 >title="Avstämningsalternativ"
 >abstract="Välj **Avstämningstyp** för att definiera hur dubbletter ska hanteras."
 
-I **Kombinera** -aktivitet kan du konfigurera en **Union**. För detta måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
+I **Kombinera** -aktivitet kan du konfigurera en **Union**.
+
+![](../assets/combine-union.png)
+
+För detta måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
 
 * **Endast tangenter**: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
 * **En markering med kolumner**: välj det här alternativet för att definiera listan med kolumner som datavstämningen ska användas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
 
-![](../assets/combine-union.png)
-
 ## Skärningspunkt {#combine-intersection}
 
-I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**. För detta följer du de extra stegen nedan:
+I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**.
+
+![](../assets/combine-intersection.png)
+
+För detta följer du de extra stegen nedan:
 
 1. Välj **Avstämningstyp** för att definiera hur dubbletter hanteras. Se [Union](#union) -avsnitt.
 1. Du kan kontrollera **Generera komplement** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
-
-![](../assets/combine-intersection.png)
 
 ## Uteslutning {#combine-exclusion}
 
@@ -99,13 +104,16 @@ I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**. För detta
 >title="Kombinera skapa komplementfärger"
 >abstract="Växla på **Generera komplement** möjlighet att bearbeta den återstående populationen i en ytterligare övergång."
 
-I **Kombinera** -aktivitet kan du konfigurera en **Uteslutning**. För detta behöver du följa de extra stegen nedan:
-
-1. I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
-1. Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling. <!-- pas compris-->
-1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Se [Skärningspunkt](#intersection) -avsnitt.
+I **Kombinera** -aktivitet kan du konfigurera en **Uteslutning**.
 
 ![](../assets/combine-exclusion.png)
+
+För detta behöver du följa de extra stegen nedan:
+
+1. I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
+
+1. Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling. <!-- pas compris-->
+1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Se [Skärningspunkt](#intersection) -avsnitt.
 
 <!--
 ## Examples{#combine-examples}
