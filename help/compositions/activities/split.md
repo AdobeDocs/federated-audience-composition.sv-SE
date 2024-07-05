@@ -2,9 +2,9 @@
 audience: end-user
 title: Använda aktiviteten Dela
 description: Lär dig använda aktiviteten Dela
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ The **Dela** Med -aktivitet kan du segmentera inkommande populationer i flera de
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Aktivera överlappning av utdatapopulationer"
->abstract="Aktivera överlappning av utdatapopulationer"
+>abstract="The **[!UICONTROL Enable overlapping of output populations]** gör att du kan hantera populationer som tillhör flera delmängder. När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan finnas i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor. När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Adobe Campaign rekommenderar att man använder exklusiva kriterier."
 
 Följ de här stegen för att konfigurera **Dela** aktivitet:
 
@@ -75,9 +75,13 @@ Följ de här stegen för att konfigurera **Dela** aktivitet:
 
 1. När deluppsättningar har lagts till visar aktiviteten så många utdataövergångar som det finns deluppsättningar. Vi rekommenderar starkt att du ändrar etiketten för varje delmängd så att du enkelt kan identifiera dem på arbetsytan.
 
+   ![](../assets/split.png)
+
 1. Konfigurera hur varje delmängd ska filtrera den inkommande populationen. Följ dessa steg för att göra detta:
 
-   1. Öppna delmängden för att visa dess egenskaper.
+   1. Expandera delmängden för att visa dess egenskaper.
+
+      ![](../assets/split-subset.png)
 
    1. Om du vill använda ett filtervillkor på delmängden klickar du på **[!UICONTROL Create filter]** och konfigurera önskad filtreringsregel med frågemodelleraren. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
 
@@ -94,6 +98,11 @@ Följ de här stegen för att konfigurera **Dela** aktivitet:
    >[!NOTE]
    >
    >The **[!UICONTROL Generate all subsets in the same table]** kan du gruppera alla delmängder till en enda utdataövergång.
+
+1. The **[!UICONTROL Enable overlapping of output populations]** gör att du kan hantera populationer som tillhör flera delmängder:
+
+   * När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan finnas i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor.
+   * När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Adobe Campaign rekommenderar att man använder exklusiva kriterier.
 
 Aktiviteten är nu konfigurerad. Vid genomförandet segmenteras populationen i de olika delmängderna, i den ordning som de har lagts till i aktiviteten.
 
