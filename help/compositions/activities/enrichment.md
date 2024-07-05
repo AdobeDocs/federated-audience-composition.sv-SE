@@ -2,9 +2,9 @@
 audience: end-user
 title: Använd anrikningsaktiviteten
 description: Lär dig använda anrikningsaktiviteten
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -53,55 +53,29 @@ När anrikningsdata har lagts till i sammansättningen kan de användas i aktivi
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
-## Lägg till en anrikningsaktivitet {#enrichment-configuration}
+## Konfigurera anrikningsaktiviteten {#enrichment-configuration}
 
 Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
 1. Lägg till aktiviteter som **Bygg målgrupper** och **Kombinera** verksamhet.
 1. Lägg till en **Berikning** aktivitet.
-1. Om flera övergångar har konfigurerats i din komposition kan du använda **[!UICONTROL Primary set]** -fält för att definiera vilken övergång som ska användas som primär uppsättning för att berika med data.
 
-## Lägg till anrikningsdata {#enrichment-add}
+   ![](../assets/enrichment.png)
+
+1. Om flera övergångar har konfigurerats i din komposition kan du använda **[!UICONTROL Primary set]** -fält för att definiera vilken övergång som ska användas som primär uppsättning för att berika med data.
 
 1. Klicka **Lägg till anrikningsdata** och välj det attribut som ska användas för att förbättra data.
 
-   Du kan välja två typer av anrikningsdata: ett enskilt anrikningsattribut från måldimensionen eller en samlingslänk. Var och en av dessa typer beskrivs i exemplen nedan:
+   ![](../assets/enrichment-add.png)
 
-   * [Single enrichment-attribut](#single-attribute)
-   * [Samlingslänk](#collection-link)
+   >[!NOTE]
+   >
+   >The **Redigera uttrycksknapp** på skärmen för attributval kan du skapa avancerade uttryck för att välja attributet.
 
-<!--
->[!NOTE]
->
->The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md)-->
+<!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 
-## Skapa länkar mellan tabeller {#create-links}
-
-The **[!UICONTROL Link definition]** kan du skapa en länk mellan data i arbetstabellen och databasen. Om du till exempel läser in data från en fil som innehåller mottagarnas kontonummer, land och e-postadress måste du skapa en länk till landstabellen för att kunna uppdatera informationen i deras profiler.
-
-Det finns flera typer av länkar:
-
-* **[!UICONTROL 1 cardinality simple link]**: Varje post från den primära uppsättningen kan kopplas till en och endast en post från de länkade data.
-* **[!UICONTROL 0 or 1 cardinality simple link]**: Varje post i den primära uppsättningen kan kopplas till 0- eller 1-posten från de länkade data, men inte till fler än en.
-* **[!UICONTROL N cardinality collection link]**: Varje post från den primära uppsättningen kan kopplas till 0, 1 eller fler (N) poster från länkade data.
-
-Så här skapar du en länk:
-
-1. I **[!UICONTROL Link definition]** klickar du på **[!UICONTROL Add link]** -knappen.
-
-1. I **Relationstyp** väljer du den typ av länk du vill skapa.
-
-1. Identifiera det mål som du vill länka den primära uppsättningen till:
-
-   * Om du vill länka en befintlig tabell i databasen väljer du **[!UICONTROL Database schema]** och välj önskad tabell i **[!UICONTROL Target schema]** fält.
-   * Om du vill länka till data från indataövergången väljer du **Tillfälligt schema** och markera den övergång vars data du vill använda.
-
-1. Definiera avstämningskriterierna för att matcha data från den primära uppsättningen med det länkade schemat. Det finns två typer av kopplingar:
-
-   * **Enkelt hörn**: Välj ett specifikt attribut för att matcha data från de två scheman. Klicka **Lägg till join** och väljer **Source** och **Mål** attribut som ska användas som avstämningskriterier.
-   * **Avancerad join**: Skapa en koppling med avancerade villkor. Klicka **Lägg till join** och klicka på **Skapa villkor** för att öppna frågemodelleraren.
-
-Ett exempel på komposition med hjälp av länkar finns i [Exempel](#link-example) -avsnitt.
+    * [Single enrichment attribute](#single-attribute)
+    * [Collection lnk](#collection-link)-->
 
 ## Exempel {#example}
 
@@ -113,90 +87,46 @@ Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatu
 1. Välj ett enkelt fält från målgruppsdimensionen, födelsedatumet i vårt exempel.
 1. Klicka **Bekräfta**.
 
-### Samlingslänk {#collection-link}
+<!--### Collection link {#collection-link}
 
-I det här mer komplicerade fallet väljer vi en samlingslänk som är en länk med en 1-N-kardinalitet mellan tabellerna. Vi hämtar de tre senaste inköpen som är mindre än 100$. Därför måste du definiera:
+In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
-* ett anrikningsattribut: **Totalt belopp** fält
-* antalet rader som ska hämtas: 3
-* ett filter: filtrera bort objekt som är större än 100$
-* en sortering: underordnad sortering på **Orderdatum** fält.
+* an enrichment attribute: the **Total amount** field
+* the number of lines to retrieve: 3
+* a filter: filter out items that are greater than 100$
+* a sorting: descendant sorting on the **Order date** field. 
 
-#### Lägg till attributet {#add-attribute}
+#### Add the attribute {#add-attribute}
 
-Här väljer du den samlingslänk som ska användas som anrikningsdata.
+This is where you select the collection link to use as enrichment data.
 
-1. Klicka inuti **Attribut** fält.
-1. Klicka **Visa avancerade attribut**.
-1. Välj **Totalt belopp** fält från **Inköp** tabell.
+1. Click inside the **Attribute** field.
+1. Click **Display advanced attributes**.
+1. Select the **Total amount** field from the **Purchases** table. 
 
-#### Definiera samlingsinställningarna{#collection-settings}
+#### Define the collection settings{#collection-settings}
 
-Definiera sedan hur data samlas in och hur många poster som ska hämtas.
+Then, define how the data is collected and the number of records to retrieve.
 
-1. Välj **Samla in data** i **Välj hur data samlas in** nedrullningsbar meny.
-1. Skriv&quot;3&quot; i dialogrutan **Rader att hämta (kolumner att skapa)** fält.
+1. Select **Collect data** in the **Select how the data is collected** drop-down.
+1. Type "3" in the **Lines to retrieve (Columns to create)** field. 
 
-Om du t.ex. vill få fram genomsnittligt antal inköp för en kund väljer du **Sammanställda data** i stället, och markera **Genomsnittlig** i **Sammanställningsfunktion** nedrullningsbar meny.
+If you want, for example, to get the average amount of purchases for a customer, select **Aggregated data** instead, and select **Average** in the **Aggregate function** drop-down.
 
-#### Definiera filtren{#collection-filters}
+#### Define the filters{#collection-filters}
 
-Här definierar vi det högsta värdet för anrikningsattributet. Vi filtrerar bort objekt som är större än 100$. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
-1. Klicka **Redigera filter**.
-1. Lägg till följande två filter: **Totalt belopp** finns AND **Totalt belopp** är mindre än 100. Den första filtrerar NULL-värden så som de skulle visas som det största värdet.
-1. Klicka **Bekräfta**.
+1. Click **Edit filters**.
+1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.
+1. Click **Confirm**.
 
-#### Definiera sorteringen{#collection-sorting}
+#### Define the sorting{#collection-sorting}
 
-Vi måste nu använda sortering för att hämta de tre **senaste** inköp.
+We now need to apply sorting in order to retrieve the three **latest** purchases.
 
-1. Aktivera **Aktivera sortering** alternativ.
-1. Klicka inuti **Attribut** fält.
-1. Välj **Orderdatum** fält.
-1. Klicka **Bekräfta**.
-1. Välj **Fallande** från **Sortera** nedrullningsbar meny.
-
-
-### Berika med länkade data {#link-example}
-
-I exemplet nedan visas en komposition som konfigurerats för att skapa en länk mellan två övergångar. De första övergångarna avser profildata med hjälp av en Query-aktivitet, medan den andra övergången omfattar inköpsdata som lagras i en fil som läses in via en Load file-aktivitet.
-
-* Den första **Berikning** aktivitetslänkar vår primära uppsättning (data från **Fråga** aktivitet) med schemat från **Läs in fil** aktivitet. På så sätt kan vi matcha varje profil som används av frågan med motsvarande inköpsdata.
-* En sekund **Berikning** aktiviteten läggs till för att berika data från sammansättningstabellen med inköpsdata från **Läs in fil** aktivitet. Detta gör att vi kan använda dessa data i ytterligare aktiviteter, till exempel för att anpassa meddelanden som skickas till kunderna med information om deras köp.
-
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->
+1. Activate the **Enable sorting** option.
+1. Click inside the **Attribute** field.
+1. Select the **Order date** field.
+1. Click **Confirm**. 
+1. Select **Descending** from the **Sort** drop-down.-->
