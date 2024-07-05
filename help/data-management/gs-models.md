@@ -2,9 +2,9 @@
 audience: end-user
 title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
-source-git-commit: e37229f46b865526f209da5831ba31b3acc8a784
+source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -35,4 +35,26 @@ ht-degree: 0%
 
 
 ## Vad är en datamodell? {#data-model-start}
+
+En datamodell är en uppsättning scheman, målgrupper och länkar mellan dem.
+
+Läs mer om [scheman](customer/schemas.md).
+
+Läs mer om [målgrupper](customer/audiences.md).
+
+## Hur skapar man en datamodell? {#data-model-create}
+
+I **[!UICONTROL FEDERATED DATA]** går du in i **[!UICONTROL Models]** länk. Där hittar du **[!UICONTROL Data model]** -fliken.
+
+![](assets/datamodel_create.png){zoomable="yes"}
+
+Klicka på **[!UICONTROL Create data model]** kan du namnge din datamodell och klicka på **[!UICONTROL Create]** -knappen.
+
+![](assets/datamodel_name.png){zoomable="yes"}
+
+Du kommer åt fönstret där du kan lägga till scheman, målgrupper och länkar för din datamodell.
+
+![](assets/datamodel_created.png){zoomable="yes"}
+
+![](assets/datamodel_schemas.png){zoomable="yes"}
 
