@@ -2,9 +2,9 @@
 audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig arbeta med frågemodelleraren.
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Frågemodelleraren"
->abstract="Definiera filtreringskriterier för mottagare eller andra måldimensioner från databasen."
+>abstract="Definiera filtreringskriterier för mottagare eller andra scheman, som också kallas måldimension, från databasen."
 
 Frågemodelleraren förenklar filtreringen av databasen baserat på olika villkor. Dessutom kan frågemodelleraren hantera mycket komplexa och långa frågor effektivt, vilket ger större flexibilitet och precision. Dessutom har den stöd för fördefinierade filter under förhållanden, vilket gör att du enkelt kan förfina dina frågor samtidigt som du använder avancerade uttryck och operatorer för omfattande målgruppsanpassning och segmenteringsstrategier.
 

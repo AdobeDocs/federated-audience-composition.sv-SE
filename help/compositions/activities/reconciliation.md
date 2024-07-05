@@ -2,9 +2,9 @@
 audience: end-user
 title: Använd avstämningsaktiviteten
 description: Lär dig använda avstämningsaktiviteten
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ The **Avstämning** kan du länka oidentifierade data till befintliga resurser. 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schema"
->abstract="Välj det nya schemat som ska användas på data. Med ett schema, som också kallas&quot;måldimension&quot;, kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv. Som standard är dispositionen för den aktuella måldimensionen vald."
+>abstract="Välj det nya schemat som ska användas på data. Med ett schema, som också kallas måldimension, kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv. Som standard är dispositionsschemat valt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ The **Avstämning** kan du länka oidentifierade data till befintliga resurser. 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Välj måldimension"
->abstract="Välj måldimension för inkommande data som ska förenas med."
+>abstract="Välj schemat, även kallat måldimension, för inkommande data som ska stämma av med."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ Följ de här stegen för att konfigurera **Avstämning** aktivitet:
 
 1. Lägg till en **Avstämning** till din komposition.
 
-1. Välj **Nytt schema**. Med ett schema, som också kallas&quot;måldimension&quot;, kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv.
+1. Välj **Nytt schema**. Med ett schema, som också kallas måldimension, kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv.
 
 1. Välj de fält som ska användas för avstämningen. Du kan använda ett eller flera avstämningskriterier.
 

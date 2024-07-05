@@ -2,9 +2,9 @@
 audience: end-user
 title: Använd anrikningsaktiviteten
 description: Lär dig använda anrikningsaktiviteten
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Anrikningsdata"
->abstract="Välj de data som ska användas för att berika kompositionen. Du kan välja två typer av anrikningsdata: ett enskilt anrikningsattribut från måldimensionen, eller en samlingslänk, som är en länk med en 1-N-kardinalitet mellan tabellerna."
+>abstract="Välj de data som ska användas för att berika kompositionen. Du kan välja två typer av anrikningsdata: ett enskilt anrikningsattribut från schemat, även kallat måldimension, eller en samlingslänk, som är en länk med en 1-N-kardinalitet mellan tabeller."
 
 The **Berikning** kan du förbättra måldata med ytterligare information från den federerade databasen. Den används ofta i kompositioner efter segmenteringsaktiviteter.
 
@@ -84,7 +84,7 @@ Följ de här stegen för att konfigurera **Berikning** aktivitet:
 Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatumet. Följ de här stegen:
 
 1. Klicka inuti **Attribut** fält.
-1. Välj ett enkelt fält från målgruppsdimensionen, födelsedatumet i vårt exempel.
+1. Välj ett enkelt fält från schemat, som också kallas måldimension, födelsedatumet i vårt exempel.
 1. Klicka **Bekräfta**.
 
 <!--### Collection link {#collection-link}

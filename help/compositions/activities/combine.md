@@ -2,9 +2,9 @@
 audience: end-user
 title: Använda aktiviteten Kombinera
 description: Lär dig använda aktiviteten Kombinera
-source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 12%
 
 ---
@@ -87,7 +87,7 @@ För detta följer du de extra stegen nedan:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Uteslutningsregler"
->abstract="Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i E **exkluderingsregler** och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling."
+>abstract="Vid behov kan du ändra inkommande tabeller. Om du vill utesluta ett mål från ett annat schema, som också kallas måldimension, måste det här målet återställas till samma schema som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i E **exkluderingsregler** och ange villkoren för schemaändring. Datavstämning utförs antingen via ett attribut eller en koppling."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,7 +97,7 @@ För detta följer du de extra stegen nedan:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Uteslutningsregler"
->abstract="Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling."
+>abstract="Vid behov kan du ändra inkommande tabeller. Om du vill utesluta ett mål från ett annat schema, som också kallas måldimension, måste det här målet återställas till samma schema som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för schemaändring. Datavstämning utförs antingen via ett attribut eller en koppling."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -112,7 +112,7 @@ För detta behöver du följa de extra stegen nedan:
 
 1. I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
 
-1. Vid behov kan du ändra inkommande tabeller. För att utesluta ett mål från en annan dimension måste detta mål återställas till samma måldimension som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för dimensionsändring. Datavstämning utförs antingen via ett attribut eller en koppling. <!-- pas compris-->
+1. Vid behov kan du ändra inkommande tabeller. Om du vill utesluta ett mål från ett annat schema måste det här målet återställas till samma schema som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för schemaändring. Datavstämning utförs antingen via ett attribut eller en koppling. <!-- pas compris-->
 1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Se [Skärningspunkt](#intersection) -avsnitt.
 
 <!--
