@@ -2,9 +2,9 @@
 audience: end-user
 title: Använd aktiviteten Skapa målgrupp
 description: Lär dig använda aktiviteten Skapa målgrupp
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '237'
 ht-degree: 1%
 
 ---
@@ -38,19 +38,19 @@ Följ de här stegen för att konfigurera **Bygg målgrupper** aktivitet:
 
 1. Lägg till en **Bygg målgrupper** aktivitet.
 1. Definiera en etikett.
-1. Definiera målgruppstyp: **Skapa en egen** eller **Läsa målgrupper**.
+1. Ange om du vill skapa en målgrupp eller välja en befintlig.
 1. Konfigurera målgruppen genom att följa stegen som beskrivs på flikarna nedan.
 
 >[!BEGINTABS]
 
->[!TAB Skapa en egen (fråga)]
+>[!TAB Skapa målgrupper]
 
-Så här skapar du en egen fråga:
+Så här skapar du en egen målgrupp:
 
-1. Välj **Skapa en egen (fråga)**.
-1. Välj **Måldimension**. Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna.<!-- [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+1. Välj **Skapa målgrupper**.
+1. Välj **Schema**, även kallat målgruppsdimension. Med schemat kan du definiera målgruppen för åtgärden: mottagare, avtalspliktiga mottagare, operatör, prenumeranter osv. Som standard väljs schemat bland mottagarna.
 1. Klicka **Fortsätt**.
-1. Använd frågemodelleraren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Använd frågemodelleraren för att definiera frågan. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
 >[!TAB Läs målgrupp]
 
@@ -58,7 +58,7 @@ Så här väljer du en befintlig målgrupp:
 
 1. Välj **Läsa målgrupper**.
 1. Klicka **Fortsätt**.
-1. Välj målgrupp på samma sätt som du använder en målgrupp när du designar en ny leverans. <!--Refer to this [section](../../audience/add-audience.md).-->
+1. Välj målgrupp.
 
 >[!ENDTABS]
 

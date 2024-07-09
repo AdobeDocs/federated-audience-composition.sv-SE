@@ -2,9 +2,9 @@
 audience: end-user
 title: Använd avstämningsaktiviteten
 description: Lär dig använda avstämningsaktiviteten
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Följ de här stegen för att konfigurera **Avstämning** aktivitet:
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Om du vill använda andra attribut för att stämma av data väljer du **Avancerade avstämningsvillkor** sedan klickar du på **Skapa villkor** -knappen. Du kan sedan skapa ett eget avstämningsvillkor med frågemodelleraren.
+   1. Om du vill använda andra attribut för att stämma av data väljer du **Avancerade avstämningsvillkor** sedan klickar du på **Skapa villkor** -knappen. Du kan sedan skapa ett eget avstämningsvillkor med frågemodelleraren. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

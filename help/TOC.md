@@ -2,9 +2,9 @@
 user-guide-title: Sammansatt målgrupp
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Sammansatt målgrupp
-source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 10%
 
 ---
@@ -47,6 +47,5 @@ ht-degree: 10%
    + [Arbeta med frågemodelleraren](query/query-modeler-overview.md)
    + [Bygg din första fråga](query/build-query.md)
    + [Redigera uttryck](query/expression-editor.md)
-   + [Filterlistor](query/filter.md)
 + Granskningsspår {#audit-trail}
    + [Övervaka dina databaser](admin/audit-trail.md)

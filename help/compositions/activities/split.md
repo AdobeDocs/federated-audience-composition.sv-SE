@@ -2,9 +2,9 @@
 audience: end-user
 title: Använda aktiviteten Dela
 description: Lär dig använda aktiviteten Dela
-source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Följ de här stegen för att konfigurera **Dela** aktivitet:
 
       ![](../assets/split-subset.png)
 
-   1. Om du vill använda ett filtervillkor på delmängden klickar du på **[!UICONTROL Create filter]** och konfigurera önskad filtreringsregel med frågemodelleraren. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+   1. Om du vill använda ett filtervillkor på delmängden klickar du på **[!UICONTROL Create filter]** och konfigurera önskad filtreringsregel med frågemodelleraren. Ta till exempel med profiler från den inkommande populationen vars e-postadress finns i databasen. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
    1. Om du vill begränsa antalet profiler som markeras av delmängden aktiverar du **[!UICONTROL Enable limit]** och ange antal eller procentandelar av populationen som ska inkluderas.
 

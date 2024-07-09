@@ -2,9 +2,9 @@
 audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i frågemodelleraren
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Om du vill börja skapa en fråga öppnar du frågemodelleraren från valfri pla
 
 Du kan lägga till två typer av element:
 
-* **Filtrera komponenter** (Anpassat villkor, Välj målgrupp, Fördefinierat filter) låter dig skapa egna regler, välja en målgrupp eller ett fördefinierat filter för att förfina din fråga. De läggs till i början av frågan och på prickade övergångar. [Lär dig hur du arbetar med filterkomponenter](#filtering)
+* **Filtrera komponenter** (Anpassat villkor, Välj målgrupp) låter dig skapa egna regler eller välja en målgrupp för att förfina din fråga. De läggs till i början av frågan och på prickade övergångar. [Lär dig hur du arbetar med filterkomponenter](#filtering)
 
   Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports*. *Mottagare som bor i New York*, *Mottagare som bor i San Francisco*
 
@@ -33,7 +33,6 @@ Med filterkomponenter kan du förfina frågan genom att använda:
 
 * **[Anpassade villkor](#custom-condition)**: Filtrera frågan genom att skapa ett eget villkor med attribut från databasen och avancerade uttryck.
 * **[Målgrupper](#audiences)**: Filtrera frågan med en befintlig målgrupp.
-* **[Fördefinierat filter](#predefined-filters)**: Filtrera frågan med befintliga fördefinierade filter.
 
 ### Konfigurera ett anpassat villkor {#custom-condition}
 
@@ -52,7 +51,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
    >[!NOTE]
    >
-   >The **Redigera uttryck** kan du använda webbuttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktioner. [Lär dig redigera uttryck](expression-editor.md)
+   >The **Redigera uttryck** kan du använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktioner. [Lär dig redigera uttryck](expression-editor.md)
 
 1. Välj den operator som ska användas i listrutan. Olika operatorer är tillgängliga för användning. Observera att operatorer som är tillgängliga i listrutan beror på attributets datatyp.
 
@@ -79,15 +78,11 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 +++
 
-1. I **Värde** definierar du det förväntade värdet. Du kan också använda webbuttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Klicka på **Redigera uttryck** -knappen. [Lär dig redigera uttryck](expression-editor.md)
+1. I **Värde** definierar du det förväntade värdet. Du kan också använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Klicka på **Redigera uttryck** -knappen. [Lär dig redigera uttryck](expression-editor.md)
 
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
    ![](assets/query-custom-condition.png){zoomable="yes"}
-
-   För datumtypsattribut är fördefinierade värden tillgängliga med **[!UICONTROL Presets]** alternativ.
-
-   ![](assets/date-presets.png){zoomable="yes"}
 
 #### Anpassade villkor i länkade tabeller (1-1- och 1-N-länkar){#links}
 
@@ -243,12 +238,12 @@ I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera result
 >title="Regelegenskaper"
 >abstract="När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegenskaper** rutan till höger.<br/>I det här fönstret kan du visa resulterande data, hämta en SQL-kodversion av frågan och kontrollera antalet målposter.<br/>Använd **Markera eller spara filter** om du vill spara frågan som ett fördefinierat filter eller ersätta arbetsytans innehåll med ett befintligt filter."
 
-När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegenskaper** rutan till höger. Tillgängliga åtgärder är:
+När du har skapat frågan på arbetsytan kan du kontrollera den med **Regelegenskaper** rutan till höger. Den här rutan visas när du skapar en fråga för att skapa en målgrupp. Tillgängliga åtgärder är:
 
 * **Visa resultat:** Visar de data som är resultatet av din fråga.
 * **kodvyn**: Visar en kodbaserad version av frågan i SQL.
 * **Beräkna**: Uppdaterar och visar antalet poster som frågan riktar sig till.
-* **Markera eller spara filter**: Välj ett befintligt fördefinierat filter som ska användas på arbetsytan eller spara frågan som ett fördefinierat filter för framtida återanvändning. <!--[Learn how to work with predefined filters](../get-started/predefined-filters.md)-->
+* **Markera eller spara filter**: Välj ett befintligt fördefinierat filter som ska användas på arbetsytan eller spara frågan som ett fördefinierat filter för framtida återanvändning.
 
   >[!IMPORTANT]
   >

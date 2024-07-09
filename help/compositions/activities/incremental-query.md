@@ -4,10 +4,10 @@ title: Använd inkrementell frågeaktivitet
 description: Lär dig hur du använder aktiviteten Inkrementell fråga
 hide: true
 hidefromtoc: true
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 18%
+source-wordcount: '573'
+ht-degree: 17%
 
 ---
 
@@ -49,7 +49,7 @@ Följ de här stegen för att konfigurera **Inkrementell fråga** aktivitet:
 
    Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
-1. Använd frågemodelleraren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Använd frågemodelleraren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
 1. I **[!UICONTROL Processed data]** väljer du det inkrementella läge som ska användas:
 
