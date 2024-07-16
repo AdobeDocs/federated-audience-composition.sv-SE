@@ -15,12 +15,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Spara en publik"
->abstract="Använd den här aktiviteten för att uppdatera en befintlig målgrupp eller skapa en ny målgrupp från populationen som beräknas uppströms i kompositionen. De målgrupper som skapas läggs till i listan över målgrupper och är tillgängliga via **Målgrupper** -menyn."
+>abstract="Använd den här aktiviteten för att uppdatera en befintlig målgrupp eller skapa en ny målgrupp från populationen som beräknas uppströms i kompositionen. De målgrupper som skapas läggs till i listan över målgrupper och är tillgängliga via menyn **Publiker** ."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
 >title="Generera utgående övergång"
->abstract="Använd det här alternativet om du vill lägga till en övergång efter **Spara målgrupper** aktivitet."
+>abstract="Använd det här alternativet om du vill lägga till en övergång efter aktiviteten **Spara målgrupp**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
@@ -34,23 +34,23 @@ ht-degree: 0%
 >abstract="Välj det namnutrymme som ska användas för profiler."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Läs mer i dokumentationen för Experience Platform"
 
-The **Spara målgrupper** Med -aktivitet kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp från populationen som beräknas uppströms i en komposition. De målgrupper som skapas läggs till i listan över programmålgrupper och blir tillgängliga via **Målgrupper** -menyn.
+Med aktiviteten **Spara målgrupp** kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp utifrån den population som beräknas uppströms i en komposition. De målgrupper som skapas läggs till i listan över programmålgrupper och blir tillgängliga via menyn **Publiker** .
 
-Denna verksamhet används främst för att få populationsgrupper att beräknas i samma sammansättning genom att de omvandlas till återanvändbara målgrupper. Koppla det till andra målinriktningsaktiviteter som **Bygg målgrupper** eller en **Kombinera** aktivitet.
+Denna verksamhet används främst för att få populationsgrupper att beräknas i samma sammansättning genom att de omvandlas till återanvändbara målgrupper. Koppla det till andra målinriktningsaktiviteter som **Skapa målgrupp** eller en **Kombinera**-aktivitet.
 
 ## Konfigurera aktiviteten Spara målgrupp {#save-audience-configuration}
 
-Följ de här stegen för att konfigurera **Spara målgrupper** aktivitet:
+Så här konfigurerar du aktiviteten **Spara målgrupp**:
 
-1. Lägg till en **Spara målgrupper** till din komposition.
+1. Lägg till en **Spara målgruppsaktivitet** i kompositionen.
 
    ![](../assets/save-audience.png)
 
 1. Ange etiketten för målgruppen som ska skapas.
 
-1. Klicka **Lägg till målgruppsmappning** välj sedan käll- och målgruppsfälten:
+1. Klicka på **Lägg till målgruppsmappning** och välj käll- och målmålgruppsfälten:
 
-   * **Source Audience Field**:
+   * **Source målgruppsfält**:
    * **Målgruppsfält**:
 
    Upprepa åtgärden för att lägga till så många målgruppsmappningar som behövs.
@@ -58,9 +58,9 @@ Följ de här stegen för att konfigurera **Spara målgrupper** aktivitet:
 1. Välj den primära identitet och det namnutrymme som ska användas för att identifiera målprofilerna i databasen:
 
    * **Primärt identitetsfält**: Markera det fält som ska användas för att identifiera profilerna. Till exempel dess e-postadress eller telefonnummer.
-   * **Namnutrymme för identitet**: Välj det namnutrymme som ska användas för att identifiera profilerna, dvs. vilken typ av data som ska användas som identifieringsnyckel. Om e-postadressen till exempel har valts som primärt identitetsfält anger identitetsnamnutrymmet **E-post** ska vara markerat. Om den unika identifieraren är telefonnumret är identitetsnamnutrymmet **Telefon** ska vara markerat.
+   * **Identitetsnamnrymd**: Välj det namnutrymme som ska användas för att identifiera profilerna, dvs. den typ av data som ska användas som identifieringsnyckel. Om e-postadressen till exempel har valts som primärt identitetsfält bör identitetsnamnområdet **E-postadress** väljas. Om den unika identifieraren är telefonnumret bör identitetsnamnområdet **Telefon** väljas.
 
-När kompositionen är klar sparas målgruppen i Adobe Experience Platform <!-- to check-->och som är tillgängliga i **Målgrupper** -menyn.
+När kompositionen har körts sparas den slutliga publiken i Adobe Experience Platform <!-- to check--> och blir tillgänglig på menyn **Publiker** .
 
 <!--
 

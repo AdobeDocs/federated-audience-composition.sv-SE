@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="Arbeta med modeller"
->abstract="Scheman och datamodeller visas på den här skärmen. Du kan skapa scheman och datamodeller från **Skapa** -knappen."
+>abstract="Scheman och datamodeller visas på den här skärmen. Du kan skapa scheman och datamodeller med knappen **Skapa** ."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
@@ -44,11 +44,11 @@ Läs mer om [målgrupper](../customer/audiences.md).
 
 ## Hur skapar man en datamodell? {#data-model-create}
 
-I **[!UICONTROL FEDERATED DATA]** går du in i **[!UICONTROL Models]** länk. Där hittar du **[!UICONTROL Data model]** -fliken.
+Gå till länken **[!UICONTROL Models]** i avsnittet **[!UICONTROL FEDERATED DATA]**. Där finns fliken **[!UICONTROL Data model]**.
 
 ![](assets/datamodel_create.png){zoomable="yes"}
 
-Klicka på **[!UICONTROL Create data model]** kan du namnge din datamodell och klicka på **[!UICONTROL Create]** -knappen.
+Genom att klicka på knappen **[!UICONTROL Create data model]** kan du namnge datamodellen och klicka på knappen **[!UICONTROL Create]**.
 
 ![](assets/datamodel_name.png){zoomable="yes"}
 

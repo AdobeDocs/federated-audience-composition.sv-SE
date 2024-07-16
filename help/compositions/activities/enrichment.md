@@ -15,12 +15,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Anrikningsaktivitet"
->abstract="The **Berikning** kan du förbättra måldata med ytterligare information från databasen. Den används ofta i en komposition efter segmenteringsaktiviteter."
+>abstract="Med aktiviteten **Enrichment** kan du förbättra måldata med ytterligare information från databasen. Den används ofta i en komposition efter segmenteringsaktiviteter."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="Anrikningsaktivitet"
->abstract="När berikningsdata har lagts till i sammansättningen kan de användas i aktiviteter som lagts till efter **Berikning** -aktivitet för att segmentera profiler i olika grupper baserat på deras beteenden, inställningar och val."
+>abstract="När data för berikning har lagts till i kompositionen kan de användas i aktiviteter som lagts till efter aktiviteten **Enrichment** för att segmentera profiler i distinkta grupper baserat på deras beteenden, inställningar och val."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
@@ -37,40 +37,40 @@ ht-degree: 0%
 >title="Anrikningsdata"
 >abstract="Välj de data som ska användas för att berika kompositionen. Du kan välja två typer av anrikningsdata: ett enskilt anrikningsattribut från schemat, även kallat måldimension, eller en samlingslänk, som är en länk med en 1-N-kardinalitet mellan tabeller."
 
-The **Berikning** kan du förbättra måldata med ytterligare information från den federerade databasen. Den används ofta i kompositioner efter segmenteringsaktiviteter.
+Med aktiviteten **Enrichment** kan du förbättra måldata med ytterligare information från den federerade databasen. Den används ofta i kompositioner efter segmenteringsaktiviteter.
 
 Anrikningsdata kan komma antingen:
 
-* **Från samma arbetsregister** som den som är inriktad på din komposition:
+* **Från samma arbetstabell** som den som är avsedd för din komposition:
 
-  *Ange en grupp kunder som målgrupp och lägg till fältet&quot;Födelsedatum&quot; i den aktuella arbetsregistret*.
+  *Ange en grupp kunder som mål och lägg till fältet &quot;Födelsedatum&quot; i den aktuella arbetstabellen*.
 
 * **Från en annan arbetstabell**:
 
-  *Ange kunder som målgrupp och lägg till fälten&quot;Belopp&quot; och&quot;Typ av produkt&quot; från tabellen&quot;Inköp&quot;*.
+  *Aktivera en grupp kunder och lägg till fälten Belopp och Produkttyp som kommer från tabellen Inköp*.
 
-När anrikningsdata har lagts till i sammansättningen kan de användas i aktiviteter som lagts till efter **Berikning** aktiviteter för att segmentera kunder i olika grupper baserat på deras beteenden, preferenser och val.
+När anrikningsdata har lagts till i kompositionen kan de användas i aktiviteter som lagts till efter **anrikningsaktiviteten** för att segmentera kunder i distinkta grupper baserat på deras beteenden, inställningar och val.
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
 ## Konfigurera anrikningsaktiviteten {#enrichment-configuration}
 
-Följ de här stegen för att konfigurera **Berikning** aktivitet:
+Så här konfigurerar du aktiviteten **Enrichment**:
 
-1. Lägg till aktiviteter som **Bygg målgrupper** och **Kombinera** verksamhet.
-1. Lägg till en **Berikning** aktivitet.
+1. Lägg till aktiviteter som **Skapa målgrupp** och **Kombinera** aktiviteter.
+1. Lägg till en **anrikningsaktivitet**.
 
    ![](../assets/enrichment.png)
 
-1. Om flera övergångar har konfigurerats i din komposition kan du använda **[!UICONTROL Primary set]** -fält för att definiera vilken övergång som ska användas som primär uppsättning för att berika med data.
+1. Om flera övergångar har konfigurerats i din komposition kan du använda fältet **[!UICONTROL Primary set]** för att definiera vilken övergång som ska användas som primär uppsättning för att utöka med data.
 
-1. Klicka **Lägg till anrikningsdata** och välj det attribut som ska användas för att förbättra data.
+1. Klicka på **Lägg till anrikningsdata** och markera attributet som ska användas för att utöka data.
 
    ![](../assets/enrichment-add.png)
 
    >[!NOTE]
    >
-   >The **Redigera uttrycksknapp** på skärmen för attributval kan du skapa avancerade uttryck för att välja attributet.
+   >Med knappen **Redigera uttryck** i attributmarkeringsskärmen kan du skapa avancerade uttryck för att välja attributet.
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 
@@ -83,9 +83,9 @@ Följ de här stegen för att konfigurera **Berikning** aktivitet:
 
 Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatumet. Följ de här stegen:
 
-1. Klicka inuti **Attribut** fält.
+1. Klicka i fältet **Attribut**.
 1. Välj ett enkelt fält från schemat, som också kallas måldimension, födelsedatumet i vårt exempel.
-1. Klicka **Bekräfta**.
+1. Klicka på **Bekräfta**.
 
 <!--### Collection link {#collection-link}
 

@@ -14,18 +14,18 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
 >title="Vänta på aktivitet"
->abstract="The **Vänta** används för att fördröja övergången från en aktivitet till en annan."
+>abstract="Aktiviteten **Wait** används för att fördröja övergången från en aktivitet till en annan."
 
-The **Vänta** aktiviteten gör att det går en viss tid mellan två aktiviteter som körs. Om du till exempel vill vänta flera dagar efter en aktivitet där e-post levererats så analyserar du de öppningar och klick som genereras under den här perioden innan du utför några uppföljningsåtgärder (påminnelser via e-post, målgruppsgenerering osv.).
+Aktiviteten **Wait** tillåter en viss tid mellan två aktiviteter som körs. Om du till exempel vill vänta flera dagar efter en aktivitet där e-post levererats så analyserar du de öppningar och klick som genereras under den här perioden innan du utför några uppföljningsåtgärder (påminnelser via e-post, målgruppsgenerering osv.).
 
 ## Konfiguration{#wait-configuration}
 
-Följ de här stegen för att konfigurera **Vänta** aktivitet:
+Följ de här stegen för att konfigurera aktiviteten **Wait**:
 
-1. Lägg till en **Vänta** till din komposition.
+1. Lägg till en **Vänta**-aktivitet i kompositionen.
 
-1. Ange **Varaktighet** av väntetiden mellan inkommande och utgående övergångar.
+1. Ange **Varaktighet** för väntetiden mellan inkommande och utgående övergångar.
 
-1. Välj tidsenhet i dialogrutan **Perioder** fält: sekunder, minuter, timmar, dagar.
+1. Välj tidsenhet i fältet **Perioder**: sekunder, minuter, timmar, dagar.
 
 

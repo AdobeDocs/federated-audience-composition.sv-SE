@@ -16,7 +16,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery"
 >title="Inkrementell fråga"
->abstract="The **Inkrementell fråga** kan du använda frågemodelleraren för att fråga databasen. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element."
+>abstract="Med aktiviteten **Inkrementell fråga** kan du fråga databasen med hjälp av frågemodelleraren. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery_history"
@@ -28,7 +28,7 @@ ht-degree: 17%
 >title="Inkrementell fråga Bearbetade data"
 >abstract="Inkrementell fråga Bearbetade data"
 
-The **Inkrementell fråga** Med -aktivitet kan du fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element.
+Med aktiviteten **Inkrementell fråga** kan du fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element.
 
 Aktiviteten **[!UICONTROL Incremental query]** kan användas för olika typer av användning:
 
@@ -41,25 +41,25 @@ Om resultatet av en stegvis fråga är lika med 0 under en av körningarna pausa
 
 ## Konfigurera aktiviteten Inkrementell fråga {#incremental-query-configuration}
 
-Följ de här stegen för att konfigurera **Inkrementell fråga** aktivitet:
+Följ de här stegen för att konfigurera aktiviteten **Inkrementell fråga**:
 
-1. Lägg till en **Inkrementell fråga** till din komposition.
+1. Lägg till en **inkrementell frågeaktivitet** i din komposition.
 
-1. I **[!UICONTROL Audience]** väljer du **Måldimension** klicka sedan på **[!UICONTROL Continue]**.
+1. I avsnittet **[!UICONTROL Audience]** väljer du **Måldimension** och klickar sedan på **[!UICONTROL Continue]**.
 
    Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard är målet markerat bland mottagarna. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
 1. Använd frågemodelleraren för att definiera frågan, på samma sätt som du skapar en målgrupp när du utformar ett nytt e-postmeddelande. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
-1. I **[!UICONTROL Processed data]** väljer du det inkrementella läge som ska användas:
+1. I avsnittet **[!UICONTROL Processed data]** väljer du det inkrementella läge som ska användas:
 
-   * **[!UICONTROL Exclude results of previous execution]**: Varje gång aktiviteten körs exkluderas resultatet från föregående körningar.
+   * **[!UICONTROL Exclude results of previous execution]**: Varje gång aktiviteten körs exkluderas resultatet från tidigare körningar.
 
-     Poster som redan har valts i tidigare körningar kan loggas i högst ett antal dagar från den dag de angavs som mål. Använd **[!UICONTROL History in days]** fält. Om värdet är noll rensas mottagarna aldrig från loggen.
+     Poster som redan har valts i tidigare körningar kan loggas i högst ett antal dagar från den dag de angavs som mål. Använd fältet **[!UICONTROL History in days]** om du vill göra det. Om värdet är noll rensas mottagarna aldrig från loggen.
 
-   * **[!UICONTROL Use a date field]**: Med det här alternativet kan du utesluta resultat från tidigare körningar baserat på ett specifikt datumfält. Det gör du genom att välja önskat datumfält i listan över tillgängliga attribut för den valda måldimensionen. Vid nästa körning av kompositionen hämtas endast data som har ändrats eller skapats efter det senaste körningsdatumet.
+   * **[!UICONTROL Use a date field]**: Med det här alternativet kan du exkludera resultat från tidigare körningar baserat på ett specifikt datumfält. Det gör du genom att välja önskat datumfält i listan över tillgängliga attribut för den valda måldimensionen. Vid nästa körning av kompositionen hämtas endast data som har ändrats eller skapats efter det senaste körningsdatumet.
 
-     Efter det första utförandet av kompositionen är **[!UICONTROL Last execution date]** blir tillgängligt. Det anger vilket datum som ska användas för nästa körning och uppdateras automatiskt varje gång kompositionen körs. Du kan fortfarande åsidosätta det här värdet genom att ange ett nytt värde manuellt så att det passar dina behov.
+     Efter den första körningen av kompositionen blir fältet **[!UICONTROL Last execution date]** tillgängligt. Det anger vilket datum som ska användas för nästa körning och uppdateras automatiskt varje gång kompositionen körs. Du kan fortfarande åsidosätta det här värdet genom att ange ett nytt värde manuellt så att det passar dina behov.
 
    >[!NOTE]
    >

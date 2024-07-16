@@ -15,26 +15,26 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Generera ett komplement"
->abstract="Du kan generera ytterligare en utgående övergång med den återstående populationen, som har uteslutits som en dubblett. Aktivera **Generera komplement** option"
+>abstract="Du kan generera ytterligare en utgående övergång med den återstående populationen, som har uteslutits som en dubblett. Aktivera alternativet **Generera komplement** om du vill göra det."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Ändra dimensionsaktivitet"
 >abstract="Med den här aktiviteten kan du ändra schemat, även kallat målgruppsdimension, när du skapar en målgrupp. Axeln flyttas beroende på datamallen och indatabildschemat. Du kan till exempel växla från&quot;kontrakt&quot;-schemat till&quot;klienter&quot;-schemat."
 
-The **Ändra dimension** kan ni ändra schemat, även kallat målgruppsdimension, när ni skapar er målgrupp. Axeln flyttas beroende på datamallen och indatabildschemat.
+Med aktiviteten **Ändra dimension** kan du ändra schemat, som också kallas måldimension, när du skapar din målgrupp. Axeln flyttas beroende på datamallen och indatabildschemat.
 
 ## Konfigurera aktiviteten Ändra dimension {#configure}
 
-Följ de här stegen för att konfigurera **Ändra dimension** aktivitet:
+Följ de här stegen för att konfigurera aktiviteten **Ändra dimension**:
 
-1. Lägg till en **Ändra dimension** till din komposition.
+1. Lägg till en **Ändra dimension**-aktivitet i kompositionen.
 
    ![](../assets/change-dimension.png)
 
-1. Definiera **Nytt schema**. Under schemaändringen sparas alla poster.
+1. Definiera det **nya schemat**. Under schemaändringen sparas alla poster.
 
-1. Kör kompositionen för att visa resultatet. Jämför data i tabellerna före och efter **Ändra dimension** och jämför dispositionsförteckningarnas struktur.
+1. Kör kompositionen för att visa resultatet. Jämför data i tabellerna före och efter aktiviteten **Ändra dimension** och jämför strukturen i dispositionstabellerna.
 
 <!--
 ## Example {#example}

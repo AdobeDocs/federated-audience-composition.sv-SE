@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="Avstämningsaktivitet"
->abstract="The **Avstämning** kan du definiera länken mellan data i databasen och data i en arbetstabell."
+>abstract="Med aktiviteten **Avstämning** kan du definiera länken mellan data i databasen och data i en arbetstabell."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -32,11 +32,11 @@ ht-degree: 0%
 >title="Avstämning genererar komplementtal"
 >abstract="Avstämning genererar komplementtal"
 
-The **Avstämning** Med -aktivitet kan du definiera länken mellan data i databasen och data i en arbetstabell, till exempel data som lästs in från ett externt system.
+Med aktiviteten **Avstämning** kan du definiera länken mellan data i databasen och data i en arbetstabell, till exempel data som lästs in från ett externt system.
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-The **Avstämning** kan du länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att de data som du ansluter redan finns i databasen. Om du t.ex. vill avstämma inköpsinformation som visar vilken produkt som köptes, vid vilken tidpunkt, av vilken klient, osv., måste produkten och klienten redan finnas i databasen.
+Med aktiviteten **Avstämning** kan du länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att de data som du ansluter redan finns i databasen. Om du t.ex. vill avstämma inköpsinformation som visar vilken produkt som köptes, vid vilken tidpunkt, av vilken klient, osv., måste produkten och klienten redan finnas i databasen.
 
 ## Konfigurera avstämningsaktiviteten {#reconciliation-configuration}
 
@@ -48,7 +48,7 @@ The **Avstämning** kan du länka oidentifierade data till befintliga resurser. 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
 >title="Avstämningsregler"
->abstract="Välj avstämningsregler som ska användas för dedupliceringen. Välj **Enkla attribut** och välj käll- och målfälten. Om du vill skapa ett eget avstämningsvillkor med frågemodelleraren väljer du **Avancerade avstämningsvillkor** alternativ."
+>abstract="Välj avstämningsregler som ska användas för dedupliceringen. Om du vill använda attribut markerar du alternativet **Enkla attribut** och väljer käll- och målfälten. Om du vill skapa ett eget avstämningsvillkor med frågemodelleraren väljer du alternativet **Avancerade avstämningsvillkor** ."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
@@ -58,37 +58,37 @@ The **Avstämning** kan du länka oidentifierade data till befintliga resurser. 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
 >title="Behåll ej avstämda data"
->abstract="Som standard behålls ej avstämda data i den utgående övergången och är tillgängliga i arbetstabellen för framtida bruk. Om du vill ta bort ej avstämda data inaktiverar du **Behåll ej avstämda data** alternativ."
+>abstract="Som standard behålls ej avstämda data i den utgående övergången och är tillgängliga i arbetstabellen för framtida bruk. Om du vill ta bort ej avstämda data inaktiverar du alternativet **Behåll ej avstämda data**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Avstämningsattribut"
 >abstract="Markera det attribut som ska användas för att avstämma data och bekräfta."
 
-Följ de här stegen för att konfigurera **Avstämning** aktivitet:
+Så här konfigurerar du aktiviteten **Avstämning**:
 
-1. Lägg till en **Avstämning** till din komposition.
+1. Lägg till en **avstämningsaktivitet** i din komposition.
 
 1. Välj **Nytt schema**. Med ett schema, som också kallas måldimension, kan du definiera målpopulationen: mottagare, appprenumeranter, operatorer, prenumeranter osv.
 
 1. Välj de fält som ska användas för avstämningen. Du kan använda ett eller flera avstämningskriterier.
 
-   1. Om du vill använda attribut för att stämma av data väljer du **Enkla attribut** sedan klickar du på **Lägg till regel** -knappen.
-   1. Välj **Source** och **Mål** fält för avstämningen. The **Source** fält. The **Mål** fältet motsvarar fälten i det valda schemat.
+   1. Om du vill använda attribut för att stämma av data markerar du alternativet **Enkla attribut** och klickar sedan på knappen **Lägg till regel** .
+   1. Markera fälten **Source** och **Mål** för avstämningen. Fältet **Source**. Fältet **Mål** motsvarar fälten i det valda schemat.
 
-      Data avstäms när källan och målet är lika. Välj till exempel **E-post** fält för att deduplicera profiler baserat på deras e-postadress.
+      Data avstäms när källan och målet är lika. Markera till exempel fälten **E-post** för att ta bort dubbletter av profiler baserat på deras e-postadress.
 
-      Om du vill lägga till ytterligare avstämningsvillkor klickar du på **Lägg till regel** -knappen. Om flera kopplingsvillkor anges måste ALLA verifieras så att data kan länkas ihop.
+      Om du vill lägga till ytterligare avstämningsvillkor klickar du på knappen **Lägg till regel** . Om flera kopplingsvillkor anges måste ALLA verifieras så att data kan länkas ihop.
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Om du vill använda andra attribut för att stämma av data väljer du **Avancerade avstämningsvillkor** sedan klickar du på **Skapa villkor** -knappen. Du kan sedan skapa ett eget avstämningsvillkor med frågemodelleraren. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
+   1. Om du vill använda andra attribut för att stämma av data väljer du alternativet **Avancerade avstämningsvillkor** och klickar sedan på knappen **Skapa villkor** . Du kan sedan skapa ett eget avstämningsvillkor med frågemodelleraren. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 
-1. Du kan använda **Skapa filter** -knappen. Detta gör att du kan skapa ett anpassat villkor med hjälp av frågemodelleraren.
+1. Du kan filtrera data för avstämning med knappen **Skapa filter** . Detta gör att du kan skapa ett anpassat villkor med hjälp av frågemodelleraren.
 
-Som standard lagras ej avstämda data i den utgående övergången och är tillgängliga i arbetsboken för framtida bruk. Om du vill ta bort ej avstämda data inaktiverar du **Behåll ej avstämda data** alternativ.
+Som standard lagras ej avstämda data i den utgående övergången och är tillgängliga i arbetsboken för framtida bruk. Om du vill ta bort ej avstämda data inaktiverar du alternativet **Behåll ej avstämda data**.
 
 <!--
 ## Example {#reconciliation-example}

@@ -15,6 +15,6 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Skapa ett mål"
->abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd **Anslut till mål** för att validera konfigurationen."
+>abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd knappen **Anslut till mål** för att validera konfigurationen."
 
 

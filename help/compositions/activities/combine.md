@@ -15,40 +15,40 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
 >title="Kombinera aktivitet"
->abstract="The **Kombinera** kan du segmentera den inkommande populationen. Du kan alltså kombinera flera populationer, exkludera delar av dem eller bara behålla data som är gemensamma för flera mål."
+>abstract="Med aktiviteten **Kombinera** kan du utföra segmentering på den inkommande populationen. Du kan alltså kombinera flera populationer, exkludera delar av dem eller bara behålla data som är gemensamma för flera mål."
 
-The **Kombinera** kan du segmentera den inkommande populationen. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål.
+Med aktiviteten **Kombinera** kan du utföra segmentering på den inkommande populationen. Du kan alltså kombinera flera populationer, utesluta en del av dem eller bara behålla data som är gemensamma för flera mål.
 
-The **Kombinera** kan placeras efter andra aktiviteter, men inte i början av kompositionen. Alla aktiviteter kan placeras efter **Kombinera**.
+Aktiviteten **Kombinera** kan placeras efter andra aktiviteter, men inte i början av kompositionen. Alla aktiviteter kan placeras efter **Kombinera**.
 
 ## Konfigurera Kombinera-aktiviteten {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
 >title="Sammanfogningsalternativ för skärningar"
->abstract="The **skärningspunkt** gör att du bara kan behålla de element som är gemensamma för de olika inkommande populationerna i aktiviteten. I **Uppsättningar att förena** markerar du alla tidigare aktiviteter du vill gå med i."
+>abstract="Med **skärningspunkten** kan du bara behålla element som är gemensamma för de olika inkommande populationerna i aktiviteten. I avsnittet **Uppsättningar att gå med i** markerar du alla tidigare aktiviteter som du vill gå med i."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Alternativ för uteslutningssammanslagning"
->abstract="The **exkludering** gör att du kan utesluta element från en population enligt vissa kriterier. I **Uppsättningar att förena** markerar du alla tidigare aktiviteter du vill gå med i."
+>abstract="Med **exkluderingen** kan du utesluta element från en population enligt vissa villkor. I avsnittet **Uppsättningar att gå med i** markerar du alla tidigare aktiviteter som du vill gå med i."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="Välj segmenteringstyp"
 >abstract="Välj hur du vill kombinera målgrupper: union, skärning eller uteslutning."
 
-Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet:
+Följ de här vanliga stegen för att börja konfigurera aktiviteten **Kombinera**:
 
 1. Lägg till flera aktiviteter för att bilda minst två olika körningsgrenar.
 
-1. Lägg till en **Kombinera** verksamhet till någon av de tidigare filialerna.
+1. Lägg till en **Kombinera**-aktivitet i någon av de tidigare grenarna.
 
-1. Välj segmenteringstyp: [Union](#union), [Skärningspunkt](#intersection) eller [Uteslutning](#exclusion)och klicka **Fortsätt**.
+1. Välj segmenteringstyp: [Förening](#union), [Skärningspunkt](#intersection) eller [Uteslutning](#exclusion) och klicka på **Fortsätt**.
 
    ![](../assets/combine.png)
 
-1. I **Uppsättningar att förena** markerar du alla tidigare aktiviteter som du vill ansluta till.
+1. Markera alla tidigare aktiviteter som du vill ansluta till i avsnittet **Uppsättningar att ansluta till**.
 
 ## Sammanslutning {#combine-union}
 
@@ -60,60 +60,60 @@ Följ de här vanliga stegen för att börja konfigurera **Kombinera** aktivitet
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_reconciliation"
 >title="Avstämningsalternativ"
->abstract="Välj **Avstämningstyp** för att definiera hur dubbletter ska hanteras."
+>abstract="Välj **Avstämningstypen** för att definiera hur dubbletter ska hanteras."
 
-I **Kombinera** -aktivitet kan du konfigurera en **Union**.
+I aktiviteten **Kombinera** kan du konfigurera en **union**.
 
 ![](../assets/combine-union.png)
 
-För detta måste du välja **Avstämningstyp** för att definiera hur dubbletter hanteras:
+För detta måste du välja **avstämningstypen** för att definiera hur dubbletter hanteras:
 
-* **Endast tangenter**: det här är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
-* **En markering med kolumner**: välj det här alternativet för att definiera listan med kolumner som datavstämningen ska användas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
+* **Endast tangenter**: Detta är standardläget. Aktiviteten behåller endast ett element när element från olika inkommande övergångar har samma nyckel.  Detta alternativ kan endast användas om de inkommande populationerna är homogena.
+* **Ett urval kolumner**: välj det här alternativet om du vill definiera listan med kolumner som datavstämningen ska användas på. Du måste först markera den primära uppsättningen (som innehåller källdata) och sedan de kolumner som ska användas för kopplingen.
 
 ## Skärningspunkt {#combine-intersection}
 
-I **Kombinera** -aktivitet kan du konfigurera en **Skärningspunkt**.
+I aktiviteten **Kombinera** kan du konfigurera en **skärning**.
 
 ![](../assets/combine-intersection.png)
 
 För detta följer du de extra stegen nedan:
 
-1. Välj **Avstämningstyp** för att definiera hur dubbletter hanteras. Se [Union](#union) -avsnitt.
-1. Du kan kontrollera **Generera komplement** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
+1. Välj **Avstämningstypen** för att definiera hur dubbletter hanteras. Se avsnittet [Förena](#union).
+1. Du kan kontrollera alternativet **Generera komplement** om du vill bearbeta den återstående populationen. Komplementet ska innehålla en kombination av resultaten av alla inkommande aktiviteter minus skärningspunkten. En ytterligare utgående övergång läggs sedan till i aktiviteten.
 
 ## Uteslutning {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Uteslutningsregler"
->abstract="Vid behov kan du ändra inkommande tabeller. Om du vill utesluta ett mål från ett annat schema, som också kallas måldimension, måste det här målet återställas till samma schema som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i E **exkluderingsregler** och ange villkoren för schemaändring. Datavstämning utförs antingen via ett attribut eller en koppling."
+>abstract="Vid behov kan du ändra inkommande tabeller. Om du vill utesluta ett mål från ett annat schema, som också kallas måldimension, måste det här målet återställas till samma schema som huvudmålet. Det gör du genom att klicka på **Lägg till en regel** i avsnittet E **xklusionsregler** och ange villkoren för schemaändring. Datavstämning utförs antingen via ett attribut eller en koppling."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
 >title="Markera uppsättningar som ska kombineras"
->abstract="I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen."
+>abstract="I avsnittet **Uppsättningar att gå med i** väljer du den **primära uppsättningen** bland de inkommande övergångarna. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Uteslutningsregler"
->abstract="Vid behov kan du ändra inkommande tabeller. Om du vill utesluta ett mål från ett annat schema, som också kallas måldimension, måste det här målet återställas till samma schema som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för schemaändring. Datavstämning utförs antingen via ett attribut eller en koppling."
+>abstract="Vid behov kan du ändra inkommande tabeller. Om du vill utesluta ett mål från ett annat schema, som också kallas måldimension, måste det här målet återställas till samma schema som huvudmålet. Det gör du genom att klicka på **Lägg till en regel** i avsnittet **Uteslutningsregler** och ange villkoren för schemaändring. Datavstämning utförs antingen via ett attribut eller en koppling."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Kombinera skapa komplementfärger"
->abstract="Växla på **Generera komplement** möjlighet att bearbeta den återstående populationen i en ytterligare övergång."
+>abstract="Växla till alternativet **Generera komplement** om du vill bearbeta den återstående populationen i en ytterligare övergång."
 
-I **Kombinera** -aktivitet kan du konfigurera en **Uteslutning**.
+I aktiviteten **Kombinera** kan du konfigurera ett **undantag**.
 
 ![](../assets/combine-exclusion.png)
 
 För detta behöver du följa de extra stegen nedan:
 
-1. I **Uppsättningar att förena** väljer du **Primär uppsättning** från inkommande övergångar. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
+1. I avsnittet **Uppsättningar att gå med i** väljer du den **primära uppsättningen** bland de inkommande övergångarna. Detta är den uppsättning från vilken element utesluts. De andra uppsättningarna matchar element innan de utesluts från den primära uppsättningen.
 
-1. Vid behov kan du ändra inkommande tabeller. Om du vill utesluta ett mål från ett annat schema måste det här målet återställas till samma schema som huvudmålet. Det gör du genom att klicka **Lägg till en regel** i **Uteslutningsregler** och ange villkoren för schemaändring. Datavstämning utförs antingen via ett attribut eller en koppling. <!-- pas compris-->
-1. Du kan kontrollera **Generera slutförande** om du vill bearbeta den återstående populationen. Se [Skärningspunkt](#intersection) -avsnitt.
+1. Vid behov kan du ändra inkommande tabeller. Om du vill utesluta ett mål från ett annat schema måste det här målet återställas till samma schema som huvudmålet. Det gör du genom att klicka på **Lägg till en regel** i avsnittet **Uteslutningsregler** och ange villkoren för schemaändring. Datavstämning utförs antingen via ett attribut eller en koppling. <!-- pas compris-->
+1. Du kan kontrollera alternativet **Generera slutförande** om du vill bearbeta den återstående fyllningen. Se avsnittet [Skärningspunkt](#intersection).
 
 <!--
 ## Examples{#combine-examples}
