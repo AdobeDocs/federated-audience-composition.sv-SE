@@ -2,9 +2,10 @@
 audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i frågemodelleraren
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2018'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,13 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 1. Klicka på knappen **+** på den önskade noden och välj **[!UICONTROL Custom condition]**. Rutan för anpassade villkorsegenskaper öppnas till höger.
 
-1. I fältet **Attribut** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från databasen, inklusive attribut från länkade tabeller.
+1. I fältet **[!UICONTROL Attribute]** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från databasen, inklusive attribut från länkade tabeller.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Med knappen **Redigera uttryck** kan du använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. [Lär dig hur du redigerar uttryck](expression-editor.md)
+   >Med knappen **[!UICONTROL Edit expression]** kan du använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. [Lär dig hur du redigerar uttryck](expression-editor.md)
 
 1. Välj den operator som ska användas i listrutan. Olika operatorer är tillgängliga för användning. Observera att operatorer som är tillgängliga i listrutan beror på attributets datatyp.
 
@@ -78,7 +79,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
 +++
 
-1. Definiera det förväntade värdet i fältet **Värde**. Du kan också använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Det gör du genom att klicka på knappen **Redigera uttryck** . [Lär dig hur du redigerar uttryck](expression-editor.md)
+1. Definiera det förväntade värdet i fältet **[!UICONTROL Value]**. Du kan också använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Klicka på knappen **[!UICONTROL Edit expression]** om du vill göra det. [Lär dig hur du redigerar uttryck](expression-editor.md)
 
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
@@ -90,13 +91,13 @@ Med anpassade villkor kan du fråga tabeller som är länkade till den tabell so
 
 Navigera till den länkade tabellen för en **1-1-länk**, markera önskat attribut och definiera det förväntade värdet.
 
-Du kan också markera en tabelllänk direkt i väljaren **Värde** och bekräfta. I så fall måste värden som är tillgängliga för den valda tabellen markeras med en dedikerad väljare, vilket visas i exemplet nedan.
+Du kan också markera en tabelllänk direkt i **[!UICONTROL Value]**-väljaren och bekräfta. I så fall måste värden som är tillgängliga för den valda tabellen markeras med en dedikerad väljare, vilket visas i exemplet nedan.
 
 +++Exempel på fråga
 
 Här riktar frågan sig till varumärken vars etikett är&quot;kör&quot;.
 
-1. Navigera inuti tabellen **Varumärke** och markera attributet **Etikett**.
+1. Navigera inuti tabellen **[!UICONTROL Brand]** och markera attributet **[!UICONTROL Label]**.
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -116,7 +117,7 @@ För en **1-N-länk** kan du definiera undervillkor för att förfina din fråga
 
 Här riktar frågan sig till mottagare som har gjort inköp relaterade till BrewMaster-produkten, med ett totalt belopp på minst 100$.
 
-1. Markera tabellen **Inköp** och bekräfta.
+1. Markera tabellen **[!UICONTROL Purchases]** och bekräfta.
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -124,7 +125,7 @@ Här riktar frågan sig till mottagare som har gjort inköp relaterade till Brew
 
    ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Välj attributet **Price** och målinköp på minst 1 000$
+1. Välj attributet **[!UICONTROL Price]** och målinköp på minst 1 000$
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -142,7 +143,7 @@ Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. I egenskapsrutan växlar du på alternativet **Sammanställd data** och väljer önskad sammanställningsfunktion.
+1. I egenskapsrutan växlar du på alternativet **[!UICONTROL Aggregate data]** och väljer önskad sammanställningsfunktion.
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -151,13 +152,13 @@ Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="Välj målgrupp"
->abstract="Genom att använda alternativet **Välj målgrupp** kan du välja vilken målgrupp du vill använda för att filtrera din fråga."
+>abstract="Genom att använda alternativet **[!UICONTROL Select audience]** kan du välja vilken målgrupp du vill använda för att filtrera din fråga."
 
 Så här filtrerar du frågan med en befintlig målgrupp:
 
 1. Klicka på knappen **+** på den önskade noden och välj **[!UICONTROL Select audience]**.
 
-1. Egenskapsrutan **Välj målgrupp** öppnas till höger. Välj den målgrupp som du vill använda för att filtrera frågan.
+1. Egenskapsrutan **[!UICONTROL Select audience]** öppnas till höger. Välj den målgrupp som du vill använda för att filtrera frågan.
 
    *Frågeexempel som returnerar alla profiler som tillhör målgruppen Festival Goers:*
 
@@ -168,13 +169,13 @@ Så här filtrerar du frågan med en befintlig målgrupp:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="Fördefinierat filter"
->abstract="Genom att använda alternativet **Fördefinierat filter** kan du välja ett fördefinierat filter i listan över anpassade filter eller bland favoriter."
+>abstract="Genom att använda alternativet **[!UICONTROL Predefined filter]** kan du välja ett fördefinierat filter från listan med anpassade filter eller från favoriter."
 
 Så här filtrerar du frågan med ett fördefinierat filter:
 
 1. Klicka på knappen **+** på den önskade noden och välj **[!UICONTROL Predefined filter]**.
 
-1. Panelen **Fördefinierade filter** öppnas till höger. Välj ett fördefinierat filter i listan med anpassade filter eller bland favoriter.
+1. Egenskapsrutan **[!UICONTROL Predefined filter]** öppnas till höger. Välj ett fördefinierat filter i listan med anpassade filter eller bland favoriter.
 
    *Frågeexempel som returnerar alla profiler som motsvarar det fördefinierade filtret Inaktiva kunder:*
 
@@ -198,7 +199,7 @@ Så här kopierar och klistrar du in filterkomponenter:
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Om du vill klistra in komponenterna klickar du på plusknappen i slutet av övergången och väljer **Klistra in i objekt**.
+1. Om du vill klistra in komponenterna klickar du på plusknappen i slutet av den önskade övergången och väljer **[!UICONTROL Paste n items]**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -215,7 +216,7 @@ I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i d
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i rutan **Grupp** som öppnas till höger.
+Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i rutan **[!UICONTROL Group]** som öppnas till höger.
 
 Tillgängliga operatorer:
 
@@ -236,14 +237,14 @@ I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera result
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Regelegenskaper"
->abstract="När du har skapat frågan på arbetsytan kan du kontrollera den med rutan **Regelegenskaper** som finns till höger.<br/>I den här rutan kan du visa resulterande data, hämta en SQL-kodversion av frågan och kontrollera antalet målposter.<br/>Använd knappen **Markera eller spara filter** om du vill spara frågan som ett fördefinierat filter eller ersätta arbetsytans innehåll med ett befintligt filter."
+>abstract="När du har skapat frågan på arbetsytan kan du kontrollera den med rutan **[!UICONTROL Rule properties]** som finns till höger.<br/>I den här rutan kan du visa resulterande data, hämta en SQL-kodversion av frågan och kontrollera antalet målposter.<br/>Använd knappen **[!UICONTROL Select or save filter]** om du vill spara frågan som ett fördefinierat filter eller ersätta arbetsytans innehåll med ett befintligt filter."
 
-När du har skapat frågan på arbetsytan kan du kontrollera den med rutan **Regelegenskaper** som finns till höger. Den här rutan visas när du skapar en fråga för att skapa en målgrupp. Tillgängliga åtgärder är:
+När du har skapat frågan på arbetsytan kan du kontrollera den med rutan **[!UICONTROL Rule properties]** som finns till höger. Den här rutan visas när du skapar en fråga för att skapa en målgrupp. Tillgängliga åtgärder är:
 
-* **Visa resultat:** Visar data från din fråga.
-* **Kodvyn**: Visar en kodbaserad version av frågan i SQL.
-* **Beräkna**: Uppdaterar och visar antalet poster som din fråga har som mål.
-* **Välj eller spara filter**: Välj ett befintligt fördefinierat filter som ska användas på arbetsytan eller spara frågan som ett fördefinierat filter för framtida återanvändning.
+* **[!UICONTROL View results]:** Visar data från din fråga.
+* **[!UICONTROL Code view]**: Visar en kodbaserad version av frågan i SQL.
+* **[!UICONTROL Calculate]**: Uppdaterar och visar antalet poster som din fråga har som mål.
+* **[!UICONTROL Select or save filter]**: Välj ett befintligt fördefinierat filter att använda på arbetsytan eller spara frågan som ett fördefinierat filter för framtida återanvändning.
 
   >[!IMPORTANT]
   >

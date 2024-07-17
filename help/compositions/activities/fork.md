@@ -2,9 +2,10 @@
 audience: end-user
 title: Använda aktiviteten Grupp
 description: Lär dig hur du använder gaffelaktiviteten
-source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---

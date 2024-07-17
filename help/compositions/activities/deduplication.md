@@ -2,10 +2,11 @@
 audience: end-user
 title: Använd aktiviteten Deduplicering
 description: Lär dig hur du använder aktiviteten Deduplicering
-source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 19%
+source-wordcount: '525'
+ht-degree: 20%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Fält som identifierar dubbletter"
->abstract="I avsnittet **Fält som ska identifiera dubbletter** klickar du på knappen **Lägg till attribut** för att ange för vilka fält identiska värden gör att dubbletter kan identifieras, t.ex. e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först."
+>abstract="Klicka på knappen **[!UICONTROL Add attribute]** i avsnittet **[!UICONTROL Fields to identify duplicates]** för att ange de fält där identiska värden gör att dubbletter kan identifieras, till exempel e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -25,7 +26,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="Generera ett komplement"
->abstract="Du kan generera ytterligare en utgående övergång med den återstående populationen, som har uteslutits som en dubblett. Aktivera alternativet **Generera komplement** om du vill göra det."
+>abstract="Du kan generera ytterligare en utgående övergång med den återstående populationen, som har uteslutits som en dubblett. Aktivera alternativet **[!UICONTROL Generate complement]** om du vill göra det"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
@@ -42,11 +43,11 @@ Så här konfigurerar du aktiviteten **Deduplicering**:
 
 1. Om aktiviteten har flera inkommande övergångar väljer du den övergång som ska användas för borttagning av dubbletter i listrutan **[!UICONTROL Primary set]**
 
-1. I avsnittet **Fält som ska identifiera dubbletter** klickar du på knappen **Lägg till attribut** för att ange för vilka fält identiska värden gör att dubbletter kan identifieras, t.ex. e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
+1. Klicka på knappen **[!UICONTROL Add attribute]** i avsnittet **[!UICONTROL Fields to identify duplicates]** för att ange de fält där identiska värden gör att dubbletter kan identifieras, till exempel e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
 
    ![](../assets/deduplication.png)
 
-1. I avsnittet **Dedupliceringsinställningar** väljer du antalet unika **dubbletter som ska behållas**. Standardvärdet för det här fältet är 1. Med värdet 0 kan du behålla alla dubbletter.
+1. I avsnittet **[!UICONTROL Deduplication settings]** väljer du antalet unika **[!UICONTROL Duplicates to keep]**. Standardvärdet för det här fältet är 1. Med värdet 0 kan du behålla alla dubbletter.
 
    Om till exempel posterna A och B betraktas som dubbletter av posten Y, och en post C betraktas som en dubblett av posten Z:
 
@@ -54,14 +55,14 @@ Så här konfigurerar du aktiviteten **Deduplicering**:
    * Om värdet för fältet är 0: alla register förs.
    * Om värdet för fältet är 2: Posterna C och Z förvaras och två poster från A, B och Y sparas, av en tillfällighet eller beroende på vilken dedupliceringsmetod som valts därefter.
 
-1. Välj den **borttagningsmetod** som ska användas:
+1. Välj **[!UICONTROL Deduplication method]** som ska användas:
 
-   * **Slumpmässig markering**: Markerar slumpmässigt den post som ska tas bort från dubbletterna.
-   * **Använder ett uttryck**: Behåll de poster där det angivna uttryckets värde är det minsta eller största.
-   * **Värden som inte är tomma**: Behåll de poster som uttrycket inte är tomt för.
-   * **Följ en lista med värden**: Definiera en värdeprioritet för ett eller flera fält. Om du vill definiera värdena klickar du på **Attribut** för att välja ett fält eller skapa ett uttryck och lägger sedan till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på knappen **Lägg till** som finns ovanför listan med värden.
+   * **[!UICONTROL Random selection]**: Markerar slumpmässigt den post som ska hållas utanför dubbletterna.
+   * **[!UICONTROL Using an expression]**: Behåll de poster där det angivna uttryckets värde är det minsta eller det största.
+   * **[!UICONTROL Non-empty values]**: Behåll de poster som uttrycket inte är tomt för.
+   * **[!UICONTROL Following a list of values]**: Definiera en värdeprioritet för ett eller flera fält. Om du vill definiera värdena klickar du på **[!UICONTROL Attribute]** för att markera ett fält eller skapa ett uttryck och lägger sedan till värdena i rätt tabell. Om du vill definiera ett nytt fält klickar du på **[!UICONTROL Add button]** som finns ovanför listan med värden.
 
-1. Markera alternativet **Generera komplement** om du vill utnyttja den återstående populationen. Komplementet består av alla dubbletter. Därefter läggs ytterligare en övergång till aktiviteten.
+1. Markera alternativet **[!UICONTROL Generate complement]** om du vill utnyttja den återstående populationen. Komplementet består av alla dubbletter. Därefter läggs ytterligare en övergång till aktiviteten.
 
 <!--
 ## Example{#deduplication-example}

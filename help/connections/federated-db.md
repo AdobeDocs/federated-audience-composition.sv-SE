@@ -2,9 +2,10 @@
 audience: end-user
 title: Kom igång med federerade databaser
 description: Lär dig hur du skapar och hanterar Federated Databases
-source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '848'
 ht-degree: 2%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Federerade databaser"
->abstract="Befintliga anslutningar till federerade databaser visas på den här skärmen. Om du vill skapa en ny anslutning klickar du på knappen **Lägg till federerad databas** ."
+>abstract="Befintliga anslutningar till federerade databaser visas på den här skärmen. Klicka på knappen **[!UICONTROL Add federated database]** om du vill skapa en ny anslutning."
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +28,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Information om federerad databas"
->abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd knappen **Testa anslutning** för att validera konfigurationen."
+>abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd knappen **[!UICONTROL Test connection]** för att validera konfigurationen."
 
 Skapa, konfigurera, testa och spara anslutningen till en extern databas.
 

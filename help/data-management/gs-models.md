@@ -2,9 +2,10 @@
 audience: end-user
 title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
-source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---

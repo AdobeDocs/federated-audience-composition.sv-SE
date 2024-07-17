@@ -2,7 +2,8 @@
 audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i frågemodelleraren.
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
 source-wordcount: '2092'
 ht-degree: 52%
@@ -21,7 +22,7 @@ När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en 
 
 Uttrycksredigeraren är tillgänglig från frågemodelleraren **[!UICONTROL Edit expression]**, som är tillgänglig för fälten **[!UICONTROL Attribute]** och **[!UICONTROL Value]** när ett anpassat villkor konfigureras.
 
-| Åtkomst från fältet **Attribut** | Åtkomst från fältet **Värde** |
+| Åtkomst från fältet **[!UICONTROL Attribute]** | Åtkomst från fältet **[!UICONTROL Value]** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 

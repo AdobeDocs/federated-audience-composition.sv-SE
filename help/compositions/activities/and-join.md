@@ -2,9 +2,10 @@
 audience: end-user
 title: Använda aktiviteten OCH-join
 description: Lär dig hur du använder AND-join-aktiviteten
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Den här aktiviteten utlöser endast den utgående övergången när alla inkomm
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
 >title="Konfigurera aktiviteten AND-join"
->abstract="Välj vilka aktiviteter du vill ansluta till. I listrutan **Primär uppsättning** väljer du vilken ingående övergångspopulation du vill behålla."
+>abstract="Välj vilka aktiviteter du vill ansluta till. I listrutan **[!UICONTROL Primary set]** väljer du vilken ingående övergångspopulation du vill behålla."
 
 Följ de här stegen för att konfigurera aktiviteten **AND-join**:
 
@@ -34,5 +35,5 @@ Följ de här stegen för att konfigurera aktiviteten **AND-join**:
 
    ![](../assets/and-join.png)
 
-1. I avsnittet **Sammanfogningsalternativ** markerar du alla tidigare aktiviteter som du vill synkronisera.
-1. I listrutan **Primär uppsättning** väljer du vilken ingående övergångspopulation du vill behålla. Den utgående övergången kan bara innehålla en av de ingående övergångspopulationerna. Om aktiviteten inte är konfigurerad kommer den utgående övergången att slumpmässigt välja en av de inkommande populationerna.
+1. I avsnittet **[!UICONTROL Merging options]** markerar du alla tidigare aktiviteter som du vill synkronisera.
+1. I listrutan **[!UICONTROL Primary set]** väljer du vilken ingående övergångspopulation du vill behålla. Den utgående övergången kan bara innehålla en av de ingående övergångspopulationerna. Om aktiviteten inte är konfigurerad kommer den utgående övergången att slumpmässigt välja en av de inkommande populationerna.

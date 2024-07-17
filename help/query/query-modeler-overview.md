@@ -1,10 +1,11 @@
 ---
 audience: end-user
 title: Arbeta med frågemodelleraren
-description: Lär dig arbeta med frågemodelleraren.
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+description: Lär dig arbeta med frågemodelleraren
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera
 | Användning | Exempel |
 |  ---  |  ---  |
 | **Definiera målgrupper**: Ange målgruppen i dina kompositioner och skapa enkelt nya målgrupper som är anpassade efter dina behov. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Anpassa arbetsflödesaktiviteter**: Använd regler i dispositionsaktiviteter, som **Dela** och **Avstämning**, för att anpassa dem efter dina specifika krav. [Läs mer om dispositionsaktiviteter](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Anpassa aktiviteter**: Använd regler i dispositionsaktiviteter, som **Dela** och **Avstämning**, för att anpassa dem efter dina specifika krav. [Läs mer om dispositionsaktiviteter](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Gränssnitt för frågemodelleraren {#interface}
 
@@ -39,11 +40,11 @@ Frågemodellerarens centrala arbetsyta är där du lägger till och kombinerar d
 
 Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ för att enkelt ändra frågekomponenterna och navigera på arbetsytan:
 
-* **Flera markeringslägen**: Markera flera filtreringskomponenter för att kopiera och klistra in dem där du vill.
-* **Rotera**: Växla arbetsytan lodrätt.
-* **Anpassa till skärmen**: Anpassa arbetsytans zoomnivå till skärmen.
-* **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
-* **Visningsschema**: Öppnar en ögonblicksbild av arbetsytan som visar att du finns.
+* **[!UICONTROL Multiple selection mode]**: Markera flera filterkomponenter som du vill kopiera och klistra in på den plats där du vill ha dem.
+* **[!UICONTROL Rotate]**: Växla arbetsytan lodrätt.
+* **[!UICONTROL Fit to screen]**: Anpassa arbetsytans zoomnivå till skärmen.
+* **[!UICONTROL Zoom out]** / **[!UICONTROL Zoom in]**: Zooma ut eller in på arbetsytan.
+* **[!UICONTROL Display map]**: Öppnar en ögonblicksbild av arbetsytan som visar att du finns.
 
 ### Rutan Regelegenskaper {#rule-properties}
 

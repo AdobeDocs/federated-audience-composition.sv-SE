@@ -2,9 +2,10 @@
 audience: end-user
 title: Kom igång med målgrupper
 description: Lär dig hur du börjar med datamodeller
-source-git-commit: ddc880f0146c39fe06187e0ae0cc0355763adb78
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---

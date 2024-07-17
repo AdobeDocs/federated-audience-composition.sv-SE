@@ -2,9 +2,10 @@
 audience: end-user
 title: Kom igång med granskningsspår
 description: Lär dig övervaka dina databaser med granskningsspår
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '72'
 ht-degree: 2%
 
 ---

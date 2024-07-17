@@ -2,9 +2,10 @@
 audience: end-user
 title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
-source-git-commit: 407de5e35fae1b38a4f1c2819d684fbd87285970
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '98'
 ht-degree: 8%
 
 ---

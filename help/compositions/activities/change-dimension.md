@@ -2,7 +2,8 @@
 audience: end-user
 title: Använd aktiviteten Ändra dimension
 description: Lär dig hur du använder aktiviteten Ändra dimension
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Generera ett komplement"
->abstract="Du kan generera ytterligare en utgående övergång med den återstående populationen, som har uteslutits som en dubblett. Aktivera alternativet **Generera komplement** om du vill göra det."
+>abstract="Du kan generera ytterligare en utgående övergång med den återstående populationen, som har uteslutits som en dubblett. Aktivera alternativet **[!UICONTROL Generate complement]** om du vill göra det"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

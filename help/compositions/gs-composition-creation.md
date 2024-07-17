@@ -2,9 +2,10 @@
 audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -27,9 +28,9 @@ Kompositionsdiagrammet är en representation av vad som ska hända. Det beskrive
 
 Varje komposition innehåller:
 
-* **Aktiviteter**: En aktivitet är en aktivitet som ska utföras. De olika aktiviteterna visas i diagrammet med ikoner. Varje aktivitet har specifika egenskaper och andra egenskaper som är gemensamma för alla aktiviteter.
-* **Övergångar**: Övergångar länkar en källaktivitet till en målaktivitet och definierar deras sekvens.
-* **Arbetstabeller**: Arbetstabellen innehåller all information som följer med övergången. Varje komposition använder flera arbetstabeller. De data som förmedlas i dessa tabeller kan användas under hela kompositionens livscykel.
+* **[!UICONTROL Activities]**: En aktivitet är en uppgift som ska utföras. De olika aktiviteterna visas i diagrammet med ikoner. Varje aktivitet har specifika egenskaper och andra egenskaper som är gemensamma för alla aktiviteter.
+* **[!UICONTROL Transitions]**: Övergångar länkar en källaktivitet till en målaktivitet och definierar deras sekvens.
+* **[!UICONTROL Worktables]**: Arbetstabellen innehåller all information som följer med övergången. Varje komposition använder flera arbetstabeller. De data som förmedlas i dessa tabeller kan användas under hela kompositionens livscykel.
 
 ## Viktiga steg för att skapa en komposition {#gs-composition-steps}
 

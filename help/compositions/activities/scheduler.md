@@ -2,9 +2,9 @@
 audience: end-user
 title: Använd aktiviteten Schemaläggaren
 description: Lär dig hur du använder aktiviteten Schemaläggaren
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 8%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Schemaläggaraktivitet"
->abstract="Med aktiviteten **Schemaläggaren** kan du schemalägga när arbetsflödet startas. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i arbetsflödet."
+>abstract="Med aktiviteten **Schemaläggaren** kan du schemalägga när målgruppskompositionen börjar. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i en komposition."
 
 Aktiviteten **Schemaläggaren** är en **Flödeskontroll**-aktivitet. Du kan schemalägga när kompositionen börjar. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i kompositionen.
 
@@ -33,7 +33,7 @@ Aktiviteten **Schemaläggaren** är en **Flödeskontroll**-aktivitet. Du kan sch
 
 Följ de här stegen för att konfigurera aktiviteten **Schemaläggaren**:
 
-1. Lägg till en **schemaläggaraktivitet** i ditt arbetsflöde.
+1. Lägg till en **schemaläggaraktivitet** i kompositionen.
 
 1. Konfigurera **körningsfrekvensen**:
 

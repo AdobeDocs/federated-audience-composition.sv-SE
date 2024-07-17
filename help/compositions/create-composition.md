@@ -2,9 +2,10 @@
 audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -48,7 +49,7 @@ Det första steget för att skapa en komposition är att definiera dess etikett 
 
 När du öppnar en komposition kan du komma åt avancerade inställningar som t.ex. gör att du kan definiera hur kompositionen ska fungera om fel uppstår.
 
-Om du vill få tillgång till fler alternativ för kompositionen klickar du på knappen **Inställningar** i det övre avsnittet av skärmen där kompositionen skapas.
+Om du vill få tillgång till fler alternativ för kompositionen klickar du på knappen **[!UICONTROL Settings]** som finns i det övre avsnittet på skärmen där kompositionen skapas.
 
 ![](assets/composition-create-settings.png)
 

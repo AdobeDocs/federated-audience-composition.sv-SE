@@ -2,9 +2,10 @@
 audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+badge: label="Begränsad tillgänglighet" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -70,12 +71,12 @@ På alla flikar kan du välja vilka kolumner som ska visas och i vilken ordning 
 
 Tillgängliga åtgärder är:
 
-* **Start**: Startar körningen av kompositionen, som sedan får statusen **Pågår**. Kompositionen påbörjas och de inledande aktiviteterna aktiveras.
+* **[!UICONTROL Start]**: Startar körningen av kompositionen, som sedan får statusen **[!UICONTROL In progress]**. Kompositionen påbörjas och de inledande aktiviteterna aktiveras.
 
-* **[!UICONTROL Resume]**: Återupptar körningen av kompositionen som pausats. Dispositionen får statusen **Pågår**.
+* **[!UICONTROL Resume]**: Återupptar körningen av kompositionen som pausats. Dispositionen får statusen **[!UICONTROL In progress]**.
 
-* **[!UICONTROL Pause]** körningen av kompositionen, som sedan får statusen **Pausad**. Inga nya aktiviteter kommer att aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
+* **[!UICONTROL Pause]** körningen av kompositionen, som sedan får statusen **[!UICONTROL Paused]**. Inga nya aktiviteter kommer att aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
 
-* **[!UICONTROL Stop]** en komposition som körs, som sedan får statusen **Slutförd**. De pågående åtgärderna avbryts om möjligt. Du kan inte återuppta från kompositionen från samma plats som den stoppades.
+* **[!UICONTROL Stop]** en komposition som körs, som sedan får statusen **[!UICONTROL Finished]**. De pågående åtgärderna avbryts om möjligt. Du kan inte återuppta från kompositionen från samma plats som den stoppades.
 
-* **Starta om**: Stoppar och startar sedan om en disposition. I de flesta fall gör detta att du kan starta om snabbare, eftersom det tar en viss tid att stoppa och knappen **Start** är bara tillgänglig när stoppet börjar gälla.
+* **[!UICONTROL Restart]**: Stoppar och startar sedan om en disposition. I de flesta fall gör detta att du kan starta om snabbare, eftersom det tar en viss tid att stoppa och knappen **[!UICONTROL Start]** är bara tillgänglig när stoppet börjar gälla.
