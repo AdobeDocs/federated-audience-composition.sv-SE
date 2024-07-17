@@ -2,10 +2,10 @@
 user-guide-title: Sammansatt målgrupp
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Sammansatt målgrupp
-source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 10%
+source-wordcount: '134'
+ht-degree: 11%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 10%
 # Kompositionsdokumentation för federerad publik {#using}
 
 + [Kompositionsdokumentation för federerad publik](home.md)
-+ [Kom igång](start/get-started.md)
++ Kom igång med Federated Audience Composition {#start}
+   + [Kom igång](start/get-started.md)
+   + [Versionsinformation](start/release-notes.md)
 + Konfigurationssteg {#config}
    + [Connect AEP med Federated Audience Composition](connections/destinations.md)
    + [Konfigurera dina federerade databaser](connections/federated-db.md)
@@ -49,3 +51,4 @@ ht-degree: 10%
    + [Redigera uttryck](query/expression-editor.md)
 + Granskningsspår {#audit-trail}
    + [Övervaka dina databaser](admin/audit-trail.md)
++ [&lt; Tillbaka till Adobe Experience Platform-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
