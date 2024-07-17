@@ -2,9 +2,9 @@
 title: Nyheter i Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ I stället för att importera datauppsättningar och/eller målgrupper till Adob
 >
 >Federated Audience Composition är för närvarande bara tillgängligt för en uppsättning organisationer (begränsad tillgänglighet). Kontakta din Adobe-representant för att få åtkomst.
 >
->För närvarande är funktionen inte tillgänglig för kunder som har köpt tilläggserbjudandena Adobe **Healthcare Shield** och **Privacy and Security Shield** .
+>För närvarande är funktionen inte tillgänglig för kunder som har köpt tillägget **Healthcare Shield** på Adobe.
 
 
 ## Förutsättningar och skyddsräcken {#rn-guardrails}
