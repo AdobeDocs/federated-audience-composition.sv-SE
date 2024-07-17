@@ -11,11 +11,11 @@ ht-degree: 2%
 
 # Skapa anslutningar {#connections-fdb}
 
-Om du vill skapa en ny anslutning till en Federated databas går du till **[!UICONTROL FEDERATED DATA]** och i **[!UICONTROL Federated Databases]** länk, klicka på **[!UICONTROL Add federated database]** -knappen.
+Om du vill skapa en ny anslutning till en Federated databas går du till avsnittet **[!UICONTROL FEDERATED DATA]** och klickar på knappen **[!UICONTROL Add federated database]** i länken **[!UICONTROL Federated Databases]** .
 
 ![](assets/connections_list.png){zoomable="yes"}
 
-Du kommer att få åtkomst till anslutningsfönstret **[!UICONTROL Properties]**, med namnet och typen av databas.
+Du kommer att få åtkomst till fönstret för anslutningen **[!UICONTROL Properties]**, med namnet och typen av databas.
 
 ![](assets/connections_name.png){zoomable="yes"}
 
@@ -23,7 +23,7 @@ Om du väljer dess typ får du tillgång till andra egenskaper som du kan fylla 
 
 ![](assets/connections_details.png){zoomable="yes"}
 
-När du fyllt i uppgifterna klickar du på **[!UICONTROL Test connection]** och på **[!UICONTROL Deploy functions]** -knappen.
-Slutför skapandet av anslutningen genom att klicka på **[!UICONTROL Save]** -knappen.
+Klicka på knappen **[!UICONTROL Test connection]** och på knappen **[!UICONTROL Deploy functions]** när du har fyllt i informationen.
+Slutför skapandet av anslutningen genom att klicka på knappen **[!UICONTROL Save]**.
 
 ![](assets/connections_testdeploy.png){zoomable="yes"}

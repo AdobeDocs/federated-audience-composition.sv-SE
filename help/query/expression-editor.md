@@ -19,25 +19,25 @@ När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en 
 
 ## Arbeta med uttrycksredigeraren {#edit}
 
-Uttrycksredigeraren är tillgänglig från frågemodelleraren **[!UICONTROL Edit expression]** knapp, tillgänglig för **[!UICONTROL Attribute]** och **[!UICONTROL Value]** fält när du konfigurerar ett anpassat villkor.
+Uttrycksredigeraren är tillgänglig från frågemodelleraren **[!UICONTROL Edit expression]**, som är tillgänglig för fälten **[!UICONTROL Attribute]** och **[!UICONTROL Value]** när ett anpassat villkor konfigureras.
 
-| Åtkomst från **Attribut** fält | Åtkomst från **Värde** fält |
+| Åtkomst från fältet **Attribut** | Åtkomst från fältet **Värde** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 Uttrycksredigeraren innehåller:
 
-* An **inmatningsfält (1)** som uttrycket är definierat i.
+* Ett **indatafält (1)** där uttrycket är definierat.
 * Listan med tillgängliga **fält (2)** som kan användas i uttrycket och som motsvarar schemat, även kallat måldimension, för frågan.
-* **Hjälpfunktioner (3)**, sorterat efter kategori.
+* **Hjälpfunktioner (3)**, sorterade efter kategori.
 
 Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och klickar på plusknappen.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-När uttrycket är klart klickar du på **[!UICONTROL Confirm]** -knappen. Uttrycket visas i det markerade fältet. Om du vill redigera den öppnar du uttrycksredigeraren och gör önskade ändringar.
+När uttrycket är klart klickar du på knappen **[!UICONTROL Confirm]**. Uttrycket visas i det markerade fältet. Om du vill redigera den öppnar du uttrycksredigeraren och gör önskade ändringar.
 
-I exemplet nedan visas ett uttryck som konfigurerats för **[!UICONTROL Value]** fält. Om du vill redigera den måste du öppna uttrycksredigeraren med **[!UICONTROL Edit expression]** -knappen.
+I exemplet nedan visas ett uttryck som har konfigurerats för fältet **[!UICONTROL Value]**. Om du vill redigera den måste du öppna uttrycksredigeraren med knappen **[!UICONTROL Edit expression]**.
 
 ![](assets/edit-expression-value.png){zoomable="yes"}
 
@@ -57,14 +57,14 @@ Sammanställningsfunktionerna används för att utföra beräkningar på en upps
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Genomsnittlig</strong><br /> </td> 
-   <td> Returnerar medelvärdet för en taltypskolumn<br /> </td> 
-   <td> Avg(&lt;value&gt;)<br /></td> 
+   <td> <strong>Medel</strong><br /> </td> 
+   <td> Returnerar medelvärdet för en taltypskolumn <br /> </td> 
+   <td> Avg(&lt;värde&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Antal</strong><br /> </td> 
-   <td> Räknar värden som inte är null i en kolumn<br /> </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
+   <td> Räknar värden som inte är null i en kolumn <br /> </td> 
+   <td> Count(&lt;värde&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>CountAll</strong><br /> </td> 
@@ -72,34 +72,34 @@ Sammanställningsfunktionerna används för att utföra beräkningar på en upps
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Motdistinkt</strong><br /> </td> 
-   <td> Räknar de distinkta icke-null-värdena för en kolumn<br /> </td> 
-   <td> CountDict(&lt;value&gt;)<br /></td> 
+   <td> <strong>Motskild</strong><br /> </td> 
+   <td> Räknar distinkta icke-null-värden för en kolumn <br /> </td> 
+   <td> Countdistans(&lt;värde&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Max</strong><br /> </td> 
-   <td> Returnerar det maximala värdet för en kolumn av typen tal, sträng eller datum<br /> </td> 
-   <td> Max(&lt;value&gt;)<br /></td>  
+   <td> Returnerar det maximala värdet för en tal-, sträng- eller datumtypskolumn <br /> </td> 
+   <td> Max(&lt;värde&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Min</strong><br /> </td> 
-   <td> Returnerar det minsta värdet för en kolumn av typen tal, sträng eller datum<br /> </td> 
-   <td> Min(&lt;value&gt;)<br /></td> 
+   <td> Returnerar det minsta värdet för en tal-, sträng- eller datumtypskolumn <br /> </td> 
+   <td> Min(&lt;värde&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>StdDev</strong><br /> </td> 
-   <td> Returnerar standardavvikelsen för ett tal, en sträng eller en datumkolumn<br /> </td> 
-   <td> StdDev(&lt;value&gt;)<br /></td> 
+   <td> Returnerar standardavvikelsen för ett tal, en sträng eller en datumkolumn <br /> </td> 
+   <td> StdDev(&lt;värde&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
-   <td> Returnerar sammanfogningen av värdena i en strängtypskolumn, avgränsade med tecknet i det andra argumentet<br /> </td> 
-   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
+   <td> Returnerar sammanfogningen av värdena i en strängtypskolumn, avgränsade med tecknet i det andra argumentet <br /> </td> 
+   <td> StringAgg(&lt;Värde&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Summa</strong><br /> </td> 
-   <td> Returnerar summan av värdena för en kolumn av typen tal, sträng eller datum<br /> </td> 
-   <td> Sum(&lt;value&gt;)<br /></td> 
+   <td> Returnerar summan av värdena för en tal-, sträng- eller datumtypskolumn <br /> </td> 
+   <td> Sum(&lt;värde&gt;)<br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -147,8 +147,8 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
   </tr>
   <tr> 
    <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Konverterar tidsstämpeln NTZ (tidsstämpel utan tidszon) till TZ (tidsstämpel med tidszon) med definierad session-TZ<br/> </td> 
-   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+   <td> Konverterar tidsstämpeln NTZ (tidsstämpel utan tidszon) till TZ (tidsstämpel med tidszon) som använder den definierade sessionen TZ<br/> </td> 
+   <td> ConvertNTZ (&lt;datum+tid&gt;)<br /> </td>  
   </tr>
   <tr> 
    <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
@@ -157,8 +157,8 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
   </tr>-->
   <tr> 
    <td> <strong>DateCmp</strong><br /> </td> 
-   <td> Jämför två datum<br/> </td> 
-   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
+   <td> Jämför två datum <br/> </td> 
+   <td> DateCmp(&lt;datum&gt;,&lt;datum&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -172,17 +172,17 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
   </tr> 
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> Returnerar numret på dagen i datumåret<br /> </td> 
+   <td> Returnerar antalet dagar i året för datumet <br /> </td> 
    <td> DayOfYear(&lt;datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> Returnerar det datum som motsvarar aktuellt datum minus n dagar<br /> </td> 
+   <td> Returnerar det datum som motsvarar aktuellt datum minus n dagar <br /> </td> 
    <td> DaysAgo(&lt;tal&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> Returnerar det datum (heltal åååmmdd) som motsvarar det aktuella datumet minus n dagar<br /> </td> 
+   <td> Returnerar det datum (heltal åååmmdd) som motsvarar det aktuella datumet minus n dagar <br /> </td> 
    <td> DaysAgoInt(&lt;tal&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -242,8 +242,8 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
   </tr> 
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
-   <td> Returnerar det äldsta datumet i ett intervall<br /> </td> 
-   <td> Äldst (&lt;date date=""&gt;)<br /> </td>  
+   <td> Returnerar det äldsta datumet i ett intervall <br /> </td> 
+   <td> Äldst (&lt;datum, datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -297,13 +297,13 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
   </tr> 
   <tr> 
    <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> Konverterar en sträng till en tidsstämpel<br /> </td> 
-   <td> ToTimestamp()&lt;string&gt;)<br /> </td>  
+   <td> Konverterar en sträng till en tidsstämpel <br /> </td> 
+   <td> ToTimestamp(&lt;sträng&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> Konvertera ett datum + tid till en tidszon<br /> </td> 
-   <td> ToTimeZone(&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
+   <td> Konvertera ett datum + tid till tidszonen <br /> </td> 
+   <td> ToTimeZone(&lt;datum&gt;,&lt;tidszon&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -323,7 +323,7 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> Avrundar tidsdelen upp till närmaste sekund<br /> </td> 
-   <td> TruncTim(e)&lt;date&gt;, &lt;number of="" seconds=""&gt;)<br /> </td>  
+   <td> TruncTim(e&lt;datum&gt;, &lt;antal sekunder&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -351,9 +351,9 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
    <td> YearAndMonth(&lt;datum&gt;)<br /> </td>  
   </tr>
   <tr> 
-   <td> <strong>ÅrFörÅR</strong><br /> </td> 
-   <td> Returnerar antalet år mellan ett givet datum och det aktuella datumet<br /> </td> 
-   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
+   <td> <strong>ÅRago</strong><br /> </td> 
+   <td> Returnerar antalet år mellan ett givet datum och det aktuella datumet <br /> </td> 
+   <td> YearsAgo(&lt;datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -370,7 +370,7 @@ Datumfunktionerna används för att ändra datum- och tidsvärden.
 
 >[!NOTE]
 >
->Observera att **Endast datum** funktionen tar hänsyn till serverns tidszon, inte operatorns.
+>Observera att funktionen **Dateonly** tar hänsyn till serverns tidszon, inte till operatorns.
 
 ### Geomarknadsföring
 
@@ -385,7 +385,7 @@ Geomarknadsföringsfunktionerna används för att ändra geografiska värden.
   </tr> 
   <tr> 
    <td> <strong>Avstånd</strong><br /> </td> 
-   <td> Returnerar avståndet mellan två punkter som definieras av longitud och latitud, uttryckt i grader.<br /> </td> 
+   <td> Returnerar avståndet mellan två punkter som definieras av deras longitud och latitud, uttryckt i grader.<br /> </td> 
    <td> Distance(&lt;longitud A&gt;, &lt;latitud A&gt;, &lt;longitud B&gt;, &lt;latitud B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -414,7 +414,7 @@ De numeriska funktionerna används för att konvertera text till tal.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Returnerar det största heltalet större än eller lika med ett tal<br /> </td> 
+   <td> Returnerar det största heltalet större än eller lika med ett tal <br /> </td> 
    <td> Floor(&lt;tal&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -488,8 +488,8 @@ Tabellen innehåller de återstående funktionerna som är tillgängliga.
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Krypteringssträngen anges i argumentet<br /> </td> 
-   <td> AESEncrypt()&lt;value&gt;)<br /> </td> 
+   <td> Krypteringssträng angiven i argument <br /> </td> 
+   <td> AESEncrypt(&lt;värde&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -519,7 +519,7 @@ Tabellen innehåller de återstående funktionerna som är tillgängliga.
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Returnerar värde 1 (kan endast användas som en parameter för case-funktionen)<br /> </td> 
-   <td> Else(&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Else(&lt;värde 1&gt;, &lt;värde 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
@@ -533,7 +533,7 @@ Tabellen innehåller de återstående funktionerna som är tillgängliga.
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> Returnerar värdet 1 om uttrycket är true. Om inte returneras värde 2<br /> </td> 
+   <td> Returnerar värdet 1 om uttrycket är true. Om inte returneras värdet 2<br /> </td> 
    <td> Iif(&lt;villkor&gt;, &lt;värde 1&gt;, &lt;värde 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -543,12 +543,12 @@ Tabellen innehåller de återstående funktionerna som är tillgängliga.
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> Returnerar värde 2 om sträng 1 är tom, annars returneras värde 3<br /> </td> 
-   <td> IsEmptyString()&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Returnerar värdet 2 om strängen 1 är tom, annars returneras värdet 3<br /> </td> 
+   <td> IsEmptyString(&lt;värde 1&gt;, &lt;värde 2&gt;, &lt;värde 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NewUID</strong><br /> </td> 
-   <td> Returnerar ett unikt ID<br /> </td> 
+   <td> Returnerar ett unikt ID <br /> </td> 
    <td> NewUID()<br /> </td>  
   </tr> 
   <tr> 
@@ -573,7 +573,7 @@ Tabellen innehåller de återstående funktionerna som är tillgängliga.
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> Returnerar värdet 1 om uttrycket är true. Annars returneras värde 2 (kan bara användas som en parameter i case-funktionen)<br /> </td> 
+   <td> Returnerar värdet 1 om uttrycket är true. Annars returnerar den värde 2 (kan bara användas som en parameter för fallfunktionen)<br /> </td> 
    <td> When(&lt;tillstånd&gt;, &lt;värde 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -593,107 +593,107 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> Anger om alla parametrar inte är null och inte tomma<br /> </td> 
-   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> AllNonNull2(&lt;sträng&gt;, &lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> Anger om alla parametrar inte är null och inte tomma<br /> </td> 
-   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> AllNonNull3(&lt;sträng&gt;, &lt;sträng&gt;, &lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ascii</strong><br /> </td> 
    <td> Returnerar ASCII-värdet för det första tecknet i strängen.<br /> </td> 
-   <td> Ascii()&lt;string&gt;)<br /></td> 
+   <td> Ascii(&lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Returnerar tecknet som motsvarar ASCII-koden "n"<br /> </td> 
-   <td> Char(&lt;number&gt;)<br /></td>  
+   <td> Char(&lt;tal&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
    <td> Returnerar positionen för sträng 2 i sträng 1.<br /> </td> 
-   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> Charindex(&lt;sträng&gt;, &lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> Returnerar strängens storlek i byte<br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /></td> 
+   <td> Returnerar storleken i byte för strängen <br /> </td> 
+   <td> dataLength(&lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Returnerar den n:e raden (från 1 till n) i strängen<br /> </td> 
-   <td> GetLine(&lt;string&gt;)<br /></td> 
+   <td> GetLine(&lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> Returnerar den tredje parametern om de två första parametrarna är lika. Om inte returneras den sista parametern<br /> </td> 
-   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> Returnerar den tredje parametern om de två första parametrarna är lika. Om inte returneras den sista parametern <br /> </td> 
+   <td> IfEquals(&lt;sträng&gt;, &lt;sträng&gt;, &lt;sträng&gt;, &lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
    <td> Anger om PM:et som skickas som en parameter är null<br /> </td> 
-   <td> IsMemoNull()&lt;memo&gt;)<br /></td> 
+   <td> IsMemoNull(&lt;PM&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Sammanfogar de strängar som skickas som parametrar. Lägger till mellanrum mellan strängarna om det behövs.<br /> </td> 
-   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> Sammanfogar de strängar som skickas som parametrar. Lägger till blanksteg mellan strängarna om det behövs.<br /> </td> 
+   <td> JuxtWords(&lt;sträng&gt;, &lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Sammanfogar de strängar som skickas som parametrar. Lägger till mellanrum mellan strängarna om det behövs<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
+   <td> Sammanfogar de strängar som skickas som parametrar. Lägger till blanksteg mellan strängarna om det behövs <br /> </td> 
+   <td> JuxtWords3(&lt;sträng&gt;, &lt;sträng&gt;, &lt;sträng&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Returnerar de första n tecknen i strängen<br /> </td> 
-   <td> Left()&lt;string&gt;, &lt;number&gt;)<br /></td> 
+   <td> Left(&lt;sträng&gt;, &lt;tal&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
-   <td> Returnerar strängens längd<br /> </td> 
-   <td> Length(&lt;string&gt;)<br /></td> 
+   <td> Returnerar längden på strängen <br /> </td> 
+   <td> Length(&lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Linje</strong><br /> </td> 
-   <td> Extrahera rad n från sträng<br /> </td> 
-   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+   <td> <strong>Rad</strong><br /> </td> 
+   <td> Extrahera rad n från sträng <br /> </td> 
+   <td> Line(&lt;sträng&gt;,&lt;tal&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Returnerar strängen i gemener<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
+   <td> Lower(&lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Returnerar den slutförda strängen till vänster<br /> </td> 
-   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
+   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> Tar bort blanksteg till vänster om strängen<br /> </td> 
-   <td> Ltrim(&lt;string&gt;)<br /></td> 
+   <td> Ltrim(&lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> Returnerar en hexadecimal representation av MD5-nyckeln för en sträng<br /> </td> 
-   <td> Md5Digest()&lt;string&gt;)<br /></td> 
+   <td> Md5Digest(&lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>PMContains</strong><br /> </td> 
    <td> Anger om PM:et innehåller den sträng som skickas som en parameter<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
+   <td> MemoContains(&lt;PM&gt;, &lt;sträng&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>NodeValue</strong><br /> </td> 
-   <td> Extraherar värdet för ett XML-fält från dess XPath och fältdata<br /> </td> 
-   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> Extraherar värdet för ett XML-fält från dess XPath och fältdata <br /> </td> 
+   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
    <td> Ersätter alla förekomster av ett angivet strängvärde med ett annat strängvärde.<br /> </td> 
-   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -703,7 +703,7 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Returnerar den slutförda strängen till höger<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+   <td> RPad(&lt;sträng&gt;, &lt;tal&gt;, &lt;tecken&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
@@ -713,12 +713,12 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Hexadecimal representation av SHA256-nyckeln för en sträng.<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Hexadecimal representation av SHA512-nyckeln för en sträng.<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -733,7 +733,7 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> Konverterar talet till en sträng<br /> </td> 
-   <td> ToString()&lt;number&gt;, &lt;number&gt;)<br /> </td>  
+   <td> ToString(&lt;tal&gt;, &lt;tal&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -764,8 +764,8 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
   </tr> 
   <tr> 
    <td> <strong>_Över__</strong><br /> </td> 
-   <td> Kör SQL-funktionsanropet som anges som första parameter, över partition eller Order By i de fält som anges som andra parameter<br /> </td> 
-   <td> _Över_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Kör SQL-funktionsanropet som anges som första parameter, över partition eller Order By i fälten som anges som andra parameter <br /> </td> 
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

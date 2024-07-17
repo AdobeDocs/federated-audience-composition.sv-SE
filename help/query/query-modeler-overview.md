@@ -24,8 +24,8 @@ Frågemodelleraren är tillgänglig i alla sammanhang där du behöver definiera
 
 | Användning | Exempel |
 |  ---  |  ---  |
-| **Definiera målgrupper**: Ange den målgrupp du vill rikta in dig på i dina kompositioner och skapa enkelt nya målgrupper som är anpassade efter dina behov. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Anpassa arbetsflödesaktiviteter**: tillämpa regler i dispositionsaktiviteter, t.ex. **Dela** och **Avstämning**, för att passa in dina specifika krav. [Läs mer om dispositionsaktiviteter](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Definiera målgrupper**: Ange målgruppen i dina kompositioner och skapa enkelt nya målgrupper som är anpassade efter dina behov. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Anpassa arbetsflödesaktiviteter**: Använd regler i dispositionsaktiviteter, som **Dela** och **Avstämning**, för att anpassa dem efter dina specifika krav. [Läs mer om dispositionsaktiviteter](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Gränssnitt för frågemodelleraren {#interface}
 
@@ -35,16 +35,16 @@ Frågemodelleraren innehåller en central arbetsyta där du skapar frågan och e
 
 ### Den centrala arbetsytan {#canvas}
 
-Frågemodellerarens centrala arbetsyta är där du lägger till och kombinerar de olika komponenterna som skapar din fråga. [Lär dig hur du skapar en fråga](build-query.md)
+Frågemodellerarens centrala arbetsyta är där du lägger till och kombinerar de olika komponenterna som skapar din fråga. [Lär dig skapa en fråga](build-query.md)
 
 Verktygsfältet i det övre högra hörnet av arbetsytan innehåller alternativ för att enkelt ändra frågekomponenterna och navigera på arbetsytan:
 
-* **Flervalsläge**: Välj flera filterkomponenter som ska kopieras och klistras in på valfri plats.
+* **Flera markeringslägen**: Markera flera filtreringskomponenter för att kopiera och klistra in dem där du vill.
 * **Rotera**: Växla arbetsytan lodrätt.
-* **Anpassa till skärm**: Anpassa arbetsytans zoomnivå till skärmen.
+* **Anpassa till skärmen**: Anpassa arbetsytans zoomnivå till skärmen.
 * **Zooma ut** / **Zooma in**: Zooma ut eller in på arbetsytan.
-* **Visa karta**: Öppnar en ögonblicksbild av arbetsytan som visar att du befinner dig.
+* **Visningsschema**: Öppnar en ögonblicksbild av arbetsytan som visar att du finns.
 
 ### Rutan Regelegenskaper {#rule-properties}
 
-På höger sida, **[!UICONTROL Rule properties]** innehåller information om frågan. Det gör att du kan utföra olika åtgärder för att kontrollera frågan och se till att den passar dina behov. Den här rutan visas när du skapar en fråga för att skapa en målgrupp. [Lär dig hur du kontrollerar och validerar din fråga](build-query.md#check-and-validate-your-query)
+Till höger visas information om frågan i rutan **[!UICONTROL Rule properties]**. Det gör att du kan utföra olika åtgärder för att kontrollera frågan och se till att den passar dina behov. Den här rutan visas när du skapar en fråga för att skapa en målgrupp. [Lär dig hur du kontrollerar och validerar din fråga](build-query.md#check-and-validate-your-query)

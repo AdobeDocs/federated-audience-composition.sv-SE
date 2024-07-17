@@ -16,7 +16,7 @@ När du har skapat kompositionen och utformat de uppgifter som ska utföras på 
 
 ## Starta kompositionen {#start}
 
-Om du vill starta en komposition klickar du på **[!UICONTROL Start]** i skärmens övre högra hörn. När kompositionen körs utförs varje aktivitet på arbetsytan i sekventiell ordning tills kompositionen är klar.
+Om du vill starta en komposition klickar du på knappen **[!UICONTROL Start]** i skärmens övre högra hörn. När kompositionen körs utförs varje aktivitet på arbetsytan i sekventiell ordning tills kompositionen är klar.
 
 Du kan spåra förloppet för målprofiler i realtid med ett visuellt flöde. På så sätt kan du snabbt identifiera status för varje aktivitet och antalet profiler som övergår mellan dem.
 
@@ -26,8 +26,8 @@ Du kan spåra förloppet för målprofiler i realtid med ett visuellt flöde. P�
 
 I kompositioner lagras data som överförs från en aktivitet till en annan genom övergångar i ett tillfälligt arbetsregister. Dessa data kan visas för varje övergång. Det gör du genom att markera en övergång och öppna dess egenskaper till höger på skärmen.
 
-* Klicka **[!UICONTROL Preview schema]** för att visa arbetstabellens schema.
-* Klicka **[!UICONTROL Preview results]** för att visualisera de data som transporteras i den valda övergången.
+* Klicka på **[!UICONTROL Preview schema]** för att visa arbetstabellens schema.
+* Klicka på **[!UICONTROL Preview results]** om du vill visa de data som har transporterats i den valda övergången.
 
 ![](assets/transition-preview.png)
 
@@ -44,19 +44,19 @@ Med visuella indikatorer i det övre högra hörnet av varje aktivitetsruta kan 
 
 ## Övervaka loggar och uppgifter {#logs-tasks}
 
-Att övervaka kompositionsloggar och -uppgifter är ett viktigt steg för att analysera kompositionerna och se till att de körs som de ska. De är tillgängliga via **[!UICONTROL Logs]** knappen som är tillgänglig i åtgärdsverktygsfältet och i varje aktivitets egenskapspanel.
+Att övervaka kompositionsloggar och -uppgifter är ett viktigt steg för att analysera kompositionerna och se till att de körs som de ska. De är tillgängliga från knappen **[!UICONTROL Logs]** som är tillgänglig i åtgärdsverktygsfältet och i egenskapsrutan för varje aktivitet.
 
 ![](assets/logs-button.png)
 
-The **[!UICONTROL Composition logs and tasks]** på skärmen visas en historik över hur kompositionen har körts, där alla användaråtgärder och påträffade fel registreras.
+Skärmen **[!UICONTROL Composition logs and tasks]** innehåller en historik över dispositionskörningen, där alla användaråtgärder och påträffade fel registreras.
 
 <!-- à confirmer, pas trouvé dans les options = The workflow history is saved for the duration specified in the workflow execution options. During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.-->
 
 Historien är ordnad på flera flikar, som beskrivs nedan:
 
-* The **[!UICONTROL Log]** -fliken innehåller körningshistoriken för alla dispositionsaktiviteter. Den indexerar de åtgärder som utförts och körningsfel i kronologisk ordning.
-* The **[!UICONTROL Tasks]** -fliken innehåller information om aktiviteternas körningssekvens. Med knappen som finns i slutet av varje uppgift kan du visa de händelsevariabler som skickats genom aktiviteten.
-* The **[!UICONTROL Variables]** På -fliken visas alla variabler som skickas i kompositionen. Det är endast tillgängligt när du får åtkomst till loggar och uppgifter från dispositionsarbetsytan. Det är nu tillgängligt när du öppnar loggarna från en aktivitets egenskapspanel.  <!-- à confirmer-->
+* Fliken **[!UICONTROL Log]** innehåller körningshistoriken för alla dispositionsaktiviteter. Den indexerar de åtgärder som utförts och körningsfel i kronologisk ordning.
+* Fliken **[!UICONTROL Tasks]** innehåller information om körningssekvensen för aktiviteterna. Med knappen som finns i slutet av varje uppgift kan du visa de händelsevariabler som skickats genom aktiviteten.
+* Fliken **[!UICONTROL Variables]** visar alla variabler som skickats i kompositionen. Det är endast tillgängligt när du får åtkomst till loggar och uppgifter från dispositionsarbetsytan. Det är nu tillgängligt när du öppnar loggarna från en aktivitets egenskapspanel.  <!-- à confirmer-->
 
 ![](assets/logs-tasks.png)
 
@@ -70,12 +70,12 @@ På alla flikar kan du välja vilka kolumner som ska visas och i vilken ordning 
 
 Tillgängliga åtgärder är:
 
-* **Starta**: Startar körningen av kompositionen, som sedan får **Pågår** status. Kompositionen påbörjas och de inledande aktiviteterna aktiveras.
+* **Start**: Startar körningen av kompositionen, som sedan får statusen **Pågår**. Kompositionen påbörjas och de inledande aktiviteterna aktiveras.
 
-* **[!UICONTROL Resume]**: Återupptar körningen av kompositionen som pausats. Kompositionen får **Pågår** status.
+* **[!UICONTROL Resume]**: Återupptar körningen av kompositionen som pausats. Dispositionen får statusen **Pågår**.
 
-* **[!UICONTROL Pause]** genomförandet av sammansättningen, som därefter får **Pausad** status. Inga nya aktiviteter kommer att aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
+* **[!UICONTROL Pause]** körningen av kompositionen, som sedan får statusen **Pausad**. Inga nya aktiviteter kommer att aktiveras förrän de återupptas, men pågående åtgärder avbryts inte.
 
-* **[!UICONTROL Stop]** en komposition som utförs, som sedan får **Slutförd** status. De pågående åtgärderna avbryts om möjligt. Du kan inte återuppta från kompositionen från samma plats som den stoppades.
+* **[!UICONTROL Stop]** en komposition som körs, som sedan får statusen **Slutförd**. De pågående åtgärderna avbryts om möjligt. Du kan inte återuppta från kompositionen från samma plats som den stoppades.
 
-* **Starta om**: Stoppar och startar sedan om en komposition. I de flesta fall gör detta att du kan starta om snabbare, eftersom det tar en viss tid att stoppa och **Starta** -knappen är bara tillgänglig när stoppet är aktiverat.
+* **Starta om**: Stoppar och startar sedan om en disposition. I de flesta fall gör detta att du kan starta om snabbare, eftersom det tar en viss tid att stoppa och knappen **Start** är bara tillgänglig när stoppet börjar gälla.

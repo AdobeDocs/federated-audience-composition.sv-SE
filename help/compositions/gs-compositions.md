@@ -24,7 +24,7 @@ Med Adobe Data Composition kan du skapa kompositioner där du kan använda olika
 >title="Kompositioner"
 >abstract="På den här skärmen kan du komma åt den fullständiga listan med kompositioner, kontrollera deras aktuella status, senaste/nästa körningsdatum och skapa en ny komposition."
 
-Kompositioner är tillgängliga från Adobe Experience Platform **[!UICONTROL Audiences]** -menyn på **Sammansatta kompositioner** -fliken.
+Kompositioner är tillgängliga från Adobe Experience Platform **[!UICONTROL Audiences]**-menyn på fliken **Federerade kompositioner** .
 
 Från den här skärmen kan du skapa nya kompositioner och komma åt befintliga. Du kan också duplicera eller ta bort en befintlig komposition genom att klicka på ellipsknappen bredvid dess namn.
 
@@ -32,7 +32,7 @@ Från den här skärmen kan du skapa nya kompositioner och komma åt befintliga.
 
 Om du vill förfina listan och enkelt hitta den komposition du söker efter kan du söka i listan och filtrera kompositioner efter deras status eller senaste bearbetningsdatum.
 
-Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Klicka på **Konfigurera kolumn** s och lägg till eller ta bort önskade utdatakolumner.
+Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Om du vill göra det klickar du på knappen **Konfigurera kolumn** s och lägger till eller tar bort de önskade utdatakolumnerna.
 
 ![](assets/compositions-columns.png)
 
