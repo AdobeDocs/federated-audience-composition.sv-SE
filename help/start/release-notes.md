@@ -2,9 +2,9 @@
 title: Nyheter i Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
+source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Versionsinformation {#rn-new}
 
-## Federated Audience Composition (LA) {#rn-la}
+## Federated Audience Composition (LA) {#fac-la}
 
 Federated Audience Composition Composition är ett tillägg som ger flexibel åtkomst och utökad räckvidd till datalager i företag för att underlätta användningen av personalisering.
 
@@ -20,6 +20,7 @@ Med Federated Audience Composition kan företag sammanställa data för bättre 
 
 I stället för att importera datauppsättningar och/eller målgrupper till Adobe Experience Platform kan du nu använda Federated Audience Composition för att minska mängden data som kopieras från datalagret till Adobe Experience Platform genom att dra ut specifika målgrupper och attribut från lagerstället som behövs för vissa segmenterings- eller aktiveringssyften och se till att känsliga data inte lagras utanför lagerstället.
 
+Läs mer om funktionerna för federerad målgruppskomposition på [den här sidan](get-started.md) och i [Vanliga frågor](get-started.md#faq).
 
 >[!AVAILABILITY]
 >
@@ -27,8 +28,16 @@ I stället för att importera datauppsättningar och/eller målgrupper till Adob
 >
 >För närvarande är funktionen inte tillgänglig för kunder som har köpt tillägget **Healthcare Shield** på Adobe.
 
+## Åtkomst till sammanställning av federerad publik {#fac-access}
 
-## Förutsättningar och skyddsräcken {#rn-guardrails}
+Det finns inga specifika behörigheter för Federated Audience Composition. Den enda förutsättningen för att få tillgång till den här funktionen är att du har köpt tillägget Federated Audience Composition.
+
+>[!AVAILABILITY]
+>
+>När du har fått ett välkomstmeddelande från Adobe kan det ta några timmar innan gränssnittet har uppdaterats och funktioner är tillgängliga.
+>
+
+## Förutsättningar och skyddsräcken {#fac-guardrails}
 
 * Dina IP-adresser måste läggas till i tillåtelselista för att du ska kunna få åtkomst till ditt datalager och använda Federated Audience Composition. Om du vill lägga till dina IP-adresser i tillåtelselista kontaktar du Adobe.
 
