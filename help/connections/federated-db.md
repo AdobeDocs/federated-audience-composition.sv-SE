@@ -3,27 +3,24 @@ audience: end-user
 title: Kom igång med federerade databaser
 description: Lär dig hur du skapar och hanterar Federated Databases
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '1298'
 ht-degree: 2%
 
 ---
 
 # Kom igång med federerade databaser {#federated-db}
 
-
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Federerade databaser"
 >abstract="Befintliga anslutningar till federerade databaser visas på den här skärmen. Klicka på knappen **[!UICONTROL Add federated database]** om du vill skapa en ny anslutning."
 
-
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="Federated Database-egenskaper"
 >abstract="Ange namnet på den nya Federated Database och välj dess typ."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
@@ -42,20 +39,43 @@ Externa databaser som stöds:
 
 ## Snowflake {#snowflake}
 
-* **[!UICONTROL Server]**:
+Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Snowflake.
 
-* **[!UICONTROL User]**: Användarens namn.
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
-* **[!UICONTROL Password]**: Lösenord för användarkonto.
+1. Klicka på **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Database]**:
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Working schema]**:
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
 
-* **[!UICONTROL Private key]**:
-Endast .pem-filer accepteras
+1. I listrutan **[!UICONTROL Type]** väljer du Snowflake.
 
-* **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+   ![](assets/federated_database_2.png)
+
+1. Konfigurera autentiseringsinställningarna för Snowflake:
+
+   * **[!UICONTROL Server]**: Ange ditt servernamn.
+
+   * **[!UICONTROL User]**: Ange ditt användarnamn.
+
+   * **[!UICONTROL Password]**: Ange ditt lösenord för kontot.
+
+   * **[!UICONTROL Database]** (valfritt): Ange namnet på databasen om det inte anges i DSN.
+
+   * **[!UICONTROL Working schema]** (valfritt): Ange namnet på ditt arbetsschema.
+
+   * **[!UICONTROL Private key]**: Klicka på fältet **[!UICONTROL Private key]** för att välja dina .pem-filer från din språkmapp.
+
+   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
+
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
+
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
+
+Kopplingen stöder följande alternativ:
 
 | Alternativ | Beskrivning |
 |---|---|
@@ -70,15 +90,37 @@ Endast .pem-filer accepteras
 
 ## Google Big Query {#google-big-query}
 
-* **[!UICONTROL Service account]**: E-postadress till din **[!UICONTROL Service account]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Google Big Query.
 
-* **[!UICONTROL Project]**: Namn på **[!UICONTROL Project]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
-* **[!UICONTROL Dataset]**: Namn på **[!UICONTROL Dataset]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/bigquery/docs/datasets-intro).
+1. Klicka på **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Key file Path]**: Överför nyckelfilen till servern. Endast JSON-filer accepteras.
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
+
+1. I listrutan **[!UICONTROL Type]** väljer du Google Big Query.
+
+   ![](assets/federated_database_3.png)
+
+1. Konfigurera autentiseringsinställningarna för Google Big Query:
+
+   * **[!UICONTROL Service account]**: Ange e-postadressen till **[!UICONTROL Service account]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+
+   * **[!UICONTROL Project]**: Ange namnet på **[!UICONTROL Project]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+
+   * **[!UICONTROL Dataset]**: Ange namnet på **[!UICONTROL Dataset]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/bigquery/docs/datasets-intro).
+
+   * **[!UICONTROL Key file Path]**: Överför nyckelfilen till servern. Endast JSON-filer accepteras.
+
+   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
+
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
+
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
 
 | Alternativ | Beskrivning |
 |:-:|:-:|
@@ -94,29 +136,77 @@ Endast .pem-filer accepteras
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-* **[!UICONTROL Server]**: URL för Azure synapse-servern
+Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Azure synapse Redshift.
 
-* **[!UICONTROL Account]**: Användarens namn
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
-* **[!UICONTROL Password]**: Lösenord för användarkonto
+1. Klicka på **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Database]**: Namn på databasen
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Options]**
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
+
+1. I listrutan **[!UICONTROL Type]** väljer du Gör om Azure synapse.
+
+   ![](assets/federated_database_4.png)
+
+1. Konfigurera autentiseringsinställningarna för Azure synapse Redshift:
+
+   * **[!UICONTROL Server]**: Ange URL-adressen för Azure synapse-servern.
+
+   * **[!UICONTROL Account]**: Ange användarnamnet.
+
+   * **[!UICONTROL Password]**: Ange kontolösenordet.
+
+   * **[!UICONTROL Database]** (valfritt): Ange namnet på databasen om det inte anges i DSN.
+
+   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
+
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
+
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
+
+| Alternativ | Beskrivning |
+|:-:|:-:|
+| Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Exempel på anslutningssträngar n°8) |
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL Server]**: URL för servern [!DNL Vertica Analytics]
+Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Vertica analytics.
 
-* **[!UICONTROL Account]**: Användarens namn
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
-* **[!UICONTROL Password]**: Lösenord för användarkonto
+1. Klicka på **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Database]**: Namn på databasen
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Working schema]**: Namnet på ditt arbetsschema.
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
 
-* **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+1. I listrutan **[!UICONTROL Type]** väljer du Vertica analytics.
+
+   ![](assets/federated_database_5.png)
+
+1. Konfigurera autentiseringsinställningarna för Vertica analytics:
+
+   * **[!UICONTROL Server]**: Lägg till URL:en för servern [!DNL Vertica Analytics].
+
+   * **[!UICONTROL Account]**: Lägg till användarnamnet.
+
+   * **[!UICONTROL Password]**: Lägg till kontolösenordet.
+
+   * **[!UICONTROL Database]** (valfritt): Ange namnet på databasen om det inte anges i DSN.
+
+   * **[!UICONTROL Working schema]** (valfritt): Ange namnet på ditt arbetsschema.
+
+   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
+
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
+
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
 
 Kopplingen stöder följande alternativ:
 
@@ -124,16 +214,36 @@ Kopplingen stöder följande alternativ:
 |---|---|
 | TimeZoneName | Som standard är den tom, vilket innebär att systemtidszonen för Campaign Classicens programserver används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. |
 
-
 ## Amazon Redshift {#amazon-redshift}
 
-* **[!UICONTROL Server]**: Namn på DNS
+Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Amazon Redshift.
 
-* **[!UICONTROL Account]**: Användarens namn
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
-* **[!UICONTROL Password]**: Lösenord för användarkonto
+1. Klicka på **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Database]**: Namnet på databasen om det inte anges i DSN. Den kan lämnas tom om den anges i DSN
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Working schema]**: Namnet på ditt arbetsschema. [Läs mer](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
 
+1. I listrutan **[!UICONTROL Type]** väljer du Amazon Redshift.
+
+   ![](assets/federated_database_6.png)
+
+1. Konfigurera autentiseringsinställningarna för Amazon Redshift:
+
+   * **[!UICONTROL Server]**: Lägg till namnet på DNS.
+
+   * **[!UICONTROL Account]**: Lägg till användarnamnet.
+
+   * **[!UICONTROL Password]**: Lägg till kontolösenordet.
+
+   * **[!UICONTROL Database]**: Namnet på databasen om det inte anges i DSN. Den kan lämnas tom om den anges i DSN
+
+   * **[!UICONTROL Working schema]**: Namnet på ditt arbetsschema. [Läs mer](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
+
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
+
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
