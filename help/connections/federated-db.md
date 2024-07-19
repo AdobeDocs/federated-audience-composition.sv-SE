@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med federerade databaser
 description: Lär dig hur du skapar och hanterar Federated Databases
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1337'
 ht-degree: 2%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 2%
 >title="Information om federerad databas"
 >abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd knappen **[!UICONTROL Test connection]** för att validera konfigurationen."
 
-Skapa, konfigurera, testa och spara anslutningen till en extern databas.
+Med Federated Audience Composition kan kunden bygga och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform.
 
+Lär dig hur du skapar, konfigurerar, testar och sparar anslutningen till din externa databas på den här sidan.
 
+## Databaser som stöds {#supported-db}
 
-Externa databaser som stöds:
+Med Federated Audience Composition kan du ansluta till följande databaser:
 
 * Amazon Redshift
 * Azure synapse

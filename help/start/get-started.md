@@ -2,9 +2,9 @@
 title: Kom igång med Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1326'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 1%
 
 Federated Audience Composition Composition är ett Adobe Real-time Customer Data Platform- och Adobe Journey Optimizer-tillägg som gör det möjligt för kunden att skapa och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform.
 
-Adobe Experience Platform Federated Audience Composition erbjuder en enkel och kraftfull lösning för att ansluta ert datalager direkt till Adobe Real-time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller. Adobe Federated Audience Composition hjälper Adobe Experience Platform-appanvändare att få tillgång till sina kunddata som lagras i datalagret och molnlagringsplattformarna (som Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering.
+Adobe Experience Platform Federated Audience Composition erbjuder en enkel och kraftfull lösning för att ansluta ert datalager direkt till Adobe Real-time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
+
+Adobe Federated Audience Composition hjälper Adobe Experience Platform-appanvändare att få tillgång till sina kunddata som lagras i datalagret och molnlagringsplattformar som Amazon Redshift, Azure synapse Analytics med flera. Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering. Plattformar som stöds listas på [den här sidan](../connections/federated-db.md#supported-db).
 
 
 ## Användningsfall {#rn-uc}
