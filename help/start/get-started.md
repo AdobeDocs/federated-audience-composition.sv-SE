@@ -2,9 +2,9 @@
 title: Kom igång med Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 63192ea583aca7bc4a30b4a9d2071b83d0a46406
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Adobe Experience Platform Federated Audience Composition erbjuder en enkel och kraftfull lösning för att ansluta ert datalager direkt till Adobe Real-time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
 
-Adobe Federated Audience Composition hjälper Adobe Experience Platform-appsanvändare att få tillgång till sina kunddata som lagras i företagets datalager. Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering.
+Adobe Federated Audience Composition hjälper Adobe Experience Platform-appanvändare att få tillgång till sina kunddata som lagras i datalagret och molnlagringsplattformarna (som Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering.
 
 
 ## Användningsfall {#rn-uc}
