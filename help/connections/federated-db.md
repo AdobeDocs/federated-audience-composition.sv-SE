@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med federerade databaser
 description: Lär dig hur du skapar och hanterar Federated Databases
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 2%
@@ -28,6 +28,8 @@ ht-degree: 2%
 >abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd knappen **[!UICONTROL Test connection]** för att validera konfigurationen."
 
 Skapa, konfigurera, testa och spara anslutningen till en extern databas.
+
+
 
 Externa databaser som stöds:
 

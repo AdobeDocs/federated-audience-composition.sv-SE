@@ -2,9 +2,9 @@
 title: Kom igång med Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1320'
 ht-degree: 1%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 # Kom igång med Federated Audience Composition {#gs-fac}
 
-Adobe Experience Platform Federated Audience Composition erbjuder en enkel och kraftfull lösning för att ansluta ert datalager direkt till Adobe Real-time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
+Federated Audience Composition Composition är ett Adobe Real-time Customer Data Platform- och Adobe Journey Optimizer-tillägg som gör det möjligt för kunden att skapa och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform.
 
-Adobe Federated Audience Composition hjälper Adobe Experience Platform-appanvändare att få tillgång till sina kunddata som lagras i datalagret och molnlagringsplattformarna (som Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering.
+Adobe Experience Platform Federated Audience Composition erbjuder en enkel och kraftfull lösning för att ansluta ert datalager direkt till Adobe Real-time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller. Adobe Federated Audience Composition hjälper Adobe Experience Platform-appanvändare att få tillgång till sina kunddata som lagras i datalagret och molnlagringsplattformarna (som Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering.
 
 
 ## Användningsfall {#rn-uc}
