@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Läs mer om [scheman](../customer/schemas.md).
 
 Läs mer om [målgrupper](../customer/audiences.md).
 
-## Hur skapar man en datamodell? {#data-model-create}
+## Skapa en datamodell {#data-model-create}
 
 Gå till länken **[!UICONTROL Models]** i avsnittet **[!UICONTROL FEDERATED DATA]**. Där finns fliken **[!UICONTROL Data model]**.
 
