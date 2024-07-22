@@ -2,9 +2,9 @@
 title: Kom igång med Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1381'
 ht-degree: 1%
 
 ---
@@ -35,22 +35,14 @@ Med Adobe Federated Audience Composition kan ni skapa och uppdatera Adobe Experi
 
 Viktiga steg:
 
-* **Konfiguration**
+1. **Dataintegrering**: Samla data från olika källor och sammanfoga dem i en enhetlig datauppsättning. Lär dig hur du ansluter Adobe Experience Platform-program och ditt företagsdatalager, databaser som stöds och hur du konfigurerar dem finns i [det här avsnittet](../connections/federated-db.md).
 
-   1. Koppla samman Adobe Experience Platform och företagets datalager.
-Följande databaser stöds: Snowflake, Google Big Query, Azure synapse och Redshift.
-Läs mer på [den här sidan](../connections/federated-db.md)
-   1. Skapa scheman för att välja vilka data som ska vara tillgängliga från användargränssnittet.
-Läs mer på [den här sidan](../customer/schemas.md)
-   1. Skapa länkar för din datamodell.
-Läs mer på [den här sidan](../data-management/gs-models.md)
+2. **Datamodellering**: Designa och skapa datamodeller och scheman som definierar datastrukturen, relationerna och begränsningarna. Läs mer om scheman på [den här sidan](../customer/schemas.md). Lär dig hur du skapar länkar för din datamodell på [den här sidan](../data-management/gs-models.md).
 
-* **Disponera målgrupper**
+3. **Dataomvandling**: Använd dataändringstekniker för att ändra dataelementens format, struktur eller värden så att de blir kompatibla eller lämpliga för specifika analyser eller program.
 
-   1. Designa och kör montage för att skapa målgrupper.
-Läs mer på [den här sidan](../compositions/gs-compositions.md)
-   1. Uppdatera eller återanvänd befintliga målgrupper via Adobe Experience Platform Audience Portal och Destinations.
-Läs mer på [den här sidan](../connections/destinations.md)
+4. **Dataanvändning**: Skapa, samordna och skapa målgrupper. Lär dig hur du skapar målgrupper på [den här sidan](../compositions/gs-compositions.md). Ni kan också uppdatera eller återanvända befintliga målgrupper via Adobe Experience Platform Audience Portal och Destinations. Läs mer på [den här sidan](../connections/destinations.md)
+
 
 ## Vanliga frågor {#faq}
 
