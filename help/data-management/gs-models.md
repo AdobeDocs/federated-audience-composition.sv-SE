@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 En datamodell är en uppsättning scheman, målgrupper och länkar mellan dem.
 
-Läs mer om [scheman](../customer/schemas.md).
+Läs mer om [scheman](../customer/schemas.md#schema-start).
 
 Läs mer om [målgrupper](../customer/audiences.md).
 
@@ -61,3 +61,16 @@ Du kommer åt fönstret där du kan lägga till scheman, målgrupper och länkar
 
 ### Skapa länkar {#data-model-links}
 
+Du kan skapa länkar mellan tabeller i datamodellen på två sätt:
+- Klicka direkt på **[!UICONTROL Create link]**-menyn i en av tabellen
+- Klicka på knappen **[!UICONTROL Create links]** och välj de två tabellerna
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+Fyll i det angivna formuläret för att definiera länken:
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+Alla länkar som är definierade för din datamodell listas nedan:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
