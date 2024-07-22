@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Spara målgrupp
 description: Lär dig hur du använder aktiviteten Spara målgrupper
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ Så här konfigurerar du aktiviteten **Spara målgrupp**:
    ![](../assets/save-audience.png)
 
 1. Ange etiketten för målgruppen som ska skapas.
+
+   >[!IMPORTANT]
+   >
+   >Målgruppsetiketten måste vara unik i den aktuella sandlådan. Det kan inte vara samma etikett som någon befintlig målgrupp.
 
 1. Klicka på **Lägg till målgruppsmappning** och välj käll- och målmålgruppsfälten:
 
