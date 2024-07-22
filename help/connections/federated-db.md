@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med federerade databaser
 description: Lär dig hur du skapar och hanterar Federated Databases
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1344'
 ht-degree: 2%
 
 ---
@@ -33,13 +33,133 @@ Lär dig hur du skapar, konfigurerar, testar och sparar anslutningen till din ex
 
 ## Databaser som stöds {#supported-db}
 
-Med Federated Audience Composition kan du ansluta till följande databaser:
+Med Federated Audience Composition kan du ansluta till följande databaser. Konfigurationen för varje databas beskrivs nedan.
 
-* Amazon Redshift
-* Azure synapse
-* Google Big Query
-* Snowflake
-* Vertica Analytics
+* [Amazon Redshift](#amazon-redshift)
+* [Azure synapse](#azure-synapse-redshift)
+* [Google Big Query](#google-big-query)
+* [Snowflake](#snowflake)
+* [Vertica Analytics](#vertica-analytics)
+
+## Amazon Redshift {#amazon-redshift}
+
+Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Amazon Redshift.
+
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
+
+1. Klicka på **[!UICONTROL Add federated database]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
+
+1. I listrutan **[!UICONTROL Type]** väljer du Amazon Redshift.
+
+   ![](assets/federated_database_6.png)
+
+1. Konfigurera autentiseringsinställningarna för Amazon Redshift:
+
+   * **[!UICONTROL Server]**: Lägg till namnet på DNS.
+
+   * **[!UICONTROL Account]**: Lägg till användarnamnet.
+
+   * **[!UICONTROL Password]**: Lägg till kontolösenordet.
+
+   * **[!UICONTROL Database]**: Namnet på databasen om det inte anges i DSN. Den kan lämnas tom om den anges i DSN
+
+   * **[!UICONTROL Working schema]**: Namnet på ditt arbetsschema. [Läs mer](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
+
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
+
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
+
+## Azure synapse Redshift {#azure-synapse-redshift}
+
+Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Azure synapse Redshift.
+
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
+
+1. Klicka på **[!UICONTROL Add federated database]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
+
+1. I listrutan **[!UICONTROL Type]** väljer du Gör om Azure synapse.
+
+   ![](assets/federated_database_4.png)
+
+1. Konfigurera autentiseringsinställningarna för Azure synapse Redshift:
+
+   * **[!UICONTROL Server]**: Ange URL-adressen för Azure synapse-servern.
+
+   * **[!UICONTROL Account]**: Ange användarnamnet.
+
+   * **[!UICONTROL Password]**: Ange kontolösenordet.
+
+   * **[!UICONTROL Database]** (valfritt): Ange namnet på databasen om det inte anges i DSN.
+
+   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
+
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
+
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
+
+| Alternativ | Beskrivning |
+|:-:|:-:|
+| Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Exempel på anslutningssträngar n°8) |
+
+
+## Google Big Query {#google-big-query}
+
+Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Google Big Query.
+
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
+
+1. Klicka på **[!UICONTROL Add federated database]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
+
+1. I listrutan **[!UICONTROL Type]** väljer du Google Big Query.
+
+   ![](assets/federated_database_3.png)
+
+1. Konfigurera autentiseringsinställningarna för Google Big Query:
+
+   * **[!UICONTROL Service account]**: Ange e-postadressen till **[!UICONTROL Service account]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+
+   * **[!UICONTROL Project]**: Ange namnet på **[!UICONTROL Project]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+
+   * **[!UICONTROL Dataset]**: Ange namnet på **[!UICONTROL Dataset]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/bigquery/docs/datasets-intro).
+
+   * **[!UICONTROL Key file Path]**: Överför nyckelfilen till servern. Endast JSON-filer accepteras.
+
+   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
+
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
+
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
+
+| Alternativ | Beskrivning |
+|:-:|:-:|
+| ProxyType | Typ av proxy som används för att ansluta till BigQuery via ODBC- och SDK-anslutningar. </br>HTTP (standard), http_no_tunnel, sockor4 och sockor5 stöds för närvarande. |
+| ProxyHost | Värdnamn eller IP-adress dit proxyn kan nås. |
+| ProxyPort | Portnummer som proxyn körs på, till exempel 8080 |
+| ProxyUid | Användarnamn som används för autentiserad proxy |
+| ProxyPwd | ProxyUid-lösenord |
+| bqpath | Observera att detta endast gäller för massinläsningsverktyg (Cloud SDK). </br> Om du vill undvika att använda variabeln PATH eller om katalogen google-cloud-sdk måste flyttas till en annan plats, kan du med det här alternativet ange den exakta sökvägen till bin-katalogen i molnet på servern. |
+| GCloudConfigName | Observera att detta gäller från och med version 7.3.4 och endast för massinläsningsverktyg (Cloud SDK).</br> Google Cloud SDK använder konfigurationer för att läsa in data i BigQuery-tabeller. Konfigurationen med namnet `accfda` lagrar parametrarna för att läsa in data. Med det här alternativet kan användare ange ett annat namn för konfigurationen. |
+| GCloudDefaultConfigName | Observera att detta gäller från och med version 7.3.4 och endast för massinläsningsverktyg (Cloud SDK).</br> Den aktiva Google Cloud SDK-konfigurationen kan inte tas bort utan att den aktiva taggen först överförs till en ny konfiguration. Den här tillfälliga konfigurationen är nödvändig för att återskapa huvudkonfigurationen för inläsning av data. Standardnamnet för den tillfälliga konfigurationen är `default`, vilket kan ändras vid behov. |
+| GCloudRecreateConfig | Observera att detta gäller från och med version 7.3.4 och endast för massinläsningsverktyg (Cloud SDK).</br> När värdet är `false` avstår massinläsningsfunktionen från att försöka återskapa, ta bort eller ändra Google Cloud SDK-konfigurationerna. I stället fortsätter programmet med datainläsning med den befintliga konfigurationen på datorn. Den här funktionen är värdefull när andra åtgärder är beroende av Google Cloud SDK-konfigurationer. </br> Om användaren aktiverar det här motoralternativet utan rätt konfiguration kommer massinläsningsmekanismen att skicka ett varningsmeddelande: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Om du vill förhindra fler fel återgår den till att använda ODBC-standardmetoden för gruppinläsning av ODBC-matris. |
+
 
 ## Snowflake {#snowflake}
 
@@ -92,89 +212,6 @@ Kopplingen stöder följande alternativ:
 | chunkSize | Bestämmer filstorleken för gruppinläsarsegmentet. Standardinställningen är 128 MB. Kan ändras för att få optimala prestanda när de används med bulkThreads. Fler samtidiga aktiva trådar innebär bättre prestanda. <br>Mer information finns i [Snowflake-dokumentationen](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
 | StageName | Namnet på den förallokerade interna scenen. Den används i massinläsning i stället för att skapa en ny tillfällig fas. |
 
-## Google Big Query {#google-big-query}
-
-Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Google Big Query.
-
-1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
-
-1. Klicka på **[!UICONTROL Add federated database]**.
-
-   ![](assets/federated_database_1.png)
-
-1. Ange en **[!UICONTROL Name]** till din Federate-databas.
-
-1. I listrutan **[!UICONTROL Type]** väljer du Google Big Query.
-
-   ![](assets/federated_database_3.png)
-
-1. Konfigurera autentiseringsinställningarna för Google Big Query:
-
-   * **[!UICONTROL Service account]**: Ange e-postadressen till **[!UICONTROL Service account]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
-
-   * **[!UICONTROL Project]**: Ange namnet på **[!UICONTROL Project]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
-
-   * **[!UICONTROL Dataset]**: Ange namnet på **[!UICONTROL Dataset]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/bigquery/docs/datasets-intro).
-
-   * **[!UICONTROL Key file Path]**: Överför nyckelfilen till servern. Endast JSON-filer accepteras.
-
-   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
-
-1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
-
-1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
-
-1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
-
-| Alternativ | Beskrivning |
-|:-:|:-:|
-| ProxyType | Typ av proxy som används för att ansluta till BigQuery via ODBC- och SDK-anslutningar. </br>HTTP (standard), http_no_tunnel, sockor4 och sockor5 stöds för närvarande. |
-| ProxyHost | Värdnamn eller IP-adress dit proxyn kan nås. |
-| ProxyPort | Portnummer som proxyn körs på, till exempel 8080 |
-| ProxyUid | Användarnamn som används för autentiserad proxy |
-| ProxyPwd | ProxyUid-lösenord |
-| bqpath | Observera att detta endast gäller för massinläsningsverktyg (Cloud SDK). </br> Om du vill undvika att använda variabeln PATH eller om katalogen google-cloud-sdk måste flyttas till en annan plats, kan du med det här alternativet ange den exakta sökvägen till bin-katalogen i molnet på servern. |
-| GCloudConfigName | Observera att detta gäller från och med version 7.3.4 och endast för massinläsningsverktyg (Cloud SDK).</br> Google Cloud SDK använder konfigurationer för att läsa in data i BigQuery-tabeller. Konfigurationen med namnet `accfda` lagrar parametrarna för att läsa in data. Med det här alternativet kan användare ange ett annat namn för konfigurationen. |
-| GCloudDefaultConfigName | Observera att detta gäller från och med version 7.3.4 och endast för massinläsningsverktyg (Cloud SDK).</br> Den aktiva Google Cloud SDK-konfigurationen kan inte tas bort utan att den aktiva taggen först överförs till en ny konfiguration. Den här tillfälliga konfigurationen är nödvändig för att återskapa huvudkonfigurationen för inläsning av data. Standardnamnet för den tillfälliga konfigurationen är `default`, vilket kan ändras vid behov. |
-| GCloudRecreateConfig | Observera att detta gäller från och med version 7.3.4 och endast för massinläsningsverktyg (Cloud SDK).</br> När värdet är `false` avstår massinläsningsfunktionen från att försöka återskapa, ta bort eller ändra Google Cloud SDK-konfigurationerna. I stället fortsätter programmet med datainläsning med den befintliga konfigurationen på datorn. Den här funktionen är värdefull när andra åtgärder är beroende av Google Cloud SDK-konfigurationer. </br> Om användaren aktiverar det här motoralternativet utan rätt konfiguration kommer massinläsningsmekanismen att skicka ett varningsmeddelande: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Om du vill förhindra fler fel återgår den till att använda ODBC-standardmetoden för gruppinläsning av ODBC-matris. |
-
-## Azure synapse Redshift {#azure-synapse-redshift}
-
-Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Azure synapse Redshift.
-
-1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
-
-1. Klicka på **[!UICONTROL Add federated database]**.
-
-   ![](assets/federated_database_1.png)
-
-1. Ange en **[!UICONTROL Name]** till din Federate-databas.
-
-1. I listrutan **[!UICONTROL Type]** väljer du Gör om Azure synapse.
-
-   ![](assets/federated_database_4.png)
-
-1. Konfigurera autentiseringsinställningarna för Azure synapse Redshift:
-
-   * **[!UICONTROL Server]**: Ange URL-adressen för Azure synapse-servern.
-
-   * **[!UICONTROL Account]**: Ange användarnamnet.
-
-   * **[!UICONTROL Password]**: Ange kontolösenordet.
-
-   * **[!UICONTROL Database]** (valfritt): Ange namnet på databasen om det inte anges i DSN.
-
-   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
-
-1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
-
-1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
-
-1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
-
-| Alternativ | Beskrivning |
-|:-:|:-:|
-| Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Exempel på anslutningssträngar n°8) |
 
 ## Vertica Analytics {#vertica-analytics}
 
@@ -218,36 +255,3 @@ Kopplingen stöder följande alternativ:
 |---|---|
 | TimeZoneName | Som standard är den tom, vilket innebär att systemtidszonen för Campaign Classicens programserver används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. |
 
-## Amazon Redshift {#amazon-redshift}
-
-Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Amazon Redshift.
-
-1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
-
-1. Klicka på **[!UICONTROL Add federated database]**.
-
-   ![](assets/federated_database_1.png)
-
-1. Ange en **[!UICONTROL Name]** till din Federate-databas.
-
-1. I listrutan **[!UICONTROL Type]** väljer du Amazon Redshift.
-
-   ![](assets/federated_database_6.png)
-
-1. Konfigurera autentiseringsinställningarna för Amazon Redshift:
-
-   * **[!UICONTROL Server]**: Lägg till namnet på DNS.
-
-   * **[!UICONTROL Account]**: Lägg till användarnamnet.
-
-   * **[!UICONTROL Password]**: Lägg till kontolösenordet.
-
-   * **[!UICONTROL Database]**: Namnet på databasen om det inte anges i DSN. Den kan lämnas tom om den anges i DSN
-
-   * **[!UICONTROL Working schema]**: Namnet på ditt arbetsschema. [Läs mer](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
-
-1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
-
-1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
-
-1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
