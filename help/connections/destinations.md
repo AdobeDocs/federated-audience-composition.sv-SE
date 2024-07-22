@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: Skicka målgrupper till Adobe Federated Audience Composition
-description: Lär dig hur du skickar Adobe Experience Platform-målgrupper till Federated Audience Composition
+title: Berika Adobe Experience Platform målgrupper med externa data
+description: Lär dig förfina och berika Adobe Experience Platform-målgrupper med data från era externa databaser med Federated målgrupps sammanställningsmål.
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
 
-# Skicka Adobe Experience Platform till Adobe Federated Audience Composition {#connect-aep-fac}
+# Berika Adobe Experience Platform målgrupper med externa data {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Skapa ett mål"
 >abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd knappen **[!UICONTROL Connect to destination]** för att validera konfigurationen."
 
-Med Adobe Experience Platform kan ni skicka över målgrupper från Audience-portalen till Adobe Federated Audience Composition. På så sätt kan ni utnyttja befintliga målgrupper i kompositioner och kombinera dem med data från externa databaser för att skapa nya eller uppdatera befintliga målgrupper.
+Adobe Experience Platform möjliggör smidig integrering av målgrupper från Audience Portal till externa databaser med Adobe Federated Audience Composition-målet. På så sätt kan ni utnyttja befintliga målgrupper i kompositioner och berika eller förfina dem med data från externa databaser för att skapa nya målgrupper eller uppdatera befintliga.
 
-För att göra det måste du skapa en ny anslutning i Adobe Experience Platform till Adobe Federated Audience Composition-målet. Du kan använda en schemaläggare för att skicka en viss målgrupp med regelbundna intervall och välja vilka fält som ska skickas med målgruppen, till exempel ID:n för avstämning av data. Om ni har tillämpat styrnings- och integritetspolicyer på er målgrupp kommer de att behållas och skickas tillbaka till målgruppsportalen när målgruppen har uppdaterats.
+För att göra det måste du skapa en ny anslutning i Adobe Experience Platform till Adobe Federated Audience Composition-målet. Du kan använda en schemaläggare för att skicka en viss målgrupp med regelbundna intervall, välja specifika attribut att inkludera, t.ex. ID:n för datavstämning. Om ni har tillämpat styrnings- och integritetspolicyer på er målgrupp kommer de att behållas och skickas tillbaka till målgruppsportalen när målgruppen har uppdaterats.
+
+Om du till exempel lagrar kundpoäng på ert datalager och har en Adobe Experience Platform-målgrupp som riktar sig till kunder som är intresserade av en viss produkt de senaste två månaderna, kan du förfina den här målgruppen baserat på kreditpoäng med Federated Audience Composition-destinationen. Med den här processen kan ni filtrera målgruppen så att den bara inkluderar profiler med höga kreditpoäng utan att överföra känsliga kreditpoängsdata från ert datalager.
 
 De viktigaste stegen för att skicka Adobe Experience Platform-målgrupper till Adobe Federated Audience Composition är följande:
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -41,7 +41,7 @@ En datamodell är en uppsättning scheman, målgrupper och länkar mellan dem.
 
 Läs mer om [scheman](../customer/schemas.md#schema-start).
 
-Läs mer om [målgrupper](../customer/audiences.md).
+Läs mer om [målgrupper](../start/audiences.md).
 
 ## Skapa en datamodell {#data-model-create}
 
