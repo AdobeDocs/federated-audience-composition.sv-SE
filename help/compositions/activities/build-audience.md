@@ -3,9 +3,9 @@ audience: end-user
 title: Använd aktiviteten Skapa målgrupp
 description: Lär dig använda aktiviteten Skapa målgrupp
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -45,8 +45,11 @@ Så här skapar du en egen målgrupp:
 
 1. Välj **Skapa målgrupp**.
 1. Välj **Schema**, även kallat måldimension. Med schemat kan du definiera målgruppen för åtgärden: mottagare, avtalspliktiga mottagare, operatör, prenumeranter osv. Som standard väljs schemat bland mottagarna.
+
+   ![](../assets/build-audience-create.png)
+
 1. Klicka på **Fortsätt**.
-1. Använd frågemodelleraren för att definiera frågan. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
+1. Använd frågemodelleraren för att definiera frågan och sedan bekräfta. [Lär dig arbeta med frågemodelleraren](../../query/query-modeler-overview.md)
 
 >[!TAB Läs målgrupp]
 
@@ -54,9 +57,16 @@ Så här väljer du en befintlig målgrupp:
 
 1. Välj **Läs målgrupp**.
 1. Klicka på **Fortsätt**.
+
+   ![](../assets/build-audience-read.png)
+
 1. Välj målgrupp.
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>Med alternativet **Generera en utgående övergång** kan du lägga till en utgående övergång som aktiveras i slutet av aktivitetens körning om målgruppspopulationen är tom.
 
 <!--
 ## Examples{#build-audience-examples}
