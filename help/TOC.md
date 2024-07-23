@@ -2,10 +2,10 @@
 user-guide-title: Sammansatt målgrupp
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Sammansatt målgrupp
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 11%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 11%
 # Kompositionsdokumentation för federerad publik {#using}
 
 + [Kompositionsdokumentation för federerad publik](home.md)
++ [Versionsinformation](start/release-notes.md)
 + Kom igång med Federated Audience Composition {#start}
-   + [Kom igång](start/get-started.md)
-   + [Versionsinformation](start/release-notes.md)
+   + [Vad är federerad målgruppskomposition?](start/get-started.md)
    + [Arbeta med målgrupper](start/audiences.md)
 + Konfigurationssteg {#config}
    + [Skapa och hantera anslutningar](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 11%
       + [Skapa och konfigurera scheman](customer/schemas.md)
       + [Konfigurera dina datamodeller](data-management/gs-models.md)
    + [Berika Adobe Experience Platform målgrupper med externa data](connections/destinations.md)
-+ Kompositioner {#compositions}
++ Disponera målgrupper {#compositions}
    + [Kom igång med kompositioner](compositions/gs-compositions.md)
    + Skapa och kör din första komposition {#create-composition}
       + [Viktiga principer för skapande av kompositioner](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 11%
    + [Redigera uttryck](query/expression-editor.md)
 + Granskningsspår {#audit-trail}
    + [Övervaka dina databaser](admin/audit-trail.md)
-+ [&lt; Tillbaka till Adobe Experience Platform-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)

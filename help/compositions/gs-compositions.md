@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med kompositioner
 description: Lär dig hur du börjar med kompositioner
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Vad är en komposition? {#what}
 
-Med Adobe Data Composition kan du skapa kompositioner där du kan använda olika aktiviteter (dela, exkludera..) i en visuell arbetsyta för att skapa målgrupper. När det är klart sparas de resulterande målgrupperna i Adobe Experience Platform tillsammans med befintliga målgrupper och kan utnyttjas till målgrupper som Journey Optimizer.
+Med Adobe Audience Composition kan du skapa kompositioner där du kan använda olika aktiviteter (dela, exkludera...) i en visuell arbetsyta för att skapa målgrupper. När det är klart sparas de resulterande målgrupperna i Adobe Experience Platform tillsammans med befintliga målgrupper och kan utnyttjas till målgrupper som Journey Optimizer. [Lär dig arbeta med målgrupper](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -43,7 +43,7 @@ Kompositioner kan ha flera statusvärden:
 
 * **[!UICONTROL Draft]**: Kompositionen har skapats och sparats.
 * **[!UICONTROL In progress]**: Kompositionen har körts och körs för närvarande.
-* **[!UICONTROL Stopped]**: Kompositionskörningen har stoppats.
+* **[!UICONTROL Stopped]**: Kompositionskörningen är klar och har stoppats.
 * **[!UICONTROL Paused]**: Kompositionskörningen har pausats.
 * **[!UICONTROL Erroneous]**: Kompositionskörningen har påträffat ett fel. Öppna kompositionen och öppna loggarna och aktiviteterna för att identifiera felet och åtgärda det.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med granskningsspår
 description: Lär dig övervaka dina databaser med granskningsspår
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 Funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din miljö i realtid
 
-Funktionen **[!UICONTROL Audit trail]** registrerar hela tiden en detaljerad logg över åtgärder och händelser som äger rum i Adobe Data Composition-instansen i realtid. Den erbjuder en praktisk metod för att få tillgång till en kronologisk datapost, som behandlar frågor som till exempel status för arbetsflöden, de senaste personerna att ändra dem eller aktiviteter som utförs av användare i instansen.
+Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg över åtgärder och händelser som inträffar i instansen av Adobe Federated Composition i realtid. Den erbjuder en praktisk metod för att få tillgång till en kronologisk datapost, som behandlar frågor som till exempel status för arbetsflöden, de senaste personerna att ändra dem eller aktiviteter som utförs av användare i instansen.
 
 +++ Läs mer om tillgängliga enheter för granskningsspår
 
-* **Source Schema-granskningsspår** gör att du kan övervaka aktiviteter och nyligen gjorda ändringar i dina scheman i Adobe Data Composition-instansen.
+* **Source Schema-granskningsspår** gör att du kan övervaka aktiviteter och nyligen gjorda ändringar i dina scheman i Adobe Federated Audience Composition-instansen.
 
   Mer information om scheman finns på [sidan](../customer/schemas.md).
 
@@ -40,7 +40,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar hela tiden en detaljerad log
 
   Mer information om arbetsflöden finns på [sidan](../compositions/gs-compositions.md).
 
-* Med **Externt konto** kan du kontrollera ändringar som har gjorts i externa konton i instansen Adobe Data Composition.
+* Med **externt konto** kan du kontrollera ändringar som gjorts i externa konton i instansen Adobe Audience Composition.
 
   Mer information om externt konto finns på [sidan](../connections/federated-db.md).
 
