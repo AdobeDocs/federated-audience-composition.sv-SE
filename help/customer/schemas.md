@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 1%
 
 Ett schema är en representation av en tabell i databasen. Det är ett objekt i programmet som definierar hur data kopplas till databastabeller.
 
-Genom att skapa ett schema kan du ändra tabellen i FAC:
+Genom att skapa ett schema kan du ändra en representation av tabellen i FAC:
+
 - Ge den ett eget namn och en beskrivning som förenklar förståelsen för användaren
 - Bestäm vilka fält som ska visas utifrån deras verkliga användning
 - Välj dess primärnyckel för att länka scheman mellan dem efter behov i [datamodellen](../data-management/gs-models.md#data-model-start)
@@ -70,6 +71,7 @@ Genom att lägga till tabellerna, som du vill skapa schemat för, får du tillg�
 ![](assets/schema_fields.png){zoomable="yes"}
 
 För varje tabell kan du:
+
 - ändra namn på schemaetiketten som angetts
 - lägg till en beskrivning
 - ändra namn på alla fält och bestämma deras synlighet.
@@ -91,6 +93,7 @@ Klicka på knappen **[!UICONTROL Edit]**.
 ![](assets/schema_edit.png){zoomable="yes"}
 
 Du har tillgång till samma möjlighet som när du skapar schemat:
+
 - ändra namn på schemaetiketten som angetts
 - lägg till en beskrivning
 - ändra namn på alla fält och bestämma deras synlighet.
