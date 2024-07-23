@@ -2,10 +2,10 @@
 user-guide-title: Sammansatt målgrupp
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Sammansatt målgrupp
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 9%
+source-wordcount: '136'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 9%
 + Kom igång med Federated Audience Composition {#start}
    + [Vad är federerad målgruppskomposition?](start/get-started.md)
    + [Arbeta med målgrupper](start/audiences.md)
+   + [Vanliga frågor och svar](start/faq.md)
 + Konfigurationssteg {#config}
    + [Skapa och hantera anslutningar](connections/connections.md)
    + [Konfigurera dina federerade databaser](connections/federated-db.md)
