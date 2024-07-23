@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -62,6 +62,7 @@ Du kommer åt fönstret där du kan lägga till scheman, målgrupper och länkar
 ### Skapa länkar {#data-model-links}
 
 Du kan skapa länkar mellan tabeller i datamodellen på två sätt:
+
 - Klicka direkt på **[!UICONTROL Create link]**-menyn i en av tabellen
 - Klicka på knappen **[!UICONTROL Create links]** och välj de två tabellerna
 

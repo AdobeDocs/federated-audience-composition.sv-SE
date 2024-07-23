@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa och hantera anslutningar med federerade databaser
 description: Lär dig skapa och hantera anslutningar med Federated Databases
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 98689f24fc7eeffa4cdfa5418c160c13abba7527
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 5%
@@ -27,6 +27,7 @@ Om du väljer dess typ får du tillgång till andra egenskaper som du kan fylla 
 ![](assets/connections_details.png){zoomable="yes"}
 
 Lär dig mer i länkarna nedan vilken information du behöver för att upprätta anslutningen beroende på vilken typ av databas du använder:
+
 * [Amazon Redshift](federated-db.md#amazon-redshift)
 * [Azure synapse](federated-db.md#azure-synapse-redshift)
 * [Google Big Query](federated-db.md#google-big-query)
