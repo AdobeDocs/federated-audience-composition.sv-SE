@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Spara målgrupp
 description: Lär dig hur du använder aktiviteten Spara målgrupper
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Spara en publik"
->abstract="Använd den här aktiviteten för att uppdatera en befintlig målgrupp eller skapa en ny målgrupp från populationen som beräknas uppströms i kompositionen. De målgrupper som skapas läggs till i listan över målgrupper och är tillgängliga via menyn **Publiker** ."
+>abstract="Använd den här aktiviteten för att skapa en ny målgrupp från populationen som beräknas uppströms i kompositionen. De målgrupper som skapas läggs till i listan över målgrupper och är tillgängliga via menyn **Publiker** ."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -35,7 +35,7 @@ ht-degree: 0%
 >abstract="Välj det namnutrymme som ska användas för profiler."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Läs mer i dokumentationen för Experience Platform"
 
-Med aktiviteten **Spara målgrupp** kan du uppdatera en befintlig målgrupp eller skapa en ny målgrupp utifrån den population som beräknas uppströms i en komposition. De målgrupper som skapas läggs till i listan över programmålgrupper och blir tillgängliga via menyn **Publiker** .
+Med aktiviteten **Spara målgrupp** kan du skapa en ny målgrupp utifrån den population som beräknas uppströms i en komposition. De målgrupper som skapas läggs till i listan över Adobe Experience Platform-målgrupper och blir tillgängliga via menyn **Publiker** . [Lär dig arbeta med målgrupper](../../start/audiences.md)
 
 Denna verksamhet används främst för att få populationsgrupper att beräknas i samma sammansättning genom att de omvandlas till återanvändbara målgrupper. Koppla det till andra målinriktningsaktiviteter som **Skapa målgrupp** eller en **Kombinera**-aktivitet.
 
@@ -53,10 +53,7 @@ Så här konfigurerar du aktiviteten **Spara målgrupp**:
    >
    >Målgruppsetiketten måste vara unik i den aktuella sandlådan. Det kan inte vara samma etikett som någon befintlig målgrupp.
 
-1. Klicka på **Lägg till målgruppsmappning** och välj käll- och målmålgruppsfälten:
-
-   * **Source målgruppsfält**:
-   * **Målgruppsfält**:
+1. Använd delen Målgruppsmappningar för att markera de fält du vill ta med den nya målgruppen. Det gör du genom att klicka på **Lägg till målgruppsmappning** och sedan välja käll- och målmålgruppsfälten.
 
    Upprepa åtgärden för att lägga till så många målgruppsmappningar som behövs.
 
@@ -65,7 +62,7 @@ Så här konfigurerar du aktiviteten **Spara målgrupp**:
    * **Primärt identitetsfält**: Markera det fält som ska användas för att identifiera profilerna. Till exempel dess e-postadress eller telefonnummer.
    * **Identitetsnamnrymd**: Välj det namnutrymme som ska användas för att identifiera profilerna, dvs. den typ av data som ska användas som identifieringsnyckel. Om e-postadressen till exempel har valts som primärt identitetsfält bör identitetsnamnområdet **E-postadress** väljas. Om den unika identifieraren är telefonnumret bör identitetsnamnområdet **Telefon** väljas.
 
-När kompositionen har körts sparas den slutliga publiken i Adobe Experience Platform <!-- to check--> och blir tillgänglig på menyn **Publiker** .
+När kompositionen har körts sparas den slutliga publiken i Adobe Experience Platform och blir tillgänglig på menyn **Publiker** . Den skapade målgruppen innehåller alla fält som har markerats i avsnittet Målgruppsmappningar. Du kan aktivera målgruppen för alla mål som stöds av Adobe Experience Platform.
 
 <!--
 

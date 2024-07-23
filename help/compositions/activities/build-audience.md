@@ -3,9 +3,9 @@ audience: end-user
 title: Använd aktiviteten Skapa målgrupp
 description: Lär dig använda aktiviteten Skapa målgrupp
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -18,15 +18,10 @@ ht-degree: 1%
 >title="Bygg målgruppsaktivitet"
 >abstract="Med aktiviteten **Skapa målgrupp** kan du definiera målgruppen som ska ange kompositionen."
 
-Med aktiviteten **Skapa målgrupp** kan du definiera målgruppen som ska ange kompositionen.
+Med aktiviteten **Skapa målgrupp** kan du definiera målgruppen som ska ange kompositionen. Om du vill definiera målgruppspopulationen kan du:
 
-Om du vill definiera målgruppspopulationen kan du:
-
-<!--* Select an existing audience, created as a list in the client console.-->
-* Välj en Adobe Experience Platform-målgrupp.
-* Bygg en ny målgrupp med frågemodelleraren genom att definiera och kombinera filtervillkor.
-
-Aktiviteten **Skapa målgrupp** kan placeras i början av kompositionen eller efter andra aktiviteter. Alla aktiviteter kan placeras efter **Skapa målgrupp**.
+* Välj en befintlig Adobe Experience Platform-målgrupp.
+* Skapa en ny målgrupp med frågemodelleraren genom att definiera och kombinera filtervillkor.
 
 ## Konfigurera aktiviteten Skapa målgrupp {#build-audience-configuration}
 

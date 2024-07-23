@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,7 @@ Det första steget för att skapa en komposition är att definiera dess etikett 
 >title="Inställningar för felhantering"
 >abstract="I det här avsnittet kan du definiera hur fel ska hanteras under körningen. Du kan välja att pausa processen, ignorera ett visst antal fel eller avbryta kompositionskörningen."
 
-När du öppnar en komposition kan du komma åt avancerade inställningar som t.ex. gör att du kan definiera hur kompositionen ska fungera om fel uppstår.
-
-Om du vill få tillgång till fler alternativ för kompositionen klickar du på knappen **[!UICONTROL Settings]** som finns i det övre avsnittet på skärmen där kompositionen skapas.
+När du öppnar en komposition kan du komma åt avancerade inställningar som t.ex. gör att du kan definiera hur kompositionen ska fungera om fel uppstår. Klicka på knappen **[!UICONTROL Settings]** som finns i det övre avsnittet på skärmen där kompositionen skapas för att få åtkomst till de här extra alternativen.
 
 ![](assets/composition-create-settings.png)
 
