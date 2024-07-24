@@ -3,7 +3,8 @@ audience: end-user
 title: Berika Adobe Experience Platform målgrupper med externa data
 description: Lär dig förfina och berika Adobe Experience Platform-målgrupper med data från era externa databaser med Federated målgrupps sammanställningsmål.
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
+source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 >title="Skapa ett mål"
 >abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd knappen **[!UICONTROL Connect to destination]** för att validera konfigurationen."
 
-Adobe Experience Platform möjliggör smidig integrering av målgrupper från Audience Portal till externa databaser med **Adobe Federated Audience Composition** -målet. På så sätt kan ni utnyttja befintliga målgrupper i kompositioner och berika eller förfina dem med data från externa databaser för att skapa nya målgrupper.
+Adobe Experience Platform möjliggör smidig integrering av målgrupper från Audience Portal med dina externa databaser med hjälp av **Adobe Federated Audience Composition-målet**. Med den här integreringen kan ni utnyttja befintliga målgrupper i kompositioner och berika eller förfina dem med data från externa databaser för att skapa nya målgrupper.
 
 För att göra det måste du skapa en ny anslutning i Adobe Experience Platform till Adobe Federated Audience Composition-målet. Du kan använda en schemaläggare för att skicka en viss målgrupp med regelbundna intervall, välja specifika attribut att inkludera, t.ex. ID:n för datavstämning. Om ni har tillämpat styrnings- och integritetspolicyer på er målgrupp kommer de att behållas och skickas tillbaka till målgruppsportalen när målgruppen har uppdaterats.
 
