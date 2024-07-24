@@ -3,13 +3,13 @@ audience: end-user
 title: Använd avstämningsaktiviteten
 description: Lär dig använda avstämningsaktiviteten
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
-
 
 # Avstämning {#reconciliation}
 
@@ -37,7 +37,7 @@ Med aktiviteten **Avstämning** kan du definiera länken mellan data i databasen
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-Med aktiviteten **Avstämning** kan du länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att de data som du ansluter redan finns i databasen. Om du t.ex. vill avstämma inköpsinformation som visar vilken produkt som köptes, vid vilken tidpunkt, av vilken klient, osv., måste produkten och klienten redan finnas i databasen.
+Det gör att du kan länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att de data som du ansluter redan finns i databasen. Om du t.ex. vill avstämma inköpsinformation som visar vilken produkt som köptes, vid vilken tidpunkt, av vilken klient, osv., måste produkten och klienten redan finnas i databasen.
 
 ## Konfigurera avstämningsaktiviteten {#reconciliation-configuration}
 
