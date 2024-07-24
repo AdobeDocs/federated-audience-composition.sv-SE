@@ -3,13 +3,13 @@ audience: end-user
 title: Använd anrikningsaktiviteten
 description: Lär dig använda anrikningsaktiviteten
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
+source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
-
 
 # Berikning {#enrichment}
 
@@ -38,7 +38,9 @@ ht-degree: 0%
 >title="Anrikningsdata"
 >abstract="Välj de data som ska användas för att berika kompositionen. Du kan välja två typer av anrikningsdata: ett enskilt anrikningsattribut från schemat, även kallat måldimension, eller en samlingslänk, som är en länk med en 1-N-kardinalitet mellan tabeller."
 
-Med aktiviteten **Enrichment** kan du förbättra måldata med ytterligare information från den federerade databasen. Den används ofta i kompositioner efter segmenteringsaktiviteter.
+Med aktiviteten **Enrichment** kan du förbättra måldata med ytterligare information från den federerade databasen. Den används ofta i en komposition efter segmenteringsaktiviteter.
+
+Om du har konfigurerat en anslutning till Federated Data Composition-målet kan du använda Enrichment-aktiviteten för att berika data som kommer från Adobe Experience Platform med attribut från din externa databas. [Lär dig hur du berikar Adobe Experience Platform-målgrupper med externa data](../../connections/destinations.md)
 
 Anrikningsdata kan komma antingen:
 
@@ -78,16 +80,17 @@ Så här konfigurerar du aktiviteten **Enrichment**:
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)-->
 
-## Exempel {#example}
+<!--
+## Examples {#example}
 
-### Single enrichment-attribut {#single-attribute}
+### Single enrichment attribute {#single-attribute}
 
-Här lägger vi bara till ett enda anrikningsattribut, till exempel födelsedatumet. Följ de här stegen:
+Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
-1. Klicka i fältet **Attribut**.
-1. Välj ett enkelt fält från schemat, som också kallas måldimension, födelsedatumet i vårt exempel.
-1. Klicka på **Bekräfta**.
-
+1. Click inside the **Attribute** field.
+1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
+1. Click **Confirm**.
+-->
 <!--### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
