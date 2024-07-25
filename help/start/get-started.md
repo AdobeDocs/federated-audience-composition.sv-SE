@@ -3,7 +3,7 @@ title: Kom igång med Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
+source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 1%
@@ -22,13 +22,13 @@ Med ett marknadsföringsvänligt användargränssnitt kan du skapa segmentregler
 
 I den här versionen finns två användningsexempel: Audience Creation och Audience Enrichment.
 
-![diagram](assets/fac-use-cases.png){zoomable="yes"}
+![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Viktiga steg {#gs-steps}
 
 Med Adobe Federated Audience Composition kan ni skapa och uppdatera Adobe Experience Platform-målgrupper direkt från er databas, utan att behöva lägga in något i den.
 
-![diagram](assets/steps-diagram.png){zoomable="yes"}
+![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 Viktiga steg:
 
