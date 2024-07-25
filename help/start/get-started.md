@@ -2,13 +2,13 @@
 title: Kom igång med Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
+source-git-commit: 9397bac0fda54761b2ac3c29140d32a433cb514b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
-
 
 # Kom igång med Federated Audience Composition {#gs-fac}
 
@@ -39,6 +39,12 @@ Viktiga steg:
 3. **Dataomvandling**: Använd dataändringstekniker för att ändra dataelementens format, struktur eller värden så att de blir kompatibla eller lämpliga för specifika analyser eller program.
 
 4. **Dataanvändning**: Skapa, samordna och skapa målgrupper. Lär dig hur du skapar målgrupper på [den här sidan](../compositions/gs-compositions.md). Ni kan också uppdatera eller återanvända befintliga målgrupper via Adobe Experience Platform Audience Portal och Destinations. Läs mer på [den här sidan](../connections/destinations.md)
+
+
+>[!NOTE]
+>
+>När kompositionen är klar sparas målgruppen i Adobe Experience Platform som en extern målgrupp och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>
 
 
 
