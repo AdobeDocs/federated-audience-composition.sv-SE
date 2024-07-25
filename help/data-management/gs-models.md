@@ -4,15 +4,14 @@ title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
 # Kom igång med datamodeller {#data-model}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
@@ -46,37 +45,38 @@ Läs mer om [målgrupper](../start/audiences.md).
 
 ## Skapa en datamodell {#data-model-create}
 
-Gå till länken **[!UICONTROL Models]** i avsnittet **[!UICONTROL FEDERATED DATA]**. Där finns fliken **[!UICONTROL Data model]**.
+Så här skapar du en datamodell:
 
-![](assets/datamodel_create.png){zoomable="yes"}
+1. Gå till länken **[!UICONTROL Models]** i avsnittet **[!UICONTROL FEDERATED DATA]** och bläddra till fliken **[!UICONTROL Data model]**.
 
-Genom att klicka på knappen **[!UICONTROL Create data model]** kan du namnge datamodellen och klicka på knappen **[!UICONTROL Create]**.
+   ![](assets/datamodel_create.png){zoomable="yes"}
 
-![](assets/datamodel_name.png){zoomable="yes"}
+1. Klicka på knappen **[!UICONTROL Create data model]**, definiera namnet på datamodellen och klicka på knappen **[!UICONTROL Create]**.
 
-Du kommer åt fönstret där du kan lägga till scheman, målgrupper och länkar för din datamodell.
+   ![](assets/datamodel_name.png){zoomable="yes"}
 
-![](assets/datamodel_created.png){zoomable="yes"}
+1. Lägg sedan till scheman, målgrupperna och länkarna till datamodellen.
 
-![](assets/datamodel_schemas.png){zoomable="yes"}
+   ![](assets/datamodel_schemas.png){zoomable="yes"}
 
 ### Skapa länkar {#data-model-links}
 
-Du kan skapa länkar mellan tabeller i datamodellen på två sätt:
+Så här skapar du länkar mellan tabeller i datamodellen:
 
-- Klicka direkt på **[!UICONTROL Create link]**-menyn i en av tabellen
-- Klicka på knappen **[!UICONTROL Create links]** och välj de två tabellerna
+1. Klicka på **[!UICONTROL Create link]**-menyn i en av tabellerna eller klicka på knappen **[!UICONTROL Create links]** och välj de två tabellerna:
 
-![](assets/datamodel_createlinks.png){zoomable="yes"}
+   ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
-Fyll i det angivna formuläret för att definiera länken:
+1. Fyll i det angivna formuläret för att definiera länken.
 
-![](assets/datamodel_link.png){zoomable="yes"}
+   ![](assets/datamodel_link.png){zoomable="yes"}
 
-Alla länkar som är definierade för din datamodell listas nedan:
+   Alla länkar som är definierade för datamodellen visas nedan:
 
-![](assets/datamodel_alllinks.png){zoomable="yes"}
+   ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
-## Skapa en datamodell i video {#data-model-video}
+## Videoinstruktioner {#data-model-video}
+
+Lär dig hur du skapar en datamodell i den här videon:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432020)

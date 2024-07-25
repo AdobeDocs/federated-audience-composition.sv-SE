@@ -3,9 +3,10 @@ audience: end-user
 title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
@@ -44,76 +45,75 @@ ht-degree: 1%
 
 Ett schema är en representation av en tabell i databasen. Det är ett objekt i programmet som definierar hur data kopplas till databastabeller.
 
-Genom att skapa ett schema kan du ändra en representation av tabellen i FAC:
+Genom att skapa ett schema kan du definiera en representation av tabellen i Experience Platform Federated Audience Composition:
 
-- Ge den ett eget namn och en beskrivning som förenklar förståelsen för användaren
-- Bestäm vilka fält som ska visas utifrån deras verkliga användning
-- Välj dess primärnyckel för att länka scheman mellan dem efter behov i [datamodellen](../data-management/gs-models.md#data-model-start)
+* Ge den ett eget namn och en beskrivning som förenklar förståelsen för användaren
+* Bestäm synligheten för varje fält utifrån deras verkliga användning
+* Välj dess primärnyckel för att länka scheman mellan dem efter behov i [datamodellen](../data-management/gs-models.md#data-model-start)
 
 ## Skapa ett schema {#schema-create}
 
-Följ stegen nedan för att skapa scheman i FAC:
-Gå till länken **[!UICONTROL Models]** i avsnittet **[!UICONTROL FEDERATED DATA]**. Där finns fliken **[!UICONTROL Schema]**.
-Klicka på knappen **[!UICONTROL Create schema]**.
+Följ stegen nedan för att skapa scheman i Federated Audience Composition:
 
-![](assets/schema_create.png){zoomable="yes"}
+1. Gå till länken **[!UICONTROL Models]** i avsnittet **[!UICONTROL FEDERATED DATA]**. Bläddra till fliken **[!UICONTROL Schema]** och klicka på knappen **[!UICONTROL Create schema]**.
 
-Du får tillgång till ett nytt gränssnitt med en listruta där du hittar
-alla databaser som är anslutna till programmet. Läs mer om [databasanslutning](../connections/connections.md#connections-fdb).
-Välj källdatabasen i listan och klicka på fliken **[!UICONTROL Add tables]**
+   ![](assets/schema_create.png){zoomable="yes"}
 
-![](assets/schema_tables.png){zoomable="yes"}
+   I det här steget får du tillgång till en ny skärm med en listruta där du kan hitta de databaser som är anslutna till din miljö. Läs mer om databasanslutning i [det här avsnittet](../connections/connections.md#connections-fdb).
 
-Du får tillgång till listan över alla tabeller i databasen.
+1. Markera källdatabasen i listan och klicka på fliken **[!UICONTROL Add tables]**.
 
-Genom att lägga till tabellerna, som du vill skapa schemat för, får du tillgång till deras fält enligt nedan.
+   ![](assets/schema_tables.png){zoomable="yes"}
 
-![](assets/schema_fields.png){zoomable="yes"}
+   Du kan sedan se en lista över alla tabeller i databasen.
 
-För varje tabell kan du:
+1. Genom att lägga till de tabeller som du vill skapa schemat för får du tillgång till deras fält enligt nedan:
 
-- ändra namn på schemaetiketten som angetts
-- lägg till en beskrivning
-- ändra namn på alla fält och bestämma deras synlighet.
-- välj schemats primärnyckel
+   ![](assets/schema_fields.png){zoomable="yes"}
 
-Här visas en tabell som importerats, precis efter den här typen av tillägg:
+   För varje tabell kan du:
 
-![](assets/schema_lumaorder.png){zoomable="yes"}
+   * ändra schemats etikett
+   * lägg till en beskrivning
+   * byta namn på alla fält och ange deras synlighet
+   * välj schemats primärnyckel
 
-Schemat kan definieras så här:
+   För följande importerade tabell:
 
-![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_lumaorder.png){zoomable="yes"}
+
+   Schemat kan definieras så här:
+
+   ![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## Redigera ett schema {#schema-edit}
 
-Om du vill redigera ett schema klickar du på schemats namn i schemamappen. Du har tillgång till sidan nedan.
-Klicka på knappen **[!UICONTROL Edit]**.
+Så här redigerar du ett schema:
 
-![](assets/schema_edit.png){zoomable="yes"}
+1. Klicka på schemats namn i schemamappen.
 
-Du har tillgång till samma möjlighet som när du skapar schemat:
+1. Klicka på knappen **[!UICONTROL Edit]**.
 
-- ändra namn på schemaetiketten som angetts
-- lägg till en beskrivning
-- ändra namn på alla fält och bestämma deras synlighet.
-- välj schemats primärnyckel
+   ![](assets/schema_edit.png){zoomable="yes"}
 
-![](assets/schema_edit_orders.png){zoomable="yes"}
+   Du har tillgång till samma alternativ som när du [skapar ett schema](#schema-create).
+
+   ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Förhandsgranska data i ett schema {#schema-preview}
 
 Om du vill förhandsgranska data i tabellen som representeras av ditt schema går du till fliken **[!UICONTROL Data]** enligt nedan.
-Du kan få totalt antal inspelningar genom att klicka på länken **[!UICONTROL Calculate]**.
+
+Klicka på länken **[!UICONTROL Calculate]** om du vill förhandsgranska det totala antalet inspelningar.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Du kan ändra översikten över data genom att klicka på knappen **[!UICONTROL Configure columns]**.
+Klicka på knappen **[!UICONTROL Configure columns]** om du vill ändra hur data visas.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Ta bort ett schema {#schema-delete}
 
-Om du vill ta bort ett schema klickar du på knappen **[!UICONTROL More]** och sedan på **[!UICONTROL Delete]**.
+Om du vill ta bort ett schema klickar du på knappen **[!UICONTROL More]** och väljer sedan **[!UICONTROL Delete]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}
