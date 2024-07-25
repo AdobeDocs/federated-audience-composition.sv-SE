@@ -3,9 +3,10 @@ audience: end-user
 title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
+exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
+source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -75,3 +76,7 @@ Fyll i det angivna formuläret för att definiera länken:
 Alla länkar som är definierade för din datamodell listas nedan:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+## Skapa en datamodell i video {#data-model-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432020)
