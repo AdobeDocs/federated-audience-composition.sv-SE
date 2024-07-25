@@ -2,13 +2,13 @@
 title: Vanliga frågor
 description: Vanliga frågor
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 2%
 
 ---
-
 
 # Vanliga frågor och svar {#faq}
 
@@ -71,7 +71,7 @@ Federated Audience Composition bevarar inte en fysisk kopia av data. Frekvensen 
 
 Exempel:
 
-* Om ni har en målgruppssegmentering skapas målgruppen i ert lager, och ni kan använda Federated Audience Composition för ytterligare dispositionsuppgifter och dataändringar innan ni publicerar målgruppen och tillhörande attribut via Adobe Experience Platform Audience Portal. Målgruppsdefinitionen och tillhörande attribut kommer till Adobe Experience Platform.
+* När det gäller Audience Creation (Målgruppsskapande) skapas målgruppen i ert lager, och ni kan använda Federated Audience Composition för ytterligare dispositionsuppgifter och dataändringar innan ni publicerar målgruppen och tillhörande attribut via Adobe Experience Platform Audience Portal. Målgruppsdefinitionen och tillhörande attribut kommer till Adobe Experience Platform.
 Observera att dagens data för externt genererade målgrupper upphör att gälla 30 dagar. När dessa data förfaller minskar mängden överflödiga data som lagras inom en organisation. När förfalloperioden för data har passerat är den associerade datauppsättningen fortfarande synlig i datamängdslagret, men du kan inte aktivera målgruppen och profilantalet visas som noll. Läs mer i [Adobe Experience Platform-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * För Audience Enrichment är utgångspunkten en befintlig Adobe Experience Platform-publik. Här kan du titta på två scenarier:
@@ -79,7 +79,7 @@ Observera att dagens data för externt genererade målgrupper upphör att gälla
    1. Förfina den befintliga Adobe Experience Platform-målgruppen baserat på ytterligare attribut som finns i ert datalager. Du har till exempel en publik med kunder som har visat intresse för en viss produkt på webbplatsen de senaste två månaderna. Nu vill ni ta den här målgruppen och segmentera den ytterligare med Federated Audience Composition för att bara inkludera kunder som har ett högt kreditbetyg. Kreditpoängen anses vara känsliga och enskilda kreditpoängsdatapunkter kopieras inte från datalagret.
 +++
 
-+++Om data för målgruppssegmentering och målgruppsberikning inte bevaras, hur lagras de tillfälligt?
++++Om data för målgruppsskapande och målgruppsberikning inte bevaras, hur lagras de tillfälligt?
 
 De resulterande målgruppsdata bevaras inte i oändlighet i Adobe Experience Platform eller i Federated Audience Composition. Den kommer inte att sparas längre än vad som krävs för ditt användningsfall. De målgruppsattribut som ingår i målgruppsnyttolasten finns bara kvar som en del av målgruppsdefinitionen. Varaktigheten baseras på TTL för alla målgrupper. Standardvärdet är 30 dagar.
 
