@@ -3,9 +3,10 @@ audience: end-user
 title: Kom igång med federerade databaser
 description: Lär dig hur du skapar och hanterar Federated Databases
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 2%
 >title="Information om federerad databas"
 >abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd knappen **[!UICONTROL Test connection]** för att validera konfigurationen."
 
-Med Federated Audience Composition kan kunden bygga och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform.
+Med Experience Platform Federated Audience Composition kan kunden bygga och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform.
 
 Lär dig hur du skapar, konfigurerar, testar och sparar anslutningen till din externa databas på den här sidan.
 
@@ -254,4 +255,3 @@ Kopplingen stöder följande alternativ:
 | Alternativ | Beskrivning |
 |---|---|
 | TimeZoneName | Som standard är den tom, vilket innebär att systemtidszonen för Campaign Classicens programserver används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. |
-

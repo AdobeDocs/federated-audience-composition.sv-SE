@@ -1,26 +1,42 @@
 ---
-title: Kom igång med Federated Audience Composition
+title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '708'
 ht-degree: 1%
 
 ---
 
 # Kom igång med Federated Audience Composition {#gs-fac}
 
-Federated Audience Composition Composition är ett tillägg för Adobe Real-time Customer Data Platform och Adobe Journey Optimizer som gör det möjligt att skapa och berika målgrupper från externa datalager och importera målgrupperna till Adobe Experience Platform. Med Federated Audience Composition får du en enkel och kraftfull lösning för att ansluta företagets datalager direkt inom Adobe Real-time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
+Federated Audience Composition är en tilläggsfunktion för [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} och [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} som gör att du kan skapa och berika målgrupper från externa datalager och importera målgrupper till Adobe Experience Platform. Med Federated Audience Composition får du en enkel och kraftfull lösning för att ansluta företagets datalager direkt inom Adobe Real-time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
 
 Adobe Federated Audience Composition hjälper Adobe Experience Platform-appanvändare att få tillgång till sina kunddata som lagras i datalagret och molnlagringsplattformar som Amazon Redshift, Azure synapse Analytics med flera. Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering. Plattformar som stöds listas på [den här sidan](../connections/federated-db.md#supported-db).
+
+## Funktioner {#rn-capabilities}
+
+Med Federated Audience Composition kan man utnyttja Real-Time CDP och Journey Optimizer på ett omfattande sätt:
+
+* Utöka åtkomsten till kritiska lagerbaserade datauppsättningar för att skapa värdefulla målgrupper: Utnyttja befintliga datalager som det viktigaste systemet för register, samtidigt som ni utnyttjar förstklassiga tillämpningar för att skapa fantastiska kundupplevelser.
+
+* Omfattande stöd för fall av strömålinriktning: Federated Audience Composition, i kombination med Real-Time CDP eller Journey Optimizer, stöder varumärkesinitierade, personaliserade upplevelser med federerade målgrupper och levererar upplevelser i realtid som triggas av händelser i realtid, kombinerat med personattribut för att uppfylla användningsbehoven i olika team.
+
+* Minimera dataförflyttning och duplicering: Skapa målgrupper från datauppsättningar som finns i ett datalager i ett företag utan att kopiera underliggande data för att hantera användbara marknadsföringsprofiler och målgrupper.
+
+* Använd ett enda system för upplevelsestyrda arbetsflöden: Kuratera inkapslade och federerade målgrupper i Adobe Experience Platform och koordinera utgående upplevelser i alla kanaler.
 
 ## Användningsfall {#rn-uc}
 
 Med ett marknadsföringsvänligt användargränssnitt kan du skapa segmentregler som söker efter en lista på de användare som är kvalificerade för ett visst segment som behövs för marknadsföringskampanjer, få tillgång till befintliga målgrupper i lagerstället för aktivering eller berika Adobe Experience Platform-målgrupper med ytterligare datapunkter som finns i lagerstället.
 
-I den här versionen finns två användningsexempel: Audience Creation och Audience Enrichment.
+I den här versionen finns två exempel:
+
+1. Målgrupper: Bygg nya målgrupper från företagsdatauppsättningar utan att kopiera underliggande data och aktivera dessa målgrupper med färdiga destinationer. &#x200B;
+
+1. Audience Enrichment: Berika befintliga målgrupper i Adobe Experience Platform genom att utnyttja sammansatta målgruppsdata som har federerats från företagets datalager. Dessa data bevaras inte i Adobe Experience Platform kundprofiler.
 
 ![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

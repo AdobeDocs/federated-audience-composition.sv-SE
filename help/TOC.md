@@ -1,10 +1,10 @@
 ---
-user-guide-title: Sammansatt målgrupp
-title: Adobe Federated Audience Composition Documentation
-breadcrumb-title: Sammansatt målgrupp
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+user-guide-title: Experience Platform Federated Audience Composition
+title: Experience Platform Federated Audience Composition Documentation
+breadcrumb-title: Experience Platform Federated Audience Composition
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '141'
 ht-degree: 11%
 
 ---

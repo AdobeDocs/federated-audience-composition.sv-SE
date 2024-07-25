@@ -3,13 +3,13 @@ audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
-
 
 # Viktiga principer för skapande av kompositioner {#gs-composition-creation}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Vad finns i en komposition? {#gs-composition-inside}
 
-Federated Audience Composition ger en visuell arbetsyta som gör att du kan skapa målgrupper genom att utnyttja olika aktiviteter (dela, berika osv.).
+Experience Platform Federated Audience Composition har en visuell arbetsyta som gör att du kan skapa målgrupper genom att utnyttja olika aktiviteter (dela, berika osv.).
 
 Kompositionsdiagrammet är en representation av vad som ska hända. Det beskriver de olika åtgärder som ska utföras och hur de är sammankopplade.
 
