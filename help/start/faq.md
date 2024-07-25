@@ -3,9 +3,9 @@ title: Vanliga frågor
 description: Vanliga frågor
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Nedan följer en lista med vanliga frågor och svar om Federated Audience Compos
 
 +++Vilka behörigheter krävs för att få åtkomst till den sammansatta publikationen?
 
-Det finns inga specifika behörigheter för Federated Audience Composition. Den enda förutsättningen för att få tillgång till den här funktionen är att du har köpt tillägget Federated Audience Composition.
+Federated Audience Composition kräver Adobe Real-time Customer Data Platform- och Adobe Journey Optimizer Prime- eller Ultimate-paket. Det finns inga specifika behörigheter för Federated Audience Composition. Den enda förutsättningen för att få tillgång till den här funktionen är att du har köpt tillägget Federated Audience Composition.
 
 +++
 
@@ -61,7 +61,7 @@ Ja, när du väl har anslutit kan Federated Audience Composition användas för 
 
 +++Finns det någon tillfällig lagring i Federated Audience Composition?
 
-Nej, sammanställning av federerad publik lagrar bara metadata (schemabeskrivningar). Inga kunddata överförs. Exportflödet för målgruppen görs direkt från Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) till kunddatabasen. Flödet för skapande och uppdatering görs direkt från datalagrets databas till Adobe Experience Platform Audience Portal.
+Nej, sammanställning av federerad publik lagrar bara metadata (schemabeskrivningar). Inga kunddata överförs. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ Observera att dagens data för externt genererade målgrupper upphör att gälla
 
 * För Audience Enrichment är utgångspunkten en befintlig Adobe Experience Platform-publik. Här kan du titta på två scenarier:
    1. Hämta ytterligare målgruppsnyttolastattribut från det externa datalagret: i det här fallet kommer de ytterligare attribut som läggs till att ingå i den här målgruppsdefinitionen. Utgångsdatumet för externt genererade målgrupper är densamma som beskrivs ovan, 30 dagar.
-   1. Förfina den befintliga Adobe Experience Platform-målgruppen baserat på ytterligare attribut som finns i ert datalager. Du har till exempel en publik med kunder som har visat intresse för en viss produkt på webbplatsen de senaste två månaderna. Nu vill ni ta den här målgruppen och segmentera den ytterligare med Federated Audience Composition för att bara inkludera kunder som har ett högt kreditbetyg. Kreditpoängen anses vara känsliga och enskilda kreditpoängsdatapunkter kopieras inte från datalagret.
+   1. Förfina den befintliga Adobe Experience Platform-målgruppen baserat på ytterligare attribut som finns i ert datalager. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++Om data för målgruppsskapande och målgruppsberikning inte bevaras, hur lagras de tillfälligt?
