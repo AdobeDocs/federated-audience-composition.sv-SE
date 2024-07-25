@@ -3,14 +3,14 @@ title: Adobe Experience Platform Federated Audience Composition Documentation - 
 description: Det här är artikelöversikten.
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: a56ae63a7f8da28dce0ba4f1be8d0d650477ec2f
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 4%
 
 ---
 
-# Sammansättningsdokumentation för federerad publik  {#fac-home}
+# Kompositionsdokumentation för federerad publik  {#fac-home}
 
 Välkommen till Adobe Experience Platform Federated Audience Composition Documentation.
 
