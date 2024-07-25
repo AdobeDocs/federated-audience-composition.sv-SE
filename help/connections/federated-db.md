@@ -4,7 +4,7 @@ title: Kom igång med federerade databaser
 description: Lär dig hur du skapar och hanterar Federated Databases
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -111,7 +111,7 @@ Använd Federated Databases för att bearbeta information som lagras i en extern
 1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
 
 | Alternativ | Beskrivning |
-|:-:|:-:|
+|---|---|
 | Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Exempel på anslutningssträngar n°8) |
 
 
@@ -150,7 +150,7 @@ Använd Federated Databases för att bearbeta information som lagras i en extern
 1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
 
 | Alternativ | Beskrivning |
-|:-:|:-:|
+|---|---|
 | ProxyType | Typ av proxy som används för att ansluta till BigQuery via ODBC- och SDK-anslutningar. </br>HTTP (standard), http_no_tunnel, sockor4 och sockor5 stöds för närvarande. |
 | ProxyHost | Värdnamn eller IP-adress dit proxyn kan nås. |
 | ProxyPort | Portnummer som proxyn körs på, till exempel 8080 |
