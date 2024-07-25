@@ -2,13 +2,13 @@
 title: Nyheter i Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
-
 
 # Versionsinformation {#rn-new}
 
@@ -29,6 +29,8 @@ I stället för att importera datauppsättningar och/eller målgrupper till Adob
 Läs mer om funktionerna för federerad målgruppskomposition på [den här sidan](get-started.md) och i [Vanliga frågor](get-started.md#faq).
 
 ## Åtkomst till sammanställning av federerad publik {#fac-access}
+
+Federated Audience Composition kräver Adobe Real-time Customer Data Platform- och Adobe Journey Optimizer Prime- eller Ultimate-paket.
 
 Det finns inga specifika behörigheter för Federated Audience Composition. Den enda förutsättningen för att få tillgång till den här funktionen är att du har köpt tillägget Federated Audience Composition.
 
