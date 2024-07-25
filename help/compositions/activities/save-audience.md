@@ -4,9 +4,9 @@ title: Använda aktiviteten Spara målgrupp
 description: Lär dig hur du använder aktiviteten Spara målgrupper
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,13 @@ Så här konfigurerar du aktiviteten **Spara målgrupp**:
    * **Primärt identitetsfält**: Markera det fält som ska användas för att identifiera profilerna. Till exempel dess e-postadress eller telefonnummer.
    * **Identitetsnamnrymd**: Välj det namnutrymme som ska användas för att identifiera profilerna, dvs. den typ av data som ska användas som identifieringsnyckel. Om e-postadressen till exempel har valts som primärt identitetsfält bör identitetsnamnområdet **E-postadress** väljas. Om den unika identifieraren är telefonnumret bör identitetsnamnområdet **Telefon** väljas.
 
-När kompositionen har körts sparas den slutliga publiken i Adobe Experience Platform och blir tillgänglig på menyn **Publiker** . Den skapade målgruppen innehåller alla fält som har markerats i avsnittet Målgruppsmappningar. Du kan aktivera målgruppen för alla mål som stöds av Adobe Experience Platform.
+## Nå ut till er målgrupp i Adobe Experience Platform {#access-audience}
+
+När kompositionen är klar sparas målgruppen i Adobe Experience Platform som en extern målgrupp och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+Den skapade målgruppen innehåller alla fält som har markerats i avsnittet Målgruppsmappningar. Du kan aktivera målgruppen för alla mål som stöds av Adobe Experience Platform.
+
+[Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
