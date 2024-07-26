@@ -4,9 +4,9 @@ title: Berika Adobe Experience Platform målgrupper med externa data
 description: Lär dig förfina och berika Adobe Experience Platform-målgrupper med data från era externa databaser med Federated målgrupps sammanställningsmål.
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platform möjliggör smidig integrering av målgrupper från Au
 
 För att göra det måste du skapa en ny anslutning i Adobe Experience Platform till Adobe Federated Audience Composition-målet. Du kan använda en schemaläggare för att skicka en viss målgrupp med regelbundna intervall, välja specifika attribut att inkludera, t.ex. ID:n för datavstämning. Om ni har tillämpat styrnings- och integritetspolicyer på er målgrupp kommer de att behållas och skickas tillbaka till målgruppsportalen när målgruppen har uppdaterats.
 
-Om du till exempel lagrar kundpoäng på ert datalager och har en Adobe Experience Platform-målgrupp som riktar sig till kunder som är intresserade av en viss produkt de senaste två månaderna, kan du förfina den här målgruppen baserat på kreditpoäng med Federated Audience Composition-destinationen. Med den här processen kan ni filtrera målgruppen så att den bara inkluderar profiler med höga kreditpoäng utan att överföra känsliga kreditpoängsdata från ert datalager.
+Låt oss till exempel säga att ni lagrar inköpsinformation på ert datalager och har en Adobe Experience Platform-målgrupp som riktar sig till kunder som är intresserade av en viss produkt de senaste två månaderna. Med Federated Audience Composition-målet kan du:
+
+* Förfina målgruppen baserat på inköpsinformation. Du kan t.ex. filtrera målgruppen så att den endast riktar sig till kunder som köpt mer än 150 dollar.
+* Gör det lättare för publiken att hitta fält för inköp, t.ex. produktnamn och inköpskvantitet.
 
 De viktigaste stegen för att skicka Adobe Experience Platform-målgrupper till Adobe Federated Audience Composition är följande:
 
