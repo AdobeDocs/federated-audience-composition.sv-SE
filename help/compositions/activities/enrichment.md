@@ -4,7 +4,7 @@ title: Använd anrikningsaktiviteten
 description: Lär dig använda anrikningsaktiviteten
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 Med aktiviteten **Enrichment** kan du förbättra måldata med ytterligare information från den federerade databasen. Den används ofta i en komposition efter segmenteringsaktiviteter.
 
-Om du har konfigurerat en anslutning till Federated Data Composition-målet kan du använda Enrichment-aktiviteten för att berika data som kommer från Adobe Experience Platform med attribut från din externa databas. [Lär dig hur du berikar Adobe Experience Platform-målgrupper med externa data](../../connections/destinations.md)
+Om du har konfigurerat en anslutning till Federated Audience Composition-målet kan du använda Enrichment-aktiviteten för att berika data som kommer från Adobe Experience Platform med attribut från din externa databas. [Lär dig hur du berikar Adobe Experience Platform-målgrupper med externa data](../../connections/destinations.md)
 
 Anrikningsdata kan komma antingen:
 

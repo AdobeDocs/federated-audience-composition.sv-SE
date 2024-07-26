@@ -3,7 +3,7 @@ audience: end-user
 title: Använd aktiviteten Schemaläggaren
 description: Lär dig hur du använder aktiviteten Schemaläggaren
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 Aktiviteten **Schemaläggaren** är en **Flödeskontroll**-aktivitet. Du kan schemalägga när kompositionen börjar. Denna aktivitet bör betraktas som en planerad start. Den kan bara användas som den första aktiviteten i kompositionen.
 
-Om du har konfigurerat en anslutning till Federated Data Composition-målet kan du använda den här aktiviteten för att skicka över Adobe Experience Platform-målgrupper med regelbundna intervall. [Lär dig hur du berikar Adobe Experience Platform-målgrupper med externa data](../../connections/destinations.md)
+Om du har konfigurerat en anslutning till Federated Audience Composition-målet kan du använda den här aktiviteten för att skicka över Adobe Experience Platform-målgrupper med jämna mellanrum. [Lär dig hur du berikar Adobe Experience Platform-målgrupper med externa data](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 
