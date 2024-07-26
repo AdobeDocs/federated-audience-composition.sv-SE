@@ -4,9 +4,9 @@ title: Arbeta med målgrupper
 description: Lär dig hur du arbetar med målgrupper
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 58cbd9c38bbeab1fb8a18cbb30de282ed798ffb0
+source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ Med Experience Platform Federated Audience Composition kan du [skapa komposition
 
 Du kan sedan aktivera dessa målgrupper till alla målgrupper som stöds av Adobe Experience Platform.
 
-### Skapa målgrupper med hjälp av kompositioner {#creation}
+## Skapa målgrupper med hjälp av kompositioner {#creation}
 
 Om du vill skapa målgrupper med Federated Audience-komposition måste du skapa en komposition med en **[!UICONTROL Save audience]**-aktivitet. Med den här aktiviteten kan du spara målgruppen i Audience Portal och välja fält från externa databaser att inkludera i målgruppen. [Lär dig hur du konfigurerar en Spara målgruppsaktivitet](../compositions/activities/save-audience.md)
 
-Målgrupp som skapats med Adobe Federated Data Composition innehåller alla fält som har markerats i aktiviteten **{!UICONTROL Save målgrupp}** och lagras i Audience Portal tillsammans med alla Adobe Experience Platform målgrupper.
+Målgrupp som skapats med Adobe Federated Data Composition innehåller alla fält som markerats i aktiviteten **[!UICONTROL Save audience]** och lagras i Audience Portal tillsammans med alla Adobe Experience Platform-målgrupper.
 
 När kompositionen är klar sparas målgruppen i Adobe Experience Platform som en extern målgrupp och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer.
 
