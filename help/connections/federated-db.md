@@ -4,10 +4,10 @@ title: Kom igång med federerade databaser
 description: Lär dig hur du skapar och hanterar Federated Databases
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 2%
+source-wordcount: '1445'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,11 @@ Använd Federated Databases för att bearbeta information som lagras i en extern
 
    * **[!UICONTROL Database]**: Namnet på databasen om det inte anges i DSN. Den kan lämnas tom om den anges i DSN
 
-   * **[!UICONTROL Working schema]**: Namnet på ditt arbetsschema. [Läs mer](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Working schema]**: Namnet på databasschemat som ska användas för arbetstabeller. [Läs mer](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >Du kan använda vilket schema som helst från databasen, inklusive scheman som används för temporär databearbetning, så länge du har den behörighet som krävs för att ansluta till det här schemat.
 
 1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
 
@@ -188,7 +192,11 @@ Använd Federated Databases för att bearbeta information som lagras i en extern
 
    * **[!UICONTROL Database]** (valfritt): Ange namnet på databasen om det inte anges i DSN.
 
-   * **[!UICONTROL Working schema]** (valfritt): Ange namnet på ditt arbetsschema.
+   * **[!UICONTROL Working schema]** (valfritt): Ange namnet på databasschemat som ska användas för arbetstabeller.
+
+     >[!NOTE]
+     >
+     >Du kan använda vilket schema som helst från databasen, inklusive scheman som används för temporär databearbetning, så länge du har den behörighet som krävs för att ansluta till det här schemat.
 
    * **[!UICONTROL Private key]**: Klicka på fältet **[!UICONTROL Private key]** för att välja dina .pem-filer från din språkmapp.
 
@@ -240,7 +248,11 @@ Använd Federated Databases för att bearbeta information som lagras i en extern
 
    * **[!UICONTROL Database]** (valfritt): Ange namnet på databasen om det inte anges i DSN.
 
-   * **[!UICONTROL Working schema]** (valfritt): Ange namnet på ditt arbetsschema.
+   * **[!UICONTROL Working schema]** (valfritt): Ange namnet på databasschemat som ska användas för arbetstabeller.
+
+     >[!NOTE]
+     >
+     >Du kan använda vilket schema som helst från databasen, inklusive scheman som används för temporär databearbetning, så länge du har den behörighet som krävs för att ansluta till det här schemat.
 
    * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
 
