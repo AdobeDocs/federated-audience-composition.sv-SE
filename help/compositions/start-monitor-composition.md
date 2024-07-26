@@ -3,13 +3,13 @@ audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
-
 
 # Starta och övervaka kompositionen {#start-monitor}
 
@@ -28,7 +28,7 @@ Du kan spåra förloppet för målprofiler i realtid med ett visuellt flöde. P�
 I kompositioner lagras data som överförs från en aktivitet till en annan genom övergångar i ett tillfälligt arbetsregister. Dessa data kan visas för varje övergång. Det gör du genom att markera en övergång och öppna dess egenskaper till höger på skärmen.
 
 * Klicka på **[!UICONTROL Preview schema]** för att visa arbetstabellens schema.
-* Klicka på **[!UICONTROL Preview results]** om du vill visa de data som har transporterats i den valda övergången.
+* Klicka på **[!UICONTROL Preview results]** om du vill visa de data som har transporterats i den valda övergången. Det här alternativet är bara tillgängligt om alternativet **[!UICONTROL Keep the result of interim populations between two executions]** är aktiverat. [Läs mer](create-composition.md#settings).
 
 ![](assets/transition-preview.png)
 

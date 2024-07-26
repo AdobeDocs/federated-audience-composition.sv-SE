@@ -3,9 +3,9 @@ title: Vanliga frågor
 description: Frågor och svar om Adobe Experience Platform Federated Audience Composition
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ De resulterande målgruppsdata bevaras inte i oändlighet i Adobe Experience Pla
 
 +++Kan jag ta bort en anpassad överförd publik?
 
-Du kan ta bort målgrupper som inte används i efterföljande aktiveringar direkt i målportalen genom att välja Ta bort på Åtgärder-menyn. Läs mer i [Adobe Experience Platform-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.
+Nej, i den aktuella versionen kan du inte ta bort anpassade överförda målgrupper. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 
