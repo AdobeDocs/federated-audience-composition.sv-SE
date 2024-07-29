@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Kom igång med federerade databaser
-description: Lär dig hur du skapar och hanterar Federated Databases
+title: Kom igång med Federated databaser
+description: Lär dig hur du skapar och hanterar Federated databaser
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1439'
 ht-degree: 1%
 
 ---
 
-# Kom igång med federerade databaser {#federated-db}
+# Kom igång med Federated databaser {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Federerade databaser"
->abstract="Befintliga anslutningar till federerade databaser visas på den här skärmen. Klicka på knappen **[!UICONTROL Add federated database]** om du vill skapa en ny anslutning."
+>abstract="Befintliga anslutningar till Federated databaser visas på den här skärmen. Klicka på knappen **[!UICONTROL Add federated database]** om du vill skapa en ny anslutning."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -44,7 +44,7 @@ Med Federated Audience Composition kan du ansluta till följande databaser. Konf
 
 ## Amazon Redshift {#amazon-redshift}
 
-Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Amazon Redshift.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Amazon Redshift.
 
 1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
@@ -82,7 +82,7 @@ Använd Federated Databases för att bearbeta information som lagras i en extern
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Azure synapse Redshift.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Azure synapse Redshift.
 
 1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
@@ -121,7 +121,7 @@ Använd Federated Databases för att bearbeta information som lagras i en extern
 
 ## Google Big Query {#google-big-query}
 
-Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Google Big Query.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Google Big Query.
 
 1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
@@ -168,7 +168,7 @@ Använd Federated Databases för att bearbeta information som lagras i en extern
 
 ## Snowflake {#snowflake}
 
-Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Snowflake.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Snowflake.
 
 1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
@@ -214,7 +214,7 @@ Kopplingen stöder följande alternativ:
 |---|---|
 | arbetsschema | Databasschema som ska användas för arbetsregister |
 | lagerställe | Namnet på standardlagerstället som ska användas. Det åsidosätter användarens standardvärde. |
-| TimeZoneName | Som standard är den tom, vilket innebär att systemtidszonen för Campaign Classicens programserver används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. <br>Mer information finns på [den här sidan](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| TimeZoneName | Som standard är den tom, vilket innebär att systemets tidszonsprogramserver används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. <br>Mer information finns på [den här sidan](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | WEEK_START-sessionsparameter. Standardinställningen är 0. <br>Mer information finns på [den här sidan](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | AnvändCachedResult | USE_CACHED_RESULTS sessionsparameter. Standardinställningen är TRUE. Det här alternativet kan användas för att inaktivera cachelagrade resultat i Snowflake. <br>Mer information finns på [den här sidan](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Antal trådar som ska användas för Snowflake-massinläsare, fler trådar innebär bättre prestanda för större massinläsningar. Standardinställningen är 1. Numret kan justeras beroende på antalet datortrådar. |
@@ -224,7 +224,7 @@ Kopplingen stöder följande alternativ:
 
 ## Vertica Analytics {#vertica-analytics}
 
-Använd Federated Databases för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Vertica analytics.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Vertica analytics.
 
 1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
@@ -266,4 +266,4 @@ Kopplingen stöder följande alternativ:
 
 | Alternativ | Beskrivning |
 |---|---|
-| TimeZoneName | Som standard är den tom, vilket innebär att systemtidszonen för Campaign Classicens programserver används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. |
+| TimeZoneName | Som standard är den tom, vilket betyder att programserverns systemtidszon används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. |
