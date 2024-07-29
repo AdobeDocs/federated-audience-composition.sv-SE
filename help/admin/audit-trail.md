@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Kom igång med granskningsspår
-description: Lär dig övervaka dina databaser med granskningsspår
+title: Granskningsspår
+description: Lär dig hur åtgärder och händelser loggas och är tillgängliga i granskningsspåret
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 2%
+source-wordcount: '350'
+ht-degree: 3%
 
 ---
 
-# Kom igång med granskningsspår {#audit-trail}
+# Granskningsspår {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Granskningskedja"
->abstract="Funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din miljö i realtid."
+>abstract="Funktionen Granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i Adobe Experience Platform Federated Audience Composition-miljön i realtid."
 
 Funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din miljö i realtid
 
