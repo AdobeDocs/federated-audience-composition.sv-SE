@@ -3,9 +3,10 @@ audience: end-user
 title: Kom igång med kompositioner
 description: Lär dig hur du börjar med kompositioner
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
+exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 ## Vad är en komposition? {#what}
 
-Med Adobe Audience Composition kan du skapa kompositioner där du kan använda olika aktiviteter (dela, exkludera...) i en visuell arbetsyta för att skapa målgrupper. När det är klart sparas de resulterande målgrupperna i Adobe Experience Platform tillsammans med befintliga målgrupper och kan utnyttjas till målgrupper som Journey Optimizer. [Lär dig arbeta med målgrupper](../start/audiences.md)
+Med Adobe Audience Composition kan du skapa kompositioner där du kan använda olika aktiviteter (dela, exkludera...) i en visuell arbetsyta för att skapa målgrupper. När det är klart sparas de resulterande målgrupperna i Adobe Experience Platform tillsammans med befintliga målgrupper och kan utnyttjas i Adobe Experience Platform destinationer och Adobe Journey Optimizer för att inrikta sig på kunder. [Lär dig arbeta med målgrupper](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

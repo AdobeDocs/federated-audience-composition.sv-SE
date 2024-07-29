@@ -4,9 +4,9 @@ title: Arbeta med målgrupper
 description: Lär dig hur du arbetar med målgrupper
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Med Experience Platform Federated Audience Composition kan du [skapa kompositioner](../compositions/gs-compositions.md), där du kan använda olika aktiviteter i en visuell arbetsyta för att skapa målgrupper och lagra dem i Adobe Experience Platform Audience Portal.
 
-Du kan sedan aktivera dessa målgrupper till alla målgrupper som stöds av Adobe Experience Platform.
+Sedan kan ni rikta in er på de här målgrupperna i Journey Optimizer eller aktivera dem på en målplats som stöds av Adobe Experience Platform.
 
 ## Skapa målgrupper med hjälp av kompositioner {#creation}
 

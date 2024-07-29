@@ -4,9 +4,9 @@ title: Använda aktiviteten Spara målgrupp
 description: Lär dig hur du använder aktiviteten Spara målgrupper
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Så här konfigurerar du aktiviteten **Spara målgrupp**:
 
 När kompositionen är klar sparas målgruppen i Adobe Experience Platform som en extern målgrupp och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-Den skapade målgruppen innehåller alla fält som har markerats i avsnittet Målgruppsmappningar. Du kan aktivera målgruppen för alla mål som stöds av Adobe Experience Platform.
+Den skapade målgruppen innehåller alla fält som har markerats i avsnittet Målgruppsmappningar. Du kan rikta in den här målgruppen i Journey Optimizer eller aktivera den på alla målplatser som stöds av Adobe Experience Platform.
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
