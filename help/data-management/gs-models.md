@@ -4,9 +4,9 @@ title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ ht-degree: 0%
 
 ## Vad är en datamodell? {#data-model-start}
 
-En datamodell är en uppsättning scheman, målgrupper och länkar mellan dem.
+En datamodell är en uppsättning scheman, målgrupper och länkar mellan dem. Det används för att federera målgrupper med databasdata.
 
 Läs mer om [scheman](../customer/schemas.md#schema-start).
 
 Läs mer om [målgrupper](../start/audiences.md).
+
+Du kan till exempel se en representation av en datamodell nedan: tabellerna med namn och länkar mellan dem.
+
+![](assets/datamodel.png){zoomable="yes"}
+
+I Federated Audience Composition kan du skapa många datamodeller.
+
+De skapas utifrån användningsfallet: du väljer de tabeller som behövs och du länkar dem efter behov.
 
 ## Skapa en datamodell {#data-model-create}
 
