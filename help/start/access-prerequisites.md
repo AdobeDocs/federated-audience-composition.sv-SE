@@ -2,9 +2,9 @@
 title: Åtkomst till sammansatt målgrupp
 description: Lär dig hur du får åtkomst till sammanställningen för federerade målgrupper.
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 618d1675c28213d7a316f40cd624d282e01297f1
+source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Om till exempel en ny sandlåda med namnet &quot;fac-test&quot; aktiveras skapas
 
 ## Lista över tillåtna IP-adresser {#ip}
 
-Dina IP-adresser måste läggas till i tillåtelselista för att du ska kunna få åtkomst till ditt datalager och använda Federated Audience Composition. Om du vill lägga till dina IP-adresser i tillåtelselista kontaktar du Adobe.
+Om du vill aktivera Federated Audience Composition säkert för att få tillgång till dina databaser kontaktar du din Adobe-representant för att få IP-adresserna till de sammansättningsservrar för federerade målgrupper som ska få åtkomst till dem.
+
+Lägg till dessa IP-adresser i tillåtelselista för att ge åtkomst till Federated Audience Composition.&quot;
 
 ## Skyddsritningar och begränsningar {#fac-guardrails}
 
