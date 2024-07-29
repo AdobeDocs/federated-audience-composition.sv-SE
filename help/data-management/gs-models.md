@@ -4,9 +4,9 @@ title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -79,9 +79,17 @@ Så här skapar du länkar mellan tabeller i datamodellen:
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   Alla länkar som är definierade för datamodellen visas nedan:
+   **Kardinalitet**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N: en förekomst av källtabellen kan ha flera motsvarande förekomster av måltabellen, men en förekomst av måltabellen kan ha högst en motsvarande förekomst av källtabellen.
+
+   * N-1: en förekomst av måltabellen kan ha flera motsvarande förekomster av källtabellen, men en förekomst av källtabellen kan ha högst en motsvarande förekomst av måltabellen.
+
+   * 1-1: en förekomst av källtabellen kan ha högst en motsvarande förekomst av måltabellen.
+
+Alla länkar som är definierade för datamodellen visas nedan:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## Videoinstruktioner {#data-model-video}
 
