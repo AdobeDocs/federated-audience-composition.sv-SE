@@ -3,10 +3,10 @@ title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 0%
+source-wordcount: '188'
+ht-degree: 1%
 
 ---
 
@@ -25,21 +25,5 @@ Federated Audience Composition tillgodoser de växande marknadskraven för före
 
 Läs mer om funktionerna för federerad målgruppskomposition på [den här sidan](get-started.md) och i [Vanliga frågor](get-started.md#faq).
 
-## Åtkomst till sammanställning av federerad publik {#fac-access}
+Detaljerad information om förutsättningarna för att komma åt Federated Audience Compositions och aktuella skyddsutkast finns på [den här sidan](access-prerequisites.md).
 
-Federated Audience Composition kräver Adobe Real-time Customer Data Platform- och Adobe Journey Optimizer Prime- eller Ultimate-paket.
-
-Det finns inga specifika behörigheter för Federated Audience Composition. Den enda förutsättningen för att få tillgång till den här funktionen är att du har köpt tillägget Federated Audience Composition.
-
->[!AVAILABILITY]
->
->När du har fått ett välkomstmeddelande från Adobe kan det ta några timmar innan gränssnittet har uppdaterats och funktioner är tillgängliga.
->
-
-## Förutsättningar och skyddsräcken {#fac-guardrails}
-
-* Federated Audience Composition är kompatibelt med Privacy &amp; Security Shield och kan användas i alla vertikaler utom för hälso- och sjukvårdsbranscher. För närvarande kan Federated Audience Composition inte licensieras till kunder som vill importera hälsodata. [Läs mer](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* Dina IP-adresser måste läggas till i tillåtelselista för att du ska kunna få åtkomst till ditt datalager och använda Federated Audience Composition. Om du vill lägga till dina IP-adresser i tillåtelselista kontaktar du Adobe.
-
-* Tillstånd, produktbegränsningar och prestandaskydd som anges i [Adobe Real-time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} gäller för det här tillägget.

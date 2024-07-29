@@ -3,9 +3,9 @@ title: Vanliga frågor
 description: Frågor och svar om Adobe Experience Platform Federated Audience Composition
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '834'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,9 @@ Nedan följer en lista med vanliga frågor och svar om Adobe Experience Platform
 
 +++Vilka behörigheter krävs för att få åtkomst till den sammansatta publikationen?
 
-Federated Audience Composition kräver Adobe Real-time Customer Data Platform- och Adobe Journey Optimizer Prime- eller Ultimate-paket. Det finns inga specifika behörigheter för Federated Audience Composition. Den enda förutsättningen för att få tillgång till den här funktionen är att du har köpt tillägget Federated Audience Composition.
+Federated Audience Composition kräver Adobe Real-time Customer Data Platform- och Adobe Journey Optimizer Prime- eller Ultimate-paket. Du måste också ha köpt tillägget Federated Audience Composition.
+
+För att kunna använda federerad målgruppskomposition måste varje användare läggas till i en specifik profil som skapas för varje sandlåda. Mer information finns på sidan [Access Federated Audience Composition](access-prerequisites.md) .
 
 +++
 
