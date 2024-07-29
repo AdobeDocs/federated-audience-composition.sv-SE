@@ -1,19 +1,17 @@
 ---
-title: Åtkomst till sammansatt målgrupp
-description: Lär dig hur du får åtkomst till sammanställningen för federerade målgrupper.
+title: Förutsättningar och säkerhetsutkast för sammanställning av federerad publik
+description: Lär dig förutsättningarna, behörigheterna och säkerhetsfunktionerna för Federated Audience Composition
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# Åtkomst till sammansatt målgrupp {#fac-access}
+# Förutsättningar och skyddsräcken {#fac-access}
 
-## Paket och tillägg {#package}
-
-Federated Audience Composition kräver Adobe Real-time Customer Data Platform- och Adobe Journey Optimizer Prime- eller Ultimate-paket. För att få tillgång till den här funktionen måste du ha köpt tillägget Federated Audience Composition.
+Federated Audience Composition kräver Adobe Real-time Customer Data Platform- och/eller Adobe Journey Optimizer **Prime**- eller **Ultimate**-paket. För att få tillgång till den här funktionen måste du ha köpt tillägget Federated Audience Composition.
 
 >[!AVAILABILITY]
 >

@@ -3,13 +3,13 @@ audience: end-user
 title: Använd aktiviteten Ändra dimension
 description: Lär dig hur du använder aktiviteten Ändra dimension
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 1%
 
 ---
-
 
 # Ändra dimension {#change-dimension}
 
@@ -45,6 +45,3 @@ In this example, we want to send an SMS delivery to all the profiles who have ma
 We then use a **[!UICONTROL Change dimension]** activity to switch the workflow targeting dimension to "Recipients". This allows us to be able to target the recipients who match the query.
 -->
 
-
-
-<!-- on parle de dimension, mais dans UI "schema", va rester comme ça ?-->

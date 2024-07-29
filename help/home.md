@@ -3,7 +3,7 @@ title: Adobe Experience Platform Federated Audience Composition Documentation - 
 description: Kompositionsdokumentation för federerad målgruppskomposition
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 01ecc3abb201f241c68ee2a0ce9c0f4f0a50fad7
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 4%
@@ -58,7 +58,7 @@ Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga, osv.) för att ska
     </div>
     </td>
     <td>
-    <a href="start/get-started.md#faq"><img src="assets/do-not-localize/start-faq.png"></a>
+    <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
     <div><strong>Vanliga frågor</strong><br/>Vanliga frågor och svar om federerad publikkomposition.</div>
     </td>
   </tr>
@@ -66,7 +66,7 @@ Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga, osv.) för att ska
     <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="start/get-started.md#faq"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 

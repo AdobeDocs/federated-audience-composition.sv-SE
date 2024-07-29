@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '148'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 + [Versionsinformation](start/release-notes.md)
 + Kom igång med Federated Audience Composition {#start}
    + [Vad är federerad målgruppskomposition?](start/get-started.md)
-   + [Åtkomst till sammansatt målgrupp](start/access-prerequisites.md)
+   + [Förutsättningar och skyddsräcken](start/access-prerequisites.md)
    + [Arbeta med målgrupper](start/audiences.md)
    + [Vanliga frågor och svar](start/faq.md)
 + Konfigurationssteg {#config}

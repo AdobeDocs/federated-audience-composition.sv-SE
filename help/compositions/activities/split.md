@@ -4,9 +4,9 @@ title: Använda aktiviteten Dela
 description: Lär dig använda aktiviteten Dela
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Med aktiviteten **Dela** kan du segmentera inkommande populationer i flera delup
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Aktivera överlappning av utdatapopulationer"
->abstract="Med alternativet **[!UICONTROL Enable overlapping of output populations]** kan du hantera populationer som tillhör flera delmängder. När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan finnas i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor. När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Adobe Campaign rekommenderar att man använder exklusiva kriterier."
+>abstract="Med alternativet **[!UICONTROL Enable overlapping of output populations]** kan du hantera populationer som tillhör flera delmängder. När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan finnas i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor. När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. "
 
 Följ de här stegen för att konfigurera aktiviteten **Dela**:
 
@@ -101,7 +101,7 @@ Följ de här stegen för att konfigurera aktiviteten **Dela**:
 1. Med alternativet **[!UICONTROL Enable overlapping of output populations]** kan du hantera populationer som tillhör flera delmängder:
 
    * När rutan inte är markerad ser delningsaktiviteten till att en mottagare inte kan finnas i flera utdataövergångar, även om den uppfyller villkoren för flera delmängder. De kommer att vara i målet för den första fliken med matchande villkor.
-   * När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Adobe Campaign rekommenderar att man använder exklusiva kriterier.
+   * När rutan är markerad kan mottagarna hittas i flera delmängder om de uppfyller filtervillkoren. Det bästa är att använda ett exklusivt kriterium.
 
 Aktiviteten är nu konfigurerad. Vid genomförandet segmenteras populationen i de olika delmängderna, i den ordning som de har lagts till i aktiviteten.
 

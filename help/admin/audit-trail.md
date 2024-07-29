@@ -3,9 +3,10 @@ audience: end-user
 title: Kom igång med granskningsspår
 description: Lär dig övervaka dina databaser med granskningsspår
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
@@ -52,7 +53,7 @@ Så här kommer du åt instansens **[!UICONTROL Audit trail]**:
 
 1. Välj **[!UICONTROL Audit trail]** på menyn **[!UICONTROL Federated data]**.
 
-1. Fönstret **[!UICONTROL Audit trail]** öppnas med listan över dina enheter. Adobe Campaign webbanvändargränssnitt granskar åtgärderna för att skapa, redigera och ta bort för arbetsflöden, alternativ, leveranser och scheman.
+1. Fönstret **[!UICONTROL Audit trail]** öppnas med listan över dina enheter. Federated Audience Composition Composition granskar åtgärderna för att skapa, redigera och ta bort för arbetsflöden, alternativ, leveranser och scheman.
 
    ![](assets/audit_trail.png)
 

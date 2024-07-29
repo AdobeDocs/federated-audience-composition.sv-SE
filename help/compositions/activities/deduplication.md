@@ -3,13 +3,13 @@ audience: end-user
 title: Använd aktiviteten Deduplicering
 description: Lär dig hur du använder aktiviteten Deduplicering
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 20%
+ht-degree: 4%
 
 ---
-
 
 # Deduplicering {#deduplication}
 
@@ -47,13 +47,13 @@ Så här konfigurerar du aktiviteten **Deduplicering**:
 
    ![](../assets/deduplication.png)
 
-1. I avsnittet **[!UICONTROL Deduplication settings]** väljer du antalet unika **[!UICONTROL Duplicates to keep]**. Standardvärdet för det här fältet är 1. Med värdet 0 kan du behålla alla dubbletter.
+1. I avsnittet **[!UICONTROL Deduplication settings]** väljer du antalet unika **[!UICONTROL Duplicates to keep]**. Standardvärdet för det här fältet är **1**. Med värdet **0** kan du behålla alla dubbletter.
 
    Om till exempel posterna A och B betraktas som dubbletter av posten Y, och en post C betraktas som en dubblett av posten Z:
 
-   * Om värdet för fältet är 1: endast Y- och Z-posterna behålls.
-   * Om värdet för fältet är 0: alla register förs.
-   * Om värdet för fältet är 2: Posterna C och Z förvaras och två poster från A, B och Y sparas, av en tillfällighet eller beroende på vilken dedupliceringsmetod som valts därefter.
+   * Om värdet för fältet är **1** behålls bara Y- och Z-posterna.
+   * Om värdet för fältet är **0** behålls alla poster.
+   * Om värdet för fältet är **2** behålls posterna C och Z och två poster från A, B och Y behålls, av misstag eller beroende på vilken borttagningsmetod som valts därefter.
 
 1. Välj **[!UICONTROL Deduplication method]** som ska användas:
 

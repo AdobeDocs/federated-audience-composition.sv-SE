@@ -4,7 +4,7 @@ title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 >abstract="Ange etiketten för datamodellen."
 
 
-## Vad är en datamodell? {#data-model-start}
+## Vad är en datamodell {#data-model-start}
 
 En datamodell är en uppsättning scheman, målgrupper och länkar mellan dem. Det används för att federera målgrupper med databasdata.
 
