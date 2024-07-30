@@ -2,7 +2,7 @@
 title: Förutsättningar och säkerhetsutkast för sammanställning av federerad publik
 description: Lär dig förutsättningarna, behörigheterna och säkerhetsfunktionerna för Federated Audience Composition
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Om till exempel en ny sandlåda med namnet &quot;fac-test&quot; aktiveras skapas
 
 Om du vill aktivera Federated Audience Composition säkert för att få tillgång till dina databaser kontaktar du din Adobe-representant för att få IP-adresserna till de sammansättningsservrar för federerade målgrupper som ska få åtkomst till dem.
 
-Lägg till dessa IP-adresser i tillåtelselista för att ge åtkomst till Federated Audience Composition.&quot;
+Lägg till de här IP-adresserna i tillåtelselista för att ge åtkomst till Federated Audience Composition.
 
 ## Skyddsritningar och begränsningar {#fac-guardrails}
 
