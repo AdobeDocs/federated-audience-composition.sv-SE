@@ -4,9 +4,9 @@ title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '436'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,11 @@ Genom att skapa ett schema kan du definiera en representation av tabellen i Expe
 * Ge den ett eget namn och en beskrivning som förenklar förståelsen för användaren
 * Bestäm synligheten för varje fält utifrån deras verkliga användning
 * Välj dess primärnyckel för att länka scheman mellan dem efter behov i [datamodellen](../data-management/gs-models.md#data-model-start)
+
+>[!CAUTION]
+>
+>När du ansluter flera sandlådor med samma databas måste du använda separata arbetsscheman.
+>
 
 ## Skapa ett schema {#schema-create}
 
