@@ -4,15 +4,14 @@ title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '435'
 ht-degree: 1%
 
 ---
 
 # Kom igång med scheman {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 1%
 >title="Välj den källdatabas som ska filtreras"
 >abstract="Du kan filtrera scheman baserat på deras källa. Markera en eller flera Federated databaser om du vill visa deras scheman."
 
-
 ## Vad är ett schema? {#schema-start}
 
 Ett schema är en representation av en tabell i databasen. Det är ett objekt i programmet som definierar hur data kopplas till databastabeller.
@@ -50,6 +48,10 @@ Genom att skapa ett schema kan du definiera en representation av tabellen i Expe
 * Ge den ett eget namn och en beskrivning som förenklar förståelsen för användaren
 * Bestäm synligheten för varje fält utifrån deras verkliga användning
 * Välj dess primärnyckel för att länka scheman mellan dem efter behov i [datamodellen](../data-management/gs-models.md#data-model-start)
+
+>[!IMPORTANT]
+>
+>Du bör använda distinkta federerade databasscheman för varje sandlåda.
 
 ## Skapa ett schema {#schema-create}
 
