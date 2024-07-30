@@ -4,9 +4,9 @@ title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1500'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,8 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
      >[!NOTE]
      >
      >Du kan använda vilket schema som helst från databasen, inklusive scheman som används för temporär databearbetning, så länge du har den behörighet som krävs för att ansluta till det här schemat.
+     >
+     >**Distinkta arbetsscheman** måste användas när du ansluter flera sandlådor med samma databas.
 
 1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
 
@@ -197,6 +199,8 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
      >[!NOTE]
      >
      >Du kan använda vilket schema som helst från databasen, inklusive scheman som används för temporär databearbetning, så länge du har den behörighet som krävs för att ansluta till det här schemat.
+     >
+     >**Distinkta arbetsscheman** måste användas när du ansluter flera sandlådor med samma databas.
 
    * **[!UICONTROL Private key]**: Klicka på fältet **[!UICONTROL Private key]** för att välja dina .pem-filer från din språkmapp.
 
@@ -253,6 +257,8 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
      >[!NOTE]
      >
      >Du kan använda vilket schema som helst från databasen, inklusive scheman som används för temporär databearbetning, så länge du har den behörighet som krävs för att ansluta till det här schemat.
+     >
+     >**Distinkta arbetsscheman** måste användas när du ansluter flera sandlådor med samma databas.
 
    * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
 
