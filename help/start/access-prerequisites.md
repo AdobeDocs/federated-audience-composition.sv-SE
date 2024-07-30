@@ -2,9 +2,9 @@
 title: Förutsättningar och säkerhetsutkast för sammanställning av federerad publik
 description: Lär dig förutsättningarna, behörigheterna och säkerhetsfunktionerna för Federated Audience Composition
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
+source-git-commit: 61ad8899f7de601b64c7b42cb873a172fcaea145
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,9 @@ Lägg till de här IP-adresserna i tillåtelselista för att ge åtkomst till Fe
 
 ## Skyddsritningar och begränsningar {#fac-guardrails}
 
-* Federated Audience Composition är kompatibelt med Privacy &amp; Security Shield och kan användas i alla vertikaler utom för hälso- och sjukvårdsbranscher. För närvarande kan Federated Audience Composition inte licensieras till kunder som vill importera hälsodata. [Läs mer](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+* Användningen av målgrupper och attribut från Federated Audience Composition är för närvarande inte tillgänglig via Healthcare Shield och Privacy and Security Shield.
+
+<!--
+* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * Tillstånd, produktbegränsningar och prestandaskydd som anges i [Adobe Real-time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} gäller för det här tillägget.
