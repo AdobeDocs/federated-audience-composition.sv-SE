@@ -4,7 +4,7 @@ title: Använd avstämningsaktiviteten
 description: Lär dig använda avstämningsaktiviteten
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Med aktiviteten **Avstämning** kan du definiera länken mellan data i databasen
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-Det gör att du kan länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att de data som du ansluter redan finns i databasen. Om du t.ex. vill avstämma inköpsinformation som visar vilken produkt som köptes, vid vilken tidpunkt, av vilken klient, osv., måste produkten och klienten redan finnas i databasen.
+Det gör att du kan länka oidentifierade data till befintliga resurser. Avstämningsåtgärden innebär att de data som du ansluter redan finns i databasen. Om du till exempel vill stämma av inköpen, som visar vilken produkt som köpts, vid vilken tidpunkt, av vilken kund, osv., måste produkten och klienten redan finnas i databasen.
 
 ## Konfigurera avstämningsaktiviteten {#reconciliation-configuration}
 
@@ -64,7 +64,7 @@ Det gör att du kan länka oidentifierade data till befintliga resurser. Avstäm
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Avstämningsattribut"
->abstract="Markera det attribut som ska användas för att avstämma data och bekräfta."
+>abstract="Markera det attribut som ska användas för att stämma av data och bekräfta."
 
 Så här konfigurerar du aktiviteten **Avstämning**:
 
@@ -87,7 +87,7 @@ Så här konfigurerar du aktiviteten **Avstämning**:
 
       ![](../assets/reconciliation-advanced.png)
 
-1. Du kan filtrera data för avstämning med knappen **Skapa filter** . Detta gör att du kan skapa ett anpassat villkor med hjälp av frågemodelleraren.
+1. Du kan filtrera data så att de stäms av med knappen **Skapa filter** . Detta gör att du kan skapa ett anpassat villkor med hjälp av frågemodelleraren.
 
 Som standard lagras ej avstämda data i den utgående övergången och är tillgängliga i arbetsboken för framtida bruk. Om du vill ta bort ej avstämda data inaktiverar du alternativet **Behåll ej avstämda data**.
 
