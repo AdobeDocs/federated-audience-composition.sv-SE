@@ -3,7 +3,7 @@ title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
+source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 1%
@@ -34,11 +34,11 @@ Med ett marknadsföringsvänligt användargränssnitt kan du skapa segmentregler
 
 I den här versionen finns två exempel:
 
-1. Målgrupper: Bygg nya målgrupper från företagsdatauppsättningar utan att kopiera underliggande data och aktivera dessa målgrupper med färdiga destinationer. &#x200B;
+1. Målgruppsskapande: Bygg nya målgrupper utifrån företagsdatauppsättningar utan att behöva kopiera underliggande data och aktivera dessa målgrupper med färdiga destinationer.
 
 1. Audience Enrichment: Berika befintliga målgrupper i Adobe Experience Platform genom att utnyttja sammansatta målgruppsdata som har federerats från företagets datalager. Dessa data bevaras inte i Adobe Experience Platform kundprofiler.
 
-![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![diagram](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Viktiga steg {#gs-steps}
 
@@ -50,11 +50,11 @@ Viktiga steg:
 
 1. **Dataintegrering**: Samla data från olika källor och sammanfoga dem i en enhetlig datauppsättning. Lär dig hur du ansluter Adobe Experience Platform-program och ditt företagsdatalager, databaser som stöds och hur du konfigurerar dem finns i [det här avsnittet](../connections/federated-db.md).
 
-2. **Datamodellering**: Designa och skapa datamodeller och scheman som definierar datastrukturen, relationerna och begränsningarna. Läs mer om scheman på [den här sidan](../customer/schemas.md). Lär dig hur du skapar länkar för din datamodell på [den här sidan](../data-management/gs-models.md).
+1. **Datamodellering**: Designa och skapa datamodeller och scheman som definierar datastrukturen, relationerna och begränsningarna. Läs mer om scheman på [den här sidan](../customer/schemas.md). Lär dig hur du skapar länkar för din datamodell på [den här sidan](../data-management/gs-models.md).
 
-3. **Dataomvandling**: Använd dataändringstekniker för att ändra dataelementens format, struktur eller värden så att de blir kompatibla eller lämpliga för specifika analyser eller program.
+1. **Dataomvandling**: Använd dataändringstekniker för att ändra dataelementens format, struktur eller värden så att de blir kompatibla eller lämpliga för specifika analyser eller program.
 
-4. **Dataanvändning**: Skapa, samordna och skapa målgrupper. Lär dig hur du skapar målgrupper på [den här sidan](../compositions/gs-compositions.md). Ni kan också uppdatera eller återanvända befintliga målgrupper via Adobe Experience Platform Audience Portal och Destinations. Läs mer på [den här sidan](../connections/destinations.md)
+1. **Dataanvändning**: Skapa, samordna och skapa målgrupper. Lär dig hur du skapar målgrupper på [den här sidan](../compositions/gs-compositions.md). Ni kan också uppdatera eller återanvända befintliga målgrupper via Adobe Experience Platform Audience Portal och Destinations. Läs mer på [den här sidan](../connections/destinations.md)
 
 >[!NOTE]
 >
