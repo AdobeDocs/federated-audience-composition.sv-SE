@@ -3,7 +3,7 @@ title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
+source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 1%
@@ -38,7 +38,7 @@ I den här versionen finns två exempel:
 
 1. Audience Enrichment: Berika befintliga målgrupper i Adobe Experience Platform genom att utnyttja sammansatta målgruppsdata som har federerats från företagets datalager. Dessa data bevaras inte i Adobe Experience Platform kundprofiler.
 
-![diagram](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
+![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Viktiga steg {#gs-steps}
 
