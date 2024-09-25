@@ -4,9 +4,9 @@ title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
+source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1501'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Lär dig hur du skapar, konfigurerar, testar och sparar anslutningen till din ex
 Med Federated Audience Composition kan du ansluta till följande databaser. Konfigurationen för varje databas beskrivs nedan.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure synapse](#azure-synapse-redshift)
+* [Azure synapse Analytics](#azure-synapse)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -82,9 +82,9 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
 
-## Azure synapse Redshift {#azure-synapse-redshift}
+## Azure synapse Analytics {#azure-synapse}
 
-Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Azure synapse Redshift.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Azure synapse Analytics.
 
 1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
@@ -94,11 +94,11 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 1. Ange en **[!UICONTROL Name]** till din Federate-databas.
 
-1. I listrutan **[!UICONTROL Type]** väljer du Gör om Azure synapse.
+1. I listrutan **[!UICONTROL Type]** väljer du Azure synapse Analytics (-analys).
 
    ![](assets/federated_database_4.png)
 
-1. Konfigurera autentiseringsinställningarna för Azure synapse Redshift:
+1. Konfigurera autentiseringsinställningarna för Azure synapse Analytics:
 
    * **[!UICONTROL Server]**: Ange URL-adressen för Azure synapse-servern.
 
