@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Skapa och hantera anslutningar med federerade databaser
-description: Lär dig skapa och hantera anslutningar med Federated Databases
+title: Skapa och hantera anslutningar med Federated databaser
+description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 3%
@@ -21,7 +21,7 @@ Så här konfigurerar du en anslutning till databasen:
 
 1. Bläddra till avsnittet **[!UICONTROL FEDERATED DATA]** i den vänstra listen.
 
-1. Klicka på knappen **[!UICONTROL Add federated database]** i länken **[!UICONTROL Federated Databases]**.
+1. Klicka på knappen **[!UICONTROL Add federated database]** i länken **[!UICONTROL Federated databases]**.
 
    ![](assets/connections_list.png){zoomable="yes"}
 
@@ -47,6 +47,6 @@ Så här konfigurerar du en anslutning till databasen:
 
    ![](assets/connections_testdeploy.png){zoomable="yes"}
 
-   Det finns en översikt över din Federated Database-anslutning enligt nedan:
+   En översikt över din Federated-databasanslutning finns tillgänglig, vilket visas nedan:
 
    ![](assets/connections_overview.png){zoomable="yes"}
