@@ -4,7 +4,7 @@ title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Välj den källdatabas som ska filtreras"
->abstract="Du kan filtrera scheman baserat på deras källa. Markera en eller flera Federated databaser om du vill visa deras scheman."
+>abstract="Du kan filtrera scheman baserat på deras källa. Välj en eller flera Federated databaser om du vill visa deras scheman."
 
 ## Vad är ett schema? {#schema-start}
 

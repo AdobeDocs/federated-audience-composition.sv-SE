@@ -4,7 +4,7 @@ title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 1%
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Federated Database-egenskaper"
->abstract="Ange namnet på den nya Federated Database och välj dess typ."
+>title="Federerade databasegenskaper"
+>abstract="Ange namnet på den nya Federated databasen och välj dess typ."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Information om federerad databas"
->abstract="Ange inställningarna för att ansluta till den nya Federated Database. Använd knappen **[!UICONTROL Test connection]** för att validera konfigurationen."
+>abstract="Ange inställningarna för att ansluta till den nya Federated databasen. Använd knappen **[!UICONTROL Test connection]** för att validera konfigurationen."
 
 Med Experience Platform Federated Audience Composition kan kunden bygga och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform.
 
