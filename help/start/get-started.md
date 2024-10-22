@@ -3,10 +3,10 @@ title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 1%
+source-wordcount: '887'
+ht-degree: 3%
 
 ---
 
@@ -86,3 +86,36 @@ Se även vanliga frågor och svar på [den här sidan](faq.md).
 >id="dc_federated_database_create_link"
 >title="Skapa en länk"
 >abstract="Definiera länkinställningarna."
+
+
+<!-- incremental query IDs -->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery"
+>title="Inkrementell fråga"
+>abstract="Med aktiviteten **Inkrementell fråga** kan du fråga databasen med hjälp av frågemodelleraren. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_history"
+>title="Inkrementell frågehistorik"
+>abstract="Inkrementell frågehistorik"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_processeddata"
+>title="Inkrementell fråga Bearbetade data"
+>abstract="Inkrementell fråga Bearbetade data"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_standard"
+>title="Stegvis frågeläge"
+>abstract="Med den stegvisa frågan kan du köra samma fråga flera gånger genom att utesluta resultatet från tidigare körningar för varje ny körning."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_custom"
+>title="Stegvis frågeläge"
+>abstract="Med den stegvisa frågan kan du köra samma fråga flera gånger genom att bara ta hänsyn till resultat där datumfältet är senare än eller lika med det senaste körningsdatumet för den stegvisa frågeaktiviteten."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_build_audience_dimension"
+>title="Välj måldimension"
+>abstract="Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard väljs målet i den inbyggda tabellen Mottagare för e-post och SMS. För push-meddelanden är standardmåldimensionen prenumerantprogram."

@@ -4,29 +4,16 @@ title: Använd inkrementell frågeaktivitet
 description: Lär dig hur du använder aktiviteten Inkrementell fråga
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 17%
+source-wordcount: '521'
+ht-degree: 15%
 
 ---
 
 # Inkrementell fråga {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="Inkrementell fråga"
->abstract="Med aktiviteten **Inkrementell fråga** kan du fråga databasen med hjälp av frågemodelleraren. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="Inkrementell frågehistorik"
->abstract="Inkrementell frågehistorik"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="Inkrementell fråga Bearbetade data"
->abstract="Inkrementell fråga Bearbetade data"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 Med aktiviteten **Inkrementell fråga** kan du fråga databasen på schemalagd basis. Varje gång den här aktiviteten körs utesluts resultaten från tidigare körningar. På så sätt kan du bara rikta in dig på nya element.
 
