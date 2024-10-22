@@ -3,9 +3,9 @@ title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '933'
 ht-degree: 3%
 
 ---
@@ -119,3 +119,31 @@ Se även vanliga frågor och svar på [den här sidan](faq.md).
 >id="dc_orchestration_build_audience_dimension"
 >title="Välj måldimension"
 >abstract="Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard väljs målet i den inbyggda tabellen Mottagare för e-post och SMS. För push-meddelanden är standardmåldimensionen prenumerantprogram."
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="Spara profil"
+>abstract="Spara profil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Spara profil, välj AEP-schema"
+>abstract="Spara profil, välj AEP-schema"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="Spara profil-AEP-schemalista"
+>abstract="Spara profil-AEP-schemalista"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="Spara profilens AEP-schemaattribut"
+>abstract="Spara profilens AEP-schemaattribut"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="Spara profilval, primärt identifieringsfält"
+>abstract="Spara profilval, primärt identifieringsfält"
