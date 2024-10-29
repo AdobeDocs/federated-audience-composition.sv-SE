@@ -4,9 +4,9 @@ title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Följ stegen nedan för att skapa scheman i Federated Audience Composition:
 
 Så här redigerar du ett schema:
 
-1. Klicka på schemats namn i schemamappen.
+1. Klicka på schemats namn i listan.
 
 1. Klicka på knappen **[!UICONTROL Edit]**.
 
@@ -102,6 +102,7 @@ Så här redigerar du ett schema:
    Du har tillgång till samma alternativ som när du [skapar ett schema](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## Förhandsgranska data i ett schema {#schema-preview}
 
@@ -114,6 +115,16 @@ Klicka på länken **[!UICONTROL Calculate]** om du vill förhandsgranska det to
 Klicka på knappen **[!UICONTROL Configure columns]** om du vill ändra hur data visas.
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## Uppdatera ett schema {#schema-refresh}
+
+Tabeller i en federerad databas kan uppdateras, läggas till eller tas bort. I sådana fall måste du uppdatera schemat i Adobe Experience Platform så att det anpassas till de senaste ändringarna. Klicka på de tre punkterna bredvid namnet på schemat som ska uppdateras och välj **Uppdatera schema**.
+
+Du kan också uppdatera schemadefinitionen när du redigerar den.
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## Ta bort ett schema {#schema-delete}
 

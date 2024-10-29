@@ -4,9 +4,9 @@ title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1753'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,7 @@ Med Federated Audience Composition kan du ansluta till följande databaser. Konf
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
+* [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -120,7 +121,6 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 |---|---|
 | Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [Microsoft SQL-dokumentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exempel på anslutningssträngar vid nr 8) |
 
-
 ## Google Big Query {#google-big-query}
 
 Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Google Big Query.
@@ -167,8 +167,12 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 | GCloudDefaultConfigName | Observera att detta gäller från och med version 7.3.4 och endast för massinläsningsverktyg (Cloud SDK).</br> Den aktiva Google Cloud SDK-konfigurationen kan inte tas bort utan att den aktiva taggen först överförs till en ny konfiguration. Den här tillfälliga konfigurationen är nödvändig för att återskapa huvudkonfigurationen för inläsning av data. Standardnamnet för den tillfälliga konfigurationen är `default`, vilket kan ändras vid behov. |
 | GCloudRecreateConfig | Observera att detta gäller från och med version 7.3.4 och endast för massinläsningsverktyg (Cloud SDK).</br> När värdet är `false` avstår massinläsningsfunktionen från att försöka återskapa, ta bort eller ändra Google Cloud SDK-konfigurationerna. I stället fortsätter programmet med datainläsning med den befintliga konfigurationen på datorn. Den här funktionen är värdefull när andra åtgärder är beroende av Google Cloud SDK-konfigurationer. </br> Om användaren aktiverar det här motoralternativet utan rätt konfiguration kommer massinläsningsmekanismen att skicka ett varningsmeddelande: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Om du vill förhindra fler fel återgår den till att använda ODBC-standardmetoden för gruppinläsning av ODBC-matris. |
 
-
 ## Snowflake {#snowflake}
+
+>[!NOTE]
+>
+>Säker åtkomst till ditt externa datalager i Snowflake via en privat länk stöds. Observera att ditt Snowflake-konto måste finnas på Amazon Web Services (AWS) och i samma region som din Federated Audience Composition-miljö. Kontakta din Adobe-representant för att få hjälp med att skapa säker åtkomst till ditt Snowflake-konto.
+>
 
 Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Snowflake.
 
@@ -225,7 +229,6 @@ Kopplingen stöder följande alternativ:
 | chunkSize | Bestämmer filstorleken för gruppinläsarsegmentet. Standardinställningen är 128 MB. Kan ändras för att få optimala prestanda när de används med bulkThreads. Fler samtidiga aktiva trådar innebär bättre prestanda. <br>Mer information finns i [Snowflake-dokumentationen](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Namnet på den förallokerade interna scenen. Den används i massinläsning i stället för att skapa en ny tillfällig fas. |
 
-
 ## Vertica Analytics {#vertica-analytics}
 
 Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Vertica analytics.
@@ -273,3 +276,94 @@ Kopplingen stöder följande alternativ:
 | Alternativ | Beskrivning |
 |---|---|
 | TimeZoneName | Som standard är den tom, vilket betyder att programserverns systemtidszon används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. |
+
+## Databricks {#databricks}
+
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till databaser.
+
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
+
+1. Klicka på **[!UICONTROL Add federated database]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
+
+1. Välj Databricks i listrutan **[!UICONTROL Type]**.
+
+   ![](assets/databricks-config.png)
+
+1. Konfigurera autentiseringsinställningar för databaser:
+
+   * **[!UICONTROL Server]**: Lägg till namnet på databasservern.
+
+   * **[!UICONTROL HTTP path]**: Lägg till sökvägen till ditt kluster eller lagerställe. [Läs mer](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+
+   * **[!UICONTROL Password]**: Lägg till kontoåtkomsttoken. [Läs mer](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+
+   * **[!UICONTROL Catalog]**: Lägg till fältet för databaskatalogen.
+
+   * **[!UICONTROL Working schema]**: Namnet på databasschemat som ska användas för arbetstabeller.
+
+     >[!NOTE]
+     >
+     >Du kan använda vilket schema som helst från databasen, inklusive scheman som används för temporär databearbetning, så länge du har den behörighet som krävs för att ansluta till det här schemat.
+     >
+     >**Distinkta arbetsscheman** måste användas när du ansluter flera sandlådor med samma databas.
+
+   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
+
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
+
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
+
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
+
+Kopplingen stöder följande alternativ:
+
+| Alternativ | Beskrivning |
+|---|---|
+| TimeZoneName | Som standard är den tom, vilket betyder att programserverns systemtidszon används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. |
+
+<!--Not for October release
+
+## Microsoft Fabric (LA){#microsoft-fabric}
+
+>[!AVAILABILITY]
+>
+>Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+
+    ![](assets/microsoft-config.png)
+
+1. Configure the Microsoft Fabric authentication settings:
+
+    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+
+    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+
+    * **[!UICONTROL Client secret]**: Enter your Client secret.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|---|---|
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
+-->

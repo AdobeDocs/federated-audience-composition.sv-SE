@@ -4,9 +4,9 @@ title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 6191b9849200723d00398644d038af5b082e7964
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '208'
 ht-degree: 3%
 
 ---
@@ -40,12 +40,13 @@ Så här konfigurerar du en anslutning till databasen:
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Databricks](federated-db.md#databricks)
 
 1. Klicka på knappen **[!UICONTROL Test connection]** och på knappen **[!UICONTROL Deploy functions]** när du har fyllt i informationen.
 
-1. Slutför skapandet av anslutningen genom att klicka på knappen **[!UICONTROL Save]**.
-
    ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+1. Slutför skapandet av anslutningen genom att klicka på knappen **[!UICONTROL Save]**.
 
    En översikt över din Federated-databasanslutning finns tillgänglig, vilket visas nedan:
 

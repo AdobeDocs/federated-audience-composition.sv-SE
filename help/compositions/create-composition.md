@@ -4,9 +4,9 @@ title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
+source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,11 @@ Det första steget för att skapa en komposition är att definiera dess etikett 
 
    ![](assets/composition-create.png)
 
-1. I avsnittet **[!UICONTROL Properties]** anger du en etikett för kompositionen och klickar på **[!UICONTROL Create]**.
+1. I avsnittet **[!UICONTROL Properties]** anger du en etikett för kompositionen och väljer en datamodell. Endast scheman som är kopplade till den här datamodellen är tillgängliga i dispositionens aktiviteter.
 
-1. Dispositionsarbetsytan visas. Nu kan du konfigurera kompositionen genom att lägga till så många aktiviteter som behövs för att passa dina behov innan du kör den:
+   ![](assets/composition-select-schema.png)
+
+1. Klicka på **[!UICONTROL Create]**. Dispositionsarbetsytan visas. Nu kan du konfigurera kompositionen genom att lägga till så många aktiviteter som behövs för att passa dina behov innan du kör den:
 
    * [Lär dig att samordna aktiviteter](#action-activities)
    * [Lär dig hur du startar och övervakar en komposition](#save)
