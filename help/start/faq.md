@@ -3,10 +3,10 @@ title: Vanliga frågor
 description: Frågor och svar om Adobe Experience Platform Federated Audience Composition
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 1%
+source-wordcount: '829'
+ht-degree: 0%
 
 ---
 
@@ -25,20 +25,14 @@ För att kunna använda federerad målgruppskomposition måste varje användare 
 
 +++Vilka molnlager stöds?
 
-I den här versionen är Federated Audience Composition kompatibelt med:
-
-* Amazon Redshift
-* Azure synapse
-* Google Big Query
-* Snowflake
-* Vertica Analytics
+Listan över system som stöds med Federated Audience Composition finns på [den här sidan](../start/access-prerequisites.md#supported-systems).
 
 +++
 
 
 +++Kan flera datalager frågas i samma disposition?
 
-Ja, flera lagerställen kan läsas i samma disposition och kombinera data från flera källor.  Vanligtvis är varje [dispositionsaktivitet](../compositions/orchestrate-activities.md) (Fråga, Uppgradering, Dela osv.) kör en eller flera SQL-satser beroende på aktivitetskonfigurationen, måldatabaserna (det kan finnas flera fall av federerad dataåtkomst) och utdata för en eller flera arbetstabeller med resultatet av körningen. Dessa arbetsblad används som indata för efterföljande aktiviteter.
+Ja, flera lagerställen kan läsas i samma disposition och kombinera data från flera källor.  Vanligtvis kör varje [dispositionsaktivitet](../compositions/orchestrate-activities.md) (Fråga, Upprikning, Dela osv.) en eller flera SQL-satser beroende på aktivitetskonfigurationen, måldatabaserna (det kan finnas flera fall av federerad dataåtkomst) och utdata för en eller flera arbetstabeller med resultatet av körningen. Dessa arbetsblad används som indata för efterföljande aktiviteter.
 
 +++
 
@@ -46,8 +40,6 @@ Ja, flera lagerställen kan läsas i samma disposition och kombinera data från 
 
 Nej, det är upp till dig att konfigurera åtkomst till en dedikerad eller delad databas/schema. Vi rekommenderar att du endast skapar ett dedikerat schema för sammanställning av federerad publik och kopierar/delar affärsdata.
 +++
-
-
 
 +++Har jag åtkomst till alla tabeller i det dedikerade schemat?
 
@@ -59,7 +51,6 @@ Ja, när du väl har anslutit kan Federated Audience Composition användas för 
 * Dölj onödiga kolumner
 * Spara tabellbeskrivningen
 +++
-
 
 +++Finns det någon tillfällig lagring i Federated Audience Composition?
 
@@ -89,7 +80,7 @@ De resulterande målgruppsdata bevaras inte i oändlighet i Adobe Experience Pla
 
 +++Kan jag ta bort en anpassad överförd publik?
 
-Nej, i den aktuella versionen kan du inte ta bort anpassade överförda målgrupper. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
+Nej, i den aktuella versionen kan du inte ta bort anpassade överförda målgrupper.—>
 
 +++
 
@@ -98,11 +89,3 @@ Nej, i den aktuella versionen kan du inte ta bort anpassade överförda målgrup
 Nej, identitetstjänsten används inte under en disposition. Data mellan olika källor som används i kompositionen sammanfogas med användardefinierad logik (som uttrycks i den underliggande modellen), t.ex. CRM-ID, användarkontonummer osv. Du måste välja den identitet som används som identifierare i målgruppen för val i ditt datalager. På en målgrupp från Federated Audience Composition måste du identifiera identitetsnamnutrymmet för identiteten i den resulterande datauppsättningen.
 
 +++
-
-<!--
-+++If I want to combine federated data with datasets that live in Adobe Experience Platform, how is this done?
-
-Likewise, the Identity Service is not being leveraged in this scenario either. The data model underpinning a composition needs to express how the data warehouse data and the audience to be enriched are related. e.g. assume an existing audience in Adobe Experience Platform contains several attributes, among which is the CRM ID. Assume transactional data is in the data warehouse containing purchases with various attributes, including the CRM ID of the purchaser. The end-user would have to specify that the CRM ID for both objects is used to stitch the two objects together.
-
-+++
--->

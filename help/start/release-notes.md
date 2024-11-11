@@ -3,7 +3,7 @@ title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 2%
@@ -13,6 +13,13 @@ ht-degree: 2%
 # Versionsinformation {#rn-new}
 
 [!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+
+>[!AVAILABILITY]
+>
+>Adobe Experience Platform Federated Audience Composition är för närvarande bara tillgängligt för en uppsättning organisationer (begränsad tillgänglighet).
+>
+
 
 ## 24 oktober {#fac-24-10}
 
@@ -46,10 +53,6 @@ Den här versionen innehåller de förbättringar som anges nedan.
 
 ## Version 24 juli - Federated Audience Composition (LA) {#fac-la}
 
->[!AVAILABILITY]
->
->Adobe Experience Platform Federated Audience Composition är för närvarande bara tillgängligt för en uppsättning organisationer (begränsad tillgänglighet).
->
 
 Federated Audience Composition är en tilläggsfunktion som ger företag flexibel och utökad åtkomst till datalager i företagsklass för att skapa målgrupper med hjälp av viktiga företagsdatauppsättningar och starka varumärkesinitierade och aktuella upplevelser. Med den här nya metoden, som [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- och/eller [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} -användare, kan du federera målgruppsdata direkt från ditt befintliga datalager för att berika Adobe Experience Platform målgrupper i ett system.
 

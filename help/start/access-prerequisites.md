@@ -2,10 +2,11 @@
 title: Förutsättningar och säkerhetsutkast för sammanställning av federerad publik
 description: Lär dig förutsättningarna, behörigheterna och säkerhetsfunktionerna för Federated Audience Composition
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
+exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
+source-wordcount: '307'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +17,19 @@ Federated Audience Composition kräver Adobe Real-time Customer Data Platform- o
 >[!AVAILABILITY]
 >
 >När du har fått ett välkomstmeddelande från Adobe kan det ta några timmar innan gränssnittet har uppdaterats och funktioner är tillgängliga.
+
+## Systemstöd {#supported-systems}
+
+Federated Audience Composition har stöd för följande molnlager:
+
+* Amazon Redshift
+* Azure synapse
+* Databricks
+* Google Big Query
+* Snowflake
+* Vertica Analytics
+
+Lär dig hur du skapar en anslutning med dessa system på [den här sidan](../connections/connections.md).
 
 ## Behörigheter {#permissions}
 
