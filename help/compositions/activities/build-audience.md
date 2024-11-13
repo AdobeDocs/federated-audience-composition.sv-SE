@@ -2,14 +2,13 @@
 audience: end-user
 title: Använd aktiviteten Skapa målgrupp
 description: Lär dig använda aktiviteten Skapa målgrupp
-badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
+exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
-
 
 # Bygg målgrupper {#build-audience}
 

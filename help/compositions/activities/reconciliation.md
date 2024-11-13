@@ -2,11 +2,10 @@
 audience: end-user
 title: Använd avstämningsaktiviteten
 description: Lär dig använda avstämningsaktiviteten
-badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---

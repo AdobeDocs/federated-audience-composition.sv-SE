@@ -1,11 +1,10 @@
 ---
 title: Adobe Experience Platform Federated Audience Composition Documentation - startsida
 description: Kompositionsdokumentation för federerad målgruppskomposition
-badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '230'
 ht-degree: 4%
 
 ---
@@ -32,7 +31,7 @@ Skapa, konfigurera, testa och spara anslutningen till den externa databasen.
 
 >[!TAB Disponera en publik]
 
-Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga, osv.) för att skapa kompositioner och skapa en målgrupp.
+Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga osv.) för att skapa kompositioner och skapa en målgrupp.
 
 [![bild](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -54,7 +53,7 @@ Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga, osv.) för att ska
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Skapa en målgrupp</strong><br/>Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga osv.) för att skapa kompositioner och skapa din första federerade publik.
+    <div><strong>Skapa en målgrupp</strong><br/>Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga osv.) för att skapa kompositioner och skapa din första externa målgrupp.
     </div>
     </td>
     <td>

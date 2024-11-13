@@ -2,10 +2,10 @@
 audience: end-user
 title: Arbeta med frågemodelleraren
 description: Lär dig arbeta med frågemodelleraren
-badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---

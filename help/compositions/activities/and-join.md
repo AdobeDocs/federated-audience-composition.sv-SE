@@ -2,10 +2,10 @@
 audience: end-user
 title: Använda aktiviteten OCH-join
 description: Lär dig hur du använder AND-join-aktiviteten
-badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 9648f17b-e54c-4bc2-8dff-d35c438eeb8b
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---

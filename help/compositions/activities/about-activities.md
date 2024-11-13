@@ -2,14 +2,13 @@
 audience: end-user
 title: Arbeta med aktiviteter
 description: Lär dig arbeta med aktiviteter
-badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
-
 
 # Arbeta med aktiviteter {#activities}
 

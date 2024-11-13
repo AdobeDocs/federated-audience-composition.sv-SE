@@ -2,11 +2,10 @@
 audience: end-user
 title: Granskningsspår
 description: Lär dig hur åtgärder och händelser loggas och är tillgängliga i granskningsspåret
-badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---

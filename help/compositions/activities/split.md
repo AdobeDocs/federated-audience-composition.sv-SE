@@ -2,11 +2,10 @@
 audience: end-user
 title: Använda aktiviteten Dela
 description: Lär dig använda aktiviteten Dela
-badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---

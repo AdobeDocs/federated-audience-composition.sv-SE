@@ -2,14 +2,13 @@
 audience: end-user
 title: Använda aktiviteten Kombinera
 description: Lär dig använda aktiviteten Kombinera
-badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 395e96d1-0af2-4e59-b599-f57a083b68ca
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '765'
 ht-degree: 12%
 
 ---
-
 
 # Kombinera {#combine}
 

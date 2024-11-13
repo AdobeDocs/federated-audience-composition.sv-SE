@@ -2,11 +2,10 @@
 audience: end-user
 title: Kom igång med kompositioner
 description: Lär dig hur du börjar med kompositioner
-badge: label="Begränsad tillgänglighet" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
