@@ -2,16 +2,26 @@
 title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 2%
+source-wordcount: '523'
+ht-degree: 3%
 
 ---
 
 # Versionsinformation {#rn-new}
 
 [!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## 24 november {#fac-24-11}
+
+### Förbättringar {#fac-24-11-improvements}
+
+Den här versionen innehåller förbättringen nedan.
+
+* **IP-adressen tillåtelselista**
+
+  När du lägger till en federerad databas i Adobe Experience Platform användargränssnitt kan du nu direkt visa de IP-adresser som är kopplade till dina Federated Audience Composition-instanser. På så sätt kan du enkelt kopiera och godkänna dessa IP-adresser för att ansluta till databasen, vilket ger bättre säkerhet och flexibilitet. [Läs mer](../connections/connections.md)
 
 ## 24 oktober {#fac-24-10}
 
