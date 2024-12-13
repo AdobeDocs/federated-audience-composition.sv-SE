@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 2%
@@ -47,9 +47,9 @@ Så här konfigurerar du en anslutning till databasen:
 
    Klicka på en IP-adress i listan för att kopiera den till ditt system och auktorisera denna IP för att ansluta till din databas.
 
->[!NOTE]
->
->Om du vill använda Federated Audience Composition för en viss databas måste du tillåtelselista alla IP-adresser som är kopplade till den databasen.
+   >[!NOTE]
+   >
+   >Om du vill använda Federated Audience Composition för en viss databas måste du tillåtelselista alla IP-adresser som är kopplade till den databasen.
 
 1. Klicka på knappen **[!UICONTROL Test connection]** och på knappen **[!UICONTROL Deploy functions]** när du har fyllt i informationen.
 
