@@ -2,9 +2,9 @@
 title: Förutsättningar och säkerhetsutkast för sammanställning av federerad publik
 description: Lär dig förutsättningarna, behörigheterna och säkerhetsfunktionerna för Federated Audience Composition
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d26fa10fa7e28c1515a625e2e0b10a000aa2d7d5
+source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '335'
 ht-degree: 3%
 
 ---
@@ -30,11 +30,9 @@ Federated Audience Composition har stöd för följande molnlager:
 
 Lär dig hur du skapar en anslutning med dessa system på [den här sidan](../connections/connections.md).
 
-<!--
-## Sandboxes
+## Sandlådor
 
-When purchasing the Federated Audience Composition add-on, you are entitled to two sandboxes (one production sandbox and one non-production sandbox). For any additional sandbox provisioning requests, contact your Adobe representative.
--->
+När du köper tillägget Federated Audience Composition är du berättigad till två sandlådor. Kontakta din Adobe-representant om du vill ha ytterligare förfrågningar om sandlådeetablering.
 
 ## Behörigheter {#permissions}
 
@@ -50,10 +48,9 @@ Lägg till de här IP-adresserna i tillåtelselista för att ge åtkomst till Fe
 
 ## Skyddsritningar och begränsningar {#fac-guardrails}
 
-* Federated Audience Composition är för närvarande inte tillgängligt för kunder som [vill ha hälsodata](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}<!-- and to Adobe Journey Optimizer Privacy and Security Shield customers-->. [Läs mer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
+* Federated Audience Composition är för närvarande inte tillgängligt för kunder som [vill ha hälsodata](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}. [Läs mer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * Tillstånd, produktbegränsningar och prestandaskydd som anges i [Adobe Real-time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} gäller för det här tillägget.
-
