@@ -2,9 +2,9 @@
 title: Vanliga frågor
 description: Frågor och svar om Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 1bdab901b7aae3019b672a34eab184405c927f56
+source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
