@@ -2,9 +2,9 @@
 title: Vanliga frågor
 description: Frågor och svar om Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 1bdab901b7aae3019b672a34eab184405c927f56
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
@@ -79,12 +79,26 @@ De resulterande målgruppsdata bevaras inte i oändlighet i Adobe Experience Pla
 
 +++Kan jag ta bort en anpassad överförd publik?
 
-Nej, i den aktuella versionen kan du inte ta bort anpassade överförda målgrupper.—>
+Nej, i den aktuella versionen kan du inte ta bort anpassade överförda målgrupper.
 
 +++
 
 +++Om jag kombinerar data från flera källor, hur sammanfogar vi dessa data? Använder vi identitetstjänsten?
 
 Nej, identitetstjänsten används inte under en disposition. Data mellan olika källor som används i kompositionen sammanfogas med användardefinierad logik (som uttrycks i den underliggande modellen), t.ex. CRM-ID, användarkontonummer osv. Du måste välja den identitet som används som identifierare i målgruppen för val i ditt datalager. På en målgrupp från Federated Audience Composition måste du identifiera identitetsnamnutrymmet för identiteten i den resulterande datauppsättningen.
+
++++
+
++++Hur respekteras inställningarna för kundsamtycke för externt genererade målgrupper som importeras till Federated Audience Composition?
+
+När kunddata hämtas från flera kanaler kan identitetssammanfogning och sammanfogningsprinciper göra att dessa data kan samlas i en enda kundprofil i realtid. Information om kundernas samtycke lagras och utvärderas på profilnivå.
+
+Real-Time CDP- och Journey Optimizer-destinationer i senare led kontrollerar varje profil för godkännande innan aktivering. Varje profils godkännandeinformation jämförs med medgivandekraven för en viss destination. Om profilen inte uppfyller kraven skickas den profilen inte till något mål.
+
+När en extern målgrupp hämtas in till Federated Audience Composition är den avstämd mot befintliga profiler med ett primärt ID som e-post eller ECID. Till följd av detta kommer de befintliga reglerna för samtycke att gälla under hela aktiveringen.
+
+>[!NOTE]
+>
+>Eftersom nyttolastvariablerna inte lagras i profilen utan i datasjön bör du inte inkludera medgivandeinformation i externt genererade målgrupper. Använd i stället andra Adobe Experience Platform-kanaler där profildata importeras.
 
 +++
