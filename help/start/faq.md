@@ -2,9 +2,9 @@
 title: Vanliga frågor
 description: Frågor och svar om Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
+source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -88,17 +88,18 @@ Nej, i den aktuella versionen kan du inte ta bort anpassade överförda målgrup
 Nej, identitetstjänsten används inte under en disposition. Data mellan olika källor som används i kompositionen sammanfogas med användardefinierad logik (som uttrycks i den underliggande modellen), t.ex. CRM-ID, användarkontonummer osv. Du måste välja den identitet som används som identifierare i målgruppen för val i ditt datalager. På en målgrupp från Federated Audience Composition måste du identifiera identitetsnamnutrymmet för identiteten i den resulterande datauppsättningen.
 
 +++
+<!--
++++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
-+++Hur respekteras inställningarna för kundsamtycke för externt genererade målgrupper som importeras till Federated Audience Composition?
+As customer data is captured from multiple channels, identity stitching and merge policies allow this data to be consolidated in a single Real-Time Customer Profile. Information on the customers' consent preferences are stored and evaluated at the profile level.
 
-När kunddata hämtas från flera kanaler kan identitetssammanfogning och sammanfogningsprinciper göra att dessa data kan samlas i en enda kundprofil i realtid. Information om kundernas samtycke lagras och utvärderas på profilnivå.
+Downstream Real-Time CDP and Journey Optimizer destinations check each profile for consent preferences prior to activation. Each profile's consent information is compared against consent requirements for a particular destination. If the profile does not satisfy the requirements, that profile is not sent to a destination.
 
-Real-Time CDP- och Journey Optimizer-destinationer i senare led kontrollerar varje profil för godkännande innan aktivering. Varje profils godkännandeinformation jämförs med medgivandekraven för en viss destination. Om profilen inte uppfyller kraven skickas den profilen inte till något mål.
-
-När en extern målgrupp hämtas in till Federated Audience Composition är den avstämd mot befintliga profiler med ett primärt ID som e-post eller ECID. Till följd av detta kommer de befintliga reglerna för samtycke att gälla under hela aktiveringen.
+When an external audience is ingested into Federated Audience Composition, it is reconciliated with existing profiles using a primary ID such as email or ECID. As a result, the existing consent policies will remain in force throughout activation.
 
 >[!NOTE]
 >
->Eftersom nyttolastvariablerna inte lagras i profilen utan i datasjön bör du inte inkludera medgivandeinformation i externt genererade målgrupper. Använd i stället andra Adobe Experience Platform-kanaler där profildata importeras.
+>Since the payload variables are not stored in the profile but in the data lake, you should not include consent information in externally generated audiences. Instead, use other Adobe Experience Platform ingestion channels where profile data is imported.
 
 +++
+-->
