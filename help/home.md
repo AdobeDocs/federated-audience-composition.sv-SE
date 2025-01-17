@@ -1,8 +1,10 @@
 ---
 title: Adobe Experience Platform Federated Audience Composition Documentation - startsida
 description: Kompositionsdokumentation för federerad målgruppskomposition
+solution: Federated Audience Composition
+product: Federated Audience Composition
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 861bacf913c7534adbcdcba30102a5ba434c75ab
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 4%
