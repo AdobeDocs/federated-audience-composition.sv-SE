@@ -2,9 +2,9 @@
 title: Vanliga frågor
 description: Frågor och svar om Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
+source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ De resulterande målgruppsdata bevaras inte i oändlighet i Adobe Experience Pla
 
 +++
 
-+++Kan jag ta bort en anpassad överförd publik?
++++Kan jag ta bort en publik?
 
-Nej, i den aktuella versionen kan du inte ta bort anpassade överförda målgrupper.
+Nej, i den aktuella versionen kan du inte ta bort mottagare med federerad målgruppskomposition.
 
 +++
 
