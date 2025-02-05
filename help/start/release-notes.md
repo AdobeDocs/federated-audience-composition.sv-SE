@@ -2,9 +2,9 @@
 title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: edea9937554c4be4df3e9f03686033aa183cadb7
+source-git-commit: 51a6c6154452ae56e495312f1d4e909f4eb2d06e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '588'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 2%
 
 ## Uppdatering 25 februari {#fac-25-01}
 
-Från och med februari är [!DNL Federated Audience Composition] bara tillgänglig för användare som har beviljats behörigheten **Hantera federerade data**.
-Mer information om hur du tilldelar den här behörigheten finns i [den detaljerade dokumentationen](feature-access.md).
+Från och med februari-versionen kommer [!DNL Federated Audience Composition] att börja genomdriva åtkomsten av gränssnitten **Federated datahantering** och **Federated kompositioner** för användare som har beviljats behörigheten **Hantera Federated data**.
 
+Vi rekommenderar att användare kontaktar administratörerna för att få denna behörighet tillagd i rollen för att kunna fortsätta använda användargränssnittet för [!DNL Federated Audience Composition].
+
+Mer information om hur du tilldelar den här behörigheten finns i [den detaljerade dokumentationen](feature-access.md).
 
 ## 24 november {#fac-24-11}
 
