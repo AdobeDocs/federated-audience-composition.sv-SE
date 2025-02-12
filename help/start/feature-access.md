@@ -1,7 +1,8 @@
 ---
 title: Åtkomst till sammansatt målgrupp
 description: Lär dig mer om nödvändiga behörigheter för Federated Audience Composition
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Om till exempel en ny sandlåda med namnet &quot;fac-test&quot; aktiveras skapas
 
 >[!AVAILABILITY]
 >
->Behörigheter är tillgängliga som en del av februari-versionen.
+>Behörigheter är tillgängliga som en del av mars-utgåvan.
 
 Om du vill få åtkomst till **Federated Audience Composition** måste du först se till att behörigheten **Hantera federerade data** tilldelas rätt roller. Dessa roller måste sedan tilldelas användare som behöver åtkomst till **Federated Audience Composition**.
 
@@ -53,5 +54,3 @@ Så här tilldelar du rollen till nya användare:
 1. Ange användarens namn eller e-postadress eller välj i listan över tillgängliga. Klicka på **[!UICONTROL Save]** när du är klar.
 
 Användaren får sedan ett e-postmeddelande med instruktioner om hur man kommer åt instansen. Om användaren inte har skapats tidigare, se [den här dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
-
-
