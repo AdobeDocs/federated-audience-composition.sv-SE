@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 12%
+source-wordcount: '154'
+ht-degree: 11%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 12%
    + [Konfigurera dina federerade databaser](connections/federated-db.md)
    + Datamodeller och scheman {#datamodel}
       + [Skapa och konfigurera scheman](customer/schemas.md)
+      + [Konfigurera dina datamodeller (beta)](data-management/gs-models-beta.md)
       + [Konfigurera dina datamodeller](data-management/gs-models.md)
    + [Berika Adobe Experience Platform målgrupper med externa data](connections/destinations.md)
 + Disponera målgrupper {#compositions}
