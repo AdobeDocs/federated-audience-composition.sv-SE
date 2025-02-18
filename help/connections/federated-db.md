@@ -3,9 +3,9 @@ audience: end-user
 title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
+source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1914'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >title="Information om federerad databas"
 >abstract="Ange inställningarna för att ansluta till den nya Federated databasen. Använd knappen **[!UICONTROL Test connection]** för att validera konfigurationen."
 
-Med Experience Platform Federated Audience Composition kan kunden bygga och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform.
+Med Experience Platform Federated Audience Composition kan kunden skapa och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform.
 
 Lär dig hur du skapar, konfigurerar, testar och sparar anslutningen till din externa databas på [den här sidan](connections.md). Nedan finns en lista över databaser som stöds och detaljerade inställningar som kan konfigureras för var och en av dem.
 
@@ -36,17 +36,18 @@ Lär dig hur du skapar, konfigurerar, testar och sparar anslutningen till din ex
 Med Federated Audience Composition kan du ansluta till följande databaser. Konfigurationen för varje databas beskrivs nedan.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure synapse Analytics](#azure-synapse)
+* [Azure Synapse Analytics](#azure-synapse)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
+* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->Endast Amazon Redshift och Amazon Redshift Serverless stöds.
+>Endast Amazon Redshift AWS, Amazon Redshift Spectrum och Amazon Redshift Serverless stöds.
 
 Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Amazon Redshift.
 
@@ -86,9 +87,9 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
 
-## Azure synapse Analytics {#azure-synapse}
+## Azure Synapse Analytics {#azure-synapse}
 
-Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Azure synapse Analytics.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Azure Synapse Analytics.
 
 1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
@@ -98,13 +99,13 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 1. Ange en **[!UICONTROL Name]** till din Federate-databas.
 
-1. I listrutan **[!UICONTROL Type]** väljer du Azure synapse Analytics (-analys).
+1. I listrutan **[!UICONTROL Type]** väljer du Azure Synapse Analytics.
 
    ![](assets/federated_database_4.png)
 
-1. Konfigurera autentiseringsinställningarna för Azure synapse Analytics:
+1. Konfigurera autentiseringsinställningarna för Azure Synapse Analytics:
 
-   * **[!UICONTROL Server]**: Ange URL-adressen för Azure synapse-servern.
+   * **[!UICONTROL Server]**: Ange URL-adressen för Azure Synapse-servern.
 
    * **[!UICONTROL Account]**: Ange användarnamnet.
 
@@ -174,7 +175,7 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 >[!NOTE]
 >
->Säker åtkomst till ditt externa datalager i Snowflake via en privat länk stöds. Observera att ditt Snowflake-konto måste finnas på Amazon Web Services (AWS) och i samma region som din Federated Audience Composition-miljö. Kontakta din Adobe-representant för att få hjälp med att skapa säker åtkomst till ditt Snowflake-konto.
+>Säker åtkomst till ditt externa Snowflake-datalager via en privat länk stöds. Observera att ditt Snowflake-konto måste finnas på Amazon Web Services (AWS) och i samma region som din Federated Audience Composition-miljö. Kontakta din Adobe-representant för att få hjälp med att konfigurera säker åtkomst till ditt Snowflake-konto.
 >
 
 Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Snowflake.
@@ -227,14 +228,14 @@ Kopplingen stöder följande alternativ:
 | lagerställe | Namnet på standardlagerstället som ska användas. Det åsidosätter användarens standardvärde. |
 | TimeZoneName | Som standard är den tom, vilket innebär att systemets tidszonsprogramserver används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. <br>Mer information finns på [den här sidan](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
 | WeekStart | WEEK_START-sessionsparameter. Standardinställningen är 0. <br>Mer information finns på [den här sidan](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
-| AnvändCachedResult | USE_CACHED_RESULTS sessionsparameter. Standardinställningen är TRUE. Det här alternativet kan användas för att inaktivera cachelagrade resultat i Snowflake. <br>Mer information finns på [den här sidan](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
-| bulkThreads | Antal trådar som ska användas för Snowflake-massinläsare, fler trådar innebär bättre prestanda för större massinläsningar. Standardinställningen är 1. Numret kan justeras beroende på antalet datortrådar. |
+| AnvändCachedResult | USE_CACHED_RESULTS sessionsparameter. Standardinställningen är TRUE. Det här alternativet kan användas för att inaktivera cachelagrade Snowflake-resultat. <br>Mer information finns på [den här sidan](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+| bulkThreads | Fler trådar innebär bättre prestanda för större massinläsning när det gäller antalet trådar som ska användas för Snowflake-inläsning. Standardinställningen är 1. Numret kan justeras beroende på antalet datortrådar. |
 | chunkSize | Bestämmer filstorleken för gruppinläsarsegmentet. Standardinställningen är 128 MB. Kan ändras för att få optimala prestanda när de används med bulkThreads. Fler samtidiga aktiva trådar innebär bättre prestanda. <br>Mer information finns i [Snowflake-dokumentationen](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Namnet på den förallokerade interna scenen. Den används i massinläsning i stället för att skapa en ny tillfällig fas. |
 
 ## Vertica Analytics {#vertica-analytics}
 
-Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Vertica analytics.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Vertica Analytics.
 
 1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
@@ -244,11 +245,11 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 1. Ange en **[!UICONTROL Name]** till din Federate-databas.
 
-1. I listrutan **[!UICONTROL Type]** väljer du Vertica analytics.
+1. I listrutan **[!UICONTROL Type]** väljer du Vertica Analytics.
 
    ![](assets/federated_database_5.png)
 
-1. Konfigurera autentiseringsinställningarna för Vertica analytics:
+1. Konfigurera autentiseringsinställningarna för Vertica Analytics:
 
    * **[!UICONTROL Server]**: Lägg till URL:en för servern [!DNL Vertica Analytics].
 
@@ -328,45 +329,45 @@ Kopplingen stöder följande alternativ:
 |---|---|
 | TimeZoneName | Som standard är den tom, vilket betyder att programserverns systemtidszon används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. |
 
-<!--Not for October release
-
-## Microsoft Fabric (LA){#microsoft-fabric}
+## Microsoft Fabric {#microsoft-fabric}
 
 >[!AVAILABILITY]
 >
->Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+>Microsoft Fabric är för närvarande endast tillgängligt för en uppsättning organisationer (begränsad tillgänglighet).
 
-Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Microsoft Fabric.
 
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
-1. Click **[!UICONTROL Add federated database]**.
+1. Klicka på **[!UICONTROL Add federated database]**.
 
-    ![](assets/federated_database_1.png)
+   ![](assets/federated_database_1.png)
 
-1. Enter a **[!UICONTROL Name]** to your Federate database.
+1. Ange en **[!UICONTROL Name]** till din Federate-databas.
 
-1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+1. I listrutan **[!UICONTROL Type]** väljer du Microsoft Fabric.
 
-    ![](assets/microsoft-config.png)
+   ![](assets/microsoft-config.png)
 
-1. Configure the Microsoft Fabric authentication settings:
+1. Konfigurera autentiseringsinställningarna för Microsoft Fabric:
 
-    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+   * **[!UICONTROL Server]**: Ange URL:en för Microsoft Fabric-servern.
 
-    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+   * **[!UICONTROL Application ID]**: Ange ditt program-ID för Microsoft Fabric.
 
-    * **[!UICONTROL Client secret]**: Enter your Client secret.
+   * **[!UICONTROL Client secret]**: Ange din klienthemlighet.
 
-    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+   * **[!UICONTROL Options]**: Kopplingen stöder de alternativ som anges i tabellen nedan.
 
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+1. Klicka på **[!UICONTROL Server IPs]** för att välja de server-IP:n som du vill auktorisera.
 
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+1. Välj alternativet **[!UICONTROL Test the connection]** för att verifiera din konfiguration.
 
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+1. Klicka på knappen **[!UICONTROL Deploy functions]** för att skapa funktionerna.
 
-| Option   |  Description |
+1. När konfigurationen är klar klickar du på **[!UICONTROL Add]** för att skapa din Federate-databas.
+
+| Alternativ | Beskrivning |
 |---|---|
-| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
--->
+| Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [Microsoft SQL-dokumentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exempel på anslutningssträngar vid nr 8) |
+

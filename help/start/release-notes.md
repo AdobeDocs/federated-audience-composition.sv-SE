@@ -2,9 +2,9 @@
 title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
+source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '645'
 ht-degree: 3%
 
 ---
@@ -12,6 +12,36 @@ ht-degree: 3%
 # Versionsinformation {#rn-new}
 
 [!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## 25 februari {#fac-25-2}
+
+Den här versionen innehåller de ändringar som anges nedan.
+
+* **Stöd för Microsoft Fabrics**
+
+  Nu kan du upprätta anslutningar till Microsoft Fabric-databaser via Federated Audience Composition. [Läs mer](../connections/federated-db.md)
+
+* **Stöd för Amazon Redshift Spectrum**
+
+  Amazon Redshift Spectrum stöds nu för Amazon Redshift-databasanslutningar. [Läs mer](../connections/federated-db.md#amazon-redshift)
+
+* **Förbättrad funktion för att skapa schema**
+
+  Processen med att skapa scheman har förbättrats med ett uppdaterat användargränssnitt som är mer intuitivt och enklare att navigera i. Dessa förbättringar ger datapersonal ett smidigare och effektivare sätt att utveckla datamodeller. [Läs mer](../customer/schemas.md)
+
+* **Stöd för målgruppsanpassning för databaser**
+
+  Nu kan du använda Databricks i Läs målgrupp, vilket aktiverar aktiviteten för databaser och gör att den kan ställas in som en ny destination. [Läs mer](../connections/destinations.md)
+
+<!--
+* **Federated Audience Composition permissions**
+
+    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+
+    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
+
+    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+-->
 
 ## 24 november {#fac-24-11}
 

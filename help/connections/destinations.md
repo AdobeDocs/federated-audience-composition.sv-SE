@@ -3,10 +3,10 @@ audience: end-user
 title: Berika Adobe Experience Platform målgrupper med externa data
 description: Lär dig förfina och berika Adobe Experience Platform-målgrupper med data från era externa databaser med Federated målgrupps sammanställningsmål.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 0%
+source-wordcount: '563'
+ht-degree: 1%
 
 ---
 
@@ -34,11 +34,22 @@ De viktigaste stegen för att skicka Adobe Experience Platform-målgrupper till 
 
    ![](assets/destination-new.png)
 
-1. Ange ett namn för den nya anslutningen, välj den **[!UICONTROL Connection type]** som ska användas och den **[!UICONTROL Federated database]** som du vill ansluta till och klicka på **[!UICONTROL Next]**.
+1. Ange ett namn för den nya anslutningen och välj **[!UICONTROL Connection Type]** bland följande tillgängliga anslutningar:
+
+   * Amazon Redshift
+   * Azure Synapse Analytics
+   * Google Big Query
+   * Snowflake
+   * Vertica Analytics
+   * Databricks
+
+1. Markera **[!UICONTROL Federated database]** som du vill ansluta till och klicka på **[!UICONTROL Next]**.
 
    ![](assets/destination-configure.png)
 
-   I avsnittet **[!UICONTROL Alerts]** kan du aktivera aviseringar för att få meddelanden om dataflödets status till ditt mål. Mer information om varningar finns i Adobe Experience Platform-dokumentationen om att [prenumerera på destinationsvarningar med användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+1. I avsnittet **[!UICONTROL Alerts]** kan du aktivera aviseringar för att få meddelanden om dataflödets status till ditt mål.
+
+   Mer information om varningar finns i Adobe Experience Platform-dokumentationen om att [prenumerera på destinationsvarningar med användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. I steget **[!UICONTROL Governance policy & enforcement actions]** kan du definiera dina datastyrningsprinciper och se till att de data som används är kompatibla när målgrupper skickas och är aktiva.
 

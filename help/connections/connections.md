@@ -3,16 +3,16 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
+source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
 
 # Skapa anslutningar {#connections-fdb}
 
-Med Experience Platform Federated Audience Composition kan kunden bygga och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform. Datalager som stöds listas i [det här avsnittet](../start/access-prerequisites.md#supported-systems).
+Med Experience Platform Federated Audience Composition kan kunden skapa och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform. Datalager som stöds listas i [det här avsnittet](../start/access-prerequisites.md#supported-systems).
 
 Om du vill arbeta med din federerade databas och Adobe Experience Platform måste du först skapa en anslutning. Den här anslutningen har konfigurerats i ett dedikerat användargränssnitt som finns i Adobe Experience Platform användargränssnitt, vilket beskrivs på den här sidan.
 
@@ -35,11 +35,12 @@ Så här konfigurerar du en anslutning till databasen:
    Konfigurationsinställningarna beror på typen av databas. Bläddra bland länkarna nedan för att komma åt information som du behöver för att konfigurera anslutningen:
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
-   * [Azure synapse](federated-db.md#azure-synapse-redshift)
+   * [Azure Synapse](federated-db.md#azure-synapse-redshift)
    * [Databricks](federated-db.md#databricks)
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Microsoft Fabric](federated-db.md#microsoft-fabric)
 
 1. För varje databas som stöds väljer du knappen **[!UICONTROL Server IP]**. Listan över alla IP-adresser som är associerade med din Federated Audience Composition-instans visas.
 
