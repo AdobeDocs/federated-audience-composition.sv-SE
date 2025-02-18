@@ -3,9 +3,9 @@ audience: end-user
 title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -331,9 +331,6 @@ Kopplingen stöder följande alternativ:
 
 ## Microsoft Fabric {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->Microsoft Fabric är för närvarande endast tillgängligt för en uppsättning organisationer (begränsad tillgänglighet).
 
 Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Microsoft Fabric.
 
