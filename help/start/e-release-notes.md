@@ -3,9 +3,9 @@ title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 hide: true
 hidefromtoc: true
-source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
+source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '896'
 ht-degree: 3%
 
 ---
@@ -35,6 +35,10 @@ Den här versionen innehåller förbättringarna nedan.
 * **Målgruppsexport**
 
   Federated Audience Composition har nu stöd för export av stora målgrupper som hanterar filstorlekar upp till 20 GB.
+
+* **AI-assistenten**
+
+  AI Assistant är en gränssnittsfunktion som hjälper dig att navigera i och förstå Adobe koncept och få driftsinsikter för just din miljö. Det finns i flera Adobe Experience Cloud-produkter, inklusive Federated Audience Composition.
 
 ### Kompatibilitet {#fac-25-3-compat}
 
