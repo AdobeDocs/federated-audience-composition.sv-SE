@@ -3,9 +3,9 @@ title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '855'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 3%
 
 ## 25 mars-utgåvan {#fac-25-3}
 
-Den här versionen innehåller förbättringen nedan.
+### Förbättringar {#fac-25-3-improvements}
+
+Den här versionen innehåller förbättringarna nedan.
 
 * **Sammansättningsbehörigheter för sammansatta målgrupper**
 
@@ -34,7 +36,7 @@ Den här versionen innehåller förbättringen nedan.
 
   Federated Audience Composition har nu stöd för export av stora målgrupper som hanterar filstorlekar upp till 20 GB.
 
-### Kompatibilitet {#fac-25.3-compat}
+### Kompatibilitet {#fac-25-3-compat}
 
 * **Databriksanslutning**
 
