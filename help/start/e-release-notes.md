@@ -3,9 +3,10 @@ title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 hide: true
 hidefromtoc: true
-source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
+source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '844'
 ht-degree: 3%
 
 ---
@@ -28,13 +29,11 @@ Den här versionen innehåller förbättringarna nedan.
 
   Mer information om hur du tilldelar den här behörigheten finns i [den detaljerade dokumentationen](feature-access.md).
 
-* **Datamodellens arbetsytevy**
+<!--
+* **Data model Canvas view**
 
-  Arbetsytans vy för avsnittet Datamodeller förbättrar upplevelsen genom att aktivera visualisering av datamodeller och deras länkar i en arbetsytelayout, tillsammans med den befintliga tabellvyn. [Läs mer](../data-management/gs-models.md)
-
-* **Målgruppsexport**
-
-  Federated Audience Composition har nu stöd för export av stora målgrupper som hanterar filstorlekar upp till 20 GB.
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+-->
 
 * **AI-assistenten**
 
@@ -45,7 +44,7 @@ Den här versionen innehåller förbättringarna nedan.
 * **Databriksanslutning**
 
   I den här nya versionen har Federated Audience Composition nu stöd för privata länkanslutningar för databasanslutningar för databaser.
-Det möjliggör även säkra anslutningar till databaser på Amazon Web Services (AWS) och Azure. [Läs mer](../connections/federated-db.md#databricks)
+Det möjliggör även säkra anslutningar till databaser på Amazon Web Services (AWS) och Microsoft Azure. [Läs mer](../connections/federated-db.md#databricks)
 
 * **Stöd för CDP-kunder inom B2B**
 
@@ -53,7 +52,7 @@ Det möjliggör även säkra anslutningar till databaser på Amazon Web Services
 
 * **Snowflake säker anslutning**
 
-  Med den här nya versionen har Federated Audience Composition stöd för säkra privata länkanslutningar till Snowflake-databaser på Azure. [Läs mer](../connections/federated-db.md#snowflake)
+  Med den här nya versionen har Federated Audience Composition stöd för säkra privata länkanslutningar till Snowflake-databaser på Microsoft Azure. [Läs mer](../connections/federated-db.md#snowflake)
 
 ## 25 februari {#fac-25-2}
 
@@ -129,5 +128,3 @@ Federated Audience Composition tillgodoser de växande marknadskraven för före
 Läs mer om funktionerna för federerad målgruppskomposition på [den här sidan](get-started.md) och i [Vanliga frågor](faq.md).
 
 Detaljerad information om förutsättningarna för att komma åt Federated Audience Compositions och aktuella skyddsutkast finns på [den här sidan](access-prerequisites.md).
-
-
