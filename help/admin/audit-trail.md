@@ -3,9 +3,9 @@ audience: end-user
 title: Granskningsspår
 description: Lär dig hur åtgärder och händelser loggas och är tillgängliga i granskningsspåret
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '324'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 3%
 >title="Granskningskedja"
 >abstract="Funktionen Granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i Adobe Experience Platform Federated Audience Composition-miljön i realtid."
 
-Funktionen för granskningsspår ger en detaljerad och kronologisk redovisning av alla åtgärder och händelser som har utförts i din miljö i realtid
-
-Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg över åtgärder och händelser som inträffar i instansen av Adobe Federated Composition i realtid. Den erbjuder en praktisk metod för att få tillgång till en kronologisk datapost, som behandlar frågor som till exempel status för arbetsflöden, de senaste personerna att ändra dem eller aktiviteter som utförs av användare i instansen.
+Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg över åtgärder och händelser som inträffar i Adobe Federated Composition-instansen i realtid. Den erbjuder en praktisk metod för att få tillgång till en kronologisk datapost, som behandlar frågor som till exempel status för arbetsflöden, de senaste personerna att ändra dem eller aktiviteter som utförs av användare i instansen.
 
 +++ Läs mer om tillgängliga enheter för granskningsspår
 
-* **Source Schema-granskningsspår** gör att du kan övervaka aktiviteter och nyligen gjorda ändringar i dina scheman i Adobe Federated Audience Composition-instansen.
+* **Source Schema-granskningsspår** gör att du kan övervaka aktiviteter och nyligen gjorda ändringar i dina scheman i instansen Adobe Federated Audience Composition.
 
   Mer information om scheman finns på [sidan](../customer/schemas.md).
 
@@ -40,7 +38,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
 
   Mer information om arbetsflöden finns på [sidan](../compositions/gs-compositions.md).
 
-* Med **externt konto** kan du kontrollera ändringar som gjorts i externa konton i instansen Adobe Audience Composition.
+* Med **externt konto** kan du kontrollera ändringar som gjorts i externa konton i instansen av Adobe Audience Composition.
 
   Mer information om externt konto finns på [sidan](../connections/federated-db.md).
 

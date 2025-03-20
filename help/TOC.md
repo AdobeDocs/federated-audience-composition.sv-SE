@@ -2,7 +2,7 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 12%
@@ -55,3 +55,4 @@ ht-degree: 12%
    + [Bygg din första fråga](query/build-query.md)
    + [Redigera uttryck](query/expression-editor.md)
 + [Granskningsspår](admin/audit-trail.md)
+

@@ -2,9 +2,9 @@
 title: Vanliga frågor
 description: Frågor och svar om Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,18 @@ Nej, i den aktuella versionen kan du inte ta bort mottagare med federerad målgr
 Nej, identitetstjänsten används inte under en disposition. Data mellan olika källor som används i kompositionen sammanfogas med användardefinierad logik (som uttrycks i den underliggande modellen), t.ex. CRM-ID, användarkontonummer osv. Du måste välja den identitet som används som identifierare i målgruppen för val i ditt datalager. På en målgrupp från Federated Audience Composition måste du identifiera identitetsnamnutrymmet för identiteten i den resulterande datauppsättningen.
 
 +++
+
++++Hur skapar och hanterar man sekretessförfrågningar med Federated Audience Composition?
+
+Du kan skicka enskilda förfrågningar för att få åtkomst till och ta bort kunddata från Adobe Federated Audience Composition på två sätt:
+
+* Via Adobe Experience Platform **Privacy Service-gränssnittet**. [Läs mer](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
+* Via Adobe Experience Platform **Privacy Service API**. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+
+Alla steg för att skapa och hantera **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i [dokumentationen för kundprofilen i realtid](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+
++++
+
 <!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
