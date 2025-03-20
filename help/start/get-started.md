@@ -2,9 +2,9 @@
 title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
@@ -132,11 +132,6 @@ Se även vanliga frågor och svar på [den här sidan](faq.md).
 >abstract="Spara profil"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Spara profil, välj AEP-schema"
->abstract="Spara profil, välj AEP-schema"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="Spara AEP-schemalista för profil"
 >abstract="Spara AEP-schemalista för profil"
@@ -147,6 +142,16 @@ Se även vanliga frågor och svar på [den här sidan](faq.md).
 >abstract="Spara profilens AEP-schemaattribut"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Spara profilval, primärt identifieringsfält"
->abstract="Spara profilval, primärt identifieringsfält"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="Välj primärt identifieringsfält"
+>abstract="Primärt identifieringsfält som ska användas för profiler."
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="AEP dataset"
+>abstract="Välj den AEP-datauppsättning som ska användas för profiler."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Spara profil, välj AEP-schema"
+>abstract="Välj det AEP-schema som ska användas för profiler."
