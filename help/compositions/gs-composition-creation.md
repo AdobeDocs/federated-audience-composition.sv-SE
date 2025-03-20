@@ -15,11 +15,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="Kompositionsegenskaper"
->abstract="På den här skärmen väljer du den mall som ska användas för att skapa kompositionen och anger en etikett. Expandera sektionen Ytterligare OPTIONS om du vill konfigurera fler inställningar, till exempel kompositionens interna namn, dess mapp, tidszon och övervakningsgrupp. Vi rekommenderar starkt att du väljer en grupp för ansvariga så att de får ett meddelande om ett fel inträffar."
+>abstract="På den här skärmen väljer du den mall som ska användas för att skapa kompositionen och anger en etikett. Expandera sektionen Ytterligare OPTIONS om du vill konfigurera fler inställningar, till exempel kompositionens interna namn, mapp, tidszon och övervakningsgrupp. Vi rekommenderar starkt att du väljer en grupp för ansvariga så att de får ett meddelande om ett fel inträffar."
 
 ## Vad innehåller en komposition? {#gs-composition-inside}
 
-Experience Platform Federated Audience Composition har en visuell arbetsyta som gör att du kan skapa målgrupper genom att utnyttja olika aktiviteter (dela, berika osv.).
+Experience Platform Federated Audience Composition Composition har en visuell arbetsyta där du kan skapa målgrupper genom att utnyttja olika aktiviteter (dela, berika osv.).
 
 Kompositionsdiagrammet är en representation av vad som ska hända. Det beskriver de olika åtgärder som ska utföras och hur de är sammankopplade.
 
