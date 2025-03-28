@@ -2,11 +2,9 @@
 title: Åtkomst till sammansatt målgrupp
 description: Lär dig mer om nödvändiga behörigheter för Federated Audience Composition
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -20,10 +18,6 @@ När du köper Adobe Experience Platform Federated Audience Composition skapas e
 Om till exempel en ny sandlåda med namnet &quot;fac-test&quot; aktiveras skapas en motsvarande produktprofil, &quot;ACP_FAC - fac-test - admin&quot;. För att få åtkomst till Federated Audience Composition med den här sandlådan måste användare läggas till i den här produktprofilen.
 
 ## Hantera åtkomst till sammanställning av federerad publik
-
->[!AVAILABILITY]
->
->Behörigheter är tillgängliga som en del av mars-utgåvan.
 
 Om du vill få åtkomst till **Federated Audience Composition** måste du först se till att behörigheten **Hantera federerade data** tilldelas rätt roller. Dessa roller måste sedan tilldelas användare som behöver åtkomst till **Federated Audience Composition**.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1953'
 ht-degree: 1%
 
 ---
@@ -175,7 +175,7 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 >[!NOTE]
 >
->Säker åtkomst till ditt externa Snowflake-datalager via en privat länk stöds. Observera att ditt Snowflake-konto måste finnas på Amazon Web Services (AWS) och i samma region som din Federated Audience Composition-miljö. Kontakta din Adobe-representant för att få hjälp med att konfigurera säker åtkomst till ditt Snowflake-konto.
+>Säker åtkomst till ditt externa Snowflake-datalager via en privat länk stöds. Observera att ditt Snowflake-konto måste ligga på Amazon Web Services (AWS) eller Azure och finnas i samma region som din Federated Audience Composition-miljö. Kontakta din Adobe-representant för att få hjälp med att konfigurera säker åtkomst till ditt Snowflake-konto.
 >
 
 Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Snowflake.
@@ -282,6 +282,10 @@ Kopplingen stöder följande alternativ:
 | TimeZoneName | Som standard är den tom, vilket betyder att programserverns systemtidszon används. Alternativet kan användas för att framtvinga TIMEZONE-sessionsparametern. |
 
 ## Databricks {#databricks}
+
+>[!NOTE]
+>
+>Det finns stöd för säker åtkomst till ditt externa datalager för databanker via en privat länk. Detta inkluderar säkra anslutningar till databaser som lagras på Amazon Web Services (AWS) via privata länkar och databaser som lagras på Microsoft Azure via VPN. Kontakta Adobe om du behöver hjälp med att skapa säker åtkomst.
 
 Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till databaser.
 

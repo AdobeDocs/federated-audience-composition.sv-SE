@@ -2,9 +2,9 @@
 title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '811'
 ht-degree: 3%
 
 ---
@@ -12,6 +12,46 @@ ht-degree: 3%
 # Versionsinformation {#rn-new}
 
 [!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## 25 mars-utgåvan {#fac-25-3}
+
+### Förbättringar {#fac-25-3-improvements}
+
+Den här versionen innehåller förbättringarna nedan.
+
+* **Sammansättningsbehörigheter för sammansatta målgrupper**
+
+  Från och med mars-versionen kommer [!DNL Federated Audience Composition] att börja genomdriva åtkomsten av gränssnitten **Federated datahantering** och **Federated kompositioner** för användare som har beviljats behörigheten **Hantera Federated data**.
+
+  Vi rekommenderar att användare kontaktar administratörerna för att få denna behörighet tillagd i rollen för att kunna fortsätta använda användargränssnittet för [!DNL Federated Audience Composition].
+
+  Mer information om hur du tilldelar den här behörigheten finns i [den detaljerade dokumentationen](feature-access.md).
+
+<!--
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
+-->
+
+
+### Kompatibilitet {#fac-25-3-compat}
+
+* **Databriksanslutning**
+
+  I den här nya versionen har Federated Audience Composition nu stöd för privata länkanslutningar för databasanslutningar för databaser.
+Detta inkluderar säkra anslutningar till databaser som lagras på Amazon Web Services (AWS) via privata länkar och databaser som lagras på Microsoft Azure via VPN. [Läs mer](../connections/federated-db.md#databricks)
+
+* **Stöd för CDP-kunder inom B2B**
+
+  Federated Audience Composition är nu tillgängligt för B2B-kunder (Business-to-Business) som använder CDP (Customer Data Platform) för personbaserade målgruppssituationer.
+
+* **Snowflake säker anslutning**
+
+  Med den här nya versionen har Federated Audience Composition stöd för säkra privata länkanslutningar till Snowflake-databaser på Microsoft Azure. [Läs mer](../connections/federated-db.md#snowflake)
 
 ## 25 februari {#fac-25-2}
 
@@ -32,16 +72,6 @@ Den här versionen innehåller de ändringar som anges nedan.
 * **Stöd för målgruppsanpassning för databaser**
 
   Nu kan du använda Databricks i Läs målgrupp, vilket aktiverar aktiviteten för databaser och gör att den kan ställas in som en ny destination. [Läs mer](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## 24 november {#fac-24-11}
 
@@ -92,9 +122,8 @@ Den här versionen innehåller de förbättringar som anges nedan.
 
 Federated Audience Composition ger företag flexibel och utökad åtkomst till datalager i företagsklass för att sätta samman målgrupper med kritiska företagsdatauppsättningar och starka varumärkesinitierade och aktuella upplevelser. Med den här nya metoden, som [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- och/eller [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} -användare, kan du federera målgruppsdata direkt från ditt befintliga datalager för att berika Adobe Experience Platform målgrupper i ett system.
 
-Federated Audience Composition tillgodoser de växande marknadskraven för företag som behöver flexibiliteten att kunna sätta samman målgrupper med lageruppsättningar. På så sätt kan företag minska dataflytten och samtidigt göra viktiga målgruppsdata tillgängliga för marknadsföringsteam så att de kan uppfylla kraven på användningsfall och hantera personaliserade upplevelser. 
+Federated Audience Composition tillgodoser de växande marknadskraven för företag som behöver flexibiliteten att kunna sätta samman målgrupper med lageruppsättningar. På så sätt kan företag minska dataflytten och samtidigt göra viktiga målgruppsdata tillgängliga för marknadsföringsteam så att de kan uppfylla kraven på användningsfall och hantera personaliserade upplevelser.
 
 Läs mer om funktionerna för federerad målgruppskomposition på [den här sidan](get-started.md) och i [Vanliga frågor](faq.md).
 
 Detaljerad information om förutsättningarna för att komma åt Federated Audience Compositions och aktuella skyddsutkast finns på [den här sidan](access-prerequisites.md).
-

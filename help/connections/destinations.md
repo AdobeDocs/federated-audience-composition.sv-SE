@@ -3,9 +3,9 @@ audience: end-user
 title: Berika Adobe Experience Platform målgrupper med externa data
 description: Lär dig förfina och berika Adobe Experience Platform-målgrupper med data från era externa databaser med Federated målgrupps sammanställningsmål.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
@@ -60,11 +60,15 @@ De viktigaste stegen för att skicka Adobe Experience Platform-målgrupper till 
 
    ![](assets/destination-activate.png)
 
-1. Markera önskade målgrupper som du vill skicka och klicka på **[!UICONTROL Next]**.
+1. Välj önskade målgrupper som du vill skicka.
 
-1. Konfigurera filnamnet och ett exportschema för de valda målgrupperna.
+1. Markera ikonen ![](assets/do-not-localize/Smock_Edit_18_N.svg) om du vill redigera ditt exportschema.
 
    ![](assets/destination-schedule.png)
+
+1. Ange alternativ för exportfiler. Om du vill aktivera målgrupperna snabbare väljer du alternativet **[!UICONTROL After segment evaluation]** för att utlösa aktiveringsjobbet omedelbart efter det dagliga batchsegmenteringsjobbet för plattformen.
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >

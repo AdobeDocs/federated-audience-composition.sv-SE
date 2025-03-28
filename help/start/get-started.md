@@ -2,9 +2,9 @@
 title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1146'
 ht-degree: 3%
 
 ---
@@ -30,6 +30,8 @@ Med Federated Audience Composition kan man utnyttja Real-Time CDP och Journey Op
 * Minimera dataförflyttning och duplicering: Skapa målgrupper från datauppsättningar som finns i ett datalager i ett företag utan att kopiera underliggande data för att hantera användbara marknadsföringsprofiler och målgrupper.
 
 * Använd ett enda system för upplevelsestyrda arbetsflöden: Kuratera inkapslade och federerade målgrupper i Adobe Experience Platform och koordinera utgående upplevelser i alla kanaler.
+
+* B2C- och B2B CDP-kunder kan nu utnyttja Federated Audience Composition för att skapa personbaserade målgrupper genom att integrera data från de datalager i företaget som stöds. Dessutom kan de berika befintliga personbaserade AEP-målgrupper genom att införliva relevanta attribut som finns på företagets datalager, förbättra deras målgruppsprofiler för mer personaliserat och målinriktat engagemang.
 
 ## Användningsfall {#rn-uc}
 

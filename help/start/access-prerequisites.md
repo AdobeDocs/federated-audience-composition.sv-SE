@@ -2,10 +2,10 @@
 title: Förutsättningar och säkerhetsutkast för sammanställning av federerad publik
 description: Lär dig förutsättningarna, behörigheterna och säkerhetsfunktionerna för Federated Audience Composition
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 5%
+source-wordcount: '300'
+ht-degree: 4%
 
 ---
 
@@ -27,12 +27,25 @@ Federated Audience Composition har stöd för följande molnlager:
 * Google Big Query
 * Snowflake
 * Vertica Analytics
+* Microsoft Fabric
 
 Lär dig hur du skapar en anslutning med dessa system på [den här sidan](../connections/connections.md).
 
 ## Sandlådor
 
 När du köper Federated Audience Composition är du berättigad till två sandlådor. Kontakta din Adobe-representant om du vill ha ytterligare förfrågningar om sandlådeetablering.
+
+Följ stegen nedan om du vill visa en lista med dina aktiva federerade målgruppskompositionssandlådor:
+
+1. Från Federated Audience Composition öppnar du menyn **[!UICONTROL License usage]** under **[!UICONTROL Administration]**.
+
+1. Klicka på ikonen ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) från **[!UICONTROL Total volume of data egress]** för att komma åt sandlådeegenskaperna.
+
+   ![](assets/sandbox_1.png)
+
+1. Information om sandlådan visas i egenskapsfönstret.
+
+   ![](assets/sandbox_2.png)
 
 ## Behörigheter {#permissions}
 
@@ -52,3 +65,7 @@ Lägg till de här IP-adresserna i tillåtelselista för att ge åtkomst till Fe
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * Tillstånd, produktbegränsningar och prestandaskydd som anges i [Adobe Real-Time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} gäller för Federated Audience Composition.
+
+<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
+-->
+
