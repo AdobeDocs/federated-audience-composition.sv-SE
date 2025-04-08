@@ -4,7 +4,7 @@ description: Senaste uppdateringar och versionsinformation
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 36b2d003800d5b737634cb36ca6a66944d433d8f
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 3%

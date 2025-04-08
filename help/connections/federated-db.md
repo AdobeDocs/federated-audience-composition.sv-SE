@@ -3,7 +3,7 @@ audience: end-user
 title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 1%
@@ -123,7 +123,7 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 | Alternativ | Beskrivning |
 |---|---|
-| Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [Microsoft SQL-dokumentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exempel på anslutningssträngar vid nr 8) |
+| Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [Microsoft SQL-dokumentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exempel på anslutningssträngar n°8) |
 
 ## Google Big Query {#google-big-query}
 
@@ -370,5 +370,5 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 | Alternativ | Beskrivning |
 |---|---|
-| Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [Microsoft SQL-dokumentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exempel på anslutningssträngar vid nr 8) |
+| Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [Microsoft SQL-dokumentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exempel på anslutningssträngar n°8) |
 

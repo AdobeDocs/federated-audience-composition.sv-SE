@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
 exl-id: 7b9acfc0-99b6-4f83-b774-3652c811868c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%

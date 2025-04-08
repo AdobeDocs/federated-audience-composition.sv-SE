@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Med Experience Platform Federated Audience Composition kan kunden skapa och berika målgrupper från tredjeparts datalager och importera målgrupperna till Adobe Experience Platform. Datalager som stöds listas i [det här avsnittet](../start/access-prerequisites.md#supported-systems).
 
-Om du vill arbeta med din federerade databas och Adobe Experience Platform måste du först skapa en anslutning. Den här anslutningen har konfigurerats i ett dedikerat användargränssnitt som finns i Adobe Experience Platform användargränssnitt, vilket beskrivs på den här sidan.
+Om du vill arbeta med din federerade databas och Adobe Experience Platform måste du först skapa en anslutning. Den här anslutningen har konfigurerats i ett dedikerat användargränssnitt som finns i Adobe Experience Platform användargränssnitt, enligt beskrivningen på den här sidan.
 
 Så här konfigurerar du en anslutning till databasen:
 

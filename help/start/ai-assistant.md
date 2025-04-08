@@ -1,7 +1,7 @@
 ---
 title: Arbeta med AI-assistenten
 description: Lär dig utnyttja AI Assistant
-source-git-commit: c9396f2b72fe6572f5feb5145b6d636ac6c068e1
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%

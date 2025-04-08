@@ -2,7 +2,7 @@
 title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 3%
@@ -59,7 +59,7 @@ Viktiga steg:
 
 1. **Dataomvandling**: Använd dataändringstekniker för att ändra dataelementens format, struktur eller värden så att de blir kompatibla eller lämpliga för specifika analyser eller program.
 
-1. **Dataanvändning**: Skapa, samordna och skapa målgrupper. Lär dig hur du skapar målgrupper på [den här sidan](../compositions/gs-compositions.md). Ni kan också uppdatera eller återanvända befintliga målgrupper via Adobe Experience Platform Audience Portal och Destinations. Läs mer på [den här sidan](../connections/destinations.md)
+1. **Dataanvändning**: Skapa, samordna och skapa målgrupper. Lär dig hur du komponerar målgrupper på [den här sidan](../compositions/gs-compositions.md). Ni kan också uppdatera eller återanvända befintliga målgrupper via Adobe Experience Platform Audience Portal och Destinations. Läs mer på [den här sidan](../connections/destinations.md)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Du kan sedan göra sekretessförfrågningar för att få åtkomst till och/eller
 >
 >Mer information om Privacy Service finns i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv){target="_blank"}.
 
-Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i [dokumentationen för kundprofiler i realtid](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i dokumentationen för [kundprofilen i realtid](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
 
 ### Granskningsspår {#gov-audit-trail}
 
@@ -90,7 +90,7 @@ Funktionen för granskningsspår ger en detaljerad och kronologisk redovisning a
 
 Lär dig hur du får åtkomst till federerad målgruppskomposition, skyddsutkast och begränsningar på [den här sidan](access-prerequisites.md).
 
-Se även vanliga frågor och svar på [den här sidan](faq.md).
+Se även vanliga frågor på [den här sidan](faq.md).
 
 
 >[!CONTEXTUALHELP]

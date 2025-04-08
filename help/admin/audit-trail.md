@@ -3,7 +3,7 @@ audience: end-user
 title: Granskningsspår
 description: Lär dig hur åtgärder och händelser loggas och är tillgängliga i granskningsspåret
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
