@@ -1,18 +1,18 @@
 ---
-title: Arbeta med AI-assistenten
+title: Arbeta med AI Assistant
 description: Lär dig utnyttja AI Assistant
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: 83d6074da966553caec36908729729445246ea2f
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
-# Arbeta med AI-assistenten {#ai-assistant}
+# Arbeta med AI Assistant {#ai-assistant}
 
 AI Assistant är en gränssnittsfunktion som hjälper dig att navigera i och förstå Adobe koncept och få driftsinsikter för just din miljö. Det finns i flera Adobe Experience Cloud-produkter, inklusive Federated Audience Composition.
 
-Du öppnar AI-assistenten genom att klicka på ikonen i det övre fältet. AI-assistenten visas till höger på skärmen.
+Du öppnar AI Assistant genom att klicka på ikonen i det övre fältet. AI Assistant visas till höger på skärmen.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
