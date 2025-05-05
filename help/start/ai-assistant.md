@@ -14,7 +14,7 @@ AI Assistant är en gränssnittsfunktion som hjälper dig att navigera och förs
 
 >[!CAUTION]
 >
->Du måste godkänna användarriktlinjerna för Adobe Experience Cloud Generative AI innan du kan använda AI Assistant. Läs mer om avtalet på [den här sidan](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Du måste godkänna användarriktlinjerna för Adobe Experience Cloud Generative AI innan du kan använda AI Assistant. Läs mer om avtalet på [den här sidan](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 I Federated Audience Composition kan du få tillgång till produktkunskaper för att lära dig mer om Adobe koncept som rör olika delar av processen. AI Assistant har stöd för två typer av produktkunskap: **Öppna identifiering** (utforska produktkoncept baserat på Experience League-dokumentation) och **Riktad utbildning och felsökning** (fråga om specifika funktioner eller funktioner).
 
@@ -42,4 +42,4 @@ Ställ en fråga:
 
 1. Använd reglaget uppåt eller nedåt för att betygsätta svaret.
 
-Mer information om hur du använder AI Assistant finns i exempelmål som du kan uppnå med AI Assistant, och hur AI Assistant fungerar, i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Mer information om hur du använder AI Assistant finns i exempelmål som du kan uppnå med AI Assistant, och hur AI Assistant fungerar, i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home){target="_blank"}.
