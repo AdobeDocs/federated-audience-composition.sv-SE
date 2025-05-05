@@ -26,23 +26,23 @@ ht-degree: 1%
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Primärt identitetsfält"
 >abstract="Välj den primära identitet som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Namnutrymme för identitet"
 >abstract="Välj det namnutrymme som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
 
 Med aktiviteten **Spara målgrupp** kan du skapa en ny målgrupp utifrån den population som beräknas uppströms i en komposition. De målgrupper som skapas läggs till i listan över Adobe Experience Platform-målgrupper och blir tillgängliga via menyn **Publiker** . [Lär dig arbeta med målgrupper](../../start/audiences.md)
 
 Denna verksamhet används främst för att få populationsgrupper att beräknas i samma sammansättning genom att de omvandlas till återanvändbara målgrupper. Koppla det till andra målinriktningsaktiviteter som **Skapa målgrupp** eller en **Kombinera**-aktivitet.
 
-Aktiviteten **[!UICONTROL Save Audience]** genererar ett nytt målgruppsschema och en ny datauppsättning. När målgruppen har skapats bör du samordna med administratören för att tilldela lämpliga etiketter för datastyrning. [Läs mer om etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+Aktiviteten **[!UICONTROL Save Audience]** genererar ett nytt målgruppsschema och en ny datauppsättning. När målgruppen har skapats bör du samordna med administratören för att tilldela lämpliga etiketter för datastyrning. [Läs mer om etiketter för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
->Aktiviteten **Spara målgrupp** kräver ett profilaktiverat schema och en profilaktiverad datauppsättning. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>Aktiviteten **Spara målgrupp** kräver ett profilaktiverat schema och en profilaktiverad datauppsättning. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Konfigurera aktiviteten Spara målgrupp {#save-audience-configuration}
 
@@ -69,11 +69,11 @@ Så här konfigurerar du aktiviteten **Spara målgrupp**:
 
 ## Nå ut till er målgrupp i Adobe Experience Platform {#access-audience}
 
-När kompositionen är klar sparas målgruppen i Adobe Experience Platform som en extern målgrupp och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+När kompositionen är klar sparas målgruppen i Adobe Experience Platform som en extern målgrupp och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 Den skapade målgruppen innehåller alla fält som har markerats i avsnittet Målgruppsmappningar. Du kan rikta in den här målgruppen i Journey Optimizer eller aktivera den på alla målplatser som stöds av Adobe Experience Platform.
 
-[Läs mer i Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Läs mer i Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
