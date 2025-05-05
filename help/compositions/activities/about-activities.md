@@ -3,7 +3,7 @@ audience: end-user
 title: Arbeta med aktiviteter
 description: Lär dig arbeta med aktiviteter
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -31,7 +31,7 @@ I Federated Audience Composition kan du skapa kompositioner med två typer av ak
 ## Flödeskontroll
 
 * [AND-join](and-join.md): Synkronisera flera körningsgrenar för en komposition.
-* **Slut** : Markera grafiskt slutet av en komposition. Denna aktivitet har ingen funktionell inverkan och är därför frivillig.
+* **Slut**: Markera slutet av en komposition grafiskt. Denna aktivitet har ingen funktionell inverkan och är därför frivillig.
 * [Förgrening](fork.md): Skapa utgående övergångar om du vill starta flera aktiviteter samtidigt.
 * [Schemaläggare](scheduler.md): Schemalägg när kompositionen startas.
 * [Vänta](wait.md): Pausa körningen av en del av en komposition tillfälligt.

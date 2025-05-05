@@ -3,9 +3,9 @@ audience: end-user
 title: Använd avstämningsaktiviteten
 description: Lär dig använda avstämningsaktiviteten
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Så här konfigurerar du aktiviteten **Avstämning**:
 1. Välj de fält som ska användas för avstämningen. Du kan använda ett eller flera avstämningskriterier.
 
    1. Om du vill använda attribut för att stämma av data markerar du alternativet **Enkla attribut** och klickar sedan på knappen **Lägg till regel** .
-   1. Markera fälten **Source** och **Mål** för avstämningen. Fältet **Source**. Fältet **Mål** motsvarar fälten i det valda schemat.
+   1. Markera fälten **Source** och **Mål** för avstämningen. Fältet **Mål** motsvarar fälten i det valda schemat.
 
       Data avstäms när källan och målet är lika. Markera till exempel fälten **E-post** för att ta bort dubbletter av profiler baserat på deras e-postadress.
 

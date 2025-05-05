@@ -3,7 +3,7 @@ audience: end-user
 title: Granskningsspår
 description: Lär dig hur åtgärder och händelser loggas och är tillgängliga i granskningsspåret
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
@@ -57,7 +57,7 @@ Så här kommer du åt instansens **[!UICONTROL Audit trail]**:
 1. Fönstret **[!UICONTROL Audit entity]** ger dig mer detaljerad information om den valda entiteten, till exempel:
 
    * **[!UICONTROL Type]**: Arbetsflöde, alternativ, leveranser eller scheman.
-   * **[!UICONTROL Entity]**: Intern namn på dina aktiviteter.
-   * **[!UICONTROL Modified by]** : Användarnamn för den senaste personen som ändrade entiteten.
+   * **[!UICONTROL Entity]**: Inbyggt namn på dina aktiviteter.
+   * **[!UICONTROL Modified by]**: Användarnamn för den senaste personen som ändrade entiteten.
    * **[!UICONTROL Action]**: Senaste åtgärden som utfördes på den här entiteten, antingen Skapad, Ändrad eller Borttagen.
-   * **[!UICONTROL Modification date]** : Datum för den senaste åtgärden som utfördes på entiteten.
+   * **[!UICONTROL Modification date]**: Datum för den senaste åtgärden som utfördes på entiteten.

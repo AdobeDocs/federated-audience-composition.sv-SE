@@ -2,16 +2,104 @@
 title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 3%
+source-wordcount: '1128'
+ht-degree: 5%
 
 ---
 
 # Versionsinformation {#rn-new}
 
 [!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## 25 april {#fac-25-4}
+
+### Nya funktioner {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Datamodellens arbetsytevy - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Arbetsytans vy för avsnittet Datamodeller förbättrar upplevelsen genom att aktivera visualisering av datamodeller och deras länkar i en arbetsytelayout, tillsammans med den befintliga tabellvyn. </p>
+<p>Datamodellen med Canvas-vyn är för närvarande tillgänglig som en betaversion för att endast välja användare.</p>
+<p>Mer information finns i den <a href="../data-management/gs-models.md">detaljerade dokumentationen</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Assistant-stöd för produktkunskap</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI Assistant är en gränssnittsfunktion som hjälper dig att navigera i och förstå Adobe koncept och få driftsinsikter för just din miljö. Det finns i flera Adobe Experience Cloud-produkter, inklusive Federated Audience Composition.</p>
+<p>Mer information finns i den <a href="../start/ai-assistant.md">detaljerade dokumentationen</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Spara profilaktivitet</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> Federated Audience Composition har nu stöd för profilberikning, vilket gör att man kan förbättra befintliga Experience Platform-profiler med data från externa datalager.
+</p>
+<p>Mer information finns i den <a href="../compositions/activities/save-profiles.md">detaljerade dokumentationen</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Förbättringar {#fac-25-4-improvements}
+
+Den här versionen innehåller förbättringarna nedan.
+
+* **Datamodellnamn**
+
+  På menyn Publiker visar nu fliken **Federerade kompositioner** datamodellens namn i stället för ID, vilket förbättrar tydligheten och den övergripande användbarheten.
+
+* **Målgrupp**
+
+  På menyn Målgrupp visas nu namnet eller etiketten för den valda datamodellen när en användare väljer en datamodell utan tillhörande målgrupper.
+
+* **Export till stora målgrupper**
+
+  Federated Audience Composition har nu stöd för export av stora målgrupper med filstorlekar större än 1 GB.
+
+* **Spara målgruppsaktivitet**
+
+  En anteckning har lagts till i aktiviteten **Spara målgrupp**, som påminner användarna om att samarbeta med en dataadministratör för att använda styrningsetiketter på nya scheman och datauppsättningar som skapas när målgrupper skapas och berikas.
+  [Läs mer om etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
+### Kompatibilitet {#fac-25-4-compat}
+
+* **Säker anslutning för Amazon Redshift**
+
+  Med den här nya versionen har Federated Audience Composition stöd för säkra privata länkanslutningar till Amazon Redshift-databaser. [Läs mer](../connections/federated-db.md#amazon-redshift)
+
+* **Google Big Query**
+
+  I den här nya versionen har Federated Audience Composition stöd för säkra VPN-anslutningar till Google Big Query-databaser. [Läs mer](../connections/federated-db.md#google-big-query)
 
 ## 25 mars-utgåvan {#fac-25-3}
 

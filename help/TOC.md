@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '161'
 ht-degree: 13%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 13%
    + [Förutsättningar och skyddsräcken](start/access-prerequisites.md)
    + [Åtkomst till sammansatt målgrupp](start/feature-access.md)
    + [Arbeta med målgrupper](start/audiences.md)
+   + [Arbeta med AI-assistenten](start/ai-assistant.md)
    + [Vanliga frågor och svar](start/faq.md)
 + Konfigurationssteg {#config}
    + [Skapa och hantera anslutningar](connections/connections.md)
@@ -27,7 +28,6 @@ ht-degree: 13%
    + [Rättighetsmatris för FDA](connections/fda-rights.md)
    + Datamodeller och diagram{#datamodel}
       + [Skapa och konfigurera scheman](customer/schemas.md)
-      + [Konfigurera dina datamodeller (beta)](data-management/gs-models-beta.md)
       + [Konfigurera dina datamodeller](data-management/gs-models.md)
    + [Berika Adobe Experience Platform målgrupper med externa data](connections/destinations.md)
 + Disponera målgrupper {#compositions}
@@ -48,6 +48,7 @@ ht-degree: 13%
       + [Förgrening](compositions/activities/fork.md)
       + [Avstämning](compositions/activities/reconciliation.md)
       + [Spara målgrupp](compositions/activities/save-audience.md)
+      + [Spara profiler](compositions/activities/save-profiles.md)
       + [Schemaläggare](compositions/activities/scheduler.md)
       + [Dela](compositions/activities/split.md)
       + [Vänta](compositions/activities/wait.md)

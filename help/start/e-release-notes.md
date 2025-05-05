@@ -4,9 +4,9 @@ description: Senaste uppdateringar och versionsinformation
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '978'
 ht-degree: 3%
 
 ---
@@ -73,7 +73,7 @@ Den här versionen innehåller förbättringarna nedan.
 * **Databriksanslutning**
 
   I den här nya versionen har Federated Audience Composition nu stöd för privata länkanslutningar för databasanslutningar för databaser.
-Det möjliggör även säkra anslutningar till databaser på Amazon Web Services (AWS). [Läs mer](../connections/federated-db.md#databricks)
+Detta inkluderar säkra anslutningar till databaser som lagras på Amazon Web Services (AWS) via privata länkar och databaser som lagras på Microsoft Azure via VPN. [Läs mer](../connections/federated-db.md#databricks)
 
 * **Stöd för CDP-kunder inom B2B**
 

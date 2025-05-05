@@ -2,16 +2,16 @@
 title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1112'
 ht-degree: 3%
 
 ---
 
 # Kom igång med Federated Audience Composition {#gs-fac}
 
-Federated Audience Composition är tillgängligt för [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- och [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"}-miljöer. Ni kan skapa och berika målgrupper från externa datalager och importera målgrupperna till Adobe Experience Platform. Med Federated Audience Composition får du en enkel och kraftfull lösning för att ansluta företagets datalager direkt inom Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
+Federated Audience Composition är tillgängligt för [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- och [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"}-miljöer. Ni kan skapa och berika målgrupper från externa datalager och importera målgrupperna till Adobe Experience Platform. Med Federated Audience Composition får du en enkel och kraftfull lösning för att ansluta företagets datalager direkt inom Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
 
 Adobe Federated Audience Composition hjälper Adobe Experience Platform-appanvändare att komma åt sina kunddata som lagras i datalagret och molnlagringsplattformar som Amazon Redshift, Azure Synapse Analytics med flera. Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering. Plattformar som stöds listas på [den här sidan](../connections/federated-db.md#supported-db).
 
@@ -42,6 +42,8 @@ I den här versionen finns två exempel:
 1. Målgruppsskapande: Bygg nya målgrupper utifrån företagsdatauppsättningar utan att behöva kopiera underliggande data och aktivera dessa målgrupper med färdiga destinationer.
 
 1. Audience Enrichment: Berika befintliga målgrupper i Adobe Experience Platform genom att utnyttja sammansatta målgruppsdata som har federerats från företagets datalager. Dessa data bevaras inte i Adobe Experience Platform kundprofiler.
+
+1. Profilberikning: Berika Adobe Experience Platform-profiler genom att federera data från externa lager, så att ni kan förbättra kundprofiler med ytterligare attribut och insikter.
 
 ![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -143,35 +145,3 @@ Se även vanliga frågor på [den här sidan](faq.md).
 >title="Välj måldimension"
 >abstract="Med målinriktningsdimensionen kan du definiera målgruppen för operationen: mottagare, mottagare, operatör, prenumeranter osv. Som standard väljs målet i den inbyggda tabellen Mottagare för e-post och SMS. För push-meddelanden är standardmåldimensionen prenumerantprogram."
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="Spara profil"
->abstract="Spara profil"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="Spara AEP-schemalista för profil"
->abstract="Spara AEP-schemalista för profil"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="Spara profilens AEP-schemaattribut"
->abstract="Spara profilens AEP-schemaattribut"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Välj primärt identifieringsfält"
->abstract="Primärt identifieringsfält som ska användas för profiler."
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="AEP dataset"
->abstract="Välj den AEP-datauppsättning som ska användas för profiler."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Spara profil, välj AEP-schema"
->abstract="Välj det AEP-schema som ska användas för profiler."

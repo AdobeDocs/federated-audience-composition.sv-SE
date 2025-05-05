@@ -3,9 +3,9 @@ audience: end-user
 title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1966'
 ht-degree: 1%
 
 ---
@@ -45,9 +45,11 @@ Med Federated Audience Composition kan du ansluta till följande databaser. Konf
 
 ## Amazon Redshift {#amazon-redshift}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Endast Amazon Redshift AWS, Amazon Redshift Spectrum och Amazon Redshift Serverless stöds.
+>* Endast Amazon Redshift AWS, Amazon Redshift Spectrum och Amazon Redshift Serverless stöds.
+>
+>* Säker åtkomst till dina externa Amazon Redshift-databaser via en privat länk stöds.
 
 Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Amazon Redshift.
 
