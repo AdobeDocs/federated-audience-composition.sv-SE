@@ -49,4 +49,4 @@ Så här tilldelar du rollen till nya användare:
 
 1. Ange användarens namn eller e-postadress eller välj i listan över tillgängliga. Klicka på **[!UICONTROL Save]** när du är klar.
 
-Användaren får sedan ett e-postmeddelande med instruktioner om hur man kommer åt instansen. Om användaren inte har skapats tidigare, se [den här dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+Användaren får sedan ett e-postmeddelande med instruktioner om hur man kommer åt instansen. Om användaren inte har skapats tidigare, se [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/users).

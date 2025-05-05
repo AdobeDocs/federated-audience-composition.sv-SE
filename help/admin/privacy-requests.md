@@ -13,7 +13,7 @@ ht-degree: 4%
 
 När du har skapat en komposition sparas målgrupperna i Adobe Experience Platform.
 
-Du kan sedan göra sekretessförfrågningar för att få åtkomst till och/eller ta bort profildata som motsvarar dessa målgrupper via Adobe Experience Platform **Privacy Service** som tillhandahåller ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"} och [RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
+Du kan sedan göra sekretessförfrågningar för att få åtkomst till och/eller ta bort profildata som motsvarar dessa målgrupper via Adobe Experience Platform **Privacy Service** som tillhandahåller ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv-SE){target="_blank"} och [RESTful API](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
 
 <!--With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
 
@@ -25,14 +25,14 @@ Privacy requests can be created and managed from the **[!UICONTROL Requests]** m
 >
 >Mer information om Privacy Service finns i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv){target="_blank"}.
 
-Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i [dokumentationen för kundprofiler i realtid](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i [dokumentationen för kundprofiler i realtid](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/privacy){target="_blank"}.
 
 <!--## Manage individual data privacy requests {#data-privacy-requests}
 
 You can submit individual requests to access and delete consumer data from Adobe Federated Audience Composition in two ways:
 
-* Through the **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
-* Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+* Through the **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv-SE){target="_blank"}
+* Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/overview){target="_blank"}
 
 ///More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).
 
@@ -51,7 +51,7 @@ For **access requests** and **delete requests**, specify the three following ser
 To make requests to Access and Delete data for Adobe Federated Audience Composition, you must have:
 
 * an Adobe organization ID
-* an Identity identifier of the person you want to act on and the corresponding namespace(s). For more information about identity namespaces Experience Platform, see the [identity namespace overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* an Identity identifier of the person you want to act on and the corresponding namespace(s). For more information about identity namespaces Experience Platform, see the [identity namespace overview](https://experienceleague.adobe.com/sv/docs/experience-platform/identity/features/namespaces).
 
 ### Required field values for API requests
 

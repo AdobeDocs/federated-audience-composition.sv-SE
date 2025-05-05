@@ -24,7 +24,7 @@ Målgrupp som skapats med Adobe Federated Data Composition innehåller alla fäl
 
 När kompositionen är klar sparas målgruppen i Adobe Experience Platform som en extern målgrupp och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer.
 
-Du kan aktivera dessa målgrupper till alla målgrupper som stöds av Adobe Experience Platform. Lär dig arbeta med mål i [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
+Du kan aktivera dessa målgrupper till alla målgrupper som stöds av Adobe Experience Platform. Lär dig arbeta med mål i [Adobe Experience Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/home){target="_blank"}
 
 >[!NOTE]
 >
@@ -38,6 +38,6 @@ Fliken **[!UICONTROL Browse]** visar alla befintliga målgrupper som lagras i Ad
 
 ![](assets/audiences-list.png)
 
-Mer information om hur du arbetar med målgrupper i Adobe Experience Platform finns i [dokumentationen för målportalen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Mer information om hur du arbetar med målgrupper i Adobe Experience Platform finns i [dokumentationen för målportalen](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->
