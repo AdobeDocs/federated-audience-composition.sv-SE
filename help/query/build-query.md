@@ -24,7 +24,7 @@ Du kan lägga till två typer av element:
 
 * **Gruppoperatorer** (AND, OR, EXCEPT) gör att du kan gruppera filterkomponenter i diagrammet tillsammans. De läggs till i befintliga övergångar före en filterkomponent. [Lär dig arbeta med operatorer](#filtering)
 
-  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **AND**som bor i New York **OR**San Francisco*.
+  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **AND**&#x200B;som bor i New York **OR**&#x200B;San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -77,7 +77,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
    | Gilla | Liknar mycket operatorn Contains. Du kan infoga ett % jokertecken i värdet. | Efternamn (@lastName) som &#39;Jon%s&#39;. Här används jokertecknet som&quot;joker&quot; för att hitta namnet&quot;Jones&quot;, om operatorn hade glömt den saknade bokstaven mellan&quot;n&quot; och&quot;s&quot;. |
    | Inte som | Liknar mycket operatorn Contains. Du kan infoga ett % jokertecken i värdet. | Efternamnet (@lastName) är inte som Smi%h. Här returneras inte mottagare vars efternamn är Smi%h. |
 
-+++
+   +++
 
 1. Definiera det förväntade värdet i fältet **[!UICONTROL Value]**. Du kan också använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Klicka på knappen **[!UICONTROL Edit expression]** om du vill göra det. [Lär dig hur du redigerar uttryck](expression-editor.md)
 

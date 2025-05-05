@@ -72,6 +72,6 @@ Du kan:
 
   I avsnittet **[!UICONTROL Initialization script]** kan du initiera variabler eller ändra aktivitetsegenskaper. Klicka på knappen **[!UICONTROL Edit code]** och skriv det kodfragment som ska köras. Skriptet anropas när aktiviteten körs.
 
-+++
+  +++
 
 * Åtkomst till aktivitetens **loggar och uppgifter**.
