@@ -2,16 +2,48 @@
 title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 5%
+source-wordcount: '1244'
+ht-degree: 4%
 
 ---
 
 # Versionsinformation {#rn-new}
 
-[!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=sv-SE){target="_blank"}.
+[!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## Version 25 maj {#fac-25-5}
+
+### Nya funktioner {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Datamodellens arbetsytevy - allmän tillgänglighet</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Datamodellen med Canvas-vyn är nu tillgänglig för alla kunder!</p>
+<p>Arbetsytans vy för avsnittet Datamodeller förbättrar upplevelsen genom att aktivera visualisering av datamodeller och deras länkar i en arbetsytelayout, tillsammans med den befintliga tabellvyn. </p>
+<p>Mer information om arbetsytans vy finns i översikten över <a href="../data-management/gs-models.md">datamodeller</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Förbättringar {#fac-25-5-improvements}
+
+Den här versionen innehåller följande förbättringar.
+
+* **Rollbaserad åtkomstkontroll**
+
+  Från och med majversionen stöder [!DNL Federated Audience Composition] nya detaljerade behörigheter för åtkomstkontroll. Användare kan tilldela dessa behörigheter till användarroller för mer exakt åtkomst till [!DNL Federated Audience Composition].
+
+  Läs [Åtkomsthandboken för federerad målgruppskomposition](feature-access.md) om du vill veta mer om de nya behörigheterna.
 
 ## 25 april {#fac-25-4}
 
@@ -89,7 +121,7 @@ Den här versionen innehåller förbättringarna nedan.
 * **Spara målgruppsaktivitet**
 
   En anteckning har lagts till i aktiviteten **Spara målgrupp**, som påminner användarna om att samarbeta med en dataadministratör för att använda styrningsetiketter på nya scheman och datauppsättningar som skapas när målgrupper skapas och berikas.
-  [Läs mer om etiketter för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/user-guide)
+  [Läs mer om etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Kompatibilitet {#fac-25-4-compat}
 
@@ -208,7 +240,7 @@ Den här versionen innehåller de förbättringar som anges nedan.
 
 ## Version 24 juli - Federated Audience Composition (LA) {#fac-la}
 
-Federated Audience Composition ger företag flexibel och utökad åtkomst till datalager i företagsklass för att sätta samman målgrupper med kritiska företagsdatauppsättningar och starka varumärkesinitierade och aktuella upplevelser. Med den här nya metoden, som [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/home){target="_blank"}- och/eller [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"} -användare, kan du federera målgruppsdata direkt från ditt befintliga datalager för att berika Adobe Experience Platform målgrupper i ett system.
+Federated Audience Composition ger företag flexibel och utökad åtkomst till datalager i företagsklass för att sätta samman målgrupper med kritiska företagsdatauppsättningar och starka varumärkesinitierade och aktuella upplevelser. Med den här nya metoden, som [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- och/eller [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"} -användare, kan du federera målgruppsdata direkt från ditt befintliga datalager för att berika Adobe Experience Platform målgrupper i ett system.
 
 Federated Audience Composition tillgodoser de växande marknadskraven för företag som behöver flexibiliteten att kunna sätta samman målgrupper med lageruppsättningar. På så sätt kan företag minska dataflytten och samtidigt göra viktiga målgruppsdata tillgängliga för marknadsföringsteam så att de kan uppfylla kraven på användningsfall och hantera personaliserade upplevelser.
 

@@ -2,20 +2,25 @@
 audience: end-user
 title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
-badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
+
 
 # Kom igång med datamodeller {#data-model-beta}
 
 >[!AVAILABILITY]
 >
->Datamodellen med Canvas-vyn är för närvarande tillgänglig som en betaversion för att endast välja användare.
+>För att få tillgång till datamodeller måste du ha någon av följande behörigheter:
+>
+>-**Hantera federerad datamodell**
+>-**Visa federerad datamodell**
+>
+>Mer information om vilka behörigheter som krävs finns i guiden [Access Federated Audience Composition](/help/start/feature-access.md).
 
 ## Vad är en datamodell {#data-model-start}
 
@@ -45,7 +50,9 @@ Så här skapar du en datamodell:
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Add Audiences]** för att definiera målgrupperna.
+1. Dessutom kan ni lägga till målgrupper i er datamodell. Välj **[!UICONTROL Add Audiences]** om du vill definiera målgrupperna.
+
+   ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. Upprätta kopplingar mellan tabeller i datamodellen för att säkerställa korrekta datarelationer. [Läs mer](#data-model-links)
 

@@ -3,14 +3,23 @@ audience: end-user
 title: Kom igång med kompositioner
 description: Lär dig hur du börjar med kompositioner
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
 # Kom igång med kompositioner {#compositions}
+
+>[!AVAILABILITY]
+>
+>Du behöver en av följande behörigheter för att få åtkomst till kompositioner:
+>
+>-**Hantera sammanslagna kompositioner**
+>-**Visa sammanslagna kompositioner**
+>
+>Mer information om vilka behörigheter som krävs finns i guiden [Access Federated Audience Composition](/help/start/feature-access.md).
 
 ## Vad är en komposition? {#what}
 
@@ -33,7 +42,7 @@ Från den här skärmen kan du skapa nya kompositioner och komma åt befintliga.
 
 Om du vill förfina listan och enkelt hitta den komposition du söker efter kan du söka i listan och filtrera kompositioner efter deras status eller senaste bearbetningsdatum.
 
-Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Det gör du genom att klicka på knappen **[!UICONTROL Configure column]**&#x200B;s och lägga till eller ta bort önskade utdatakolumner.
+Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Det gör du genom att klicka på knappen **[!UICONTROL Configure column]**s och lägga till eller ta bort önskade utdatakolumner.
 
 ![](assets/compositions-columns.png)
 
