@@ -2,9 +2,9 @@
 title: Åtkomst till sammansatt målgrupp
 description: Lär dig mer om nödvändiga behörigheter för Federated Audience Composition
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 7f8ba57e0fd53350690e391e015f5161b2b7d04e
+source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -63,12 +63,12 @@ Så här tilldelar du rollen till nya användare:
 
 1. Ange användarens namn eller e-postadress eller välj i listan över tillgängliga. Välj **[!UICONTROL Save]** när du är klar.
 
-Du kan också tilldela en av de befintliga rollerna till användarna, beroende på vilka behörigheter de behöver. Mer information om hur du tilldelar befintliga roller till en användare finns i [handboken om hur du hanterar användare för en produktprofil](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-| Rollnamn | Behörigheter |
+| Role name | Permissions |
 | --------- | ----------- |
-| Vanliga datahanterare | <ul><li>Hantera sammanslagna kompositioner</li><li>Visa federerade databaser</li><li>Visa sammanfogade scheman</li><li>Visa data för federerat schema</li><li>Visa federerade datamodeller</li></ul> |
-| FAC Composition Managers | <ul><li>Hantera sammanslagna kompositioner</li></ul> |
-| Administratörer för vanliga frågor | <ul><li>Hantera federerade data</li></ul> |
+| FAC Data Managers | <ul><li>Manage Federated Compositions</li><li>View Federated Databases</li><li>View Federated Schemas</li><li>View Federated Schema Data</li><li>View Federated Data Models</li></ul> |
+| FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
+| FAC Administrators | <ul><li>Manage Federated Data</li></ul> | -->
 
-Användaren får sedan ett e-postmeddelande med instruktioner om hur man kommer åt instansen. Om användaren inte har skapats tidigare, se [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/users).
+Användaren får sedan ett e-postmeddelande med instruktioner om hur man kommer åt instansen. Om användaren inte har skapats tidigare, se [den här dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
