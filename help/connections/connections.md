@@ -17,7 +17,7 @@ ht-degree: 2%
 >Du behöver en av följande behörigheter för att få åtkomst till anslutningar:
 >
 >-**Hantera sammanslagen databas**
->>-**Visa federerad databas**
+>&#x200B;>-**Visa federerad databas**
 >
 >Mer information om vilka behörigheter som krävs finns i guiden [Access Federated Audience Composition](/help/start/feature-access.md).
 
