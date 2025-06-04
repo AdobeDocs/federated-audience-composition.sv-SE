@@ -3,9 +3,9 @@ audience: end-user
 title: Berika Adobe Experience Platform målgrupper med externa data
 description: Lär dig förfina och berika Adobe Experience Platform-målgrupper med data från era externa databaser med Federated målgrupps sammanställningsmål.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ De viktigaste stegen för att skicka Adobe Experience Platform-målgrupper till 
 
    * Amazon Redshift
    * Azure Synapse Analytics
-   * Google Big Query
+   * Google BigQuery
    * Snowflake
    * Vertica Analytics
    * Databricks
@@ -50,7 +50,7 @@ De viktigaste stegen för att skicka Adobe Experience Platform-målgrupper till 
 
 1. I avsnittet **[!UICONTROL Alerts]** kan du aktivera aviseringar för att få meddelanden om dataflödets status till ditt mål.
 
-   Mer information om varningar finns i Adobe Experience Platform-dokumentationen om att [prenumerera på destinationsvarningar med användargränssnittet](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   Mer information om varningar finns i Adobe Experience Platform-dokumentationen om att [prenumerera på destinationsvarningar med användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. I steget **[!UICONTROL Governance policy & enforcement actions]** kan du definiera dina datastyrningsprinciper och se till att de data som används är kompatibla när målgrupper skickas och är aktiva.
 
@@ -74,10 +74,10 @@ De viktigaste stegen för att skicka Adobe Experience Platform-målgrupper till 
    >
    >Detaljerad information om hur du konfigurerar schema och filnamn finns i följande avsnitt i Adobe Experience Platform-dokumentationen:
    >
-   >* [Schemalägg målgruppsexport](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [Konfigurera filnamn](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+   >* [Schemalägg målgruppsexport](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [Konfigurera filnamn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. I steget **[!UICONTROL Mapping]** väljer du vilka attribut- och identitetsfält som ska exporteras för målgruppen/målgrupperna. Mer information finns i [mappningssteget](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} i Adobe Experience Platform-dokumentationen.
+1. I steget **[!UICONTROL Mapping]** väljer du vilka attribut- och identitetsfält som ska exporteras för målgruppen/målgrupperna. Mer information finns i [mappningssteget](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} i Adobe Experience Platform-dokumentationen.
 
    ![](assets/destination-attributes.png)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '308'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 >Du behöver en av följande behörigheter för att få åtkomst till anslutningar:
 >
 >-**Hantera sammanslagen databas**
->-**Visa federerad databas**
+>>-**Visa federerad databas**
 >
 >Mer information om vilka behörigheter som krävs finns i guiden [Access Federated Audience Composition](/help/start/feature-access.md).
 
@@ -46,7 +46,7 @@ Så här konfigurerar du en anslutning till databasen:
    * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
    * [Databricks](federated-db.md#databricks)
-   * [Google Big Query](federated-db.md#google-big-query)
+   * [Google BigQuery](federated-db.md#google-bigquery)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
    * [Microsoft Fabric](federated-db.md#microsoft-fabric)

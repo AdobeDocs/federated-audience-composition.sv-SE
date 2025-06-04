@@ -3,9 +3,9 @@ audience: end-user
 title: Konfigurera dina Federated databaser
 description: Lär dig hur du konfigurerar Federated databaser
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1961'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Med Federated Audience Composition kan du ansluta till följande databaser. Konf
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
-* [Google Big Query](#google-big-query)
+* [Google BigQuery](#google-bigquery)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
@@ -127,9 +127,9 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 |---|---|
 | Autentisering | Typ av autentisering som stöds av kopplingen. Aktuellt värde: ActiveDirectoryMSI. Mer information finns i [Microsoft SQL-dokumentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exempel på anslutningssträngar n°8) |
 
-## Google Big Query {#google-big-query}
+## Google BigQuery {#google-bigquery}
 
-Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Google Big Query.
+Använd Federated databaser för att bearbeta information som lagras i en extern databas. Följ stegen nedan för att konfigurera åtkomst till Google BigQuery.
 
 1. Välj **[!UICONTROL Federated databases]** på menyn **[!UICONTROL Federated data]**.
 
@@ -139,11 +139,11 @@ Använd Federated databaser för att bearbeta information som lagras i en extern
 
 1. Ange en **[!UICONTROL Name]** till din Federate-databas.
 
-1. I listrutan **[!UICONTROL Type]** väljer du Google Big Query.
+1. I listrutan **[!UICONTROL Type]** väljer du Google BigQuery.
 
    ![](assets/federated_database_3.png)
 
-1. Konfigurera autentiseringsinställningarna för Google Big Query:
+1. Konfigurera autentiseringsinställningarna för Google BigQuery:
 
    * **[!UICONTROL Service account]**: Ange e-postadressen till **[!UICONTROL Service account]**. Mer information finns i [Google Cloud-dokumentationen](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
