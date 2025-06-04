@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '164'
 ht-degree: 13%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 13%
    + [Åtkomst till sammansatt målgrupp](start/feature-access.md)
    + [Arbeta med målgrupper](start/audiences.md)
    + [Arbeta med AI-assistenten](start/ai-assistant.md)
+   + [Integritet och säkerhet](start/privacy-security.md)
    + [Vanliga frågor och svar](start/faq.md)
 + Konfigurationssteg {#config}
    + [Skapa och hantera anslutningar](connections/connections.md)
