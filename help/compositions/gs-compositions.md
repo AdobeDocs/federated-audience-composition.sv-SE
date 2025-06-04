@@ -17,7 +17,7 @@ ht-degree: 0%
 >Du behöver en av följande behörigheter för att få åtkomst till kompositioner:
 >
 >-**Hantera sammanslagna kompositioner**
->-**Visa sammanslagna kompositioner**
+>>-**Visa sammanslagna kompositioner**
 >
 >Mer information om vilka behörigheter som krävs finns i guiden [Access Federated Audience Composition](/help/start/feature-access.md).
 
@@ -42,7 +42,7 @@ Från den här skärmen kan du skapa nya kompositioner och komma åt befintliga.
 
 Om du vill förfina listan och enkelt hitta den komposition du söker efter kan du söka i listan och filtrera kompositioner efter deras status eller senaste bearbetningsdatum.
 
-Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Det gör du genom att klicka på knappen **[!UICONTROL Configure column]**&#x200B;s och lägga till eller ta bort önskade utdatakolumner.
+Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Det gör du genom att klicka på knappen **[!UICONTROL Configure column]**s och lägga till eller ta bort önskade utdatakolumner.
 
 ![](assets/compositions-columns.png)
 
