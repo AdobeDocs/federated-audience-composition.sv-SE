@@ -2,9 +2,10 @@
 audience: end-user
 title: Använda aktiviteten Spara profiler
 description: Lär dig hur du använder aktiviteten Spara profiler
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
+source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Välj AEP-schema"
+>title="Välj Experience Platform-schema"
 >abstract="Välj Experience Platform-schema för profilerna."
 
 >[!CONTEXTUALHELP]
@@ -28,12 +29,42 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Välj AEP-schema"
+>title="Välj Experience Platform-schema"
 >abstract="Välj Experience Platform-schema för profilerna."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode"
+>title="Spara profiluppdateringsläge"
+>abstract="De tillgängliga uppdateringslägena för aktiviteten Spara profil omfattar fullständig uppdatering och inkrementell uppdatering."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_full"
+>title="Fullständig uppdatering"
+>abstract="Det fullständiga uppdateringsläget uppdaterar hela uppsättningen profiler för berikning."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_incremental"
+>title="Inkrementell uppdatering"
+>abstract="Det stegvisa uppdateringsläget uppdaterar de profiler som har ändrats sedan den senaste berikningen kördes."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentityfield"
+>title="Primärt identitetsfält"
+>abstract="Det primära identitetsfältet anger källan till sanningen när profiler slås samman för berikning."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_requiredfieldscheck"
+>title="Kriterier för obligatoriska fält"
+>abstract="Ett obligatoriskt fält är ett attribut som måste fyllas i för varje profil eller post när data exporteras. Om ett obligatoriskt fält saknas kommer exporten inte att vara fullständig eller giltig."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentitycheck"
+>title="Kriterier för primärt identitetsfält"
+>abstract="Unik identifierare för varje profil eller post. Detta säkerställer att alla poster kan identifieras och matchas på ett distinkt sätt, vilket förhindrar att data dupliceras."
 
 Med aktiviteten **Spara profiler** kan du berika Adobe Experience Platform-profiler med data från externa lagerställen.
 
-Den här aktiviteten används vanligtvis för att förbättra kundprofiler genom att lägga in ytterligare attribut och insikter utan att flytta eller duplicera data till plattformen fysiskt
+Den här aktiviteten används vanligtvis för att förbättra kundprofiler genom att lägga in ytterligare attribut och insikter utan att flytta eller duplicera data till plattformen fysiskt.
 
 ## Konfigurera aktiviteten Spara profiler {#save-profile-configuration}
 
