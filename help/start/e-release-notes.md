@@ -4,16 +4,36 @@ description: Senaste uppdateringar och versionsinformation
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '1089'
 ht-degree: 3%
 
 ---
 
 # Versionsinformation {#rn-new}
 
-[!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=sv-SE){target="_blank"}.
+[!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## Juniversion 2025 {#fac-25-6}
+
+Den här versionen innehåller följande förbättringar:
+
+* **Allmän tillgänglighet för vårdkunder**
+
+  Federated Audience Composition kommer att vara tillgängligt för hälso- och sjukvårdskunder för målgruppsframställning, anrikning och användning av profiler före slutet av juni.
+
+* **Åtkomstkontroll på objektnivå**
+
+  Federated Audience Composition har nu stöd för åtkomstkontroll på objektnivå för att använda åtkomstetiketter på dina angivna kompositioner.
+
+* **Standardroller**
+
+  Du kan nu använda en av standardrollerna för att hantera användarbehörigheter för sammanställningsåtkomst för federerad publik.
+
+* **Inkrementella uppdateringar i användningsfall för profilberikning**
+
+  Aktiviteten Spara profiler har nu stöd för inkrementella uppdateringar. Med inkrementella uppdateringar kan du söka efter och uppdatera inkrementella data samtidigt som du förbättrar profiler med data från externa datalager.
 
 ## 25 april {#fac-25-4}
 
@@ -150,7 +170,7 @@ Den här versionen innehåller de förbättringar som anges nedan.
 
 ## Version 24 juli - Federated Audience Composition (LA) {#fac-la}
 
-Federated Audience Composition ger företag flexibel och utökad åtkomst till datalager i företagsklass för att sätta samman målgrupper med kritiska företagsdatauppsättningar och starka varumärkesinitierade och aktuella upplevelser. Med den här nya metoden, som [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/home){target="_blank"}- och/eller [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"} -användare, kan du federera målgruppsdata direkt från ditt befintliga datalager för att berika Adobe Experience Platform målgrupper i ett system.
+Federated Audience Composition ger företag flexibel och utökad åtkomst till datalager i företagsklass för att sätta samman målgrupper med kritiska företagsdatauppsättningar och starka varumärkesinitierade och aktuella upplevelser. Med den här nya metoden, som [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- och/eller [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"} -användare, kan du federera målgruppsdata direkt från ditt befintliga datalager för att berika Adobe Experience Platform målgrupper i ett system.
 
 Federated Audience Composition tillgodoser de växande marknadskraven för företag som behöver flexibiliteten att kunna sätta samman målgrupper med lageruppsättningar. På så sätt kan företag minska dataflytten och samtidigt göra viktiga målgruppsdata tillgängliga för marknadsföringsteam så att de kan uppfylla kraven på användningsfall och hantera personaliserade upplevelser.
 
