@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med kompositioner
 description: Lär dig hur du börjar med kompositioner
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,13 @@ ht-degree: 0%
 >Du behöver en av följande behörigheter för att få åtkomst till kompositioner:
 >
 >-**Hantera sammanslagna kompositioner**
->&#x200B;>-**Visa sammanslagna kompositioner**
+>>-**Visa sammanslagna kompositioner**
 >
->Mer information om vilka behörigheter som krävs finns i guiden [Access Federated Audience Composition](/help/start/feature-access.md).
+>Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
-## Vad är en komposition? {#what}
+Med Federated Audience Composition kan du skapa kompositioner där du kan använda olika aktiviteter i en visuell arbetsyta för att skapa målgrupper. När du har skapat din komposition sparas målgrupperna i Adobe Experience Platform och kan utnyttjas till Experience Platform destinationer och Adobe Journey Optimizer för att nå ut till kunderna.
 
-Med Adobe Audience Composition kan du skapa kompositioner där du kan använda olika aktiviteter (dela, exkludera...) i en visuell arbetsyta för att skapa målgrupper. När det är klart sparas de resulterande målgrupperna i Adobe Experience Platform tillsammans med befintliga målgrupper och kan utnyttjas i Adobe Experience Platform destinationer och Adobe Journey Optimizer för att inrikta sig på kunder. [Lär dig arbeta med målgrupper](../start/audiences.md)
-
-![](assets/composition-example.png)
+![Ett arbetsflöde för exempeldisposition visas i Federated Audience Composition.](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## Få åtkomst till och hantera kompositioner {#access}
 
@@ -34,26 +32,49 @@ Med Adobe Audience Composition kan du skapa kompositioner där du kan använda o
 >title="Kompositioner"
 >abstract="På den här skärmen kan du komma åt den fullständiga listan med kompositioner, kontrollera deras aktuella status, senaste/nästa körningsdatum och skapa en ny komposition."
 
-Kompositioner är tillgängliga från Adobe Experience Platform-menyn **[!UICONTROL Audiences]** på fliken **[!UICONTROL Federated compositions]**.
+Kompositioner är tillgängliga från Adobe Experience Platform-menyn **[!UICONTROL Audiences]** på fliken **[!UICONTROL Federated compositions]** i avsnittet **[!UICONTROL Customers]**.
 
-Från den här skärmen kan du skapa nya kompositioner och komma åt befintliga. Du kan också duplicera eller ta bort en befintlig komposition genom att klicka på ellipsknappen bredvid dess namn.
+Från den här skärmen kan du skapa nya kompositioner och komma åt befintliga. Du kan också duplicera eller ta bort en befintlig komposition genom att markera knappen ![ellips](/help/assets/icons/more.png) bredvid dess namn.
 
-![](assets/compositions-list.png)
+Du kan även visa information om kompositionerna, inklusive namn, status, skapare och datum för senaste ändringen.
 
-Om du vill förfina listan och enkelt hitta den komposition du söker efter kan du söka i listan och filtrera kompositioner efter deras status eller senaste bearbetningsdatum.
+| Status | Beskrivning |
+| ------ | ----------- |
+| **[!UICONTROL Draft]** | Dispositionen har skapats och sparats. |
+| **[!UICONTROL In progress]** | Kompositionen har körts och körs för närvarande. |
+| **[!UICONTROL Stopped]** | Kompositionskörningen är klar och har stoppats. |
+| **[!UICONTROL Paused]** | Kompositionskörningen har pausats. |
+| **[!UICONTROL Erroneous]** | Kompositionskörningen har påträffat ett fel. Om du vill visa mer information om felet öppnar du kompositionen och öppnar loggarna. |
 
-Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Det gör du genom att klicka på knappen **[!UICONTROL Configure column]**&#x200B;s och lägga till eller ta bort önskade utdatakolumner.
+Du kan lära dig att starta eller stoppa en komposition i guiden [Starta och övervaka komposition](./start-monitor-composition.md).
 
-![](assets/compositions-columns.png)
+![En lista över tillgängliga kompositioner visas.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
 
-## Kompositionsstatus {#status}
+Om du vill förfina listan och hitta den komposition du söker efter kan du söka i listan och filtrera kompositioner efter deras status eller senaste bearbetningsdatum.
 
-Kompositioner kan ha flera statusvärden:
+Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Det gör du genom att markera knappen **[!UICONTROL Configure columns]** och lägga till eller ta bort de önskade utdatakolumnerna.
 
-* **[!UICONTROL Draft]**: Kompositionen har skapats och sparats.
-* **[!UICONTROL In progress]**: Kompositionen har körts och körs för närvarande.
-* **[!UICONTROL Stopped]**: Kompositionskörningen är klar och har stoppats.
-* **[!UICONTROL Paused]**: Kompositionskörningen har pausats.
-* **[!UICONTROL Erroneous]**: Kompositionskörningen har påträffat ett fel. Öppna kompositionen och öppna loggarna och aktiviteterna för att identifiera felet och åtgärda det.
+![En lista över tillgängliga kolumner som du kan lägga till på kompositionsbläddringssidan visas.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
 
-Detaljerad information om hur du startar och övervakar en komposition finns i [det här avsnittet](../compositions/start-monitor-composition.md).
+### Använd åtkomstetiketter {#access-labels}
+
+Om du vill använda åtkomstetiketter på en viss komposition väljer du kompositionen följt av **[!UICONTROL Manage access]**.
+
+![Knappen Hantera åtkomst är markerad på dispositionsarbetsytan.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+
+**[!UICONTROL Manage access]**-pekaren visas. På den här sidan kan du använda de tillämpliga etiketterna för åtkomst och datastyrning i din komposition.
+
+![Åtkomstporten Hantera visas. Här visas en lista med alla tillgängliga etiketter som du kan använda för kompositionen.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+
+| Etikettyp | Beskrivning |
+| ---------- | ----------- |
+| Kontraktsetiketter | Kontraktsetiketter (&quot;C&quot;-etiketter) används för att kategorisera data som har avtalsmässiga skyldigheter eller som är relaterade till organisationens policyer för datastyrning. |
+| Identitetsetiketter | Identitetsetiketter (&quot;I&quot;-etiketter) används för att kategorisera data som kan identifiera eller kontakta en viss person. |
+| Känsliga etiketter | Känsliga etiketter (&quot;S&quot;-etiketter) används för att kategorisera dig och/eller din organisation som anser vara känslig. |
+| Etiketter för partnerekosystem | Etiketter för ekosystem för partners används för att kategorisera data från externa källor för din organisation. |
+
+Mer information om åtkomst och datastyrningsetiketter finns i [etikettordlistan för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+
+## Nästa steg
+
+När du har läst den här guiden har du lärt dig hur du får åtkomst till, hanterar och skapar åtkomstetiketter för dina kompositioner. Mer information om hur du arbetar med målgrupper som helhet finns i [målgruppsguiden](../start/audiences.md).

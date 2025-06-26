@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '528'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att komma åt scheman:
 >
 >-**Hantera federerat schema**
->-**Visa federerat schema**
+>>-**Visa federerat schema**
 >
->Mer information om vilka behörigheter som krävs finns i guiden [Access Federated Audience Composition](/help/start/feature-access.md).
+>Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -35,7 +35,6 @@ ht-degree: 1%
 >id="dc_schema_create_schema_name"
 >title="Schemats namn"
 >abstract="Ange schemats namn."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"

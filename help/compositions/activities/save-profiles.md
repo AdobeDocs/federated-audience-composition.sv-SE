@@ -3,9 +3,9 @@ audience: end-user
 title: Använda aktiviteten Spara profiler
 description: Lär dig hur du använder aktiviteten Spara profiler
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
+source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -62,17 +62,23 @@ ht-degree: 0%
 >title="Kriterier för primärt identitetsfält"
 >abstract="Unik identifierare för varje profil eller post. Detta säkerställer att alla poster kan identifieras och matchas på ett distinkt sätt, vilket förhindrar att data dupliceras."
 
-Med aktiviteten **Spara profiler** kan du berika Adobe Experience Platform-profiler med data från externa lagerställen.
+Med aktiviteten **[!UICONTROL Save Profiles]** kan du berika Adobe Experience Platform-profiler med data från externa lagerställen.
 
 Den här aktiviteten används vanligtvis för att förbättra kundprofiler genom att lägga in ytterligare attribut och insikter utan att flytta eller duplicera data till plattformen fysiskt.
 
-## Konfigurera aktiviteten Spara profiler {#save-profile-configuration}
+## Konfigurera aktiviteten [!UICONTROL Save Profiles] {#save-profile-configuration}
 
-Så här konfigurerar du aktiviteten **Spara profiler**:
+>[!IMPORTANT]
+>
+>Aktiviteten **Spara profiler** kräver ett profilaktiverat schema och en datauppsättning. Läs användarhandboken för [datauppsättningen](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} om du vill lära dig hur du aktiverar din datauppsättning som profilaktiverad.
+>
+>Om den markerade datauppsättningen **inte** har upsert aktiverat kommer data från profilerna att **ersättas**. Läs [Aktivera uppdateringsguiden](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert) om du vill lära dig hur du aktiverar upsert för dina datauppsättningar.
 
-1. Lägg till en **Spara profiler**-aktivitet i kompositionen.
+Så här konfigurerar du aktiviteten **[!UICONTROL Save Profiles]**:
 
-   ![](../assets/save-profile.png)
+1. Lägg till en **[!UICONTROL Save Profiles]**-aktivitet i din komposition.
+
+   ![Knappen Spara profiler är markerad i aktiviteterna.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. Ange etiketten för profilerna som ska skapas.
 
@@ -82,14 +88,31 @@ Så här konfigurerar du aktiviteten **Spara profiler**:
 
 1. Markera det Adobe Experience Platform-schema som du vill använda.
 
-   ![](../assets/save-profile-2.png)
+   ![Tillgängliga scheman visas.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-1. Välj det primära identitetsfältet som ska användas för att identifiera profiler i databasen.
+1. Välj den datauppsättning som du vill spara anrikningen i.
 
-1. Om du vill stämma av ytterligare dataattribut klickar du på **Lägg till attribut**.
+   ![Listrutan med datauppsättningar är markerad.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-   Ange sedan fältet **Source** (externa data) och fältet **Mål** (schemafält) för varje attribut som du vill mappa.
+1. När du har valt datauppsättningen kan du se det primära identitetsfältet som kommer att användas för att identifiera profiler i databasen.
 
-   ![](../assets/save-profile-3.png)
+1. Välj **[!UICONTROL Add Fields]** om du vill lägga till primära och obligatoriska identitetsfält.
 
-1. När konfigurationen är klar klickar du på **Start**.
+   ![Knappen Lägg till fält är markerad.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+
+   Du kan ange fältet **Source** (externa data) och fältet **Mål** (schemafält) för varje attribut som du vill mappa.
+
+   ![Fälten Source och Mål är markerade och visar var mappningen mellan fälten ska skapas.](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+
+1. Du kan också ange uppdateringsläget för anrikningen.
+
+   ![Typerna för uppdateringsläge visas.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+
+   | Uppdateringsläge | Beskrivning |
+   | ----------- | ----------- |
+   | Fullständiga uppdateringar | Den fullständiga uppsättningen profiler uppdateras för att berika. |
+   | Inkrementella uppdateringar | Endast profiler som har ändrats sedan den senaste berikningen uppdaterades för anrikningen. |
+
+   Om du väljer [!UICONTROL Incremental updates] måste du också välja det senast ändrade datumet för att avgöra vilka data som skickas.
+
+1. Välj **Start** när konfigurationen är klar.

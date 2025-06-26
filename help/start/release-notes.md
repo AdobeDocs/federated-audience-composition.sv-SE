@@ -2,16 +2,46 @@
 title: Nyheter i Experience Platform Federated Audience Composition
 description: Senaste uppdateringar och versionsinformation
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1426'
 ht-degree: 4%
 
 ---
 
 # Versionsinformation {#rn-new}
 
-[!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=sv-SE){target="_blank"}.
+[!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## 25 juni {#fac-25-6}
+
+### Förbättringar {#fac-25-06-improvements}
+
+Den här versionen innehåller följande förbättringar:
+
+* **Allmän tillgänglighet för kunder som använder Adobe Healthcare Shield**
+
+  Federated Audience Composition kommer att vara tillgängligt för kunder som använder Adobe Healthcare Shield för att skapa, berika och berika målgrupper före slutet av juni.
+
+  Mer information om sekretess och säkerhet i Federated Audience Composition finns i [Datastyrning, sekretess och säkerhetsguiden](/help/governance-privacy-security/home.md).
+
+* **Åtkomstkontroll på objektnivå**
+
+  Federated Audience Composition har nu stöd för åtkomstkontroll på objektnivå för att använda åtkomstetiketter på dina angivna kompositioner.
+
+  Mer information om hur du använder åtkomstetiketter på objektnivå finns i [kompositionsguiden](/help/compositions/gs-compositions.md).
+
+* **Standardroller**
+
+  Du kan nu använda en av standardrollerna för att hantera användarbehörigheter för sammanställningsåtkomst för federerad publik.
+
+  Mer information om standardrollerna finns i guiden [kom åt federerad målgruppskomposition](/help/governance-privacy-security/access-control.md).
+
+* **Inkrementella uppdateringar i användningsfall för profilberikning**
+
+  Aktiviteten Spara profiler har nu stöd för inkrementella uppdateringar. Med inkrementella uppdateringar kan du söka efter och uppdatera inkrementella data samtidigt som du förbättrar profiler med data från externa datalager.
+
+  Mer information om hur du använder aktiviteten Spara profiler finns i [aktivitetsguiden för att spara profiler](/help/compositions/activities/save-profiles.md).
 
 ## Version 25 maj {#fac-25-5}
 
@@ -43,7 +73,7 @@ Den här versionen innehåller följande förbättringar.
 
   Från och med majversionen stöder [!DNL Federated Audience Composition] nya detaljerade behörigheter för åtkomstkontroll. Användare kan tilldela dessa behörigheter till användarroller för mer exakt åtkomst till [!DNL Federated Audience Composition].
 
-  Läs [Åtkomsthandboken för federerad målgruppskomposition](feature-access.md) om du vill veta mer om de nya behörigheterna.
+  Läs [Åtkomsthandboken för federerad målgruppskomposition](/help/governance-privacy-security/access-control.md) om du vill veta mer om de nya behörigheterna.
 
 ## 25 april {#fac-25-4}
 
@@ -121,7 +151,7 @@ Den här versionen innehåller förbättringarna nedan.
 * **Spara målgruppsaktivitet**
 
   En anteckning har lagts till i aktiviteten **Spara målgrupp**, som påminner användarna om att samarbeta med en dataadministratör för att använda styrningsetiketter på nya scheman och datauppsättningar som skapas när målgrupper skapas och berikas.
-  [Läs mer om etiketter för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/user-guide)
+  [Läs mer om etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Kompatibilitet {#fac-25-4-compat}
 
@@ -145,7 +175,7 @@ Den här versionen innehåller förbättringarna nedan.
 
   Vi rekommenderar att användare kontaktar administratörerna för att få denna behörighet tillagd i rollen för att kunna fortsätta använda användargränssnittet för [!DNL Federated Audience Composition].
 
-  Mer information om hur du tilldelar den här behörigheten finns i [den detaljerade dokumentationen](feature-access.md).
+  Mer information om hur du tilldelar den här behörigheten finns i [den detaljerade dokumentationen](/help/governance-privacy-security/access-control.md).
 
 <!--
 * **Data model Canvas view**
@@ -240,7 +270,7 @@ Den här versionen innehåller de förbättringar som anges nedan.
 
 ## Version 24 juli - Federated Audience Composition (LA) {#fac-la}
 
-Federated Audience Composition ger företag flexibel och utökad åtkomst till datalager i företagsklass för att sätta samman målgrupper med kritiska företagsdatauppsättningar och starka varumärkesinitierade och aktuella upplevelser. Med den här nya metoden, som [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/home){target="_blank"}- och/eller [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"} -användare, kan du federera målgruppsdata direkt från ditt befintliga datalager för att berika Adobe Experience Platform målgrupper i ett system.
+Federated Audience Composition ger företag flexibel och utökad åtkomst till datalager i företagsklass för att sätta samman målgrupper med kritiska företagsdatauppsättningar och starka varumärkesinitierade och aktuella upplevelser. Med den här nya metoden, som [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- och/eller [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"} -användare, kan du federera målgruppsdata direkt från ditt befintliga datalager för att berika Adobe Experience Platform målgrupper i ett system.
 
 Federated Audience Composition tillgodoser de växande marknadskraven för företag som behöver flexibiliteten att kunna sätta samman målgrupper med lageruppsättningar. På så sätt kan företag minska dataflytten och samtidigt göra viktiga målgruppsdata tillgängliga för marknadsföringsteam så att de kan uppfylla kraven på användningsfall och hantera personaliserade upplevelser.
 

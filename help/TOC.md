@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
+source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 13%
+source-wordcount: '163'
+ht-degree: 15%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 13%
 + Kom igång med Federated Audience Composition {#start}
    + [Vad är federerad målgruppskomposition?](start/get-started.md)
    + [Förutsättningar och skyddsräcken](start/access-prerequisites.md)
-   + [Åtkomst till sammansatt målgrupp](start/feature-access.md)
    + [Arbeta med målgrupper](start/audiences.md)
    + [Arbeta med AI-assistenten](start/ai-assistant.md)
-   + [Integritet och säkerhet](start/privacy-security.md)
    + [Vanliga frågor och svar](start/faq.md)
++ Styrning, sekretess, säkerhet {#governance-privacy-security}
+   + [Översikt](./governance-privacy-security/home.md)
+   + [Åtkomstkontroll](governance-privacy-security/access-control.md)
 + Konfigurationssteg {#config}
    + [Skapa och hantera anslutningar](connections/connections.md)
    + [Konfigurera dina federerade databaser](connections/federated-db.md)
