@@ -66,7 +66,7 @@ Så här tilldelar du rollen till nya användare:
 
 1. Ange användarens namn eller e-postadress eller välj i listan över tillgängliga. Välj **[!UICONTROL Save]** när du är klar.
 
-Du kan också tilldela en av de befintliga rollerna till användarna, beroende på vilka behörigheter de behöver. Mer information om hur du tilldelar befintliga roller till en användare finns i [handboken om hur du hanterar användare för en produktprofil](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+Du kan också tilldela en av de befintliga rollerna till användarna, beroende på vilka behörigheter de behöver. Mer information om hur du tilldelar befintliga roller till en användare finns i [handboken om hur du hanterar användare för en produktprofil](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/ui/users).
 
 | Rollnamn | Behörigheter |
 | --------- | ----------- |
@@ -74,7 +74,7 @@ Du kan också tilldela en av de befintliga rollerna till användarna, beroende p
 | FAC Composition Managers | <ul><li>Hantera sammanslagna kompositioner</li></ul> |
 | Administratörer för vanliga frågor | <ul><li>Hantera federerade data</li></ul> |
 
-Användaren får sedan ett e-postmeddelande med instruktioner om hur man kommer åt instansen. Om användaren inte har skapats tidigare, se [den här dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+Användaren får sedan ett e-postmeddelande med instruktioner om hur man kommer åt instansen. Om användaren inte har skapats tidigare, se [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 ## Hantera åtkomst till specifika kompositioner
 

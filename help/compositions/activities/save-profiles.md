@@ -70,9 +70,9 @@ Den här aktiviteten används vanligtvis för att förbättra kundprofiler genom
 
 >[!IMPORTANT]
 >
->Aktiviteten **Spara profiler** kräver ett profilaktiverat schema och en datauppsättning. Läs användarhandboken för [datauppsättningen](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} om du vill lära dig hur du aktiverar din datauppsättning som profilaktiverad.
+>Aktiviteten **Spara profiler** kräver ett profilaktiverat schema och en datauppsättning. Läs användarhandboken för [datauppsättningen](https://experienceleague.adobe.com/sv/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} om du vill lära dig hur du aktiverar din datauppsättning som profilaktiverad.
 >
->Om den markerade datauppsättningen **inte** har upsert aktiverat kommer data från profilerna att **ersättas**. Läs [Aktivera uppdateringsguiden](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert) om du vill lära dig hur du aktiverar upsert för dina datauppsättningar.
+>Om den markerade datauppsättningen **inte** har upsert aktiverat kommer data från profilerna att **ersättas**. Läs [Aktivera uppdateringsguiden](https://experienceleague.adobe.com/sv/docs/experience-platform/catalog/datasets/enable-upsert) om du vill lära dig hur du aktiverar upsert för dina datauppsättningar.
 
 Så här konfigurerar du aktiviteten **[!UICONTROL Save Profiles]**:
 
