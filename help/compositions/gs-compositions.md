@@ -17,7 +17,7 @@ ht-degree: 0%
 >Du behöver en av följande behörigheter för att få åtkomst till kompositioner:
 >
 >-**Hantera sammanslagna kompositioner**
->>-**Visa sammanslagna kompositioner**
+>&#x200B;>-**Visa sammanslagna kompositioner**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
