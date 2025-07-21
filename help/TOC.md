@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
+source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 15%
+source-wordcount: '166'
+ht-degree: 16%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 15%
       + [Förteckning över verksamheter](compositions/activities/about-activities.md)
       + [AND-Join](compositions/activities/and-join.md)
       + [Bygg målgrupper](compositions/activities/build-audience.md)
+      + [Ändra datakälla](compositions/activities/change-data-source.md)
       + [Ändra dimension](compositions/activities/change-dimension.md)
       + [Kombinera](compositions/activities/combine.md)
       + [Deduplicering](compositions/activities/deduplication.md)

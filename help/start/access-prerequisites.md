@@ -2,10 +2,10 @@
 title: Förutsättningar och säkerhetsutkast för sammanställning av federerad publik
 description: Lär dig förutsättningarna, behörigheterna och säkerhetsfunktionerna för Federated Audience Composition
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 4%
+source-wordcount: '363'
+ht-degree: 3%
 
 ---
 
@@ -57,8 +57,14 @@ Om du vill aktivera Federated Audience Composition säkert för åtkomst till di
 
 Lägg till de här IP-adresserna i tillåtelselista för att ge åtkomst till Federated Audience Composition.
 
+## Sammanfoga profiler {#merge-policies}
+
+Om du vill använda Federated Audience Composition för att generera målgrupper måste du **använda** med en **tidsstämpelsorterad** sammanfogningsprincip. Om målgruppen använder en **datauppsättningsprioritet** kontaktar du Adobe kundtjänst för att fortsätta.
+
+Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+
 ## Skyddsritningar och begränsningar {#fac-guardrails}
 
-* Tillstånd, produktbegränsningar och prestandaskydd som listas i [Adobe Real-Time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/guardrails){target="_blank"} gäller för Federated Audience Composition.
+* Tillstånd, produktbegränsningar och prestandaskydd som listas i [Adobe Real-Time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} gäller för Federated Audience Composition.
 
 * Federated Audience Composition har stöd för export av stora målgrupper med filstorlekar större än 1 GB. För optimala prestanda är den maximala rekommenderade filstorleken upp till 20 GB.
