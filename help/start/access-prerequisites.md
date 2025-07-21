@@ -61,10 +61,10 @@ Lägg till de här IP-adresserna i tillåtelselista för att ge åtkomst till Fe
 
 Om du vill använda Federated Audience Composition för att generera målgrupper måste du **använda** med en **tidsstämpelsorterad** sammanfogningsprincip. Om målgruppen använder en **datauppsättningsprioritet** kontaktar du Adobe kundtjänst för att fortsätta.
 
-Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/overview).
 
 ## Skyddsritningar och begränsningar {#fac-guardrails}
 
-* Tillstånd, produktbegränsningar och prestandaskydd som listas i [Adobe Real-Time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} gäller för Federated Audience Composition.
+* Tillstånd, produktbegränsningar och prestandaskydd som listas i [Adobe Real-Time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/guardrails){target="_blank"} gäller för Federated Audience Composition.
 
 * Federated Audience Composition har stöd för export av stora målgrupper med filstorlekar större än 1 GB. För optimala prestanda är den maximala rekommenderade filstorleken upp till 20 GB.
