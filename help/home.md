@@ -2,9 +2,9 @@
 title: Adobe Experience Platform Federated Audience Composition Documentation - startsida
 description: Kompositionsdokumentation för federerad publik
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '248'
 ht-degree: 4%
 
 ---
@@ -53,22 +53,28 @@ Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga osv.) för att skap
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Skapa en målgrupp</strong><br/>Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga osv.) för att skapa kompositioner och skapa din första externa målgrupp.
+    <div><strong>Skapa en målgrupp</strong><br/>Lägg till och konfigurera aktiviteter (som Dela, Berika eller Fråga) för att skapa kompositioner och skapa din första externa målgrupp.
+    </div>
+    </td>
+    <td>
+    <a href="start/get-started.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
+    <div><strong>Använd fall</strong><br/>Använd federerad målgruppskomposition för att skapa och berika målgrupper och utöka profildata.
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>Vanliga frågor</strong><br/>Vanliga frågor och svar om federerad publikkomposition.</div>
+    <div><strong>Vanliga frågor</strong><br/>Vanliga frågor och svar om Federated Audience Composition.</div>
     </td>
   </tr>
   <tr style="border: 0;">
     <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/get-started.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
 ## Ytterligare resurser  {#additional-resources}
 
-[Real-Time Customer Data Platform-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Självstudiekurser](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Real-Time Customer Data Platform-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Självstudiekurser](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}

@@ -2,22 +2,22 @@
 title: Kom igång med Experience Platform Federated Audience Composition
 description: Lär dig vad Adobe Federated Audience Composition är och hur du använder det i Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1236'
 ht-degree: 3%
 
 ---
 
 # Kom igång med Federated Audience Composition {#gs-fac}
 
-Federated Audience Composition är tillgängligt för [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/home){target="_blank"}- och [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"}-miljöer. Ni kan skapa och berika målgrupper från externa datalager och importera målgrupperna till Adobe Experience Platform. Med Federated Audience Composition får du en enkel och kraftfull lösning för att ansluta företagets datalager direkt inom Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
+Federated Audience Composition är tillgängligt för [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- och [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"}-miljöer. Ni kan skapa och berika målgrupper från externa datalager och importera målgrupperna till Adobe Experience Platform. Med Federated Audience Composition får du en enkel och kraftfull lösning för att ansluta företagets datalager direkt inom Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
 
 Adobe Federated Audience Composition hjälper Adobe Experience Platform-appanvändare att komma åt sina kunddata som lagras i datalagret och molnlagringsplattformar som Amazon Redshift, Azure Synapse Analytics med flera. Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering. Plattformar som stöds listas på [den här sidan](../connections/federated-db.md#supported-db).
 
 >[!INFO]
 >
->Följ den här [steg-för-steg-guiden](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) för att lära dig hur du skapar målgrupper med Federated Audience Composition.
+>Följ den här [steg-för-steg-guiden](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) för att lära dig hur du skapar målgrupper med Federated Audience Composition.
 
 ## Funktioner {#rn-capabilities}
 
@@ -33,19 +33,22 @@ Med Federated Audience Composition kan man utnyttja Real-Time CDP och Journey Op
 
 * B2C- och B2B CDP-kunder kan nu utnyttja Federated Audience Composition för att skapa personbaserade målgrupper genom att integrera data från de datalager i företaget som stöds. Dessutom kan de berika befintliga personbaserade AEP-målgrupper genom att införliva relevanta attribut som finns på företagets datalager, förbättra deras målgruppsprofiler för mer personaliserat och målinriktat engagemang.
 
-## Användningsfall {#rn-uc}
+## Användningsfall {#use-cases}
 
-Med ett marknadsföringsvänligt användargränssnitt kan du skapa segmentregler som söker efter en lista på de användare som är kvalificerade för ett visst segment som behövs för marknadsföringskampanjer, få tillgång till befintliga målgrupper i lagerstället för aktivering eller berika Adobe Experience Platform-målgrupper med ytterligare datapunkter som finns i lagerstället.
+Federated Audience Composition har stöd för **tre** kategorier av användningsfall: målgruppsskapande, målgruppsberikning och kundprofilsberikning.
 
-I den här versionen finns två exempel:
+* Skapa målgrupper: Du kan skapa målgrupper från ett datalager och federera dessa målgrupper till Experience Platform för användning i antingen Real-Time CDP eller Journey Optimizer via ett marknadsföringsvänligt dra och släpp-gränssnitt. Det innebär att du kan fråga datalagret utan att kopiera känsliga underliggande data eller duplicera befintliga data.
+   * **Exempel:** Skapa en målgrupp med värdefulla tidigare köpare med historiska transaktionsdata i lagerstället, utan att kopiera transaktionerna till Experience Platform.
 
-1. Målgruppsskapande: Bygg nya målgrupper utifrån företagsdatauppsättningar utan att behöva kopiera underliggande data och aktivera dessa målgrupper med färdiga destinationer.
+* Målgruppsutveckling: Ni kan lägga till fler detaljer till era befintliga målgrupper i Experience Platform genom att använda ytterligare datauppsättningar från era datalager och täcka över era målgrupper med denna information - allt utan att kopiera underliggande data till Experience Platform. Tack vare målgruppsberikning kan ni leverera förbättrad personalisering med den berikade målgruppen.
+   * **Exempel:** Ge en Experience Platform-publik av övergivna kundvagnar möjlighet att leverera ett riktat erbjudande med Federated Audience Composition-målgruppen av värdefulla tidigare köpare.
 
-1. Audience Enrichment: Berika befintliga målgrupper i Adobe Experience Platform genom att utnyttja sammansatta målgruppsdata som har federerats från företagets datalager. Dessa data bevaras inte i Adobe Experience Platform kundprofiler.
-
-1. Profilberikning: Berika Adobe Experience Platform-profiler genom att federera data från externa lager, så att ni kan förbättra kundprofiler med ytterligare attribut och insikter.
+* Profilberikning: Du kan välja enskilda kundattribut från ditt datalager för att förbättra Experience Platform-profiler. Med federerade data som läggs till i dessa profiler kan ni bättre hantera upplevelser som triggas av inkommande kundsignaler.
+   * **Exempel:** Förbättra en Experience Platform-profil med information från den federerade målgruppen. Ni kan nu marknadsföra till en besökare som tillhör de värdefulla tidigare köparna med en riktad publik som triggas av deras beteende på plats.
 
 ![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+
+Mer information om användningsfall för federerad målgruppskomposition finns i vitboken [Federated Audience Composition](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Viktiga steg {#gs-steps}
 
@@ -65,7 +68,7 @@ Viktiga steg:
 
 >[!NOTE]
 >
->När kompositionen är klar sparas målgruppen i Adobe Experience Platform som en extern målgrupp och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>När kompositionen är klar sparas den slutliga publiken i Adobe Experience Platform som en extern publik och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Styrning, integritet och säkerhet {#governance-privacy-security}
 
@@ -73,13 +76,13 @@ Viktiga steg:
 
 När du har skapat en komposition sparas målgrupperna i Adobe Experience Platform.
 
-Du kan sedan göra sekretessförfrågningar för att få åtkomst till och/eller ta bort profildata som motsvarar dessa målgrupper via Adobe Experience Platform **Privacy Service** som tillhandahåller ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv-SE){target="_blank"} och [RESTful API](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
+Du kan sedan göra sekretessförfrågningar för att få åtkomst till och/eller ta bort profildata som motsvarar dessa målgrupper via Adobe Experience Platform **Privacy Service** som tillhandahåller ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"} och [RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
 
 >[!NOTE]
 >
 >Mer information om Privacy Service finns i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv){target="_blank"}.
 
-Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i dokumentationen för [kundprofilen i realtid](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/privacy){target="_blank"}.
+Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i dokumentationen för [kundprofilen i realtid](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
 
 ### Granskningsspår {#gov-audit-trail}
 
