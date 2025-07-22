@@ -11,13 +11,13 @@ ht-degree: 3%
 
 # Kom igång med Federated Audience Composition {#gs-fac}
 
-Federated Audience Composition är tillgängligt för [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- och [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"}-miljöer. Ni kan skapa och berika målgrupper från externa datalager och importera målgrupperna till Adobe Experience Platform. Med Federated Audience Composition får du en enkel och kraftfull lösning för att ansluta företagets datalager direkt inom Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
+Federated Audience Composition är tillgängligt för [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/home){target="_blank"}- och [Adobe Journey Optimizer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/ajo-home){target="_blank"}-miljöer. Ni kan skapa och berika målgrupper från externa datalager och importera målgrupperna till Adobe Experience Platform. Med Federated Audience Composition får du en enkel och kraftfull lösning för att ansluta företagets datalager direkt inom Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer och utföra frågor i datalagrets tabeller.
 
 Adobe Federated Audience Composition hjälper Adobe Experience Platform-appanvändare att komma åt sina kunddata som lagras i datalagret och molnlagringsplattformar som Amazon Redshift, Azure Synapse Analytics med flera. Kunddata kan lagras i flera datalager och är nu tillgängliga direkt, utan replikering. Plattformar som stöds listas på [den här sidan](../connections/federated-db.md#supported-db).
 
 >[!INFO]
 >
->Följ den här [steg-för-steg-guiden](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) för att lära dig hur du skapar målgrupper med Federated Audience Composition.
+>Följ den här [steg-för-steg-guiden](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) för att lära dig hur du skapar målgrupper med Federated Audience Composition.
 
 ## Funktioner {#rn-capabilities}
 
@@ -68,7 +68,7 @@ Viktiga steg:
 
 >[!NOTE]
 >
->När kompositionen är klar sparas den slutliga publiken i Adobe Experience Platform som en extern publik och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>När kompositionen är klar sparas den slutliga publiken i Adobe Experience Platform som en extern publik och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Styrning, integritet och säkerhet {#governance-privacy-security}
 
@@ -76,13 +76,13 @@ Viktiga steg:
 
 När du har skapat en komposition sparas målgrupperna i Adobe Experience Platform.
 
-Du kan sedan göra sekretessförfrågningar för att få åtkomst till och/eller ta bort profildata som motsvarar dessa målgrupper via Adobe Experience Platform **Privacy Service** som tillhandahåller ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"} och [RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
+Du kan sedan göra sekretessförfrågningar för att få åtkomst till och/eller ta bort profildata som motsvarar dessa målgrupper via Adobe Experience Platform **Privacy Service** som tillhandahåller ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv-SE){target="_blank"} och [RESTful API](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
 
 >[!NOTE]
 >
 >Mer information om Privacy Service finns i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv){target="_blank"}.
 
-Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i dokumentationen för [kundprofilen i realtid](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i dokumentationen för [kundprofilen i realtid](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/privacy){target="_blank"}.
 
 ### Granskningsspår {#gov-audit-trail}
 
