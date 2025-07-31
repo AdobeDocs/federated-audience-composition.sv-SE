@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 0fad4079df8efb2ed249a3b82703acf658ca2e72
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att få åtkomst till anslutningar:
 >
 >-**Hantera sammanslagen databas**
->&#x200B;>-**Visa federerad databas**
+>>-**Visa federerad databas**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -227,4 +227,3 @@ Observera följande ytterligare inställningar när du har lagt till information
 | Testanslutning | Gör att du kan verifiera din konfigurationsinformation. |
 
 Du kan nu välja **[!UICONTROL Deploy functions]** följt av **[!UICONTROL Add]** för att slutföra anslutningen mellan den federerade databasen och Experience Platform.
-

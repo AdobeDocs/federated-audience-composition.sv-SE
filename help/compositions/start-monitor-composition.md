@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -95,3 +95,4 @@ Tillgängliga åtgärder är:
 * **[!UICONTROL Stop]** en komposition som körs, som sedan får statusen **[!UICONTROL Finished]**. De pågående åtgärderna avbryts om möjligt. Du kan inte återuppta från kompositionen från samma plats som den stoppades.
 
 * **[!UICONTROL Restart]**: Stoppar och startar sedan om en disposition. I de flesta fall gör detta att du kan starta om snabbare, eftersom det tar en viss tid att stoppa och knappen **[!UICONTROL Start]** är bara tillgänglig när stoppet börjar gälla.
+
