@@ -17,7 +17,7 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att komma åt scheman:
 >
 >-**Hantera federerat schema**
->>-**Visa federerat schema**
+>&#x200B;>-**Visa federerat schema**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
