@@ -2,7 +2,7 @@
 title: Förutsättningar och säkerhetsutkast för sammanställning av federerad publik
 description: Lär dig förutsättningarna, behörigheterna och säkerhetsfunktionerna för Federated Audience Composition
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Federated Audience Composition har stöd för följande molnlager:
 * Vertica Analytics
 * Microsoft Fabric
 
-Lär dig hur du skapar en anslutning med dessa system på [den här sidan](../connections/connections.md).
+Lär dig hur du skapar en anslutning med dessa system på [den här sidan](../connections/home.md).
 
 ## Sandlådor
 
@@ -53,18 +53,18 @@ För att få åtkomst till federerad målgruppskomposition måste användare lä
 
 ## Lista över tillåtna IP-adresser {#ip}
 
-Om du vill aktivera Federated Audience Composition säkert för åtkomst till dina databaser måste du auktorisera IP-adresserna för de sammansättningsservrar för federerade målgrupper som ska ha åtkomst till dem. Dessa IP-adresser visas när du lägger till en federerad databas i Adobe Experience Platform användargränssnitt. [Läs mer](../connections/connections.md)
+Om du vill aktivera Federated Audience Composition säkert för åtkomst till dina databaser måste du auktorisera IP-adresserna för de sammansättningsservrar för federerade målgrupper som ska ha åtkomst till dem. Dessa IP-adresser visas när du lägger till en federerad databas i Adobe Experience Platform användargränssnitt. [Läs mer](../connections/home.md)
 
 Lägg till de här IP-adresserna i tillåtelselista för att ge åtkomst till Federated Audience Composition.
 
 ## Sammanfoga profiler {#merge-policies}
 
-Om målgruppen använder en **datauppsättningsprioritet** kontaktar du Adobe kundtjänst för att lägga till `Halos UPS`-datauppsättningen i sammanfogningsprincipen.
+Om din sandlåda använder en **datauppsättningsprioritet** ska du kontakta Adobe kundtjänst för att lägga till `Halos UPS`-datauppsättningen i din sammanfogningsprincip.
 
-Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/overview).
+Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 ## Skyddsritningar och begränsningar {#fac-guardrails}
 
-* Tillstånd, produktbegränsningar och prestandaskydd som listas i [Adobe Real-Time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/guardrails){target="_blank"} gäller för Federated Audience Composition.
+* Tillstånd, produktbegränsningar och prestandaskydd som listas i [Adobe Real-Time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} gäller för Federated Audience Composition.
 
 * Federated Audience Composition har stöd för export av stora målgrupper med filstorlekar större än 1 GB. För optimala prestanda är den maximala rekommenderade filstorleken upp till 20 GB.

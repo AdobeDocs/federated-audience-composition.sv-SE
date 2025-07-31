@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med kompositioner
 description: Lär dig hur du börjar med kompositioner
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 >Du behöver en av följande behörigheter för att få åtkomst till kompositioner:
 >
 >-**Hantera sammanslagna kompositioner**
->&#x200B;>-**Visa sammanslagna kompositioner**
+>>-**Visa sammanslagna kompositioner**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -48,23 +48,23 @@ Du kan även visa information om kompositionerna, inklusive namn, status, skapar
 
 Du kan lära dig att starta eller stoppa en komposition i guiden [Starta och övervaka komposition](./start-monitor-composition.md).
 
-![En lista över tillgängliga kompositioner visas.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![En lista över tillgängliga kompositioner visas.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 Om du vill förfina listan och hitta den komposition du söker efter kan du söka i listan och filtrera kompositioner efter deras status eller senaste bearbetningsdatum.
 
 Du kan också anpassa listan genom att lägga till eller ta bort kolumner. Det gör du genom att markera knappen **[!UICONTROL Configure columns]** och lägga till eller ta bort de önskade utdatakolumnerna.
 
-![En lista över tillgängliga kolumner som du kan lägga till på kompositionsbläddringssidan visas.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![En lista över tillgängliga kolumner som du kan lägga till på kompositionsbläddringssidan visas.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Använd åtkomstetiketter {#access-labels}
 
 Om du vill använda åtkomstetiketter på en viss komposition väljer du kompositionen följt av **[!UICONTROL Manage access]**.
 
-![Knappen Hantera åtkomst är markerad på dispositionsarbetsytan.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![Knappen Hantera åtkomst är markerad på dispositionsarbetsytan.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 **[!UICONTROL Manage access]**-pekaren visas. På den här sidan kan du använda de tillämpliga etiketterna för åtkomst och datastyrning i din komposition.
 
-![Åtkomstporten Hantera visas. Här visas en lista med alla tillgängliga etiketter som du kan använda för kompositionen.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![Åtkomstporten Hantera visas. Här visas en lista med alla tillgängliga etiketter som du kan använda för kompositionen.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Etikettyp | Beskrivning |
 | ---------- | ----------- |
@@ -73,7 +73,7 @@ Om du vill använda åtkomstetiketter på en viss komposition väljer du komposi
 | Känsliga etiketter | Känsliga etiketter (&quot;S&quot;-etiketter) används för att kategorisera dig och/eller din organisation som anser vara känslig. |
 | Etiketter för partnerekosystem | Etiketter för ekosystem för partners används för att kategorisera data från externa källor för din organisation. |
 
-Mer information om åtkomst och datastyrningsetiketter finns i [etikettordlistan för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference).
+Mer information om åtkomst och datastyrningsetiketter finns i [etikettordlistan för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
 
 ## Nästa steg
 

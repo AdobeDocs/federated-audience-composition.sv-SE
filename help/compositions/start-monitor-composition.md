@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,22 @@ Historien är ordnad på flera flikar, som beskrivs nedan:
 ![](assets/logs-tasks.png)
 
 På alla flikar kan du välja vilka kolumner som ska visas och i vilken ordning de ska visas, tillämpa filter och använda sökfältet för att snabbt hitta önskad information.
+
+## Prenumerera på aviseringar {#alerts}
+
+Dessutom kan du prenumerera på aviseringar för att få meddelanden om att dina federerade kompositionskörningar har slutförts eller misslyckats.
+
+Om du vill prenumerera på aviseringar väljer du ![meddelandeikonen](/help/assets/icons/bell.png) följt av ![inställningsikonen](/help/assets/icons/settings.png).
+
+![Både meddelande- och inställningsikonerna är markerade.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+Sidan med meddelandeinställningar visas. På den här sidan markerar du **[!UICONTROL Experience Platform]** och väljer de aviseringskanaler du vill använda. Välj **[!UICONTROL In-app]** om du vill visa meddelanden i användargränssnittet.
+
+![Kryssrutan i appen är markerad i avsnittet Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+När **[!UICONTROL In-app]** är markerat får du nu ett meddelande om slutförda och misslyckade dispositioner.
+
+![Varningarna visas och visar slutförda och misslyckade dispositioner.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Kommandon för kompositionskörning {#execution-commands}
 

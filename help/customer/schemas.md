@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att komma åt scheman:
 >
 >-**Hantera federerat schema**
->&#x200B;>-**Visa federerat schema**
+>>-**Visa federerat schema**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -65,11 +65,11 @@ Genom att skapa ett schema kan du definiera en representation av tabellen i Expe
 
 Följ stegen nedan för att skapa scheman i Federated Audience Composition:
 
-1. Gå till menyn **[!UICONTROL Models]** i avsnittet **[!UICONTROL Federated Data]**. Bläddra till fliken **[!UICONTROL Schema]** och klicka på **[!UICONTROL Create schema]**.
+1. Gå till menyn **[!UICONTROL Federated Data]** i avsnittet **[!UICONTROL Models]**. Bläddra till fliken **[!UICONTROL Schema]** och klicka på **[!UICONTROL Create schema]**.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   I det här steget får du tillgång till en ny skärm med en listruta där du kan hitta de databaser som är anslutna till din miljö. Läs mer om databasanslutning i [det här avsnittet](../connections/connections.md#connections-fdb).
+   I det här steget får du tillgång till en ny skärm med en listruta där du kan hitta de databaser som är anslutna till din miljö. Läs mer om databasanslutning i [det här avsnittet](../connections/home.md#connections-fdb).
 
 1. Välj källdatabasen i listan och klicka på **[!UICONTROL Next]**.
 

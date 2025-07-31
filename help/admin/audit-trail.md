@@ -3,7 +3,7 @@ audience: end-user
 title: Granskningsspår
 description: Lär dig hur åtgärder och händelser loggas och är tillgängliga i granskningsspåret
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -48,7 +48,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
 
 * Med **externt konto** kan du kontrollera ändringar som gjorts i externa konton i instansen av Adobe Audience Composition.
 
-  Mer information om externt konto finns på [sidan](../connections/federated-db.md).
+  Mer information om externt konto finns på [sidan](../connections/home.md).
 
 +++
 
@@ -56,7 +56,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
 
 Så här kommer du åt instansens **[!UICONTROL Audit trail]**:
 
-1. Välj **[!UICONTROL Audit trail]** på menyn **[!UICONTROL Federated data]**.
+1. Välj **[!UICONTROL Federated data]** på menyn **[!UICONTROL Audit trail]**.
 
 1. Fönstret **[!UICONTROL Audit trail]** öppnas med listan över dina enheter. Federated Audience Composition Composition granskar åtgärderna för att skapa, redigera och ta bort för arbetsflöden, alternativ, leveranser och scheman.
 
