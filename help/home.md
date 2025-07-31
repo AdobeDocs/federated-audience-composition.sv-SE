@@ -77,4 +77,4 @@ Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga osv.) för att skap
 
 ## Ytterligare resurser  {#additional-resources}
 
-[Real-Time Customer Data Platform-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Självstudiekurser](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Real-Time Customer Data Platform-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Självstudiekurser](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
