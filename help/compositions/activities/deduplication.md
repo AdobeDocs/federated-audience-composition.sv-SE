@@ -15,7 +15,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Fält som identifierar dubbletter"
->abstract="Klicka på knappen **[!UICONTROL Add attribute]** i avsnittet **[!UICONTROL Fields to identify duplicates]** för att ange de fält där identiska värden gör att dubbletter kan identifieras, till exempel e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först."
+>abstract="Klicka på knappen **[!UICONTROL Fields to identify duplicates]** i avsnittet **[!UICONTROL Add attribute]** för att ange de fält där identiska värden gör att dubbletter kan identifieras, till exempel e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -42,7 +42,7 @@ Så här konfigurerar du aktiviteten **Deduplicering**:
 
 1. Om aktiviteten har flera inkommande övergångar väljer du den övergång som ska användas för borttagning av dubbletter i listrutan **[!UICONTROL Primary set]**
 
-1. Klicka på knappen **[!UICONTROL Add attribute]** i avsnittet **[!UICONTROL Fields to identify duplicates]** för att ange de fält där identiska värden gör att dubbletter kan identifieras, till exempel e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
+1. Klicka på knappen **[!UICONTROL Fields to identify duplicates]** i avsnittet **[!UICONTROL Add attribute]** för att ange de fält där identiska värden gör att dubbletter kan identifieras, till exempel e-postadress, förnamn, efternamn osv. I fältordningen kan du ange vilka som ska behandlas först.
 
    ![](../assets/deduplication.png)
 
