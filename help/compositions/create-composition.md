@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,22 @@ Det första steget för att skapa en komposition är att definiera dess etikett 
 
 ## Skapa kompositionen {#create-the-composition}
 
-1. Gå till menyn **[!UICONTROL Audiences]** och välj fliken **[!UICONTROL Federated compositions]**.
+Om du vill skapa en komposition väljer du **[!UICONTROL Audiences]** i avsnittet **[!UICONTROL Customer]** följt av fliken **[!UICONTROL Federated compositions]**.
 
-1. Klicka på knappen **[!UICONTROL Create composition]**.
+BILD
 
-   ![](assets/composition-create.png)
+Bläddringssidan för federerade kompositioner visas. Välj **[!UICONTROL Create composition]** om du vill fortsätta med skapandet av kompositionen.
 
-1. I avsnittet **[!UICONTROL Properties]** anger du en etikett för kompositionen och väljer en datamodell. Endast scheman som är kopplade till den här datamodellen är tillgängliga i dispositionens aktiviteter.
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+I avsnittet **[!UICONTROL Properties]** anger du en etikett för din komposition och väljer en datamodell. Endast scheman som är kopplade till den här datamodellen är tillgängliga i dispositionens aktiviteter.
 
-1. Klicka på **[!UICONTROL Create]**. Dispositionsarbetsytan visas. Nu kan du konfigurera kompositionen genom att lägga till så många aktiviteter som behövs för att passa dina behov innan du kör den:
+![](assets/composition-select-schema.png)
 
-   * [Lär dig att samordna aktiviteter](orchestrate-activities.md)
-   * [Lär dig hur du startar och övervakar en komposition](start-monitor-composition.md)
+Välj **[!UICONTROL Create]**.  Dispositionsarbetsytan visas. Nu kan du konfigurera kompositionen genom att lägga till så många aktiviteter som behövs för att passa dina behov innan du kör den:
+
+* [Lär dig att samordna aktiviteter](orchestrate-activities.md)
+* [Lär dig hur du startar och övervakar en komposition](start-monitor-composition.md)
 
 ## Konfigurera kompositionens inställningar {#settings}
 
@@ -48,7 +50,9 @@ Det första steget för att skapa en komposition är att definiera dess etikett 
 >title="Inställningar för felhantering"
 >abstract="I det här avsnittet kan du definiera hur fel ska hanteras under körningen. Du kan välja att pausa processen, ignorera ett visst antal fel eller avbryta kompositionskörningen."
 
-När du öppnar en komposition kan du komma åt avancerade inställningar som t.ex. gör att du kan definiera hur kompositionen ska fungera om fel uppstår. Klicka på knappen **[!UICONTROL Settings]** som finns i det övre avsnittet på skärmen där kompositionen skapas för att få åtkomst till de här extra alternativen.
+När du öppnar en komposition kan du komma åt avancerade inställningar som t.ex. gör att du kan definiera hur kompositionen ska fungera om fel uppstår.
+
+Om du vill komma åt de här ytterligare alternativen väljer du **[!UICONTROL Settings]** i det övre avsnittet på skärmen där kompositionen skapas.
 
 ![](assets/composition-create-settings.png)
 

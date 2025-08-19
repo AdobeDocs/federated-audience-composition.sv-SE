@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att komma åt scheman:
 >
 >-**Hantera federerat schema**
->&#x200B;>-**Visa federerat schema**
+>>-**Visa federerat schema**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -59,62 +59,53 @@ Genom att skapa ett schema kan du definiera en representation av tabellen i Expe
 >[!CAUTION]
 >
 >När du ansluter flera sandlådor med samma databas måste du använda separata arbetsscheman.
->
 
 ## Skapa ett schema {#schema-create}
 
-Följ stegen nedan för att skapa scheman i Federated Audience Composition:
+Välj **[!UICONTROL Models]** i avsnittet **[!UICONTROL Federated Data]** om du vill skapa ett schema i den sammansatta publiksammansättningen. Välj **[!UICONTROL Schema]** på fliken **[!UICONTROL Create schema]**.
 
-1. Gå till menyn **[!UICONTROL Federated Data]** i avsnittet **[!UICONTROL Models]**. Bläddra till fliken **[!UICONTROL Schema]** och klicka på **[!UICONTROL Create schema]**.
+![](assets/schema_create.png){zoomable="yes"}
 
-   ![](assets/schema_create.png){zoomable="yes"}
+**[!UICONTROL Select federated database]**-pekaren visas. På den här drivrutinen kan du välja [källdatabasen](/help/connections/home.md) följt av **[!UICONTROL Next]**.
 
-   I det här steget får du tillgång till en ny skärm med en listruta där du kan hitta de databaser som är anslutna till din miljö. Läs mer om databasanslutning i [det här avsnittet](../connections/home.md#connections-fdb).
 
-1. Välj källdatabasen i listan och klicka på **[!UICONTROL Next]**.
+![](assets/schema_tables.png){zoomable="yes"}
 
-   ![](assets/schema_tables.png){zoomable="yes"}
+Fönstret **Välj tabell** visas. I den här poseraren kan du välja de tabeller som du vill använda för att skapa schemat.
 
-   Du kan sedan se en lista över alla tabeller i databasen.
+![Leveransen Välj tabell visas.](assets/select-table.png){zoomable="yes"}
 
-1. Markera de tabeller som du vill skapa schemat för.
+Varje markerad tabell genererar ett schema med de valda kolumnerna. För varje tabell kan du ändra schemats etikett, lägga till en beskrivning, byta namn på fältetiketten, ange synlighet för fältetiketten och välja schemats primärnyckel.
 
-1. Varje markerad tabell genererar ett schema med de valda kolumnerna. Konfigurera schemat och dess kolumner efter behov.
+![](assets/schema_fields.png){zoomable="yes"}
 
-   ![](assets/schema_fields.png){zoomable="yes"}
+>[!NOTE]
+>
+>Om du aktiverar **[!UICONTROL Use Composite Key]** men bara väljer en nyckel som ska användas, behandlas nyckeln som en standardprimärnyckel för schemat.
 
-   För varje tabell kan du:
+Dessutom kan du skapa en nyckel som består av flera schemakolumner. Aktivera **[!UICONTROL Use Composite Key]** och markera de tangenter som du vill använda som sammansatt nyckel.
 
-   * ändra schemats etikett
-   * lägg till en beskrivning
-   * ändra namn på alla fältetiketter och ange deras synlighet
-   * välj schemats primärnyckel
+![](assets/composite-key.png)
 
-   Schemat kan definieras så här:
-
-   ![](assets/schema_example.png)
-
-1. När du är klar med konfigurationen klickar du på **[!UICONTROL Done]**.
+När du är klar med konfigurationen väljer du **[!UICONTROL Done]** för att slutföra schemat.
 
 ## Redigera ett schema {#schema-edit}
 
-Så här redigerar du ett schema:
+Om du vill redigera ett schema markerar du det schema du skapat tidigare på sidan **Scheman**.
 
-1. Få åtkomst till det schema du skapat tidigare.
+Sidan med schemainformation visas. Markera pennikonen ![](/help/assets/icons/edit.png) om du vill redigera schemat.
 
-1. Klicka på knappen **[!UICONTROL Edit]**.
+![](assets/schema_edit.png){zoomable="yes"}
 
-   ![](assets/schema_edit.png){zoomable="yes"}
+I fönstret **[!UICONTROL Edit schema]** kan du komma åt och konfigurera samma alternativ som när du [skapar ett schema](#schema-create).
 
-1. I fönstret **[!UICONTROL Edit schema]** kan du komma åt och konfigurera samma alternativ som när du [skapar ett schema](#schema-create).
-
-   ![](assets/schema_edit_orders.png){zoomable="yes"}
+![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Förhandsgranska data i ett schema {#schema-preview}
 
 Om du vill förhandsgranska data i tabellen som representeras av ditt schema går du till fliken **[!UICONTROL Data]** enligt nedan.
 
-Klicka på länken **[!UICONTROL Calculate]** om du vill förhandsgranska det totala antalet inspelningar.
+Välj länken **[!UICONTROL Calculate]** om du vill förhandsgranska det totala antalet inspelningar.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
@@ -124,15 +115,14 @@ Klicka på knappen **[!UICONTROL Configure columns]** om du vill ändra hur data
 
 ## Uppdatera ett schema {#schema-refresh}
 
-Tabeller i en federerad databas kan uppdateras, läggas till eller tas bort. I sådana fall måste du uppdatera schemat i Adobe Experience Platform så att det anpassas till de senaste ändringarna. Klicka på de tre punkterna bredvid namnet på schemat som ska uppdateras och välj **Uppdatera schema**.
+Tabeller i en federerad databas kan uppdateras, läggas till eller tas bort. I sådana fall måste du uppdatera schemat i Adobe Experience Platform så att det anpassas till de senaste ändringarna. Om du vill utföra det här markerar du ikonen ![tre punkter](/help/assets/icons/more.png) bredvid schemats namn följt av **[!UICONTROL Refresh schema]**.
 
 Du kan också uppdatera schemadefinitionen när du redigerar den.
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 
-
 ## Ta bort ett schema {#schema-delete}
 
-Om du vill ta bort ett schema klickar du på knappen **[!UICONTROL More]** och väljer sedan **[!UICONTROL Delete]**.
+Om du vill ta bort ett schema väljer du ikonen ![tre punkter](/help/assets/icons/more.png) följt av **[!UICONTROL Delete]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}

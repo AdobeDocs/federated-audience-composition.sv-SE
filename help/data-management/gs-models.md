@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med datamodeller
 description: Lär dig hur du börjar med datamodeller
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >För att få tillgång till datamodeller måste du ha någon av följande behörigheter:
 >
 >-**Hantera federerad datamodell**
->&#x200B;>-**Visa federerad datamodell**
+>>-**Visa federerad datamodell**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -38,39 +38,43 @@ Du kan till exempel se en representation av en datamodell nedan: tabellerna med 
 
 Så här skapar du en datamodell:
 
-1. Gå till menyn **[!UICONTROL Models]** i avsnittet **[!UICONTROL Federated Data]** och bläddra till fliken **[!UICONTROL Data model]**.
+1. Gå till menyn **[!UICONTROL Federated Data]** i avsnittet **[!UICONTROL Models]** och bläddra till fliken **[!UICONTROL Data model]**.
 
-   Klicka på knappen **[!UICONTROL Create data model]**.
+   Markera knappen **[!UICONTROL Create data model]**.
 
    ![](assets/datamodel_create.png){zoomable="yes"}
 
-1. Definiera namnet på datamodellen och klicka på knappen **[!UICONTROL Create]**.
+2. Definiera namnet på datamodellen och välj knappen **[!UICONTROL Create]**.
 
-1. Klicka på **[!UICONTROL Add schemas]** på kontrollpanelen för datamodellen för att välja det schema som är associerat med datamodellen.
+3. Välj **[!UICONTROL Add schemas]** från din datamodell för att välja det schema som är associerat med din datamodell.
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Dessutom kan ni lägga till målgrupper i er datamodell. Välj **[!UICONTROL Add Audiences]** om du vill definiera målgrupperna.
+4. Dessutom kan ni lägga till målgrupper i er datamodell. Välj **[!UICONTROL Add Audiences]** om du vill definiera målgrupperna.
 
    ![](assets/datamodel-audiences.png){zoomable="yes"}
 
-1. Upprätta kopplingar mellan tabeller i datamodellen för att säkerställa korrekta datarelationer. [Läs mer](#data-model-links)
+5. Upprätta kopplingar mellan tabeller i datamodellen för att säkerställa korrekta datarelationer. Mer information finns i avsnittet [Skapa länkar](#data-model-links).
 
-1. När du är klar med konfigurationen klickar du på **[!UICONTROL Save]** för att tillämpa ändringarna.
+6. När du är klar med konfigurationen väljer du **[!UICONTROL Save]** för att tillämpa ändringarna.
 
 ## Skapa länkar {#data-model-links}
+
+>[!NOTE]
+>
+>Om du skapar en länk med flera kopplingar kan du bara använda samma kombination av käll- och målscheman en gång.
 
 >[!BEGINTABS]
 
 >[!TAB Tabellvy]
 
-Så här skapar du länkar mellan tabeller i datamodellen från fliken Tabellvy:
+Så här skapar du länkar mellan tabeller i din datamodell på fliken Tabellvy:
 
-1. Klicka på **[!UICONTROL Create link]**-menyn i en av tabellerna eller klicka på knappen **[!UICONTROL Create links]** och välj de två tabellerna:
+1. Markera ikonen ![ med tre punkter ](/help/assets/icons/more.png) följt av **[!UICONTROL Create link]** bredvid en av tabellen, eller välj **[!UICONTROL Create links]** i avsnittet **[!UICONTROL Links]**:
 
    ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
-1. Fyll i det angivna formuläret för att definiera länken.
+2. Fyll i det angivna formuläret för att definiera länken.
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
@@ -82,21 +86,25 @@ Så här skapar du länkar mellan tabeller i datamodellen från fliken Tabellvy:
 
    * **1-1**: En förekomst av källtabellen kan ha högst en motsvarande förekomst av måltabellen.
 
-Alla länkar som är definierade för datamodellen visas nedan:
+   Om du vill skapa en länk för flera sammanfogningar väljer du plusikonen . Nu kan du skapa flera kopplingar mellan schemafälten.
+
+   ![Plustecknet är markerat, vilket gör att du kan skapa flera sammanfogningslänkar för modellen.](assets/multi-join.png){zoomable="yes"}
+
+Alla länkar som är definierade för din datamodell listas nedan:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 >[!TAB Arbetsytans vy]
 
-Så här skapar du länkar mellan tabeller i datamodellen från fliken Arbetsytans vy:
+Så här skapar du länkar mellan tabeller i din datamodell på fliken Arbetsytans vy:
 
 1. Öppna arbetsytans vy över din datamodell och välj de två tabeller som du vill länka
 
-1. Klicka på knappen ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) bredvid Source Join och dra sedan pilen mot målhörnet för att upprätta anslutningen.
+2. Markera ![](assets/do-not-localize/Smock_AddCircle_18_N.svg)-knappen bredvid Source Join och dra sedan pilen mot Target Join för att upprätta anslutningen.
 
    ![](assets/datamodel.gif){zoomable="yes"}
 
-1. Fyll i det angivna formuläret för att definiera länken och klicka på **[!UICONTROL Apply]** när den har konfigurerats.
+3. Fyll i det angivna formuläret för att definiera länken och välj **[!UICONTROL Apply]** när den har konfigurerats.
 
    ![](assets/datamodel-canvas-1.png){zoomable="yes"}
 
@@ -108,11 +116,11 @@ Så här skapar du länkar mellan tabeller i datamodellen från fliken Arbetsyta
 
    * **1-1**: En förekomst av källtabellen kan ha högst en motsvarande förekomst av måltabellen.
 
-1. Alla länkar som definieras i datamodellen representeras som pilar i arbetsytevyn. Klicka på en pil mellan två tabeller för att visa detaljer, göra ändringar eller ta bort länken efter behov.
+4. Alla länkar som definieras i datamodellen representeras som pilar i arbetsytevyn. Markera en pil mellan två tabeller om du vill visa detaljer, redigera eller ta bort länken efter behov.
 
    ![](assets/datamodel-canvas-2.png){zoomable="yes"}
 
-1. Använd verktygsfältet för att anpassa och justera arbetsytan.
+5. Använd verktygsfältet för att anpassa och justera arbetsytan.
 
    ![](assets/datamodel-canvas-3.png)
 

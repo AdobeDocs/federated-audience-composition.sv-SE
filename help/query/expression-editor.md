@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i frågemodelleraren.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2065'
 ht-degree: 53%
 
 ---
@@ -689,8 +689,8 @@ Strängfunktionerna används för att ändra en uppsättning strängar.
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Ersätter alla förekomster av ett angivet strängvärde med ett annat strängvärde.<br /> </td> 
-   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
+   <td> Ersätter alla förekomster av ett angivet strängvärde (String 2) med ett annat strängvärde (String 3) i en sträng (String 1).<br /> </td> 
+   <td> Replace(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
