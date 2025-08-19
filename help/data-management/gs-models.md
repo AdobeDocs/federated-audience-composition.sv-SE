@@ -18,7 +18,7 @@ ht-degree: 0%
 >För att få tillgång till datamodeller måste du ha någon av följande behörigheter:
 >
 >-**Hantera federerad datamodell**
->>-**Visa federerad datamodell**
+>&#x200B;>-**Visa federerad datamodell**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
