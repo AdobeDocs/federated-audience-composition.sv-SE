@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa kompositioner
 description: Lär dig hur du skapar kompositioner
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Det första steget för att skapa en komposition är att definiera dess etikett 
 
 Om du vill skapa en komposition väljer du **[!UICONTROL Audiences]** i avsnittet **[!UICONTROL Customer]** följt av fliken **[!UICONTROL Federated compositions]**.
 
-BILD
+![Sökvägen till avsnittet med federerade kompositioner är markerad.](assets/create/access-compositions.png)
 
 Bläddringssidan för federerade kompositioner visas. Välj **[!UICONTROL Create composition]** om du vill fortsätta med skapandet av kompositionen.
 

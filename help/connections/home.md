@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1961'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att få åtkomst till anslutningar:
 >
 >-**Hantera sammanslagen databas**
->&#x200B;>-**Visa federerad databas**
+>>-**Visa federerad databas**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -71,6 +71,10 @@ När du har valt Amazon Redshift kan du lägga till följande information:
 | Arbetsschema | Namnet på databasschemat som ska användas för arbetstabeller. Mer information om den här funktionen finns i [dokumentationen för Amazon-scheman](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Obs!** Du kan använda vilket schema som helst från databasen, inklusive scheman som används för tillfällig databearbetning, så länge du har de behörigheter som krävs för att ansluta till det här schemat. Du **måste** emellertid använda distinkta arbetsscheman när du ansluter flera sandlådor med samma databas. |
 
 >[!TAB Azure Synapse Analytics]
+
+>[!NOTE]
+>
+>Om du vill skapa en säker anslutning med Azure Synapse Analytics kontaktar du Adobe kundtjänst.
 
 När du har valt Azure Synapse Analytics kan du lägga till följande information:
 
@@ -153,7 +157,7 @@ För Microsoft Fabric kan du ange följande ytterligare alternativ:
 >
 >Oracle-databaskopplingen kan för närvarande **endast** användas för målgruppsskapande och målgruppsberikning.
 >
->Innan du konfigurerar Oracle-databasen kontaktar du Adobe kundtjänst.
+>Innan du konfigurerar din Oracle-databas, inklusive ställer in din Oracle-anslutning till att använda en säker anslutning, kontaktar du Adobe kundtjänstrepresentant.
 
 När du har valt Oracle kan du lägga till följande information:
 

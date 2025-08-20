@@ -3,9 +3,9 @@ audience: end-user
 title: Kom igång med scheman
 description: Lär dig hur du börjar med scheman
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att komma åt scheman:
 >
 >-**Hantera federerat schema**
->&#x200B;>-**Visa federerat schema**
+>>-**Visa federerat schema**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -64,7 +64,7 @@ Genom att skapa ett schema kan du definiera en representation av tabellen i Expe
 
 Välj **[!UICONTROL Models]** i avsnittet **[!UICONTROL Federated Data]** om du vill skapa ett schema i den sammansatta publiksammansättningen. Välj **[!UICONTROL Schema]** på fliken **[!UICONTROL Create schema]**.
 
-![](assets/schema_create.png){zoomable="yes"}
+![Knappen Skapa schema är markerad i schemaavsnittet Federate Audience Composition.](assets/schema_create.png){zoomable="yes"}
 
 **[!UICONTROL Select federated database]**-pekaren visas. På den här drivrutinen kan du välja [källdatabasen](/help/connections/home.md) följt av **[!UICONTROL Next]**.
 
@@ -77,7 +77,7 @@ Fönstret **Välj tabell** visas. I den här poseraren kan du välja de tabeller
 
 Varje markerad tabell genererar ett schema med de valda kolumnerna. För varje tabell kan du ändra schemats etikett, lägga till en beskrivning, byta namn på fältetiketten, ange synlighet för fältetiketten och välja schemats primärnyckel.
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Varje markerad tabell genererar ett schema med de valda kolumnerna. För varje t
 
 Dessutom kan du skapa en nyckel som består av flera schemakolumner. Aktivera **[!UICONTROL Use Composite Key]** och markera de tangenter som du vill använda som sammansatt nyckel.
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 När du är klar med konfigurationen väljer du **[!UICONTROL Done]** för att slutföra schemat.
 
