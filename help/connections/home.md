@@ -17,7 +17,7 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att få åtkomst till anslutningar:
 >
 >-**Hantera sammanslagen databas**
->>-**Visa federerad databas**
+>&#x200B;>-**Visa federerad databas**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
