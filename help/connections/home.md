@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
+source-git-commit: f0a66632e90526c450e45430d4bdf8a73f2bad49
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1981'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att få åtkomst till anslutningar:
 >
 >-**Hantera sammanslagen databas**
->&#x200B;>-**Visa federerad databas**
+>>-**Visa federerad databas**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -155,7 +155,7 @@ För Microsoft Fabric kan du ange följande ytterligare alternativ:
 
 >[!IMPORTANT]
 >
->Innan du konfigurerar din Oracle-databas, inklusive ställer in din Oracle-anslutning till att använda en säker anslutning, kontaktar du Adobe kundtjänstrepresentant.
+>Federated Audience Composition stöder konfiguration av federerade anslutningar med Oracle-databasversion 11g eller senare och som finns på AWS, Azure, Exadata eller ett privat moln (förutsatt att det är tillgängligt via ett externt nätverk). Om du har frågor om Oracle databasinställningar eller behöver skapa en säker anslutning till Oracle kontaktar du Adobe kundtjänst.
 
 När du har valt Oracle kan du lägga till följande information:
 
