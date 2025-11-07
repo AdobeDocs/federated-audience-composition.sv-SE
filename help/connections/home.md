@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2275'
 ht-degree: 1%
 
 ---
@@ -127,11 +127,15 @@ Om du väljer **[!UICONTROL Account/Password Authentication]** kan du lägga til
 
 Om du väljer **[!UICONTROL OAuth 2.0]** kan du lägga till följande inloggningsinformation:
 
+>[!NOTE]
+>
+>Innan du ansluter till Google BigQuery med OAuth 2.0 måste du konfigurera din omdirigerings-URL i ditt Google Cloud-projekt. Lägg till omdirigerings-URL:en `https://fac-oauth.adobe.io/oauth` i ditt Google Cloud-projekt under konfigurationen för OAuth 2.0-klient-ID.
+
 | Fält | Beskrivning |
 | ----- | ----------- |
 | Klient-ID | Klient-ID från ditt Google BigQuery-projekt. Det här fältet fungerar som ett användarnamn för ditt projekt. |
 | Klienthemlighet | Klienthemligheten från ditt Google BigQuery-projekt. Det här fältet fungerar som ett lösenord för ditt projekt. |
-| URL för omdirigering | Den URL som programmet kommer att omdirigeras efter auktoriseringen. |
+| Åtkomstomfång | Information som är ifylld i förväg och som innehåller de omfång din OAuth-token är auktoriserad för i dina Google Cloud-resurser. |
 
 Välj **[!UICONTROL Sign in]** för att slutföra autentiseringen.
 
@@ -176,7 +180,7 @@ För Microsoft Fabric kan du ange följande ytterligare alternativ:
 
 >[!TAB Oracle]
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Federated Audience Composition har stöd för federerad anslutningskonfiguration med Oracle-databaser i version 11g eller senare och finns på AWS, Azure, Exadata eller ett privat moln (förutsatt att det är tillgängligt via ett externt nätverk). Om du har frågor om Oracle databasinställningar eller behöver skapa en säker anslutning till Oracle kontaktar du Adobe kundtjänst.
 
@@ -205,6 +209,10 @@ Om du väljer **[!UICONTROL Account/Password Authentication]** kan du lägga til
 | Lösenord | Kontots lösenord. |
 
 Om du väljer **[!UICONTROL OAuth 2.0]** kan du lägga till följande inloggningsinformation:
+
+>[!NOTE]
+>
+>Innan du ansluter till Snowflake med OAuth 2.0 måste du konfigurera din omdirigerings-URL i ditt Snowflake OAuth-integrationsobjekt. Lägg till omdirigerings-URL:en `https://fac-oauth.adobe.io/oauth` i din Snowflake OAuth-integrationskonfiguration.
 
 | Fält | Beskrivning |
 | ----- | ----------- |
