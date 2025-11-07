@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '2201'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >Du behöver en av följande behörigheter för att få åtkomst till anslutningar:
 >
 >-**Hantera sammanslagen databas**
->&#x200B;>-**Visa federerad databas**
+>-**Visa federerad databas**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -59,6 +59,8 @@ När du har valt en typ visas avsnittet **[!UICONTROL Details]**. Det här avsni
 >[!AVAILABILITY]
 >
 >Endast Amazon Redshift AWS, Amazon Redshift Spectrum och Amazon Redshift Serverless stöds.
+>
+>Dessutom stöds säker åtkomst till det externa datalagret Amazon Redshift via en privat länk.
 
 När du har valt Amazon Redshift kan du lägga till följande information:
 
@@ -111,11 +113,32 @@ För databaser kan du ange följande ytterligare alternativ:
 
 >[!TAB Google BigQuery]
 
-När du har valt Google BigQuery kan du lägga till följande information:
+>[!NOTE]
+>
+>Säker åtkomst till ditt externa Google BigQuery-datalager via VPN stöds.
+
+När du har valt Google BigQuery kan du välja vilken autentiseringsmetod du vill använda när du ansluter med Federated Audience Composition.
+
+Om du väljer **[!UICONTROL Account/Password Authentication]** kan du lägga till följande inloggningsinformation:
 
 | Fält | Beskrivning |
 | ----- | ----------- |
 | Tjänstkonto | E-postadressen till ditt tjänstkonto. Mer information finns i dokumentationen för [Google Cloud-tjänstkontot](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
+
+Om du väljer **[!UICONTROL OAuth 2.0]** kan du lägga till följande inloggningsinformation:
+
+| Fält | Beskrivning |
+| ----- | ----------- |
+| Klient-ID | Klient-ID från ditt Google BigQuery-projekt. Det här fältet fungerar som ett användarnamn för ditt projekt. |
+| Klienthemlighet | Klienthemligheten från ditt Google BigQuery-projekt. Det här fältet fungerar som ett lösenord för ditt projekt. |
+| URL för omdirigering | Den URL som programmet kommer att omdirigeras efter auktoriseringen. |
+
+Välj **[!UICONTROL Sign in]** för att slutföra autentiseringen.
+
+När du har angett dina inloggningsuppgifter kan du lägga till följande information:
+
+| Fält | Beskrivning |
+| ----- | ----------- |
 | Projekt | ID för ditt projekt. Mer information finns i [projektdokumentationen för Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Datauppsättning | Datauppsättningens namn. Mer information finns i [dokumentationen för Google Cloud-datauppsättningen](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Sökväg till nyckelfil | Nyckelfilen till servern. Endast `json` filer stöds. |
@@ -171,13 +194,30 @@ När du har valt Oracle kan du lägga till följande information:
 >
 >Säker åtkomst till ditt externa Snowflake-datalager via en privat länk stöds. Observera att ditt Snowflake-konto måste ligga på Amazon Web Services (AWS) eller Azure och finnas i samma region som din Federated Audience Composition-miljö. Kontakta din Adobe-representant för att få hjälp med att konfigurera säker åtkomst till ditt Snowflake-konto.
 
-När du har valt Snowflake kan du lägga till följande information:
+När du har valt Snowflake kan du välja vilken autentiseringsmetod du vill använda när du ansluter till Federated Audience Composition.
+
+Om du väljer **[!UICONTROL Account/Password Authentication]** kan du lägga till följande inloggningsinformation:
 
 | Fält | Beskrivning |
 | ----- | ----------- |
 | Server | Serverns namn. |
 | Användare | Användarnamnet för kontot. |
 | Lösenord | Kontots lösenord. |
+
+Om du väljer **[!UICONTROL OAuth 2.0]** kan du lägga till följande inloggningsinformation:
+
+| Fält | Beskrivning |
+| ----- | ----------- |
+| Server | Serverns namn. |
+| Klient-ID | Klient-ID från ditt Snowflake-projekt. Det här fältet fungerar som ett användarnamn för ditt projekt. |
+| Klienthemlighet | Klienthemligheten i ditt Snowflake-projekt. Det här fältet fungerar som ett lösenord för ditt projekt. |
+
+Välj **[!UICONTROL Sign in]** för att slutföra autentiseringen.
+
+När du har angett dina inloggningsuppgifter kan du lägga till följande information:
+
+| Fält | Beskrivning |
+| ----- | ----------- |
 | Databas | Namnet på databasen. Om detta anges i servernamnet kan fältet lämnas tomt. |
 | Arbetsschema | Namnet på databasschemat som ska användas för arbetsregistren. <br/><br/>**Obs!** Du kan använda **valfritt**-schema från databasen, inklusive scheman som används för tillfällig databearbetning, så länge du har de behörigheter som krävs för att ansluta till det här schemat. Du **måste** emellertid använda distinkta arbetsscheman när du ansluter flera sandlådor med samma databas. |
 | Privat nyckel | Den privata nyckeln för databasanslutningen. Du kan överföra en `.pem`-fil från ditt lokala system. |
