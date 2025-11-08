@@ -3,7 +3,7 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
+source-git-commit: 4ad3897bec276cf4c63f9192ce34b17bd598fe84
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 1%
@@ -277,3 +277,4 @@ Observera följande ytterligare inställningar när du har lagt till information
 | Testanslutning | Gör att du kan verifiera din konfigurationsinformation. |
 
 Du kan nu välja **[!UICONTROL Deploy functions]** följt av **[!UICONTROL Add]** för att slutföra anslutningen mellan den federerade databasen och Experience Platform.
+
