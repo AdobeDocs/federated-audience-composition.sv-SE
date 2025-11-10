@@ -2,7 +2,7 @@
 title: Adobe Experience Platform Federated Audience Composition Documentation - startsida
 description: Kompositionsdokumentation för federerad publik
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 4%
@@ -77,4 +77,5 @@ Lägg till och konfigurera aktiviteter (Dela, Berika, Fråga osv.) för att skap
 
 ## Ytterligare resurser  {#additional-resources}
 
-[Real-Time Customer Data Platform-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Självstudiekurser](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Real-Time Customer Data Platform-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Självstudiekurser](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+
