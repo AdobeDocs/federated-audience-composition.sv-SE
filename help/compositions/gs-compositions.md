@@ -3,7 +3,7 @@ audience: end-user
 title: Kom igång med kompositioner
 description: Lär dig hur du börjar med kompositioner
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 >Du behöver en av följande behörigheter för att få åtkomst till kompositioner:
 >
 >-**Hantera sammanslagna kompositioner**
->&#x200B;>-**Visa sammanslagna kompositioner**
+>-**Visa sammanslagna kompositioner**
 >
 >Mer information om vilka behörigheter som krävs finns i [åtkomstkontrollguiden](/help/governance-privacy-security/access-control.md).
 
@@ -73,7 +73,7 @@ Om du vill använda åtkomstetiketter på en viss komposition väljer du komposi
 | Känsliga etiketter | Känsliga etiketter (&quot;S&quot;-etiketter) används för att kategorisera dig och/eller din organisation som anser vara känslig. |
 | Etiketter för partnerekosystem | Etiketter för ekosystem för partners används för att kategorisera data från externa källor för din organisation. |
 
-Mer information om åtkomst och datastyrningsetiketter finns i [etikettordlistan för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference).
+Mer information om åtkomst och datastyrningsetiketter finns i [etikettordlistan för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
 
 ## Nästa steg
 
