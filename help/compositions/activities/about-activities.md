@@ -3,9 +3,9 @@ audience: end-user
 title: Arbeta med aktiviteter
 description: Lär dig arbeta med aktiviteter
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
+source-git-commit: 95f262e44c392c1e3c861a2b77b7736657cb9371
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,11 @@ I Federated Audience Composition kan du skapa kompositioner med två typer av ak
 * Med **målaktiviteter** kan du skapa ett eller flera mål genom att definiera en målgrupp och dela eller kombinera dessa målgrupper med hjälp av korsnings-, union- eller exkluderingsåtgärder.
 * **Flödeskontrollaktiviteter** är specifika för att organisera och köra kompositioner. Deras huvuduppgift är att samordna de andra aktiviteterna.
 
-## Målinriktade aktiviteter
+## Aktiviteter för målgruppsanpassning
+
+>[!NOTE]
+>
+>När du arbetar med dispositionsaktiviteter kan attributnamnen **inte** innehålla blanksteg.
 
 * [Skapa målgruppsaktivitet](build-audience.md): Definiera målpopulationen. Du kan antingen välja en befintlig målgrupp eller använda frågemodelleraren för att definiera en egen fråga.
 * [Ändra datakälla](./change-data-source.md): Ändra datakällan som används i kompositionen.
