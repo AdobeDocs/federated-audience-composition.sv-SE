@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Skapa din första fråga med frågemodelleraren
-description: Lär dig hur du skapar din första fråga i frågemodelleraren.
+title: Uttrycksredigeraren - översikt
+description: Lär dig hur du använder funktionerna i uttrycksredigeraren för att skapa en fråga i frågemodelleraren.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: fdf93fb3554d05057052aa7059e141817a883dcc
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '4097'
+source-wordcount: '4098'
 ht-degree: 5%
 
 ---
 
-# Redigera uttryck {#expression}
+# Översikt över uttrycksredigeraren {#expression}
 
 När du redigerar ett uttryck måste du ange villkor manuellt för att skapa en regel. I det här läget kan du använda avancerade funktioner som gör att du kan ändra de värden som används för att utföra specifika frågor, som att ändra datum, strängar, numeriska fält, sortering osv.
 
@@ -28,11 +28,11 @@ Uttrycksredigeraren innehåller:
 * Listan med tillgängliga **fält (2)** som kan användas i uttrycket och som motsvarar schemat, även kallat måldimension, för frågan.
 * **Hjälpfunktioner (3)**, sorterade efter kategori.
 
-Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och klickar på plusknappen.
+Redigera uttrycket genom att ange ett uttryck direkt i indatafältet. Om du vill lägga till ett fält eller en hjälpfunktion placerar du markören i uttrycket där du vill lägga till det och väljer plusknappen (+).
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-När uttrycket är klart klickar du på knappen **[!UICONTROL Confirm]**. Uttrycket visas i det markerade fältet. Om du vill redigera den öppnar du uttrycksredigeraren och gör önskade ändringar.
+När uttrycket är klart väljer du **[!UICONTROL Confirm]**. Uttrycket visas i det markerade fältet. Om du vill redigera den öppnar du uttrycksredigeraren och gör önskade ändringar.
 
 I exemplet nedan visas ett uttryck som har konfigurerats för fältet **[!UICONTROL Value]**. Om du vill redigera den måste du öppna uttrycksredigeraren med knappen **[!UICONTROL Edit expression]**.
 

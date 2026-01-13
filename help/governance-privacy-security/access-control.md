@@ -2,7 +2,7 @@
 title: Åtkomstkontroll i federerad målgruppskomposition
 description: Lär dig hur du hanterar dataåtkomst för användare i Federated Audience Composition.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Du kan hantera åtkomsten genom att tilldela de behörigheter som krävs för at
 >Endast administratörer kan tilldela behörigheter till andra användare.
 
 1. Navigera till menyn **[!UICONTROL Permissions]**.
-1. Välj den **[!UICONTROL Role]** du vill uppdatera på menyn **[!UICONTROL Roles]**.
+1. Välj den **[!UICONTROL Roles]** du vill uppdatera på menyn **[!UICONTROL Role]**.
 
    ![](assets/access_fda_1.png)
 
@@ -66,7 +66,7 @@ Så här tilldelar du rollen till nya användare:
 
 1. Ange användarens namn eller e-postadress eller välj i listan över tillgängliga. Välj **[!UICONTROL Save]** när du är klar.
 
-Du kan också tilldela en av de befintliga rollerna till användarna, beroende på vilka behörigheter de behöver. Mer information om hur du tilldelar befintliga roller till en användare finns i [handboken om hur du hanterar användare för en produktprofil](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/ui/users).
+Du kan också tilldela en av de befintliga rollerna till användarna, beroende på vilka behörigheter de behöver. Mer information om hur du tilldelar befintliga roller till en användare finns i [handboken om hur du hanterar användare för en produktprofil](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Rollnamn | Behörigheter |
 | --------- | ----------- |
@@ -74,10 +74,10 @@ Du kan också tilldela en av de befintliga rollerna till användarna, beroende p
 | FAC Composition Managers | <ul><li>Hantera sammanslagna kompositioner</li></ul> |
 | Administratörer för vanliga frågor | <ul><li>Hantera federerade data</li></ul> |
 
-Användaren får sedan ett e-postmeddelande med instruktioner om hur man kommer åt instansen. Om användaren inte har skapats tidigare, se [den här dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/users).
+Användaren får sedan ett e-postmeddelande med instruktioner om hur man kommer åt instansen. Om användaren inte har skapats tidigare, se [den här dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 ## Hantera åtkomst till specifika kompositioner
 
 Du kan hantera åtkomsten till en viss komposition genom att använda åtkomstetiketter.
 
-Mer information om hur du använder åtkomstetiketter på en komposition finns i avsnittet [Tillämpa åtkomstetiketter](/help/compositions/gs-compositions.md#access-labels) i kompositionsguiden.
+Mer information om hur du använder åtkomstetiketter på en komposition finns i avsnittet [Tillämpa åtkomstetiketter](/help/compositions/home.md#access-labels) i kompositionsguiden.

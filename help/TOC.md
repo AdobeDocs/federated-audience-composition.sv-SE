@@ -2,61 +2,43 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 17%
+source-wordcount: '110'
+ht-degree: 10%
 
 ---
 
 
 # Experience Platform Federated Audience Composition-dokumentation {#using}
 
-+ [Experience Platform Federated Audience Composition-dokumentation](home.md)
-+ [Versionsinformation](start/release-notes.md)
-+ [Versionsinformation](start/e-release-notes.md)
-+ Kom igång med Federated Audience Composition {#start}
-   + [Vad är federerad målgruppskomposition?](start/get-started.md)
-   + [Förutsättningar och skyddsräcken](start/access-prerequisites.md)
-   + [Arbeta med målgrupper](start/audiences.md)
-   + [Arbeta med AI-assistenten](start/ai-assistant.md)
-   + [Vanliga frågor och svar](start/faq.md)
-+ Styrning, sekretess, säkerhet {#governance-privacy-security}
-   + [Översikt](./governance-privacy-security/home.md)
-   + [Åtkomstkontroll](governance-privacy-security/access-control.md)
-+ Konfigurationssteg {#config}
-   + [Anslutningar - översikt](connections/home.md)
-   + [Rättighetsmatris för FDA](connections/fda-rights.md)
-   + Datamodeller och diagram{#datamodel}
-      + [Skapa och konfigurera scheman](customer/schemas.md)
-      + [Konfigurera dina datamodeller](data-management/gs-models.md)
-   + [Berika Adobe Experience Platform målgrupper med externa data](connections/destinations.md)
-+ Disponera målgrupper {#compositions}
-   + [Kom igång med kompositioner](compositions/gs-compositions.md)
-   + Skapa och kör din första komposition {#create-composition}
-      + [Viktiga principer för skapande av kompositioner](compositions/gs-composition-creation.md)
-      + [Skapa och konfigurera kompositionen](compositions/create-composition.md)
-      + [Organisera aktiviteter](compositions/orchestrate-activities.md)
-      + [Starta och övervaka kompositionen](compositions/start-monitor-composition.md)
-   + Arbeta med aktiviteter {#activities}
-      + [Förteckning över verksamheter](compositions/activities/about-activities.md)
-      + [AND-Join](compositions/activities/and-join.md)
-      + [Bygg målgrupper](compositions/activities/build-audience.md)
-      + [Ändra datakälla](compositions/activities/change-data-source.md)
-      + [Ändra dimension](compositions/activities/change-dimension.md)
-      + [Kombinera](compositions/activities/combine.md)
-      + [Deduplicering](compositions/activities/deduplication.md)
-      + [Berikning](compositions/activities/enrichment.md)
-      + [Förgrening](compositions/activities/fork.md)
-      + [Avstämning](compositions/activities/reconciliation.md)
-      + [Spara målgrupp](compositions/activities/save-audience.md)
-      + [Spara profiler](compositions/activities/save-profiles.md)
-      + [Schemaläggare](compositions/activities/scheduler.md)
-      + [Dela](compositions/activities/split.md)
-      + [Vänta](compositions/activities/wait.md)
-+ Fråga databasen {#query-database}
-   + [Arbeta med frågemodelleraren](query/query-modeler-overview.md)
-   + [Bygg din första fråga](query/build-query.md)
-   + [Redigera uttryck](query/expression-editor.md)
-+ [Granskningsspår](admin/audit-trail.md)
-
+- [Experience Platform Federated Audience Composition-dokumentation](landing.md)
+- [Översikt över sammanställning av externa målgrupper](./overview.md)
+- Kom igång med Federated Audience Composition {#start}
+   - [Förutsättningar och skyddsräcken](start/access-prerequisites.md)
+   - [Arbeta med målgrupper](start/audiences.md)
+   - [Arbeta med AI-assistenten](start/ai-assistant.md)
+- Styrning, sekretess, säkerhet {#governance-privacy-security}
+   - [Översikt](./governance-privacy-security/home.md)
+   - [Åtkomstkontroll](governance-privacy-security/access-control.md)
+- Anslutningar {#connections}
+   - [Anslutningar - översikt](connections/home.md)
+   - [Matris för dataåtkomsträttigheter](connections/fda-rights.md)
+   - [Berika Adobe Experience Platform målgrupper med externa data](connections/destinations.md)
+- Datamodeller och diagram {#models}
+   - [Schemaöversikt](data-modelling/schemas.md)
+   - [Översikt över datamodeller](data-modelling/models.md)
+- Kompositioner {#compositions}
+   - [Disposition - översikt](compositions/home.md)
+   - [Skapa en komposition](compositions/create-composition.md)
+   - [Översikt över aktiviteter](compositions/activities.md)
+- Frågemodelleraren {#query-database}
+   - [Översikt över frågemodelleraren](query/home.md)
+   - [Skapa en fråga](query/build-query.md)
+   - [Redigera uttryck](query/expression-editor.md)
+- [Granskningsspår](admin/audit-trail.md)
+- [Vanliga frågor och svar](./faq.md)
+- Versionsinformation {#release-notes}
+   - [Senaste versionsinformation](./release-notes/latest.md)
+   - [2024](./release-notes/2024.md)
+   - [Förhandsversionsinformation](./release-notes/e-release-notes.md)

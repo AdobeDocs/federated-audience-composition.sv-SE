@@ -1,10 +1,11 @@
 ---
 title: Arbeta med AI Assistant
-description: Lär dig utnyttja AI Assistant
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+description: Lär dig utnyttja AI-assistenten
+exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -14,7 +15,7 @@ AI Assistant är en gränssnittsfunktion som hjälper dig att navigera och förs
 
 >[!CAUTION]
 >
->Du måste godkänna användarriktlinjerna för Adobe Experience Cloud Generative AI innan du kan använda AI Assistant. Läs mer om avtalet på [den här sidan](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Du måste godkänna användarriktlinjerna för Adobe Experience Cloud Generative AI innan du kan använda AI Assistant. Läs mer om avtalet på [den här sidan](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 I Federated Audience Composition kan du få tillgång till produktkunskaper för att lära dig mer om Adobe koncept som rör olika delar av processen. AI Assistant har stöd för två typer av produktkunskap: **Öppna identifiering** (utforska produktkoncept baserat på Experience League-dokumentation) och **Riktad utbildning och felsökning** (fråga om specifika funktioner eller funktioner).
 
@@ -26,9 +27,9 @@ Exempel på sådana frågor är:
 
 Ställ en fråga:
 
-1. Gå till AI Assistant genom att klicka på ikonen i det övre fältet.
+1. Öppna AI Assistant genom att markera ikonen i det övre fältet.
 
-   AI Assistant visas till höger på skärmen. Du kan klicka på ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expandera") om du vill expandera AI-assistentfönstret.
+   AI Assistant visas till höger på skärmen. Du kan välja ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expandera") om du vill expandera AI-assistentfönstret.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 
@@ -42,4 +43,4 @@ Ställ en fråga:
 
 1. Använd reglaget uppåt eller nedåt för att betygsätta svaret.
 
-Mer information om hur du använder AI Assistant finns i exempelmål som du kan uppnå med AI Assistant, och hur AI Assistant fungerar, i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Mer information om hur du använder AI Assistant finns i exempelmål som du kan uppnå med AI Assistant, och hur AI Assistant fungerar, i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.

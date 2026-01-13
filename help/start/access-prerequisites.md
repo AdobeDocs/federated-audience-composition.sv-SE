@@ -2,9 +2,9 @@
 title: Förutsättningar och säkerhetsutkast för sammanställning av federerad publik
 description: Lär dig förutsättningarna, behörigheterna och säkerhetsfunktionerna för Federated Audience Composition
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '352'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Federated Audience Composition har stöd för följande molnlager:
 * Vertica Analytics
 * Microsoft Fabric
 
-Lär dig hur du skapar en anslutning med dessa system på [den här sidan](../connections/home.md).
+Du kan lära dig hur du skapar en anslutning med dessa system i [anslutningsöversikten](../connections/home.md).
 
 ## Sandlådor
 
@@ -39,7 +39,7 @@ Följ stegen nedan om du vill visa en lista med dina aktiva federerade målgrupp
 
 1. Från Federated Audience Composition öppnar du menyn **[!UICONTROL License usage]** under **[!UICONTROL Administration]**.
 
-1. Klicka på ikonen ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) från **[!UICONTROL Total volume of data egress]** för att komma åt sandlådeegenskaperna.
+1. Välj ikonen ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) från **[!UICONTROL Total volume of data egress]** för att komma åt dina sandlådeegenskaper.
 
    ![](assets/sandbox_1.png)
 
@@ -61,10 +61,10 @@ Lägg till de här IP-adresserna i tillåtelselista för att ge åtkomst till Fe
 
 Om din sandlåda använder en **datauppsättningsprioritet** ska du kontakta Adobe kundtjänst för att lägga till `Halos UPS`-datauppsättningen i din sammanfogningsprincip.
 
-Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/overview).
+Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 ## Skyddsritningar och begränsningar {#fac-guardrails}
 
-* Tillstånd, produktbegränsningar och prestandaskydd som listas i [Adobe Real-Time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/guardrails){target="_blank"} gäller för Federated Audience Composition.
+* Tillstånd, produktbegränsningar och prestandaskydd som listas i [Adobe Real-Time Customer Data Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} gäller för Federated Audience Composition.
 
 * Federated Audience Composition har stöd för export av stora målgrupper med filstorlekar större än 1 GB. För optimala prestanda är den maximala rekommenderade filstorleken upp till 20 GB.

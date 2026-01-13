@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa din första fråga med frågemodelleraren
 description: Lär dig hur du skapar din första fråga i frågemodelleraren
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2013'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan lägga till två typer av element:
 
 * **Gruppoperatorer** (AND, OR, EXCEPT) gör att du kan gruppera filterkomponenter i diagrammet tillsammans. De läggs till i befintliga övergångar före en filterkomponent. [Lär dig arbeta med operatorer](#filtering)
 
-  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **AND**&#x200B;som bor i New York **OR**&#x200B;San Francisco*.
+  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **AND**som bor i New York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -44,9 +44,9 @@ Med filterkomponenter kan du förfina frågan genom att använda:
 
 Så här filtrerar du frågan med ett anpassat villkor:
 
-1. Klicka på knappen **+** på den önskade noden och välj **[!UICONTROL Custom condition]**. Rutan för anpassade villkorsegenskaper öppnas till höger.
+1. Markera knappen **+** på den önskade noden följt av **[!UICONTROL Custom condition]**. Rutan för anpassade villkorsegenskaper öppnas till höger.
 
-1. I fältet **[!UICONTROL Attribute]** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från databasen, inklusive attribut från länkade tabeller.
+2. I fältet **[!UICONTROL Attribute]** väljer du attributet från databasen som du vill använda för att skapa villkoret. Attributlistan innehåller alla attribut från databasen, inklusive attribut från länkade tabeller.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
    >
    >Med knappen **[!UICONTROL Edit expression]** kan du använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. [Lär dig hur du redigerar uttryck](expression-editor.md)
 
-1. Välj den operator som ska användas i listrutan. Olika operatorer är tillgängliga för användning. Observera att operatorer som är tillgängliga i listrutan beror på attributets datatyp.
+3. Välj den operator som ska användas i listrutan. Olika operatorer är tillgängliga för användning. Observera att operatorer som är tillgängliga i listrutan beror på attributets datatyp.
 
    +++Lista över tillgängliga operatorer
 
@@ -79,7 +79,7 @@ Så här filtrerar du frågan med ett anpassat villkor:
 
    +++
 
-1. Definiera det förväntade värdet i fältet **[!UICONTROL Value]**. Du kan också använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Klicka på knappen **[!UICONTROL Edit expression]** om du vill göra det. [Lär dig hur du redigerar uttryck](expression-editor.md)
+4. Definiera det förväntade värdet i fältet **[!UICONTROL Value]**. Du kan också använda uttrycksredigeraren för att manuellt definiera ett uttryck med hjälp av fält från databasen och hjälpfunktionerna. Det gör du genom att markera knappen **[!UICONTROL Edit expression]**. [Lär dig hur du redigerar uttryck](expression-editor.md)
 
    *Frågeexempel som returnerar alla profiler som är 21 år eller äldre:*
 
@@ -93,7 +93,7 @@ Navigera till den länkade tabellen för en **1-1-länk**, markera önskat attri
 
 Du kan också markera en tabelllänk direkt i **[!UICONTROL Value]**-väljaren och bekräfta. I så fall måste värden som är tillgängliga för den valda tabellen markeras med en dedikerad väljare, vilket visas i exemplet nedan.
 
-+++Exempel på fråga
++++Frågeexempel
 
 Här riktar frågan sig till varumärken vars etikett är&quot;kör&quot;.
 
@@ -109,11 +109,11 @@ Här följer ett frågeexempel där en tabelllänk har markerats direkt. Tillgä
 
 ![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 För en **1-N-länk** kan du definiera undervillkor för att förfina din fråga, vilket visas i exemplet nedan.
 
-+++Exempel på fråga
++++Frågeexempel
 
 Här riktar frågan sig till mottagare som har gjort inköp relaterade till BrewMaster-produkten, med ett totalt belopp på minst 100$.
 
@@ -133,7 +133,7 @@ Här riktar frågan sig till mottagare som har gjort inköp relaterade till Brew
 
    ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 #### Arbeta med aggregerade data {#aggregate}
 
@@ -156,7 +156,7 @@ Med anpassade villkor kan du utföra sammanställningsåtgärder. För att göra
 
 Så här filtrerar du frågan med en befintlig målgrupp:
 
-1. Klicka på knappen **+** på den önskade noden och välj **[!UICONTROL Select audience]**.
+1. Markera knappen **+** på den önskade noden och välj **[!UICONTROL Select audience]**.
 
 1. Egenskapsrutan **[!UICONTROL Select audience]** öppnas till höger. Välj den målgrupp som du vill använda för att filtrera frågan.
 
@@ -173,7 +173,7 @@ Så här filtrerar du frågan med en befintlig målgrupp:
 
 Så här filtrerar du frågan med ett fördefinierat filter:
 
-1. Klicka på knappen **+** på den önskade noden och välj **[!UICONTROL Predefined filter]**.
+1. Markera knappen **+** på den önskade noden följt av **[!UICONTROL Predefined filter]**.
 
 1. Egenskapsrutan **[!UICONTROL Predefined filter]** öppnas till höger. Välj ett fördefinierat filter i listan med anpassade filter eller bland favoriter.
 
@@ -191,15 +191,15 @@ Med frågemodelleraren kan du kopiera en eller flera filterkomponenter och klist
 
 Så här kopierar och klistrar du in filterkomponenter:
 
-1. Markera den filterkomponent som du vill kopiera genom att klicka på den på arbetsytan. Om du vill markera flera komponenter använder du det markeringsverktyg som finns i verktygsfältet längst upp till höger på arbetsytan.
+1. Markera den filterkomponent som du vill kopiera genom att markera den på arbetsytan. Om du vill markera flera komponenter använder du det markeringsverktyg som finns i verktygsfältet längst upp till höger på arbetsytan.
 
-1. Klicka på knappen **[!UICONTROL Copy]** i komponentens egenskapspanel eller i det blå menyfliksområdet längst ned på skärmen om du har markerat flera komponenter.
+1. Markera knappen **[!UICONTROL Copy]** i komponentens egenskapspanel eller i det blå menyfliksområdet längst ned på skärmen om du har markerat flera komponenter.
 
    | Kopiera en enstaka komponent | Kopiera flera komponenter |
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Om du vill klistra in komponenterna klickar du på plusknappen i slutet av den önskade övergången och väljer **[!UICONTROL Paste n items]**.
+1. Om du vill klistra in komponenterna markerar du plusknappen i slutet av den önskade övergången, följt av **[!UICONTROL Paste n items]**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -216,7 +216,7 @@ I det här exemplet har vi lagt till en ny filtreringskomponent av publiktyp i d
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Om du vill ändra operatorn som används för att länka samman filtervillkoren klickar du på den och väljer önskad operator i rutan **[!UICONTROL Group]** som öppnas till höger.
+Om du vill ändra operatorn som används för att länka samman filtervillkor markerar du den och den önskade operatorn i rutan **[!UICONTROL Group]** som öppnas till höger.
 
 Tillgängliga operatorer:
 
@@ -226,7 +226,7 @@ Tillgängliga operatorer:
 
 ![](assets/query-operator-change.png){zoomable="yes"}
 
-Du kan dessutom skapa mellanliggande grupper med komponenter genom att klicka på knappen **+** för en övergång. På så sätt kan du lägga till en operator på den här specifika platsen för att gruppera flera komponenter och förfina frågan.
+Du kan dessutom skapa mellanliggande grupper med komponenter genom att markera knappen **+** för en övergång. På så sätt kan du lägga till en operator på den här specifika platsen för att gruppera flera komponenter och förfina frågan.
 
 I exemplet nedan har vi skapat en mellanliggande grupp för att inkludera resultat från målgrupperna&quot;VIP att belöna&quot; eller&quot;Super VIP&quot;.
 
@@ -250,7 +250,7 @@ När du har skapat frågan på arbetsytan kan du kontrollera den med rutan **[!U
   >
   >Välj ett fördefinierat filter i rutan Regelegenskaper om du vill ersätta frågan som har byggts in på arbetsytan med det valda filtret.
 
-När frågan är klar klickar du på knappen **[!UICONTROL Confirm]** i det övre högra hörnet för att spara den.
+När frågan är klar väljer du knappen **[!UICONTROL Confirm]** i det övre högra hörnet för att spara den.
 
 Du kan ändra frågan när som helst genom att öppna den. Kom ihåg att när du öppnar en befintlig fråga visas den i en förenklad vy utan att **+**-knappar visas. Om du vill lägga till nya element i frågan markerar du en komponent eller operator på arbetsytan så att knapparna **+** visas.
 

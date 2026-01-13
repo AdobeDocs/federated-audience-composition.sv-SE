@@ -3,7 +3,7 @@ audience: end-user
 title: Granskningsspår
 description: Lär dig hur åtgärder och händelser loggas och är tillgängliga i granskningsspåret
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
 
 * **Source Schema-granskningsspår** gör att du kan övervaka aktiviteter och nyligen gjorda ändringar i dina scheman i instansen Adobe Federated Audience Composition.
 
-  Mer information om scheman finns på [sidan](../customer/schemas.md).
+  Mer information om scheman finns på [sidan](../data-modelling/schemas.md).
 
 * **Arbetsflödets granskningsspår** gör att du kan hålla reda på aktiviteter och nyligen gjorda ändringar i arbetsflöden, inklusive deras aktuella tillstånd, som:
 
@@ -44,7 +44,7 @@ Funktionen **[!UICONTROL Audit trail]** registrerar ständigt en detaljerad logg
    * Aktivering som är lika med åtgärden Kör väntande uppgifter nu
    * Ovillkorligt stopp
 
-  Mer information om arbetsflöden finns på [sidan](../compositions/gs-compositions.md).
+  Mer information om arbetsflöden finns på [sidan](../compositions/home.md).
 
 * Med **externt konto** kan du kontrollera ändringar som gjorts i externa konton i instansen av Adobe Audience Composition.
 
