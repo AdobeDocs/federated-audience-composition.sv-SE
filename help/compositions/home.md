@@ -80,7 +80,7 @@ Om du vill använda åtkomstetiketter på en viss komposition väljer du komposi
 | Känsliga etiketter | Känsliga etiketter (&quot;S&quot;-etiketter) används för att kategorisera dig och/eller din organisation som anser vara känslig. |
 | Etiketter för partnerekosystem | Etiketter för ekosystem för partners används för att kategorisera data från externa källor för din organisation. |
 
-Mer information om åtkomst och datastyrningsetiketter finns i [etikettordlistan för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+Mer information om åtkomst och datastyrningsetiketter finns i [etikettordlistan för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference).
 
 ## Skapa {#create}
 

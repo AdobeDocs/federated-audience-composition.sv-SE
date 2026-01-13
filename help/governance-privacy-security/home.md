@@ -45,23 +45,23 @@ När du till exempel skapar en målgrupp med aktivitetsblocket save på arbetsyt
 
 När du har skapat en profilberikning med hjälp av aktiviteten Spara profil på arbetsytan, lagras den resulterande anrikningen i Experience Platform som ett profilaktiverat schema och profilaktiverat dataset. Den här anrikningsinformationen är markerad med ett identitetsfält och ett identitetsnamnutrymme. Därför kan du använda Privacy Service för att öppna och rensa dessa profiler.
 
-Mer information om Privacy Service finns i [Privacy Service-översikten](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"}.
+Mer information om Privacy Service finns i [Privacy Service-översikten](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/home){target="_blank"}.
 
 ### Förfrågningar om användarens information {#privacy-requests}
 
-I Privacy Service kan du skapa och hantera individuella sekretessförfrågningar för att få tillgång till och ta bort kunddata från Federated Audience Composition. Privacy Service tillhandahåller både ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"} och ett [RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
+I Privacy Service kan du skapa och hantera individuella sekretessförfrågningar för att få tillgång till och ta bort kunddata från Federated Audience Composition. Privacy Service tillhandahåller både ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv-SE){target="_blank"} och ett [RESTful API](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
 
-Mer information om hur du skapar och hanterar sekretessbegäranden finns i [sekretesspolicyn i Privacy Service användargränssnittshandbok](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
+Mer information om hur du skapar och hanterar sekretessbegäranden finns i [sekretesspolicyn i Privacy Service användargränssnittshandbok](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
 
 ### Bekräftelsepolicytillämpning {#consent}
 
 Federated Audience Composition, via Experience Platform, erbjuder verktyg som gör att ni kan automatisera er medverkan i samtycket och säkerställa att ni aktiverar målgrupper baserat på det samtycke som ni har gett era kunder.
 
-När du till exempel skapar en målgrupp med aktivitetsblocket save på arbetsytan för komposition, lagras målgruppen som en extern målgrupp i datarjön i Experience Platform. Experience Platform stöder automatiskt godkännandevalidering under aktiveringen. Mer information finns i [Vanliga frågor om segmenteringstjänsten](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
+När du till exempel skapar en målgrupp med aktivitetsblocket save på arbetsytan för komposition, lagras målgruppen som en extern målgrupp i datarjön i Experience Platform. Experience Platform stöder automatiskt godkännandevalidering under aktiveringen. Mer information finns i [Vanliga frågor om segmenteringstjänsten](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
 
-När du har skapat en profilberikning genom att använda aktiviteten Spara profil på arbetsytan för komposition, lagras den resulterande anrikningen i Experience Platform som ett profilaktiverat schema och en profilaktiverad datauppsättning. För befintliga profiler respekteras tillgängliga medgivandeattribut automatiskt vid aktiveringen. När det gäller nya profiler respekteras automatiskt de medgivandeattribut som anges under profilåtgången under aktiveringen. Mer information om hur du tillämpar samtycke på profiler finns i [handboken för gruppen för godkännande och inställningar](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
+När du har skapat en profilberikning genom att använda aktiviteten Spara profil på arbetsytan för komposition, lagras den resulterande anrikningen i Experience Platform som ett profilaktiverat schema och en profilaktiverad datauppsättning. För befintliga profiler respekteras tillgängliga medgivandeattribut automatiskt vid aktiveringen. När det gäller nya profiler respekteras automatiskt de medgivandeattribut som anges under profilåtgången under aktiveringen. Mer information om hur du tillämpar samtycke på profiler finns i [handboken för gruppen för godkännande och inställningar](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
 
-Mer information om hur du tillämpar samtycke finns i [användargränssnittshandboken för hantering av profiler](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
+Mer information om hur du tillämpar samtycke finns i [användargränssnittshandboken för hantering av profiler](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
 
 ### Datalivscykel {#data-lifecycle}
 
@@ -71,7 +71,7 @@ När du till exempel skapar en målgrupp genom att använda aktivitetsblocket sa
 
 När du har skapat en profilberikning genom att använda aktiviteten Spara profil på arbetsytan för komposition, lagras den resulterande anrikningen i Experience Platform som ett profilaktiverat schema och en profilaktiverad datauppsättning. Det innebär att du kan öppna och rensa profilerna genom att använda Datalängd.
 
-Mer information om hur du använder datalivscykel finns i [Översikt över datalivscykler](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"}.
+Mer information om hur du använder datalivscykel finns i [Översikt över datalivscykler](https://experienceleague.adobe.com/sv/docs/experience-platform/data-lifecycle/home){target="_blank"}.
 
 ## Säkerhet {#security}
 
@@ -85,13 +85,13 @@ Vilande data avser kunddata som används i Federated Audience Composition. Data 
 
 Data som överförs refererar till kunddata när de flyttas från en komponent till en annan i Federated Audience Composition. Data bevaras krypterade i komponenterna för federerad målgruppskomposition med TLS 1.3 via HTTPS.
 
-Mer information om hur Adobe hanterar datakryptering finns i handboken om [datakryptering i Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
+Mer information om hur Adobe hanterar datakryptering finns i handboken om [datakryptering i Experience Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
 
 ### Kundhanterade nycklar {#customer-managed-keys}
 
 Med kundhanterade nycklar får du kontroll över dina data genom att du kan använda dina egna krypteringsnycklar för att kryptera dina data. Eftersom Federated Audience Composition **inte** lagrar någon kundinformation kan du använda kundhanterade nycklar direkt på målgrupperna och berikningarna, eftersom de lagras i datasjön på Experience Platform.
 
-Mer information om kundhanterade nycklar finns i handboken [Kundhanterade nycklar](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
+Mer information om kundhanterade nycklar finns i handboken [Kundhanterade nycklar](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
 
 ### Granskningslogg {#audit-log}
 

@@ -60,7 +60,7 @@ Med Adobe Federated Audience Composition kan ni skapa och uppdatera Adobe Experi
 
 >[!NOTE]
 >
->När kompositionen är klar sparas den slutliga publiken i Adobe Experience Platform som en extern publik och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>När kompositionen är klar sparas den slutliga publiken i Adobe Experience Platform som en extern publik och finns tillgänglig i Adobe Real-Time Customer Data Platform och/eller Adobe Journey Optimizer. Den är tillgänglig på menyn **Publiker** . [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Styrning, integritet och säkerhet {#governance-privacy-security}
 
@@ -68,13 +68,13 @@ Med Adobe Federated Audience Composition kan ni skapa och uppdatera Adobe Experi
 
 När du har skapat en komposition sparas målgrupperna i Adobe Experience Platform.
 
-Du kan sedan göra sekretessförfrågningar för att få åtkomst till och/eller ta bort profildata som motsvarar dessa målgrupper via Adobe Experience Platform **Privacy Service** som tillhandahåller ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"} och [RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
+Du kan sedan göra sekretessförfrågningar för att få åtkomst till och/eller ta bort profildata som motsvarar dessa målgrupper via Adobe Experience Platform **Privacy Service** som tillhandahåller ett [användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv-SE){target="_blank"} och [RESTful API](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/overview){target="_blank"} som hjälper dig att hantera kunddataförfrågningar.
 
 >[!NOTE]
 >
 >Mer information om Privacy Service finns i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv){target="_blank"}.
 
-Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i dokumentationen för [kundprofilen i realtid](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+Du kan skapa och hantera enskilda förfrågningar för att få tillgång till och ta bort kunddata från Adobe Federated Audience Composition. Stegen för att skicka **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i dokumentationen för [kundprofilen i realtid](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/privacy){target="_blank"}.
 
 ### Granskningskedja {#gov-audit-trail}
 
