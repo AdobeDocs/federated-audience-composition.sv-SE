@@ -68,7 +68,7 @@ Så här skapar du en datamodell:
 
 Så här skapar du länkar mellan tabeller i din datamodell på fliken Tabellvy:
 
-1. Markera ikonen ![ med tre punkter ](/help/assets/icons/more.png) följt av **[!UICONTROL Create link]** bredvid en av tabellen, eller välj **[!UICONTROL Create links]** i avsnittet **[!UICONTROL Links]**:
+1. Markera ikonen ![&#x200B; med tre punkter &#x200B;](/help/assets/icons/more.png) följt av **[!UICONTROL Create link]** bredvid en av tabellen, eller välj **[!UICONTROL Create links]** i avsnittet **[!UICONTROL Links]**:
 
    ![](assets/models/datamodel_createlinks.png){zoomable="yes"}
 
