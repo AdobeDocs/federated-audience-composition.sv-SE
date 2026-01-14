@@ -391,21 +391,21 @@ Du kan även filtrera avstämda data. Välj **Skapa filter** om du vill skapa et
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Primärt identitetsfält"
 >abstract="Välj den primära identitet som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Namnutrymme för identitet"
 >abstract="Välj det namnutrymme som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
 
 >[!IMPORTANT]
 >
 >Om din sandlåda använder en **datauppsättningsprioritet** ska du kontakta Adobe kundtjänst för att lägga till `Halos UPS`-datauppsättningen i din sammanfogningsprincip.
 >
->Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/overview).
+>Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
-Med aktiviteten **Spara målgrupp** kan du skapa en målgrupp baserat på kompositionen. När målgruppen har skapats kan du använda dem i Audience Portal i Adobe Experience Platform. Mer information om hur du använder målgrupper med Federated Audience Composition finns i [publiköversikt](../start/audiences.md). Mer information om målgrupper i Experience Platform finns i [Översikt över målportalen](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+Med aktiviteten **Spara målgrupp** kan du skapa en målgrupp baserat på kompositionen. När målgruppen har skapats kan du använda dem i Audience Portal i Adobe Experience Platform. Mer information om hur du använder målgrupper med Federated Audience Composition finns i [publiköversikt](../start/audiences.md). Mer information om målgrupper i Experience Platform finns i [Översikt över målportalen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 +++ Konfigurationsinformation
 
