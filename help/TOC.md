@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: a7476931e8cbae7cef226fee249999b7a1f30c89
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 10%
 
 ---
@@ -41,4 +41,5 @@ ht-degree: 10%
 - Versionsinformation {#release-notes}
    - [Senaste versionsinformation](./release-notes/latest.md)
    - [2024](./release-notes/2024.md)
+   - [2025](./release-notes/2025.md)
    - [Förhandsversionsinformation](./release-notes/e-release-notes.md)

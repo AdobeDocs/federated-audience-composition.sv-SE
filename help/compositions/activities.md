@@ -2,9 +2,9 @@
 audience: end-user
 title: Översikt över aktiviteter
 description: Lär dig mer om de olika aktiviteter och övergångar som är tillgängliga för användning i Federated Audience Composition.
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
 workflow-type: tm+mt
-source-wordcount: '4594'
+source-wordcount: '4637'
 ht-degree: 1%
 
 ---
@@ -391,21 +391,21 @@ Du kan även filtrera avstämda data. Välj **Skapa filter** om du vill skapa et
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Primärt identitetsfält"
 >abstract="Välj den primära identitet som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Namnutrymme för identitet"
 >abstract="Välj det namnutrymme som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
 
 >[!IMPORTANT]
 >
 >Om din sandlåda använder en **datauppsättningsprioritet** ska du kontakta Adobe kundtjänst för att lägga till `Halos UPS`-datauppsättningen i din sammanfogningsprincip.
 >
->Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/overview).
+>Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
-Med aktiviteten **Spara målgrupp** kan du skapa en målgrupp baserat på kompositionen. När målgruppen har skapats kan du använda dem i Audience Portal i Adobe Experience Platform. Mer information om hur du använder målgrupper med Federated Audience Composition finns i [publiköversikt](../start/audiences.md). Mer information om målgrupper i Experience Platform finns i [Översikt över målportalen](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+Med aktiviteten **Spara målgrupp** kan du skapa en målgrupp baserat på kompositionen. När målgruppen har skapats kan du använda dem i Audience Portal i Adobe Experience Platform. Mer information om hur du använder målgrupper med Federated Audience Composition finns i [publiköversikt](../start/audiences.md). Mer information om målgrupper i Experience Platform finns i [Översikt över målportalen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 +++ Konfigurationsinformation
 
@@ -420,6 +420,8 @@ När du har lagt till aktiviteten **Spara målgrupp** i kompositionen kan du ang
 Nu kan du ange dina mappningar för att välja vilka fält du vill överföra till den nya målgruppen. Välj **Lägg till målgruppsmappning** och välj käll- och målgruppsfälten, som upprepas så många gånger som behövs.
 
 När du har lagt till dina mappningar kan du välja den primära identiteten och namnutrymmet för att identifiera målprofilerna i databasen. Det primära identitetsfältet används för att identifiera profilerna medan identitetsnamnutrymmet fungerar som en nyckel för att identifiera identiteten.
+
+Dessutom kan du ange att data ska förfalla för målgruppen. Med hjälp av data kan du bestämma hur många dagar efter det att målgruppsmedlemskapet upphör att gälla. Giltighetstiden för data kan vara mellan 1 och 90 dagar. Som standard är värdet 30.
 
 +++
 

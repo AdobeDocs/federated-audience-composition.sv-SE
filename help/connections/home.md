@@ -3,9 +3,9 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
+source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2593'
 ht-degree: 1%
 
 ---
@@ -27,14 +27,14 @@ Med Experience Platform Federated Audience Composition kan ni skapa och berika m
 
 Om du vill arbeta med din federerade databas och Adobe Experience Platform måste du först skapa en anslutning mellan de två källorna. Med Federated Audience Composition kan du ansluta till följande databaser.
 
-* Amazon Redshift
-* Azure Synapse Analytics
-* Databricks
-* Google BigQuery
-* Microsoft Fabric
-* Oracle
-* Snowflake
-* Vertica Analytics
+- Amazon Redshift
+- Azure Synapse Analytics
+- Databricks
+- Google BigQuery
+- Microsoft Fabric
+- Oracle
+- Snowflake
+- Vertica Analytics
 
 ## Skapa anslutning {#create}
 
@@ -83,10 +83,50 @@ När du har valt Azure Synapse Analytics kan du lägga till följande informatio
 | Fält | Beskrivning |
 | ----- | ----------- |
 | Server | URL:en för Azure Synapse-servern. |
-| Konto | Användarnamnet för Azure Synapse-kontot. |
-| Lösenord | Lösenordet för Azure-synapskontot. |
+| Konto | Program-ID (**Klient-ID**) för Azure-appregistreringen. |
+| Lösenord | Värdet **Klienthemlighet** för Azure-programmet. |
 | Databas | Namnet på databasen. Om detta anges i servernamnet kan fältet lämnas tomt. |
 | Alternativ | Ytterligare alternativ för anslutningen. För Azure Synapse Analytics kan du ange vilken typ av autentisering som stöds av kopplingen. Federated Audience Composition stöder för närvarande `ActiveDirectoryMSI`. Mer information om anslutningssträngar finns i [exempelavsnittet om anslutningssträngar i Microsoft-dokumentationen](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}. |
+
+Du kan också konfigurera din Azure Synapse Analytics-anslutning på ett säkert sätt med autentisering av tjänstens huvudnamn. Du bör använda tjänstens huvudautentisering för integreringar och automatiseringsscenarier av produktionskvalitet.
+
++++ Förhandskrav
+
+Observera följande krav innan du konfigurerar autentisering av tjänstens huvudnamn:
+
+- En Azure-prenumeration med tillgång till Microsoft Entra ID
+- En Azure Synapse-arbetsyta och databas
+- Behörighet att skapa appregistrering
+- Behörighet att hantera Azure Synapse databasroller
+- Behörighet att uppdatera konfigurationer för federerad databas
+
++++
+
+Inom Azure Portal måste du först skapa en ny appregistrering. Välj **Registrera** efter att programmet har fått ett unikt namn. Sidan **Översikt** visas. Observera värdena för **program-ID** och **katalog-ID**.
+
+![Program-ID (klient) på översiktssidan är markerat.](/help/connections/assets/home/azure-client-id.png)
+
+Välj **Certifikat och hemligheter** i det nyligen registrerade programmet. Här väljer du **Ny klienthemlighet** i avsnittet **Klienthemligheter** för att skapa en ny klienthemlighet. När du har angett en beskrivning och ett förfallodatum väljer du **Lägg till** för att generera klienthemligheten.
+
+>[!IMPORTANT]
+>
+>När du har skapat din klienthemlighet kopierar och lagrar du **värdet för klienthemlighet** på ett säkert sätt. Värdet **visas inte** igen.
+
+Nu när du har genererat din klienthemlighet måste du se till att du har tilldelat resursen identiteten **Service Principal**.
+
+Mer information om hur du tilldelar identitet till resurser finns i guiden [Hanterade identiteter för Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
+
+Eftersom du har slutfört alla dina Azure-sideskonfigurationer kan du nu konfigurera dina konfigurationer för Federated-Audience-Composition-side.
+
+Ange följande konfigurationsinformation i din Azure Synapse-anslutning:
+
+| Fält | Beskrivning |
+| ----- | ----------- |
+| Server | URL:en för Azure Synapse-servern. |
+| Konto | Program-ID (**Klient-ID**) för Azure-appregistreringen. |
+| Lösenord | Värdet **Klienthemlighet** för Azure-programmet. |
+| Databas | Namnet på databasen. Om detta anges i servernamnet kan fältet lämnas tomt. |
+| Alternativ | Ytterligare alternativ för anslutningen. Du måste ange `Authentication="ActiveDirectoryServicePrincipal"` för att kunna använda autentisering av tjänstens huvudnamn. |
 
 >[!TAB Databricks]
 
