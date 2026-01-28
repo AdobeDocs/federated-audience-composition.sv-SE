@@ -11,7 +11,7 @@ ht-degree: 2%
 
 # Vanliga frågor och svar {#faq}
 
-Nedan följer en lista med vanliga frågor och svar om Adobe Experience Platform Federated Audience Composition. Det finns även globala frågor och svar för Adobe Experience Platform segmenteringstjänst på [den här sidan](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
+Nedan följer en lista med vanliga frågor och svar om Adobe Experience Platform Federated Audience Composition. Det finns även globala frågor och svar för Adobe Experience Platform segmenteringstjänst på [den här sidan](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 ## Vilka behörigheter krävs för att få åtkomst till Federated Audience Composition?
 
@@ -87,7 +87,7 @@ Federated Audience Composition bevarar inte en fysisk kopia av data. Frekvensen 
 Exempel:
 
 * När det gäller Audience Creation (Målgruppsskapande) skapas målgruppen i ert lager, och ni kan använda Federated Audience Composition för ytterligare dispositionsuppgifter och dataändringar innan ni publicerar målgruppen och tillhörande attribut via Adobe Experience Platform Audience Portal. Målgruppsdefinitionen och tillhörande attribut kommer till Adobe Experience Platform.
-Observera att dagens data för externt genererade målgrupper upphör att gälla 30 dagar. När dessa data förfaller minskar mängden överflödiga data som lagras inom en organisation. När förfalloperioden för data har passerat är den associerade datauppsättningen fortfarande synlig i datamängdslagret, men du kan inte aktivera målgruppen och profilantalet visas som noll. Läs mer i [Adobe Experience Platform-dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
+Observera att dagens data för externt genererade målgrupper upphör att gälla 30 dagar. När dessa data förfaller minskar mängden överflödiga data som lagras inom en organisation. När förfalloperioden för data har passerat är den associerade datauppsättningen fortfarande synlig i datamängdslagret, men du kan inte aktivera målgruppen och profilantalet visas som noll. Läs mer i [Adobe Experience Platform-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * För Audience Enrichment är utgångspunkten en befintlig Adobe Experience Platform-publik. Här kan du titta på två scenarier:
    1. Hämta ytterligare målgruppsnyttolastattribut från det externa datalagret: i det här fallet kommer de ytterligare attribut som läggs till att ingå i den här målgruppsdefinitionen. Utgångsdatumet för externt genererade målgrupper är densamma som beskrivs ovan, 30 dagar.
@@ -124,10 +124,10 @@ Nej, identitetstjänsten används inte under en disposition. Data mellan olika k
 
 Du kan skicka enskilda förfrågningar för att få åtkomst till och ta bort kunddata från Adobe Federated Audience Composition på två sätt:
 
-* Via Adobe Experience Platform **Privacy Service-gränssnittet**. [Läs mer](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
-* Via Adobe Experience Platform **Privacy Service API**. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+* Via Adobe Experience Platform **Privacy Service-gränssnittet**. [Läs mer](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv-SE){target="_blank"}
+* Via Adobe Experience Platform **Privacy Service API**. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-Alla steg för att skapa och hantera **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i [dokumentationen för kundprofilen i realtid](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+Alla steg för att skapa och hantera **åtkomstbegäranden** och **borttagningsbegäranden** beskrivs i [dokumentationen för kundprofilen i realtid](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/privacy){target="_blank"}.
 
 +++
 
