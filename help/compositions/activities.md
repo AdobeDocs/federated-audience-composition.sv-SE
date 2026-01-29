@@ -2,7 +2,7 @@
 audience: end-user
 title: Översikt över aktiviteter
 description: Lär dig mer om de olika aktiviteter och övergångar som är tillgängliga för användning i Federated Audience Composition.
-source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
 workflow-type: tm+mt
 source-wordcount: '4637'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Det finns **två** olika typer av aktiviteter som kan användas i Federated Audi
 
 Med målinriktade aktiviteter kan ni definiera vad som utgör målgruppen för kompositionen.
 
-#### Bygg målgrupper
+#### Bygg målgrupper {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -60,7 +60,7 @@ När du har valt dina alternativ kan du välja att **generera en utgående över
 
 +++
 
-#### Ändra datakälla
+#### Ändra datakälla {#change-data-source}
 
 Med aktiviteten **Ändra datakälla** kan du ändra vilken datakälla som används i kompositionen.
 
@@ -80,7 +80,7 @@ När du har valt **[!UICONTROL FDA external account]** kan du välja vilket exte
 
 +++
 
-#### Ändra dimension
+#### Ändra dimension {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -104,7 +104,7 @@ När du har kört kompositionen uppdateras resultatet.
 
 +++
 
-#### Kombinera
+#### Kombinera {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -206,7 +206,7 @@ När du har konfigurerat exkluderingsreglerna kan du även välja alternativet *
 
 +++
 
-#### Deduplicering
+#### Deduplicering {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -251,7 +251,7 @@ Dessutom kan du välja alternativet **Skapa komplement**. När du genererar ett 
 
 +++
 
-#### Berikning
+#### Berikning {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -294,7 +294,7 @@ När du har lagt till aktiviteten **Enrichment** i kompositionen kan du välja *
 
 +++
 
-#### Avstämning
+#### Avstämning {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -375,7 +375,7 @@ Du kan även filtrera avstämda data. Välj **Skapa filter** om du vill skapa et
 
 +++
 
-#### Spara målgrupp
+#### Spara målgrupp {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -391,21 +391,21 @@ Du kan även filtrera avstämda data. Välj **Skapa filter** om du vill skapa et
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Primärt identitetsfält"
 >abstract="Välj den primära identitet som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Namnutrymme för identitet"
 >abstract="Välj det namnutrymme som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
 
 >[!IMPORTANT]
 >
 >Om din sandlåda använder en **datauppsättningsprioritet** ska du kontakta Adobe kundtjänst för att lägga till `Halos UPS`-datauppsättningen i din sammanfogningsprincip.
 >
->Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/overview).
+>Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
-Med aktiviteten **Spara målgrupp** kan du skapa en målgrupp baserat på kompositionen. När målgruppen har skapats kan du använda dem i Audience Portal i Adobe Experience Platform. Mer information om hur du använder målgrupper med Federated Audience Composition finns i [publiköversikt](../start/audiences.md). Mer information om målgrupper i Experience Platform finns i [Översikt över målportalen](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+Med aktiviteten **Spara målgrupp** kan du skapa en målgrupp baserat på kompositionen. När målgruppen har skapats kan du använda dem i Audience Portal i Adobe Experience Platform. Mer information om hur du använder målgrupper med Federated Audience Composition finns i [publiköversikt](../start/audiences.md). Mer information om målgrupper i Experience Platform finns i [Översikt över målportalen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 +++ Konfigurationsinformation
 
@@ -415,7 +415,7 @@ Med aktiviteten **Spara målgrupp** kan du skapa en målgrupp baserat på kompos
 
 När du har lagt till aktiviteten **Spara målgrupp** i kompositionen kan du ange namnet på den nya målgruppen.
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 Nu kan du ange dina mappningar för att välja vilka fält du vill överföra till den nya målgruppen. Välj **Lägg till målgruppsmappning** och välj käll- och målgruppsfälten, som upprepas så många gånger som behövs.
 
@@ -425,7 +425,7 @@ Dessutom kan du ange att data ska förfalla för målgruppen. Med hjälp av data
 
 +++
 
-#### Dela
+#### Dela {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -506,7 +506,7 @@ Nu när deluppsättningarna har konfigurerats finns det ytterligare några alter
 
 Med flödeskontrollaktiviteter kan du definiera organisationen och samordningen av din komposition.
 
-#### Och gå med
+#### Och gå med {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -525,11 +525,11 @@ I avsnittet **Sammanfogningsalternativ** kan du välja alla aktiviteter som du v
 
 +++
 
-#### End
+#### End {#end}
 
 Aktiviteten **End** markerar slutet av kompositionen grafiskt och har ingen funktionell påverkan.
 
-#### Förgrening
+#### Förgrening {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -551,7 +551,7 @@ När du har lagt till aktiviteten **Förgrening** i kompositionen genereras två
 
 +++
 
-#### Schemaläggare
+#### Schemaläggare {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -651,7 +651,7 @@ När du har valt körningsfrekvens kan du välja **Giltighetsperioden** för sch
 
 +++
 
-#### Vänta
+#### Vänta {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
