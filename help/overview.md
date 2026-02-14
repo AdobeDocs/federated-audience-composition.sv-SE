@@ -42,7 +42,7 @@ Federated Audience Composition har stöd för **tre** kategorier av användnings
 
 ![diagram](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-Mer information om användningsfall för federerad målgruppskomposition finns i vitboken [Federated Audience Composition](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
+Mer information om användningsfall för federerad målgruppskomposition finns i vitboken [Federated Audience Composition](https://business.adobe.com/se/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Viktiga steg {#gs-steps}
 
