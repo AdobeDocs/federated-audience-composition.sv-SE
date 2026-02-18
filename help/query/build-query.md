@@ -24,7 +24,7 @@ Du kan lägga till två typer av element:
 
 * **Gruppoperatorer** (AND, OR, EXCEPT) gör att du kan gruppera filterkomponenter i diagrammet tillsammans. De läggs till i befintliga övergångar före en filterkomponent. [Lär dig arbeta med operatorer](#filtering)
 
-  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **AND**&#x200B;som bor i New York **OR**&#x200B;San Francisco*.
+  Exempel: *Mottagare som prenumererar på nyhetsbrevet Sports **AND**som bor i New York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
