@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Versionsinformation
 
-[!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggt i [!DNL Adobe Experience Platform] och ärver från sina senaste innovationer och förbättringar. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+[!DNL Federated Audience Composition] levererar kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar. Alla ändringar konsolideras i versionsinformationen. [!DNL Federated Audience Composition] är inbyggt i [!DNL Adobe Experience Platform] och ärver från sina senaste innovationer och förbättringar. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=sv-SE){target="_blank"}.
 
 ## 26 februari {#fac-26-02}
 
@@ -40,7 +40,7 @@ Januari-versionen av Federated Audience Composition har stöd för följande nya
 
 | Tillgänglighet för Adobe Experience Platform-kunder på Amazon Web Services (AWS) |
 | --- |
-| Nu kan du använda Federated Audience Composition om din Experience Platform-instans finns i AWS. Mer information om Experience Platform i AWS finns i [översikten för flera moln](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
+| Nu kan du använda Federated Audience Composition om din Experience Platform-instans finns i AWS. Mer information om Experience Platform i AWS finns i [översikten för flera moln](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/multi-cloud). |
 
 ### Förbättringar {#fac-26-01-improvements}
 
