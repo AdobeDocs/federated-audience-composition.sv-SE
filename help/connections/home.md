@@ -3,10 +3,10 @@ audience: end-user
 title: Skapa och hantera anslutningar med Federated databaser
 description: Lär dig hur du skapar och hanterar anslutningar med Federated databaser
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '2593'
-ht-degree: 1%
+source-wordcount: '2947'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +70,7 @@ När du har valt Amazon Redshift kan du lägga till följande information:
 | Konto | Användarnamn för kontot. |
 | Lösenord | Kontots lösenord. |
 | Databas | Namnet på databasen. Om detta anges i servernamnet kan fältet lämnas tomt. |
-| Arbetsschema | Namnet på databasschemat som ska användas för arbetstabeller. Mer information om den här funktionen finns i [dokumentationen för Amazon-scheman](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Obs!** Du kan använda vilket schema som helst från databasen, inklusive scheman som används för tillfällig databearbetning, så länge du har de behörigheter som krävs för att ansluta till det här schemat. Du **måste** emellertid använda distinkta arbetsscheman när du ansluter flera sandlådor med samma databas. |
+| Arbetsschema | Namnet på databasschemat som ska användas för arbetstabeller. Mer information om den här funktionen finns i [Amazon Schemas-dokumentationen](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Obs!** Du kan använda vilket schema som helst från databasen, inklusive scheman som används för temporär databearbetning, så länge du har behörighet att ansluta till det här schemat. Du **måste** emellertid använda distinkta arbetsscheman när du ansluter flera sandlådor med samma databas. |
 
 >[!TAB Azure Synapse Analytics]
 
@@ -90,7 +90,7 @@ När du har valt Azure Synapse Analytics kan du lägga till följande informatio
 
 Du kan också konfigurera din Azure Synapse Analytics-anslutning på ett säkert sätt med autentisering av tjänstens huvudnamn. Du bör använda tjänstens huvudautentisering för integreringar och automatiseringsscenarier av produktionskvalitet.
 
-+++ Förhandskrav
++++ Förutsättningar
 
 Observera följande krav innan du konfigurerar autentisering av tjänstens huvudnamn:
 
@@ -116,7 +116,7 @@ Nu när du har genererat din klienthemlighet måste du se till att du har tillde
 
 Mer information om hur du tilldelar identitet till resurser finns i guiden [Hanterade identiteter för Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
 
-Eftersom du har slutfört alla dina Azure-sideskonfigurationer kan du nu konfigurera dina konfigurationer för Federated-Audience-Composition-side.
+Eftersom du har slutfört alla dina konfigurationer på Azure-sidan kan du nu konfigurera konfigurationer på sidan Federated-Audience-Composition.
 
 Ange följande konfigurationsinformation i din Azure Synapse-anslutning:
 
@@ -132,15 +132,39 @@ Ange följande konfigurationsinformation i din Azure Synapse-anslutning:
 
 >[!NOTE]
 >
->Det finns stöd för säker åtkomst till ditt externa datalager för databanker via en privat länk. Detta inkluderar säkra anslutningar till databaser som lagras på Amazon Web Services (AWS) via privata länkar och databaser som lagras på Microsoft Azure via VPN. Kontakta Adobe om du behöver hjälp med att skapa säker åtkomst.
+>Det finns stöd för säker åtkomst till ditt externa datalager för databanker via en privat länk. Detta inkluderar säkra anslutningar till databaser på Amazon Web Services (AWS) via privata länkar och databaser på Microsoft Azure via VPN. Kontakta Adobe om du behöver hjälp med att skapa säker åtkomst.
 
-När du har valt Databaser kan du lägga till följande information:
+När du har valt Databaser kan du välja den autentiseringsmetod som du vill använda när du ansluter med Federated Audience Composition.
+
+Om du väljer **Konto-/lösenordsautentisering** kan du lägga till följande inloggningsinformation:
 
 | Fält | Beskrivning |
 | ----- | ----------- |
 | Server | Namnet på databasservern. |
-| HTTP-sökväg | Vägen till ditt kluster eller lagerställe. Mer information om sökvägen finns i dokumentationen för [databaser om anslutningsinformation](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Lösenord | Åtkomsttoken för databasservern. Mer information om det här värdet finns i [dokumentationen om databaser för token för personlig åtkomst](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
+
+Om du väljer **Tjänstens huvudautentisering** kan du lägga till följande information:
+
+| Fält | Beskrivning |
+| ----- | ----------- |
+| Server | Namnet på databasservern. |
+| Klient-ID | Klient-ID:t från databasservern. Det här fältet fungerar som ett användarnamn för ditt projekt. |
+| Klienthemlighet | Klienthemligheten från din databasserver. Det här fältet fungerar som ett lösenord för ditt projekt. |
+
+Om du väljer **OAuth 2.0** kan du lägga till följande information:
+
+| Fält | Beskrivning |
+| ----- | ----------- |
+| Server | Namnet på databasservern. |
+| Klient-ID | Klient-ID:t från databasservern. Det här fältet används för att identifiera programmet under OAuth 2.0-autentisering och fungerar som ett användarnamn för ditt projekt. |
+| Klienthemlighet | Klienthemligheten från din databasserver. Den här konfidentiella autentiseringen utfärdas med klient-ID:t och fungerar som ett lösenord för ditt projekt. |
+| Åtkomstomfång | Fylld information som listar de scope som din OAuth-token är auktoriserad för i din databasserver. |
+
+När du har angett dina inloggningsuppgifter kan du lägga till följande information:
+
+| Fält | Beskrivning |
+| ----- | ----------- |
+| HTTP-sökväg | Vägen till ditt kluster eller lagerställe. Mer information om sökvägen finns i dokumentationen för [databaser om anslutningsinformation](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Katalog | Namnet på databankatalogen. Mer information om kataloger i databaser finns i [dokumentationen om databaser](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}. |
 | Arbetsschema | Namnet på databasschemat som ska användas för arbetsregistren. <br/><br/>**Obs!** Du kan använda **valfritt**-schema från databasen, inklusive scheman som används för tillfällig databearbetning, så länge du har de behörigheter som krävs för att ansluta till det här schemat. Du **måste** emellertid använda distinkta arbetsscheman när du ansluter flera sandlådor med samma databas. |
 | Alternativ | Ytterligare alternativ för anslutningen. De tillgängliga alternativen visas i följande tabell. |
@@ -197,9 +221,9 @@ För Google BigQuery kan du ange följande ytterligare alternativ:
 | ProxyUid | Portnumret som proxyn körs på. |
 | ProxyPwd | Lösenordet för proxyn. |
 | bgpath | **Obs!** Detta gäller endast för **massinläsningsverktyget** (Cloud SDK). <br/><br/> Sökvägen till bin-katalogen i molnet för SDK på servern. Du behöver bara ange detta om du har flyttat katalogen `google-cloud-sdk` till en annan plats eller om du vill undvika att använda variabeln PATH. |
-| GCloudConfigName | **Obs!** Detta gäller endast för **massinläsningsverktyget** (Cloud SDK) över version 7.3.4. <br/><br/> Namnet på konfigurationen som lagrar parametrarna för inläsning av data. Standardvärdet är `accfda`. |
+| GCloudConfigName | **Obs!** Detta gäller endast för **massinläsningsverktyget** (Cloud SDK) över version 7.3.4. <br/><br/> Namnet på den konfiguration som lagrar parametrarna för att läsa in data. Standardvärdet är `accfda`. |
 | GCloudDefaultConfigName | **Obs!** Detta gäller endast för **massinläsningsverktyget** (Cloud SDK) över version 7.3.4. <br/><br/> Namnet på den tillfälliga konfigurationen som återskapar huvudkonfigurationen för inläsning av data. Standardvärdet är `default`. |
-| GCloudRecreateConfig | **Obs!** Detta gäller endast för **massinläsningsverktyget** (Cloud SDK) över version 7.3.4. <br/><br/> Ett booleskt värde som gör att du kan bestämma om massinläsningsfunktionen automatiskt ska återskapa, ta bort eller ändra Google Cloud SDK-konfigurationerna. Om det här värdet är `false` läser massinläsningsmekanismen in data med en befintlig konfiguration på datorn. Om det här värdet är `true` kontrollerar du att konfigurationen är korrekt konfigurerad. Annars visas felet `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` och inläsningsmekanismen återställs till standardinläsningsmekanismen. |
+| GCloudRecreateConfig | **Obs!** Detta gäller endast för **massinläsningsverktyget** (Cloud SDK) över version 7.3.4. <br/><br/> Ett booleskt värde som gör att du kan bestämma om massinläsningsmekanismen automatiskt ska återskapa, ta bort eller ändra SDK-konfigurationerna för Google Cloud. Om det här värdet är `false` läser massinläsningsmekanismen in data med en befintlig konfiguration på datorn. Om det här värdet är `true` kontrollerar du att konfigurationen är korrekt konfigurerad. Annars visas felet `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` och inläsningsmekanismen återställs till standardinläsningsmekanismen. |
 
 >[!TAB Microsoft Fabric]
 
@@ -222,7 +246,7 @@ För Microsoft Fabric kan du ange följande ytterligare alternativ:
 
 >[!NOTE]
 >
->Federated Audience Composition har stöd för federerad anslutningskonfiguration med Oracle-databaser i version 11g eller senare och finns på AWS, Azure, Exadata eller ett privat moln (förutsatt att det är tillgängligt via ett externt nätverk). Om du har frågor om Oracle databasinställningar eller behöver skapa en säker anslutning till Oracle kontaktar du Adobe kundtjänst.
+>Federated Audience Composition har stöd för federerade anslutningsinställningar med Oracle-databaser i version 11g eller senare och finns på AWS, Azure, Exadata eller ett privat moln (förutsatt att det är tillgängligt via ett externt nätverk). Om du har frågor om Oracle databasinställningar eller behöver skapa en säker anslutning till Oracle kontaktar du Adobe kundtjänst.
 
 När du har valt Oracle kan du lägga till följande information:
 

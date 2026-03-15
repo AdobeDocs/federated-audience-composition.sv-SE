@@ -3,10 +3,10 @@ audience: end-user
 title: Översikt över aktiviteter
 description: Lär dig mer om de olika aktiviteter och övergångar som är tillgängliga för användning i Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '4976'
-ht-degree: 1%
+source-wordcount: '5439'
+ht-degree: 0%
 
 ---
 
@@ -14,88 +14,13 @@ ht-degree: 1%
 
 I Federated Audience Composition kan du lägga till aktiviteter och övergångar som hjälper dig att definiera målgruppen.
 
-## Aktiviteter {#activities}
+## Verksamhet {#activities}
 
 Med hjälp av aktiviteter kan du definiera komponenterna inom målgruppen.
 
 Det finns **två** olika typer av aktiviteter som kan användas i Federated Audience Composition: målinriktningsaktiviteter och flödeskontrollaktiviteter.
 
 ### Aktiviteter för målgruppsanpassning {#targeting}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset"
->title="Förbättra fält"
->abstract="Med aktiviteten Förbättra fält kan du berika Experience Platform-scheman genom att federera data från externa lager, vilket gör att du kan förbättra Experience Platform-scheman med ytterligare attribut. "
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Primär identifierare för namnområdesfält"
->abstract="Namnutrymmet för den primära identiteten. Namnutrymmet bidrar till att tillhandahålla en kontext som beskriver klassificeringen av den primära identiteten."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepschema"
->title="Välj Experience Platform-schema"
->abstract="Välj det Experience Platform-schema som du vill berika."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode"
->title="Uppdateringsläge för förökade fält"
->abstract="De tillgängliga uppdateringslägena för aktiviteten för förbättrade fält inkluderar fullständig uppdatering och inkrementell uppdatering."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_full"
->title="Fullständig uppdatering"
->abstract="Det fullständiga uppdateringsläget uppdaterar den fullständiga uppsättningen attribut i de valda scheman."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_incremental"
->title="Inkrementell uppdatering"
->abstract="Det stegvisa uppdateringsläget uppdaterar de fält som har ändrats sedan den senaste berikningen."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentityfield"
->title="Primärt identitetsfält"
->abstract="Det primära identitetsfältet anger källan till sanningen när profiler slås samman för berikning."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_requiredfieldscheck"
->title="Kriterier för obligatoriska fält"
->abstract="Ett obligatoriskt fält är ett attribut som måste fyllas i för varje profil eller post när data exporteras. Om ett obligatoriskt fält saknas kommer exporten inte att vara fullständig eller giltig."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitycheck"
->title="Kriterier för primärt identitetsfält"
->abstract="Unik identifierare för varje profil eller post. Detta säkerställer att alla poster kan identifieras och matchas på ett distinkt sätt, vilket förhindrar att data dupliceras."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_aepschemalist"
->title="Schemalista"
->abstract="En lista med scheman som är tillgängliga i din sandlåda. Du kan välja antingen standard- eller relationsscheman."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepattribute"
->title="Välj attribut"
->abstract="Du kan skapa en käll-/målmappning för fälten."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepdataset"
->title="Välj datauppsättning"
->abstract="En lista över de datauppsättningar som tillhör schemat. Du kan välja vilken datauppsättning du vill spara data i."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primarykeycheck"
->title="Primär nyckel"
->abstract="Primärnyckeln för relationsschemat. Detta värde garanterar att datauppsättningarna är unika genom att förhindra att dubblettposter importeras."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_versiondescriptor"
->title="Versionsbeskrivare"
->abstract="Versionsbeskrivningen för relationsschemat. Detta värde hjälper till att avgöra vilken egenskap som prioriteras om flera värden har samma primärnyckel, så att den senaste uppdateringen tillämpas."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_timestampdescriptor"
->title="Tidsstämpelbeskrivning"
->abstract="Tidsstämpelbeskrivningen för relationsschemat. Det här värdet hjälper till att ange händelsetiden för beställningen och finns bara om du arbetar med tidsseriedata."
 
 Med målinriktade aktiviteter kan ni definiera vad som utgör målgruppen för kompositionen.
 
@@ -146,7 +71,7 @@ När du har lagt till aktiviteten **Ändra datakälla** på kompositionens arbet
 
 ![Alternativet för datakälla är markerat på arbetsytan för sammanställning av externa målgrupper.](./assets/activities/configure.png){zoomable="yes"}{width="70%"}
 
-| Källa | Beskrivning |
+| Source | Beskrivning |
 | ------ | ----------- |
 | Externt FDA-konto | En extern molndatabas som är ansluten till Federated Audience Composition. |
 
@@ -250,7 +175,7 @@ När du har lagt till flera aktiviteter i minst **två** olika grenar lägger du
 
 >[!BEGINTABS]
 
->[!TAB Union]
+>[!TAB Förena]
 
 ![](./assets/activities/combine-union.png)
 
@@ -356,7 +281,7 @@ Dessutom kan du välja alternativet **Skapa komplement**. När du genererar ett 
 
 Med aktiviteten **Enrichment** kan du förbättra kompositionen genom att lägga till ytterligare data från din federerade databas.
 
-Om du har konfigurerat en anslutning till Federated Audience Composition-målet kan du använda Enrichment-aktiviteten för att berika data som kommer från Adobe Experience Platform med attribut från din externa databas. [Lär dig hur du berikar Adobe Experience Platform-målgrupper med externa data](../connections/destinations.md)
+Om du har konfigurerat en anslutning till Federated Audience Composition-målet kan du använda Enrichment-aktiviteten för att berika data som kommer från Adobe Experience Platform med attribut från din externa databas. [Lär dig att berika Adobe Experience Platform-målgrupper med externa data](../connections/destinations.md)
 
 +++ Konfigurationsinformation
 
@@ -467,21 +392,21 @@ Du kan även filtrera avstämda data. Välj **Skapa filter** om du vill skapa et
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Primärt identitetsfält"
 >abstract="Välj den primära identitet som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Läs mer i Experience Platform-dokumentationen"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Namnutrymme för identitet"
 >abstract="Välj det namnutrymme som ska användas för profiler."
->additional-url="https://experienceleague.adobe.com/sv/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Läs mer i Experience Platform-dokumentationen"
 
 >[!IMPORTANT]
 >
 >Om din sandlåda använder en **datauppsättningsprioritet** ska du kontakta Adobe kundtjänst för att lägga till `Halos UPS`-datauppsättningen i din sammanfogningsprincip.
 >
->Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/overview).
+>Mer information om sammanfogningsprinciper finns i [översikten över sammanfogningsprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
-Med aktiviteten **Spara målgrupp** kan du skapa en målgrupp baserat på kompositionen. När målgruppen har skapats kan du använda dem i Audience Portal i Adobe Experience Platform. Mer information om hur du använder målgrupper med Federated Audience Composition finns i [publiköversikt](../start/audiences.md). Mer information om målgrupper i Experience Platform finns i [Översikt över målportalen](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+Med aktiviteten **Spara målgrupp** kan du skapa en målgrupp baserat på kompositionen. När målgruppen har skapats kan du använda dem i Audience Portal i Adobe Experience Platform. Mer information om hur du använder målgrupper med Federated Audience Composition finns i [publiköversikt](../start/audiences.md). Mer information om målgrupper i Experience Platform finns i [Översikt över målportalen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 +++ Konfigurationsinformation
 
@@ -501,6 +426,138 @@ Dessutom kan du ange att data ska förfalla för målgruppen. Med hjälp av data
 
 +++
 
+#### Spara fält {#save-fields}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Spara fält"
+>abstract="Med aktiviteten Spara fält kan du berika Experience Platform-scheman genom att federera data från externa lagerställen, så att du kan förbättra Experience Platform-scheman med ytterligare attribut. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Primär identifierare för namnområdesfält"
+>abstract="Namnutrymmet för den primära identiteten. Namnutrymmet bidrar till att tillhandahålla en kontext som beskriver klassificeringen av den primära identiteten."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Välj Experience Platform-schema"
+>abstract="Välj det Experience Platform-schema som du vill berika."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Spara fältens uppdateringsläge"
+>abstract="De tillgängliga uppdateringslägena för aktiviteten Spara fält inkluderar fullständig uppdatering och inkrementell uppdatering."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Fullständig uppdatering"
+>abstract="Det fullständiga uppdateringsläget uppdaterar den fullständiga uppsättningen attribut i de valda scheman."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Inkrementell uppdatering"
+>abstract="Det stegvisa uppdateringsläget uppdaterar de fält som har ändrats sedan den senaste berikningen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Primärt identitetsfält"
+>abstract="Det primära identitetsfältet anger källan till sanningen när profiler slås samman för berikning."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Kriterier för obligatoriska fält"
+>abstract="Ett obligatoriskt fält är ett attribut som måste fyllas i för varje profil eller post när data exporteras. Om ett obligatoriskt fält saknas kommer exporten inte att vara fullständig eller giltig."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Kriterier för primärt identitetsfält"
+>abstract="Unik identifierare för varje profil eller post. Detta säkerställer att alla poster kan identifieras och matchas på ett distinkt sätt, vilket förhindrar att data dupliceras."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Schemalista"
+>abstract="En lista med scheman som är tillgängliga i din sandlåda. Du kan välja antingen standard- eller relationsscheman."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Välj attribut"
+>abstract="Du kan skapa en käll-/målmappning för fälten."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Välj datauppsättning"
+>abstract="En lista över de datauppsättningar som tillhör schemat. Du kan välja vilken datauppsättning du vill spara data i."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Primär nyckel"
+>abstract="Primärnyckeln för relationsschemat. Detta värde garanterar att datauppsättningarna är unika genom att förhindra att dubblettposter importeras."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Versionsbeskrivare"
+>abstract="Versionsbeskrivningen för relationsschemat. Detta värde hjälper till att avgöra vilken egenskap som prioriteras om flera värden har samma primärnyckel, så att den senaste uppdateringen tillämpas."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Tidsstämpelbeskrivning"
+>abstract="Tidsstämpelbeskrivningen för relationsschemat. Det här värdet hjälper till att ange händelsetiden för beställningen och finns bara om du arbetar med tidsseriedata."
+
+Med aktiviteten **[!UICONTROL Save Fields]** kan du berika Experience Platform-scheman genom att federera data från externa lagerställen, så att du kan berika Experience Platform-scheman med ytterligare attribut.
+
+Den här aktiviteten används för att berika scheman genom att lägga in ytterligare attribut och insikter utan att flytta eller duplicera data till plattformen fysiskt.
+
++++ Konfigurationsinformation
+
+>[!IMPORTANT]
+>
+>Om den markerade datauppsättningen **inte** har upsert aktiverat, **ersätts** data. Läs [Aktivera uppdateringsguiden](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert) om du vill lära dig hur du aktiverar upsert för dina datauppsättningar.
+
+När du har lagt till aktiviteten **[!UICONTROL Save Fields]** i kompositionen kan du ge aktiviteten en etikett och välja det Adobe Experience Platform-schema som du vill använda. Schemat kan antingen vara ett standardschema eller ett relationsschema.
+
+![Tillgängliga scheman visas.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+
+>[!BEGINTABS]
+
+>[!TAB Standardschema]
+
+Om du väljer ett standardschema måste du välja den datamängd som anrikningen sparas i.
+
+![Avsnittet Välj datauppsättning är markerat.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+
+När du har valt datauppsättningen kan du se det primära identitetsfältet som kommer att användas för att identifiera profiler i databasen. Du måste dock mappa primära och obligatoriska fält. Markera **[!UICONTROL Add fields]** och ange fältet **[!UICONTROL Source]** (externa data) och fältet **[!UICONTROL Destination]** (schemafält) för varje attribut som du vill mappa.
+
+![Knappen för att lägga till fält och avsnittet för fältmappning är markerade.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+
+Du kan också ange uppdateringsläget för anrikningen.
+
+![Typerna för uppdateringsläge visas.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+
+| Uppdateringsläge | Beskrivning |
+| ----------- | ----------- |
+| Fullständiga uppdateringar | Den fullständiga uppsättningen attribut i de valda scheman uppdateras för berikning. |
+| Inkrementella uppdateringar | Endast fält som har ändrats sedan den senaste anrikningen kördes uppdateras för anrikningen. |
+
+Om du väljer [!UICONTROL Incremental updates] måste du också välja det senast ändrade datumet för att avgöra vilka data som skickas.
+
+>[!TAB Relationsschema]
+
+Om du väljer ett relationsschema måste du välja den datamängd som anrikningen sparas i.
+
+![Avsnittet Välj datauppsättning är markerat.](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+
+När du har valt datauppsättningen kan du se databasens primärnyckel och versionsbeskrivning.  Du måste dock mappa primärnyckeln och obligatoriska fält. Markera **[!UICONTROL Add field]s** och ange fältet **[!UICONTROL Source]** (externa data) och fältet **[!UICONTROL Destination]** (schemafält) för varje attribut som du vill mappa.
+
+![Knappen för att lägga till fält och avsnittet för fältmappning är markerade.](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+
+Eftersom relationsscheman endast stöder inkrementella uppdateringar måste du välja det senast ändrade datumet för att avgöra vilka data som skickas. Inkrementella uppdateringar uppdaterar bara de fält som har ändrats sedan den senaste berikningen.
+
+![Uppdateringsläget, inkrementella uppdateringar, visas.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
+
++++
+
 #### Dela {#split}
 
 >[!CONTEXTUALHELP]
@@ -511,7 +568,7 @@ Dessutom kan du ange att data ska förfalla för målgruppen. Med hjälp av data
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segment för delad aktivitet"
->abstract="Lägg till så många delmängder som du vill för att segmentera den inkommande populationen.<br/></br>När aktiviteten **Dela** körs segmenteras populationen mellan de olika delmängderna i den ordning som de läggs till i aktiviteten. Innan du påbörjar kompositionen måste du se till att du har ordnat delmängderna i den ordning som passar dig med pilknapparna."
+>abstract="Lägg till så många delmängder som behövs för att segmentera den inkommande populationen.<br/></br>När aktiviteten **Dela** utförs segmenteras populationen över de olika delmängderna i den ordning som de läggs till i aktiviteten. Innan du påbörjar kompositionen måste du se till att du har ordnat delmängderna i den ordning som passar dig med pilknapparna."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
